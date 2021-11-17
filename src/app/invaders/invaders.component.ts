@@ -9,7 +9,11 @@ import { INVADERS } from '../mock-invaders';
 })
 export class InvadersComponent implements OnInit {
   invaders = INVADERS;
+  selectedInvader?: Invader;
   constructor() {}
 
   ngOnInit() {}
+  public onSelect(invader: Invader) {
+    this.selectedInvader = invader;
+  }
 }

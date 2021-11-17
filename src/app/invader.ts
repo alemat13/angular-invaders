@@ -1,4 +1,4 @@
-interface Invader {
+export interface Invader {
   id: number;
   name: string;
   city: string;

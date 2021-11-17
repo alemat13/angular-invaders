@@ -3,11 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
-import { HelloComponent } from './hello.component';
+import { InvadersComponent } from './invaders/invaders.component';
+import { InvaderDetailComponent } from './invader-detail/invader-detail.component';
 
 @NgModule({
-  imports:      [ BrowserModule, FormsModule ],
-  declarations: [ AppComponent, HelloComponent ],
-  bootstrap:    [ AppComponent ]
+  imports: [BrowserModule, FormsModule],
+  declarations: [AppComponent, InvadersComponent, InvaderDetailComponent],
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

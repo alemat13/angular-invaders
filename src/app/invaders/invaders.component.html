@@ -1,6 +1,7 @@
 <h2>My Invaders</h2>
 <ul>
-  <li *ngFor="let invader of invaders">
+  <li *ngFor="let invader of invaders" (click)="onSelect(invader)">
     <span class="badge">Name: </span>{{ invader.name }}
   </li>
 </ul>
+<app-invader-detail [invader]="selectedInvader"></app-invader-detail>
