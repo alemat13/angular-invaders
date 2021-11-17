@@ -13,7 +13,7 @@ export class InvadersComponent implements OnInit {
   constructor() {}
 
   ngOnInit() {}
-  public onSelect(invader: Invader) {
+  onSelect(invader: Invader): void {
     this.selectedInvader = invader;
   }
 }
