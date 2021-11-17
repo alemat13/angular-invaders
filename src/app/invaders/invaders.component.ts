@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Invader } from '../invader';
-import { INVADERS } from '../mock-invaders';
+import { InvaderService } from '../invader.service';
 
 @Component({
   selector: 'app-invaders',
@@ -8,12 +8,19 @@ import { INVADERS } from '../mock-invaders';
   styleUrls: ['./invaders.component.css'],
 })
 export class InvadersComponent implements OnInit {
-  invaders = INVADERS;
+  invaders: Invader[];
   selectedInvader?: Invader;
-  constructor() {}
+  constructor(private invaderService: InvaderService) {}
 
-  ngOnInit() {}
+  ngOnInit() {
+    this.getInvaders();
+  }
   onSelect(invader: Invader): void {
     this.selectedInvader = invader;
+  }
+  getInvaders(): void {
+    this.invaderService
+      .getInvaders()
+      .subscribe((invaders) => (this.invaders = invaders));
   }
 }
