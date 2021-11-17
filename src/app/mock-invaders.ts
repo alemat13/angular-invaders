@@ -1,6 +1,6 @@
 import { Invader } from './invader';
 
-const INVADERS: Invader[] = [
+export const INVADERS: Invader[] = [
   {
     id: 1,
     name: 'PA_01',
