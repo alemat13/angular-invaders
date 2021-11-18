@@ -7,4 +7,5 @@ export interface Invader {
   latitude?: number;
   longitude?: number;
   gMapsUrl?: string;
+  location?: string;
 }

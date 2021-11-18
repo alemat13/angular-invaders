@@ -3,5 +3,16 @@
   <div>
     <div>Name: {{ invader.name }}</div>
     <div>City: {{ invader.city }}</div>
+    <div *ngIf="invader.points">Points: {{ invader.points }}</div>
+    <div *ngIf="invader.points">Status: {{ invader.status }}</div>
+    <div *ngIf="invader.latitude">
+      Coordinates: {{ invader.latitude }},{{ invader.longitude }}
+    </div>
+    <div *ngIf="invader.gMapsUrl">
+      Google Maps:
+      <a href="{{ invader.gMapsUrl }}" target="_blank">{{
+        invader.location
+      }}</a>
+    </div>
   </div>
 </div>
