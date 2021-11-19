@@ -8,7 +8,7 @@ import { InvaderService } from '../invader.service';
   styleUrls: ['./invaders.component.css'],
 })
 export class InvadersComponent implements OnInit {
-  invaders: Invader[];
+  invaders: Invader[] = [];
   selectedInvader?: Invader;
   constructor(private invaderService: InvaderService) {}
 
