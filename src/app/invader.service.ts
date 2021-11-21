@@ -8,6 +8,10 @@ import { INVADERS } from './mock-invaders';
   providedIn: 'root',
 })
 export class InvaderService {
+  getInvader(id: string): Observable<Invader>  {
+    const invader = INVADERS.find(i => i.id === id)!;
+    return of(invader);
+  }
   constructor() {}
   getInvaders(): Observable<Invader[]> {
     const invaders = of(INVADERS);

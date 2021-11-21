@@ -9,15 +9,12 @@ import { InvaderService } from '../invader.service';
 })
 export class InvadersComponent implements OnInit {
   invaders: Invader[] = [];
-  selectedInvader?: Invader;
   constructor(private invaderService: InvaderService) {}
 
   ngOnInit() {
     this.getInvaders();
   }
-  onSelect(invader: Invader): void {
-    this.selectedInvader = invader;
-  }
+
   getInvaders(): void {
     this.invaderService
       .getInvaders()

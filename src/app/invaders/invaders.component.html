@@ -1,7 +1,8 @@
 <h2>My Invaders</h2>
 <ul class="invaders">
-  <li *ngFor="let invader of invaders" [class.selected]="invader === selectedInvader" (click)="onSelect(invader)">
-    <span class="badge">{{ invader.id }}</span>{{ invader.points || "??" }} pts | Status {{ invader.status || "??" }}
+  <li *ngFor="let invader of invaders">
+    <a routerLink="/detail/{{invader.id}}">
+      <span class="badge">{{ invader.id }}</span>{{ invader.points || "??" }} pts | Status {{ invader.status || "??" }}
+    </a>
   </li>
 </ul>
-<app-invader-detail [invader]="selectedInvader"></app-invader-detail>
