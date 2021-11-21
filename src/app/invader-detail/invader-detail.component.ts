@@ -12,9 +12,7 @@ export class InvaderDetailComponent implements OnInit {
   constructor() {}
 
   ngOnInit() {}
-  public getButtonLabel(): string {
-    return this.editMode ? "Save" : "Edit";
-  }
+
   public save(): void {
     console.log('invader saved!');
     this.editMode = false;

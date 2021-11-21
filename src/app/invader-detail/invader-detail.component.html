@@ -1,10 +1,10 @@
 <div *ngIf="invader">
-  <h2>{{ invader.name | uppercase }} details</h2>
+  <h2>{{ invader.id | uppercase }} details</h2>
   <button *ngIf="!editMode" (click)="edit()">Edit</button>
   <button *ngIf="editMode" (click)="save()">Save</button>
   <div>
-    <div>Name: 
-      <span>{{ invader.name }}</span>
+    <div>ID: 
+      <span>{{ invader.id }}</span>
     </div>
     <div>City: 
       <span *ngIf="!editMode">{{ invader.city }}</span>

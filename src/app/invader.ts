@@ -1,6 +1,5 @@
 export interface Invader {
-  id: number;
-  name: string;
+  id: string;
   city: string;
   points?: number;
   status?: 0 | 1 | 2 | 3 | 4 | 5;
