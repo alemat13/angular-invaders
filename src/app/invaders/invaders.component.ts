@@ -9,6 +9,7 @@ import { InvaderService } from '../invader.service';
 })
 export class InvadersComponent implements OnInit {
   invaders: Invader[] = [];
+  title: string = "My Invaders";
   constructor(private invaderService: InvaderService) {}
 
   ngOnInit() {
