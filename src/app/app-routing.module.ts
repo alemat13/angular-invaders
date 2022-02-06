@@ -1,11 +1,11 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { InvadersComponent } from './invaders/invaders.component'
-import { InvaderDetailComponent } from './invader-detail/invader-detail.component';
+import { InvadersListComponent } from './invaders/invaders-list/invaders-list.component';
+import { InvaderDetailComponent } from './invaders/invader-detail/invader-detail.component';
 
 const routes: Routes = [
   { path: '', redirectTo: "/invaders", pathMatch: 'full' },
-  { path: 'invaders', component: InvadersComponent },
+  { path: 'invaders', component: InvadersListComponent },
   { path: 'detail/:id', component: InvaderDetailComponent }
 ]
 
