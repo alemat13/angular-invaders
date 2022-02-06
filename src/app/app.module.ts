@@ -6,7 +6,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { InvadersModule } from './invaders/invaders.module';
 
 @NgModule({
-  imports: [BrowserModule, AppRoutingModule, InvadersModule],
+  imports: [BrowserModule, InvadersModule, AppRoutingModule],
   declarations: [AppComponent],
   bootstrap: [AppComponent],
 })
