@@ -5,8 +5,8 @@ import { InvaderStatusPipe } from 'src/app/invader-status.pipe';
 
 @Component({
   selector: 'app-invaders',
-  templateUrl: './invaders.component.html',
-  styleUrls: ['./invaders.component.css'],
+  templateUrl: './invaders-list.component.html',
+  styleUrls: ['./invaders-list.component.css'],
 })
 export class InvadersListComponent implements OnInit {
   invaders: Invader[] = [];
