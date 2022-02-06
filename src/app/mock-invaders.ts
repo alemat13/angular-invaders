@@ -14,9 +14,11 @@ export const INVADERS: Invader[] = [
   {
     id: 'PA_02',
     city: 'Paris',
+    status: 2
   },
   {
     id: 'PA_03',
     city: 'Paris',
+    status: 4
   },
 ];

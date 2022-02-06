@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Invader } from '../invader';
 import { InvaderService } from '../invader.service';
+import { InvaderStatusPipe } from '../invader-status.pipe';
 
 @Component({
   selector: 'app-invaders',

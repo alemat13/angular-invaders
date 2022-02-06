@@ -3,7 +3,7 @@
   margin: 0 0 2em 0;
   list-style-type: none;
   padding: 0;
-  width: 15em;
+  width: 16em;
 }
 .invaders li {
   position: relative;
@@ -51,4 +51,32 @@
   text-align: right;
   margin-right: .8em;
   border-radius: 4px 0 0 4px;
+}
+
+.invaders .status.black {
+  background-color: black;
+}
+
+.invaders .status.grey {
+  background-color: grey;
+}
+
+.invaders .status.red {
+  background-color: red;
+}
+
+.invaders .status.green {
+  background-color: green;
+}
+
+.invaders .status.orange {
+  background-color: orange;
+}
+
+.invaders .status.yellow {
+  background-color: yellow;
+}
+
+.invaders .status.white {
+  background-color: white;
 }

@@ -2,7 +2,7 @@
 <ul class="invaders">
   <li *ngFor="let invader of invaders">
     <a routerLink="/detail/{{invader.id}}">
-      <span class="badge">{{ invader.id }}</span>{{ invader.points || "??" }} pts | Status {{ invader.status || "??" }}
+      <span class="badge">{{ invader.id }}</span>{{ invader.points || "??" }} pts | <span class="{{ invader.status | invaderStatus:'class' }}">{{ invader.status | invaderStatus:"text" }}</span>
     </a>
   </li>
 </ul>
