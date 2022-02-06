@@ -2,8 +2,8 @@ import { Component, OnInit, Input } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { Location } from '@angular/common';
 
-import { Invader } from '../../invader';
-import { InvaderService } from '../../invader.service';
+import { Invader } from '../invader';
+import { InvaderService } from '../invader.service';
 
 @Component({
   selector: 'app-invader-detail',
