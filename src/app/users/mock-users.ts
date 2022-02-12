@@ -4,9 +4,11 @@ export const USERS: User[] = [
   {
     id: 1,
     name: "Alex",
+    invaders: []
   },
   {
     id: 2,
-    name: "Olivia"
+    name: "Olivia",
+    invaders: []
   },
 ];
