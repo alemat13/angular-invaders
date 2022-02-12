@@ -17,7 +17,7 @@ export class InvaderDetailComponent implements OnInit {
     private route: ActivatedRoute,
     private invaderService: InvaderService,
     private location: Location
-  ) {}
+  ) { }
 
   ngOnInit() {
     this.getInvader();

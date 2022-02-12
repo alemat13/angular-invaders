@@ -2,7 +2,7 @@
 <ul class="users">
     <li *ngFor="let user of users">
         <a routerLink="/user-detail/{{user.id}}">
-            {{ user.name }}
+            {{ user.name }} ({{user.invaders.length}} flashed)
         </a>
     </li>
 </ul>
