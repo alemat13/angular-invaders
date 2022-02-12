@@ -1,7 +1,7 @@
 <p>users-list works!</p>
 <ul class="users">
     <li *ngFor="let user of users">
-        <a routerLink="/users/{{user.id}}">
+        <a routerLink="/user-detail/{{user.id}}">
             {{ user.name }}
         </a>
     </li>
