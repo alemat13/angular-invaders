@@ -1,1 +1,91 @@
-<p>invader-form works!</p>
+<form *ngIf="invader" (ngSubmit)="onSubmit()" #invaderForm="ngForm">
+    <div class="row">
+        <div class="col s8 offset s2">
+            <div class="card-panel">
+                <h1>{{ invader.id }}</h1>
+                <!-- City -->
+                <div class="form-group">
+                    <label for="city">City</label>
+                    <input type="text" class="form-control" id="city"
+                        [(ngModel)]="invader.city" name="city"
+                        #name="ngModel">
+                </div>
+
+                <!-- Points -->
+                <div class="form-group">
+                    <label for="points">Points</label>
+                    <input type="text" class="form-control" id="points"
+                        [(ngModel)]="invader.points" name="points"
+                        #name="ngModel">
+                </div>
+
+                <!-- Status -->
+                <div class="form-group">
+                    <label for="status">Status</label>
+                    <input type="text" class="form-control" id="status"
+                        [(ngModel)]="invader.status" name="status"
+                        #name="ngModel">
+                </div>
+
+                <!-- Latitude -->
+                <div class="form-group">
+                    <label for="latitude">Latitude</label>
+                    <input type="text" class="form-control" id="latitude"
+                        [(ngModel)]="invader.latitude" name="latitude"
+                        #name="ngModel">
+                </div>
+
+                <!-- Longitude -->
+                <div class="form-group">
+                    <label for="longitude">Longitude</label>
+                    <input type="text" class="form-control" id="longitude"
+                        [(ngModel)]="invader.longitude" name="longitude"
+                        #name="ngModel">
+                </div>
+
+                <!-- Google Maps URL -->
+                <div class="form-group">
+                    <label for="gMapsUrl">Google Maps URL</label>
+                    <input type="text" class="form-control" id="gMapsUrl"
+                        [(ngModel)]="invader.gMapsUrl" name="gMapsUrl"
+                        #name="ngModel">
+                </div>
+
+                <!-- Location -->
+                <div class="form-group">
+                    <label for="location">Location</label>
+                    <input type="text" class="form-control" id="location"
+                        [(ngModel)]="invader.location" name="location"
+                        #name="ngModel">
+                </div>
+
+                <!-- Flashed By -->
+                <div class="form-group">
+                    <label for="users">Flashed by</label>
+                    <div *ngFor="let user of users" class="row">
+                        <input type="checkbox"
+                            class="filled-in"
+                            id="{{ user.id }}"
+                            [value]="user"
+                            [checked]="isFlashedBy(user)"
+                            (change)="selectUser($event, user)"
+                        />
+                        <label [attr.for]="user">
+                            <span>{{user.name}}</span>
+                        </label>
+                    </div>
+                </div>
+
+                <!-- Submit button -->
+                <div class="divider"></div>
+                <div class="section center">
+                    <button type="submit"
+                        class="waves-effect waves-light btn"
+                        [disabled]="!invaderForm.form.valid">
+                        Valider
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>>
