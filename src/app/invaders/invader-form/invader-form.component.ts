@@ -4,6 +4,7 @@ import { InvaderService } from '../invader.service';
 import { Invader } from '../invader';
 import { User } from 'src/app/users/user';
 import { UserService } from 'src/app/users/user.service';
+import { truncateSync } from 'fs';
 
 @Component({
   selector: 'app-invader-form',
@@ -55,6 +56,18 @@ export class InvaderFormComponent implements OnInit {
       link.push(this.invader.id);
     }
     this.router.navigate(link);
+  }
+
+  isStatusValid(status: string): boolean {
+    if (status = "") return true;
+    if ((status + 0) in [0, 1, 2, 3, 4, 5]) return true;
+    return false;
+  }
+
+  isPointsValid(points: string): boolean {
+    if (points = "") return true;
+    if ((points + 0) in [10, 20, 30, 40, 50, 100]) return true;
+    return false;
   }
 
 }
