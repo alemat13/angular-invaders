@@ -10,7 +10,13 @@ import { InvaderFormComponent } from './invader-form/invader-form.component';
 import { EditInvaderComponent } from './edit-invader/edit-invader.component';
 
 @NgModule({
-  declarations: [InvadersListComponent, InvaderDetailComponent, InvaderStatusPipe, InvaderFormComponent, EditInvaderComponent],
+  declarations: [
+    InvadersListComponent,
+    InvaderDetailComponent,
+    InvaderStatusPipe,
+    InvaderFormComponent,
+    EditInvaderComponent
+  ],
   imports: [
     CommonModule,
     InvadersRoutingModule,
