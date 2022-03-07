@@ -10,7 +10,7 @@
                         required
                         pattern="^[a-zA-Zéèàç]{1,25}$"
                         [(ngModel)]="invader.city" name="city"
-                        #name="ngModel">
+                        #city="ngModel">
                         <div [hidden]="city.valid || city.pristine"
                             class="card panel red accent-1">
                             City is required (1-25 characters).
@@ -23,7 +23,7 @@
                     <input type="text" class="form-control" id="points"
                         pattern="^[0-9]{1,3}$"
                         [(ngModel)]="invader.points" name="points"
-                        #name="ngModel">
+                        #points="ngModel">
                     <div [hidden]="points.valid || points.pristine"
                         class="card panel red accent-1">
                         Points not valid
@@ -36,7 +36,7 @@
                     <input type="text" class="form-control" id="status"
                         pattern="^[0-9]{1,3}$"
                         [(ngModel)]="invader.status" name="status"
-                        #name="ngModel">
+                        #status="ngModel">
                 </div>
 
                 <!-- Latitude -->
@@ -44,7 +44,7 @@
                     <label for="latitude">Latitude</label>
                     <input type="text" class="form-control" id="latitude"
                         [(ngModel)]="invader.latitude" name="latitude"
-                        #name="ngModel">
+                        #latitude="ngModel">
                 </div>
 
                 <!-- Longitude -->
@@ -52,7 +52,7 @@
                     <label for="longitude">Longitude</label>
                     <input type="text" class="form-control" id="longitude"
                         [(ngModel)]="invader.longitude" name="longitude"
-                        #name="ngModel">
+                        #longitude="ngModel">
                 </div>
 
                 <!-- Google Maps URL -->
@@ -60,7 +60,7 @@
                     <label for="gMapsUrl">Google Maps URL</label>
                     <input type="text" class="form-control" id="gMapsUrl"
                         [(ngModel)]="invader.gMapsUrl" name="gMapsUrl"
-                        #name="ngModel">
+                        #gMapsUrl="ngModel">
                 </div>
 
                 <!-- Location -->
@@ -68,7 +68,7 @@
                     <label for="location">Location</label>
                     <input type="text" class="form-control" id="location"
                         [(ngModel)]="invader.location" name="location"
-                        #name="ngModel">
+                        #location="ngModel">
                 </div>
 
                 <!-- Flashed By -->

@@ -4,7 +4,6 @@ import { InvaderService } from '../invader.service';
 import { Invader } from '../invader';
 import { User } from 'src/app/users/user';
 import { UserService } from 'src/app/users/user.service';
-import { truncateSync } from 'fs';
 
 @Component({
   selector: 'app-invader-form',

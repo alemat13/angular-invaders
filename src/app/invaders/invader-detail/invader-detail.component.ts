@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { Location } from '@angular/common';
 
 import { Invader } from '../invader';
@@ -16,7 +16,8 @@ export class InvaderDetailComponent implements OnInit {
   constructor(
     private route: ActivatedRoute,
     private invaderService: InvaderService,
-    private location: Location
+    private location: Location,
+    private router: Router
   ) { }
 
   ngOnInit() {
@@ -38,5 +39,9 @@ export class InvaderDetailComponent implements OnInit {
   }
   goBack(): void {
     this.location.back();
+  }
+  goEdit(invader: Invader): void {
+    let link = ['/invader/edit', invader.id];
+    this.router.navigate(link);
   }
 }
