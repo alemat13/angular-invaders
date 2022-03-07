@@ -1,34 +1,25 @@
 <div *ngIf="invader">
   <h2>{{ invader.id | uppercase }} details</h2>
-  <button *ngIf="!editMode" (click)="edit()">Edit</button>
-  <button *ngIf="editMode" (click)="save()">Save</button>
   <div>
     <div>ID: 
       <span>{{ invader.id }}</span>
     </div>
     <div>City: 
-      <span *ngIf="!editMode">{{ invader.city }}</span>
-      <input *ngIf="editMode" [(ngModel)]="invader.city" placeholder="city">
+      <span>{{ invader.city }}</span>
     </div>
     <div>Points: 
-      <span *ngIf="!editMode">{{ invader.points }}</span>
-      <input *ngIf="editMode" [(ngModel)]="invader.points" placeholder="points">
+      <span>{{ invader.points }}</span>
     </div>
     <div>Status: 
-      <span *ngIf="!editMode">{{ invader.status || "??" }}</span>
-      <input *ngIf="editMode" [(ngModel)]="invader.status" placeholder="status">
+      <span>{{ invader.status || "??" }}</span>
     </div>
     <div> Coordinates:
-      <span *ngIf="!editMode">{{ invader.latitude  || "??" }},{{ invader.longitude  || "??" }}</span>
-      <input *ngIf="editMode" [(ngModel)]="invader.latitude" placeholder="latitude">
-      <input *ngIf="editMode" [(ngModel)]="invader.longitude" placeholder="longitude">
+      <span>{{ invader.latitude  || "??" }},{{ invader.longitude  || "??" }}</span>
     </div>
     <div>
       Google Maps:
-      <a *ngIf="!editMode && invader.gMapsUrl" href="{{ invader.gMapsUrl }}" target="_blank">
+      <a *ngIf="invader.gMapsUrl" href="{{ invader.gMapsUrl }}" target="_blank">
         {{ invader.location || "??" }}</a>
-      <input *ngIf="editMode" [(ngModel)]="invader.location" placeholder="location">
-      <input *ngIf="editMode" [(ngModel)]="invader.gMapsUrl" placeholder="gMapsUrl">
     </div>
   </div>
   <button (click)="goBack()">go back</button>
