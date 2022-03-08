@@ -9,8 +9,11 @@ import { Invader } from './invader';
   providedIn: 'root',
 })
 export class InvaderService {
+
   private invadersUrl = 'api/invaders';
+
   constructor(private http: HttpClient) {}
+
   getInvader(id: string): Observable<Invader>  {
     const url = `${this.invadersUrl}/${id}`;
     return this.http.get<Invader>(url).pipe(
@@ -18,15 +21,28 @@ export class InvaderService {
       catchError(this.handleError<Invader>('getInvader'))
     );
   }
+
   getInvaders(): Observable<Invader[]> {
     return this.http.get<Invader[]>(this.invadersUrl).pipe(
       tap(_ => this.log('fetched invaders')),
       catchError(this.handleError<Invader[]>('getInvaders', []))
     )
   }
+
+  updateInvader(invader: Invader): Observable<Invader> {
+    const httpOptions = {
+      headers: new HttpHeaders({'Content-type': 'application/json'})
+    };
+    return this.http.put<Invader>(this.invadersUrl, invader, httpOptions).pipe(
+      tap(_ => this.log(`updated invader ${invader.id}`)),
+      catchError(this.handleError<Invader>('updated invader'))
+    )
+  }
+
   private log(log: string): void {
     console.info(log);
   }
+  
   handleError<T>(operation='operation', result?: T) {
     return (error: any): Observable<T> => {
       console.log(error);

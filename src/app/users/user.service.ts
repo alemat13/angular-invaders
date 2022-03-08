@@ -28,6 +28,16 @@ export class UserService {
     );
   }
 
+  updateUser(user: User): Observable<User> {
+    const httpOptions = {
+      'headers': new HttpHeaders({'Content-type': 'application/json'})
+    }
+    return this.http.put<User>(this.usersUrl, user, httpOptions).pipe(
+      tap(_ => this.log(`updated user ${user.id}`)),
+      catchError(this.handleError<User>('updated user'))
+    )
+  }
+
   private log(log: string): void {
     console.info(log);
   }

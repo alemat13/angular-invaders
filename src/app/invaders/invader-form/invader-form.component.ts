@@ -4,6 +4,7 @@ import { InvaderService } from '../invader.service';
 import { Invader } from '../invader';
 import { User } from 'src/app/users/user';
 import { UserService } from 'src/app/users/user.service';
+import { Observable } from 'rxjs/internal/Observable';
 
 @Component({
   selector: 'app-invader-form',
@@ -59,12 +60,33 @@ export class InvaderFormComponent implements OnInit {
 
   onSubmit(): void {
     console.log("Submit form!");
-    console.log(this);
-    let link = ['invader'];
+    let lastUserObservable = this.updateUsers().pop();
+    if (lastUserObservable) {
+      lastUserObservable.subscribe(() => {
+        if (this.invader) {
+          this.invaderService.updateInvader(this.invader)
+            .subscribe(() => this.goBack());
+        }
+      });
+    }
+  }
+
+  updateUsers(): Observable<User>[] {
+    if(this.users) {
+      return this.users.map(u => this.userService.updateUser(u));
+       
+    }
+    else return [];
+  }
+
+  goBack(): void {
+    let link = [];
     if (this.invader) {
-      link.push(this.invader.id);
+      link = ['invader', this.invader.id]
+    }
+    else {
+      link = ['invaders'];
     }
     this.router.navigate(link);
   }
-
 }
