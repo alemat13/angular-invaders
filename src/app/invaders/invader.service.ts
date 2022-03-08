@@ -50,6 +50,14 @@ export class InvaderService {
     )
   }
 
+  searchInvaders(term: string): Observable<Invader[]> {
+    if(!term.trim()) return of([]);
+    return this.http.get<Invader[]>(`${this.invadersUrl}/?id=${term}`).pipe(
+      tap(_ => this.log(`found invaders matching ${term}`)),
+      catchError(this.handleError<Invader[]>('searchInvaders', []))
+    )
+  }
+
   private log(log: string): void {
     console.info(log);
   }
