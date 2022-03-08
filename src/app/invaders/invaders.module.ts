@@ -8,6 +8,7 @@ import { InvaderDetailComponent } from './invader-detail/invader-detail.componen
 import { InvaderStatusPipe } from './invader-status.pipe';
 import { InvaderFormComponent } from './invader-form/invader-form.component';
 import { EditInvaderComponent } from './edit-invader/edit-invader.component';
+import { SearchInvadersComponent } from './search-invaders/search-invaders.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { EditInvaderComponent } from './edit-invader/edit-invader.component';
     InvaderDetailComponent,
     InvaderStatusPipe,
     InvaderFormComponent,
-    EditInvaderComponent
+    EditInvaderComponent,
+    SearchInvadersComponent
   ],
   imports: [
     CommonModule,
