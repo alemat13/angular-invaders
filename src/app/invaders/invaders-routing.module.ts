@@ -8,7 +8,7 @@ import { InvaderDetailComponent } from './invader-detail/invader-detail.componen
 const routes: Routes = [
   { path: 'invaders', component: InvadersListComponent },
   { path: 'invader/edit/:id', component: EditInvaderComponent },
-  { path: 'invader-detail/:id', component: InvaderDetailComponent }
+  { path: 'invader/:id', component: InvaderDetailComponent }
 ];
 
 @NgModule({

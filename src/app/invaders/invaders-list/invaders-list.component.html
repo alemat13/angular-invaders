@@ -1,7 +1,7 @@
 <h2>{{ title }}</h2>
 <ul class="invaders">
   <li *ngFor="let invader of invaders">
-    <a routerLink="/invader-detail/{{invader.id}}">
+    <a routerLink="/invader/{{invader.id}}">
       <span class="badge">{{ invader.id }}</span>{{ invader.points || "??" }} pts | <span class="{{ invader.status | invaderStatus:'class' }}">{{ invader.status | invaderStatus:"text" }}</span>
     </a>
   </li>

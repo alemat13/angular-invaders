@@ -13,6 +13,15 @@ import { UserService } from 'src/app/users/user.service';
 export class InvaderFormComponent implements OnInit {
   @Input() invader?: Invader;
   users?: User[];
+  pointsOptions = [10, 20, 30, 40, 50, 100];
+  statusOptions = {
+    0: "Destroyed",
+    1: "Non visible",
+    2: "Very deteriorated",
+    3: "Deteriorated",
+    4: "Slighlty deteriorated",
+    5: "Good"
+  }
   constructor(
     private invaderService: InvaderService,
     private userService: UserService,
@@ -50,23 +59,12 @@ export class InvaderFormComponent implements OnInit {
 
   onSubmit(): void {
     console.log("Submit form!");
+    console.log(this);
     let link = ['invader'];
     if (this.invader) {
       link.push(this.invader.id);
     }
     this.router.navigate(link);
-  }
-
-  isStatusValid(status: string): boolean {
-    if (status = "") return true;
-    if ((status + 0) in [0, 1, 2, 3, 4, 5]) return true;
-    return false;
-  }
-
-  isPointsValid(points: string): boolean {
-    if (points = "") return true;
-    if ((points + 0) in [10, 20, 30, 40, 50, 100]) return true;
-    return false;
   }
 
 }
