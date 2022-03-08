@@ -22,6 +22,9 @@
         {{ invader.location || "??" }}</a>
     </div>
   </div>
-  <button (click)="goBack()">go back</button>
-  <a (click)="goEdit(invader)">Edit</a>
+  <div class="card-action">
+    <a (click)="goBack()">Go back</a>
+    <a (click)="goEdit()">Edit</a>
+    <a (click)="deleteInvader()">Delete</a>
+  </div>
 </div>

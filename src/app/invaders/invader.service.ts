@@ -39,6 +39,17 @@ export class InvaderService {
     )
   }
 
+  deleteInvader(invader: Invader): Observable<Invader> {
+    const url = `${this.invadersUrl}/${invader.id}`;
+    const httpOptions = {
+      'headers': new HttpHeaders({'Content-type': 'application/json'})
+    };
+    return this.http.delete<Invader>(url, httpOptions).pipe(
+      tap(_ => this.log(`deleted invader ${invader.id}`)),
+      catchError(this.handleError<Invader>('deleted invader'))
+    )
+  }
+
   private log(log: string): void {
     console.info(log);
   }

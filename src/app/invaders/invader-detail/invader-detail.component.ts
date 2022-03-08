@@ -11,7 +11,6 @@ import { InvaderService } from '../invader.service';
   styleUrls: ['./invader-detail.component.css'],
 })
 export class InvaderDetailComponent implements OnInit {
-  public editMode = false;
   @Input() invader?: Invader;
   constructor(
     private route: ActivatedRoute,
@@ -30,18 +29,20 @@ export class InvaderDetailComponent implements OnInit {
       .subscribe(invader => this.invader = invader);
   }
 
-  public save(): void {
-    console.log('invader saved!');
-    this.editMode = false;
+  deleteInvader(): void {
+    if (!this.invader) return;
+    this.invaderService.deleteInvader(this.invader).subscribe(
+      _ => this.goBack()
+    )
   }
-  public edit(): void {
-    this.editMode = true;
-  }
+
   goBack(): void {
     this.location.back();
   }
-  goEdit(invader: Invader): void {
-    let link = ['/invader/edit', invader.id];
+
+  goEdit(): void {
+    if (!this.invader) return;
+    let link = ['/invader/edit', this.invader.id];
     this.router.navigate(link);
   }
 }
