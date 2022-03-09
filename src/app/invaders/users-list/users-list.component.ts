@@ -20,7 +20,7 @@ export class UsersListComponent implements OnInit {
   }
 
   isFlashedBy(user: User) {
-    let invader = user.invaders.filter(i => i.invader.id == this.invader?.id);
+    let invader = user.invaders.filter(i => i.id == this.invader?.id);
     return invader.length > 0;
   }
 
@@ -29,11 +29,11 @@ export class UsersListComponent implements OnInit {
     let checked = $event.target.checked;
     if (checked && this.invader) {
       user.invaders.push({
-        invader: this.invader,
+        id: this.invader.id,
         flashDate: new Date()
       })
     } else {
-      user.invaders = user.invaders.filter(i => i.invader.id != this.invader?.id);
+      user.invaders = user.invaders.filter(i => i.id != this.invader?.id);
     }
     this.userService.updateUser(user).subscribe(
       _ => $event.target.disabled = false

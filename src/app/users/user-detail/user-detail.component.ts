@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { Invader } from 'src/app/invaders/invader';
 import { InvaderService } from 'src/app/invaders/invader.service';
 import { User } from '../user';
@@ -16,7 +16,8 @@ export class UserDetailComponent implements OnInit {
   constructor(
     private invaderService: InvaderService,
     private userService: UserService,
-    private route: ActivatedRoute
+    private route: ActivatedRoute,
+    private router: Router
   ) { }
 
   ngOnInit(): void {
@@ -40,7 +41,7 @@ export class UserDetailComponent implements OnInit {
 
   isFlashed(invader: Invader): boolean {
     if (!this.user) return false;
-    return this.user.invaders.filter(i => i.invader.id == invader.id).length > 0;
+    return this.user.invaders.filter(i => i.id == invader.id).length > 0;
   }
 
   selectInvader($event: any, invader: Invader): void {
@@ -49,15 +50,21 @@ export class UserDetailComponent implements OnInit {
     let checked = $event.target.checked;
     if (checked) {
       this.user.invaders.push({
-        invader: invader,
+        id: invader.id,
         flashDate: new Date()
       })
     } else {
-      this.user.invaders = this.user.invaders.filter(i => i.invader.id != invader?.id);
+      this.user.invaders = this.user.invaders.filter(i => i.id != invader?.id);
     }
     this.userService.updateUser(this.user).subscribe(
       _ => $event.target.disabled = false
     )
     console.log(this.user);
   }
+
+  goDetail(invader: Invader) {
+    let link = ['invader/', invader.id];
+    this.router.navigate(link);
+  }
+
 }

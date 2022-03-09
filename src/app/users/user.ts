@@ -4,7 +4,7 @@ export interface User {
     id: number;
     name: string;
     invaders: {
-       invader: Invader,
+       id: string,
        flashDate?: Date 
     }[]
 }

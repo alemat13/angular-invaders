@@ -6,6 +6,9 @@
             [checked]="isFlashed(invader)"
             [name]="invader.id"
             (click)="selectInvader($event, invader)"/>
-        <label [for]="invader.id">{{ invader.id }}</label>
+        <label [for]="invader.id">
+            {{ invader.id }}
+            <a (click)="goDetail(invader)">detail</a>
+        </label>
     </div>
 </div> 

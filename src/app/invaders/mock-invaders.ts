@@ -1,24 +1,13208 @@
 import { Invader } from './invader';
 
-export const INVADERS: Invader[] = [
-  {
-    id: 'PA_01',
-    city: 'Paris',
-    points: 10,
-    latitude: 2.43,
-    longitude: 48.43,
-    gMapsUrl: 'https://goo.gl/maps/7Fb7R6zdGdhoK5er5',
-    location: `Place de la Bastille
-    Pl. de la Bastille, 75004 Paris`,
-  },
-  {
-    id: 'PA_02',
-    city: 'Paris',
-    status: 2
-  },
-  {
-    id: 'PA_03',
-    city: 'Paris',
-    status: 4
-  },
-];
+export const INVADERS: Invader[] = [{
+  "id": "PA_0001",
+  "city": "Paris",
+  "points": 10,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0002",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0003",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.8488888,
+  "longitude": 2.3484398,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/h9dNMWBeA64QCUMSA",
+  "location": "14 Rue de la Montagne Sainte Genevi\u00e8ve, 75005 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/h9dNMWBeA64QCUMSA"
+}, {
+  "id": "PA_0004",
+  "city": "Paris",
+  "points": 10,
+  "status": 3,
+  "latitude": 48.847166,
+  "longitude": 2.3510264,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/KBgo77rVjREpf9Gf7",
+  "location": "22 Rue Monge, 75005 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/KBgo77rVjREpf9Gf7"
+}, {
+  "id": "PA_0005",
+  "city": "Paris",
+  "points": 10,
+  "status": 3,
+  "latitude": 48.8517849,
+  "longitude": 2.3337767,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/kBWEMxWmNyPsApCk9",
+  "location": "Spontini\n21 Rue des Canettes, 75006 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/kBWEMxWmNyPsApCk9\n"
+}, {
+  "id": "PA_0006",
+  "city": "Paris",
+  "points": 10,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0007",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0008",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0009",
+  "city": "Paris",
+  "points": 10,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0010",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0011",
+  "city": "Paris",
+  "points": 10,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0012",
+  "city": "Paris",
+  "points": 10,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0013",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0014",
+  "city": "Paris",
+  "points": 10,
+  "status": 2,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0015",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.848118,
+  "longitude": 2.380833,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/mZTnB4dtmmEQn1mA9",
+  "location": "48\u00b050'53.2\"N 2\u00b022'51.0\"E\n20-32 Rue de C\u00eeteaux, 75012 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/mZTnB4dtmmEQn1mA9"
+}, {
+  "id": "PA_0016",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.8494673,
+  "longitude": 2.3743718,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/cEXNvHGqfP9MTZbK9",
+  "location": "Le Bar \u00e0 Mines\n64 Rue de Charenton, 75012 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/cEXNvHGqfP9MTZbK9"
+}, {
+  "id": "PA_0017",
+  "city": "Paris",
+  "points": 10,
+  "status": 3,
+  "latitude": 48.81574,
+  "longitude": 2.36197,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/Q6MFaM5xd6VxWoFi8",
+  "location": "48\u00b048'56.7\"N 2\u00b021'43.1\"E\n94270 Le Kremlin-Bic\u00eatre\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/Q6MFaM5xd6VxWoFi8"
+}, {
+  "id": "PA_0018",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.8885808,
+  "longitude": 2.3413077,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/JsSbz4ArgNxhb3DY9",
+  "location": "16 Rue Saint-Vincent, 75018 Paris\nhttps:\/\/goo.gl\/maps\/JsSbz4ArgNxhb3DY9"
+}, {
+  "id": "PA_0019",
+  "city": "Paris",
+  "points": 10,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0020",
+  "city": "Paris",
+  "points": 10,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0021",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.87008,
+  "longitude": 2.3462265,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/apvwxkHHHNvqySjn7",
+  "location": "12 Rue Saint-Fiacre, 75002 Paris\nhttps:\/\/goo.gl\/maps\/apvwxkHHHNvqySjn7"
+}, {
+  "id": "PA_0022",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0023",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0024",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.8334825,
+  "longitude": 2.3548224,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/eFtXCN6vP6QR8LJ48",
+  "location": "73 Avenue des Gobelins, 75013 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/eFtXCN6vP6QR8LJ48"
+}, {
+  "id": "PA_0025",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0026",
+  "city": "Paris",
+  "points": 10,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0027",
+  "city": "Paris",
+  "points": 10,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0028",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.8537834,
+  "longitude": 2.376428,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/euBjyPXh1R5Sjf8F6",
+  "location": "5 Rue Keller, 75011 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/euBjyPXh1R5Sjf8F6"
+}, {
+  "id": "PA_0029",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8625621,
+  "longitude": 2.3600677,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/1cQcVbNMes82onfq5",
+  "location": "H\u00f4tel Tallard\n78 Rue des Archives, 75003 Paris\nAu coin avec la rue Pastourelle (au sol)\nhttps:\/\/goo.gl\/maps\/1cQcVbNMes82onfq5"
+}, {
+  "id": "PA_0030",
+  "city": "Paris",
+  "points": 10,
+  "status": 4,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0031",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0032",
+  "city": "Paris",
+  "points": 10,
+  "status": 4,
+  "latitude": 48.8609457,
+  "longitude": 2.3629189,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/14GzWg6kWgSTBk1Q7",
+  "location": "108 Rue Vieille du Temple, 75003 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/14GzWg6kWgSTBk1Q7"
+}, {
+  "id": "PA_0033",
+  "city": "Paris",
+  "points": 10,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0034",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.8588889,
+  "longitude": 2.358321,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/qDaxDWDS4qKrBicQ7",
+  "location": "REPETTO\n51 Rue des Francs Bourgeois, 75004 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/qDaxDWDS4qKrBicQ7"
+}, {
+  "id": "PA_0035",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8569902,
+  "longitude": 2.3619949,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/pwu7PuQczak1dcsm7",
+  "location": "24 Rue Pav\u00e9e, 75004 Paris_x000D_\nhttps:\/\/goo.gl\/maps\/pwu7PuQczak1dcsm7"
+}, {
+  "id": "PA_0036",
+  "city": "Paris",
+  "points": 10,
+  "status": 4,
+  "latitude": 48.8371504,
+  "longitude": 2.3733077,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/tNxvGZjgg1M5eZTdA",
+  "location": "48\u00b050'13.7\"N 2\u00b022'23.9\"E\n7-1 Boulevard Vincent Auriol, 75013 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/tNxvGZjgg1M5eZTdA"
+}, {
+  "id": "PA_0037",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0038",
+  "city": "Paris",
+  "points": 10,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0039",
+  "city": "Paris",
+  "points": 10,
+  "status": 0,
+  "latitude": 48.8482849,
+  "longitude": 2.3465688,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/6uce6VDs5UNxRFeq9",
+  "location": "Aria Musique Paris Philippe Ro\u00eblandt Luthier Flute\n2 rue d'Ecosse, 75005 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/6uce6VDs5UNxRFeq9\n"
+}, {
+  "id": "PA_0040",
+  "city": "Paris",
+  "points": 10,
+  "status": 3,
+  "latitude": 48.8470926,
+  "longitude": 2.3481564,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/TUeKDaAcFJgJCSS4A",
+  "location": "45 Rue de la Montagne Sainte Genevi\u00e8ve, 75005 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/TUeKDaAcFJgJCSS4A"
+}, {
+  "id": "PA_0041",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0042",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.8538068,
+  "longitude": 2.3371679,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/hGYK1XQF2Q3o5Eri9",
+  "location": "PAUL\n77 Rue De Seine, Rue de Buci, 75006 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/hGYK1XQF2Q3o5Eri9"
+}, {
+  "id": "PA_0043",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.853633,
+  "longitude": 2.3427326,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/yu6at4wZHZ5EtvhZ8",
+  "location": "29 Rue de l'Hirondelle (en face), 75006 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/yu6at4wZHZ5EtvhZ8\n"
+}, {
+  "id": "PA_0044",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0045",
+  "city": "Paris",
+  "points": 10,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0046",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.8521489,
+  "longitude": 2.3395156,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/Tiwwfw6qnBRhWAEL9",
+  "location": "Statue de Danton\n97 Boulevard Saint-Germain, 75006 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/Tiwwfw6qnBRhWAEL9"
+}, {
+  "id": "PA_0047",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.8515248,
+  "longitude": 2.3779611,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/BLKC1GGg87PVfmGe9",
+  "location": "9 Rue de la Main d'Or, 75011 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/BLKC1GGg87PVfmGe9"
+}, {
+  "id": "PA_0048",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8558343,
+  "longitude": 2.3691443,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/YzcqwDeaWwVVyLp3A",
+  "location": "Ageris\n(en face du ) 17 Rue Amelot, 75011 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/YzcqwDeaWwVVyLp3A"
+}, {
+  "id": "PA_0049",
+  "city": "Paris",
+  "points": 10,
+  "status": 3,
+  "latitude": 48.866058,
+  "longitude": 2.3785204,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/zz1Tywcd9jMpCYE99",
+  "location": "115 Rue Oberkampf, 75011 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/zz1Tywcd9jMpCYE99"
+}, {
+  "id": "PA_0050",
+  "city": "Paris",
+  "points": 10,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0051",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0052",
+  "city": "Paris",
+  "points": 50,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0053",
+  "city": "Paris",
+  "points": 10,
+  "status": 3,
+  "latitude": 48.8370183,
+  "longitude": 2.3723109,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/HsgyeRFVkotq3cpHA",
+  "location": "16 Boulevard Vincent Auriol, 75013 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/HsgyeRFVkotq3cpHA"
+}, {
+  "id": "PA_0054",
+  "city": "Paris",
+  "points": 10,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0055",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0056",
+  "city": "Paris",
+  "points": 10,
+  "status": 0,
+  "latitude": 48.8286528,
+  "longitude": 2.3516355,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/SpS2j6cyzEXwpeWn6",
+  "location": "8 Rue Simonet, 75013 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/SpS2j6cyzEXwpeWn6"
+}, {
+  "id": "PA_0057",
+  "city": "Paris",
+  "points": 10,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0058",
+  "city": "Paris",
+  "points": 10,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0059",
+  "city": "Paris",
+  "points": 10,
+  "status": 3,
+  "latitude": 48.8443388,
+  "longitude": 2.2845884,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/TTRwCL2r8s1bpSuC7",
+  "location": "48\u00b050'39.6\"N 2\u00b017'04.5\"E\n5 Rue Lacordaire, 75015 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/TTRwCL2r8s1bpSuC7"
+}, {
+  "id": "PA_0060",
+  "city": "Paris",
+  "points": 10,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0061",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.8663971,
+  "longitude": 2.3472843,
+  "gMapsUrl": "https:\/\/maps.app.goo.gl\/Hzbg8UnXry5NTz8m7",
+  "location": "Le Pain Quotidien\n2 Rue des Petits Carreaux, 75002 Paris\nhttps:\/\/maps.app.goo.gl\/Hzbg8UnXry5NTz8m7"
+}, {
+  "id": "PA_0062",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.8675439,
+  "longitude": 2.3465365,
+  "gMapsUrl": "https:\/\/maps.app.goo.gl\/qbrKvDxryVUjVhwT7",
+  "location": "Sentier\n20e Rue de Cl\u00e9ry, 75002 Paris\nhttps:\/\/maps.app.goo.gl\/qbrKvDxryVUjVhwT7"
+}, {
+  "id": "PA_0063",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.8533623,
+  "longitude": 2.3796879,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/hkigyRW2fpv3CKU47",
+  "location": "72 Rue de Charonne, 75011 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/hkigyRW2fpv3CKU47"
+}, {
+  "id": "PA_0064",
+  "city": "Paris",
+  "points": 10,
+  "status": 3,
+  "latitude": 48.864765,
+  "longitude": 2.297386,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/6vij1q42YV2gQUY59",
+  "location": "48\u00b051'53.2\"N 2\u00b017'50.6\"E\n11 Avenue du Pr\u00e9sident Wilson, 75116 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/6vij1q42YV2gQUY59"
+}, {
+  "id": "PA_0065",
+  "city": "Paris",
+  "points": 10,
+  "status": 3,
+  "latitude": 48.853097,
+  "longitude": 2.3738911,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/tX9LZdJnWEb6N8DX8",
+  "location": "30 Rue de Lappe, 75011 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/tX9LZdJnWEb6N8DX8"
+}, {
+  "id": "PA_0066",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0067",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0068",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0069",
+  "city": "Paris",
+  "points": 10,
+  "status": 4,
+  "latitude": 48.8346955,
+  "longitude": 2.3541526,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/HY7VC1NLtfHun1oD7",
+  "location": "40 Rue du Banquier, 75013 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/HY7VC1NLtfHun1oD7"
+}, {
+  "id": "PA_0070",
+  "city": "Paris",
+  "points": 10,
+  "status": 4,
+  "latitude": 48.8568893,
+  "longitude": 2.3554006,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/PQxDZgK1PnTLEDzZA",
+  "location": "Pizza Sant'Antonio\n1 Rue de la Verrerie, 75004 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/PQxDZgK1PnTLEDzZA\n"
+}, {
+  "id": "PA_0071",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8548431,
+  "longitude": 2.3590686,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/uaMutEkyGqCV7ZaV7",
+  "location": "5 Rue de Fourcy, 75004 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/uaMutEkyGqCV7ZaV7\n"
+}, {
+  "id": "PA_0072",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.8616401,
+  "longitude": 2.367357,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/GwvNoecQ7WhfXFGF9",
+  "location": "Rue Charles Luizet\n75011 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/GwvNoecQ7WhfXFGF9"
+}, {
+  "id": "PA_0073",
+  "city": "Paris",
+  "points": 10,
+  "status": 4,
+  "latitude": 48.8684282,
+  "longitude": 2.3793752,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/baTCn3wgcaxGtmao8",
+  "location": "Cannibale Caf\u00e9\n93 Rue Jean-Pierre Timbaud, 75011 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/baTCn3wgcaxGtmao8"
+}, {
+  "id": "PA_0074",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.8603941,
+  "longitude": 2.3621499,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/sKiaGV38moDR9q618",
+  "location": "Mus\u00e9e Picasso\/Jardin de l'H\u00f4tel-Sal\u00e9 - L\u00e9onor-Fini\n20 Rue des Coutures Saint-Gervais, 75003 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/sKiaGV38moDR9q618"
+}, {
+  "id": "PA_0075",
+  "city": "Paris",
+  "points": 10,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0076",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.8383265,
+  "longitude": 2.3570448,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/kdjhWSx3v6oAQEeD7",
+  "location": "Jeanne d\u2019Arc, lib\u00e9ratrice de la France\n41 Boulevard Saint-Marcel, 75013 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/kdjhWSx3v6oAQEeD7"
+}, {
+  "id": "PA_0077",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.8471438,
+  "longitude": 2.3311307,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/pRu8trjVkg8ZV7tQA",
+  "location": "Syndicat des Biologistes\n11 Rue de Fleurus, 75006 Paris\nCroisement avec la rue Madame\nhttps:\/\/goo.gl\/maps\/pRu8trjVkg8ZV7tQA\n"
+}, {
+  "id": "PA_0078",
+  "city": "Paris",
+  "points": 10,
+  "status": 3,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0079",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0080",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.8815027,
+  "longitude": 2.3308248,
+  "gMapsUrl": "https:\/\/maps.app.goo.gl\/FYdmgPFRwRLTthD98",
+  "location": "Maison des Auteurs de la SACD - Auditorium\n7 Rue Ballu, 75009 Paris\nhttps:\/\/maps.app.goo.gl\/FYdmgPFRwRLTthD98"
+}, {
+  "id": "PA_0081",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8649457,
+  "longitude": 2.377982,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/69kwPsoTv8wSP4ve6",
+  "location": "Annie Coiffure_x000D_\n88 Rue Saint-Maur, 75011 Paris_x000D_\nLien \u00e0 partager_x000D_\nhttps:\/\/goo.gl\/maps\/69kwPsoTv8wSP4ve6_x000D_\n"
+}, {
+  "id": "PA_0082",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0083",
+  "city": "Paris",
+  "points": 10,
+  "status": 4,
+  "latitude": 48.8645582,
+  "longitude": 2.3646026,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/fhoPN7Nga5D3bbmr6",
+  "location": "Fontaine Boucherat\n122 Rue Charlot, 75003 Paris\nhttps:\/\/goo.gl\/maps\/fhoPN7Nga5D3bbmr6"
+}, {
+  "id": "PA_0084",
+  "city": "Paris",
+  "points": 10,
+  "status": 0,
+  "latitude": 48.8559089,
+  "longitude": 2.3667649,
+  "gMapsUrl": "https:\/\/maps.app.goo.gl\/4SmFZfzFDUYyTzkT9",
+  "location": "22 Place des Vosges\n22 Place des Vosges, 75004 Paris\nhttps:\/\/maps.app.goo.gl\/4SmFZfzFDUYyTzkT9"
+}, {
+  "id": "PA_0085",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8531677,
+  "longitude": 2.3782611,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/XBnedWCzHP9Z1yqUA",
+  "location": "Paillage Cannage\n58 Rue de Charonne, 75011 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/XBnedWCzHP9Z1yqUA"
+}, {
+  "id": "PA_0086",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.850559,
+  "longitude": 2.360203,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/UB1PDJXgEMoX9W639",
+  "location": "48\u00b051'02.0\"N 2\u00b021'36.7\"E\nEurope\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/UB1PDJXgEMoX9W639"
+}, {
+  "id": "PA_0087",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.8373924,
+  "longitude": 2.3739963,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/qS76Sm7CgbMdAX1i7",
+  "location": "Pont de Bercy 48\u00b050'14.6\"N 2\u00b022'26.4\"E\n75013 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/qS76Sm7CgbMdAX1i7"
+}, {
+  "id": "PA_0088",
+  "city": "Paris",
+  "points": 30,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0089",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.8627086,
+  "longitude": 2.3465548,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/Dr5qVFN8kxLDAfde6",
+  "location": "Passage de la Canop\u00e9e, 75001 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/Dr5qVFN8kxLDAfde6\n"
+}, {
+  "id": "PA_0090",
+  "city": "Paris",
+  "points": 10,
+  "status": 0,
+  "latitude": 48.863722,
+  "longitude": 2.348999,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/eBmi7uZ63C9G7VFs8",
+  "location": "48\u00b051'49.4\"N 2\u00b020'56.4\"E\n103 Rue Pierre Lescot, 75001 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/eBmi7uZ63C9G7VFs8"
+}, {
+  "id": "PA_0091",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.8531421,
+  "longitude": 2.3765257,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/meGVARU5QoLJZV4v8",
+  "location": "H\u00e9ro\u00efnes\n38 Rue de Charonne, 75011 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/meGVARU5QoLJZV4v8"
+}, {
+  "id": "PA_0092",
+  "city": "Paris",
+  "points": 10,
+  "status": 4,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0093",
+  "city": "Paris",
+  "points": 10,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0094",
+  "city": "Paris",
+  "points": 10,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0095",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.8673191,
+  "longitude": 2.3374701,
+  "gMapsUrl": "https:\/\/maps.app.goo.gl\/XurwibjiByPtUBZVA",
+  "location": "\u00c9cole nationale des chartes\n65 Rue de Richelieu, 75002 Paris\nhttps:\/\/maps.app.goo.gl\/XurwibjiByPtUBZVA"
+}, {
+  "id": "PA_0096",
+  "city": "Paris",
+  "points": 10,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0097",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.8394523,
+  "longitude": 2.3890492,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/gQ8scqQeTNUmqX2TA",
+  "location": "207 Rue de Charenton, 75012 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/gQ8scqQeTNUmqX2TA"
+}, {
+  "id": "PA_0098",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.8531368,
+  "longitude": 2.343564,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/tqKREdEVjdZf8Nqg9",
+  "location": "La Fontaine Saint Michel restaurant\n11 Place Saint-Michel, 75006 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/tqKREdEVjdZf8Nqg9\n"
+}, {
+  "id": "PA_0099",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0100",
+  "city": "Paris",
+  "points": 50,
+  "status": 2,
+  "latitude": 48.8724368,
+  "longitude": 2.3640082,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/v2usirUwHhCLRaRR6",
+  "location": "FRIC-FRAC\n79 Quai de Valmy, 75010 Paris\nhttps:\/\/goo.gl\/maps\/v2usirUwHhCLRaRR6"
+}, {
+  "id": "PA_0101",
+  "city": "Paris",
+  "points": 10,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0102",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8398841,
+  "longitude": 2.3619824,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/5KhPLzdiZBrifdqG8",
+  "location": "Boulevard de l'H\u00f4pital (au niveau du 49)\nPillier pont m\u00e9tro\n48.839884, 2.361982\nhttps:\/\/goo.gl\/maps\/5KhPLzdiZBrifdqG8"
+}, {
+  "id": "PA_0103",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.859216,
+  "longitude": 2.3541266,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/26c37ieydfHWu6Jx6",
+  "location": "France Canap\u00e9 Marais (dans la cour)\n30 Rue du Temple, 75004 Paris\nhttps:\/\/goo.gl\/maps\/26c37ieydfHWu6Jx6"
+}, {
+  "id": "PA_0104",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8534086,
+  "longitude": 2.414339,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/wXDNMVsg2QwHMpcq7",
+  "location": "48\u00b051'12.3\"N 2\u00b024'51.6\"E\nVisible depuis p\u00e9riph ext\u00e9rieur\n75020 Paris\nhttps:\/\/goo.gl\/maps\/wXDNMVsg2QwHMpcq7"
+}, {
+  "id": "PA_0105",
+  "city": "Paris",
+  "points": 20,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0106",
+  "city": "Paris",
+  "points": 10,
+  "status": 4,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0107",
+  "city": "Paris",
+  "points": 20,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0108",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.859378,
+  "longitude": 2.2935048,
+  "gMapsUrl": "https:\/\/maps.app.goo.gl\/eNHNuAJbZ23tqJng7",
+  "location": "Aux D\u00e9lices Du Pont D'I\u00e9na\nQuai Branly, 75007 Paris\nhttps:\/\/maps.app.goo.gl\/eNHNuAJbZ23tqJng7"
+}, {
+  "id": "PA_0109",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0110",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.862702,
+  "longitude": 2.3512882,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/PQcEaiRtdpr1wxqFA",
+  "location": "93 Rue Quincampoix, 75003 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/PQcEaiRtdpr1wxqFA\n"
+}, {
+  "id": "PA_0111",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.8915943,
+  "longitude": 2.3447046,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/3duvhSPYogEL7VBa6",
+  "location": "48\u00b053'29.7\"N 2\u00b020'40.9\"E\n20 Rue Hermel, 75018 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/3duvhSPYogEL7VBa6"
+}, {
+  "id": "PA_0112",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.8350228,
+  "longitude": 2.3270683,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/NNaNXUSsr2uGUpkeA",
+  "location": "58 Rue Daguerre, 75014 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/NNaNXUSsr2uGUpkeA"
+}, {
+  "id": "PA_0113",
+  "city": "Paris",
+  "points": 10,
+  "status": 4,
+  "latitude": 48.8466739,
+  "longitude": 2.3513359,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/NUENKGgTYnZ8YGtg9",
+  "location": "46 Rue du Cardinal Lemoine, 75005 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/NUENKGgTYnZ8YGtg9"
+}, {
+  "id": "PA_0114",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0115",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8585269,
+  "longitude": 2.3596436,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/TZXfARtjipbjcVZ16",
+  "location": "Centre culturel suisse_x000D_\n38 Rue des Francs Bourgeois, 75003 Paris_x000D_\nhttps:\/\/goo.gl\/maps\/TZXfARtjipbjcVZ16"
+}, {
+  "id": "PA_0116",
+  "city": "Paris",
+  "points": 20,
+  "status": 3,
+  "latitude": 48.8546707,
+  "longitude": 2.3726311,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/GPVmHF9emiLphaDc9",
+  "location": "Sakura SARL (incrust\u00e9 dans le trottoir)\n46 Rue de la Roquette, 75011 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/GPVmHF9emiLphaDc9"
+}, {
+  "id": "PA_0117",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0118",
+  "city": "Paris",
+  "points": 10,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0119",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0120",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8694659,
+  "longitude": 2.3674566,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/KDofqmTVZwF52vYk8",
+  "location": "42 Quai de Jemmapes, 75010 Paris_x000D_\nLien \u00e0 partager_x000D_\nhttps:\/\/goo.gl\/maps\/KDofqmTVZwF52vYk8"
+}, {
+  "id": "PA_0121",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.8576103,
+  "longitude": 2.3330552,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/9n4utQbawrYP3Nk79",
+  "location": "7 Rue des Saints-P\u00e8res, 75006 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/9n4utQbawrYP3Nk79\n"
+}, {
+  "id": "PA_0122",
+  "city": "Paris",
+  "points": 20,
+  "status": 4,
+  "latitude": 48.840471,
+  "longitude": 2.35314,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/FWEM6zW2r6kttZvAA",
+  "location": "48\u00b050'25.7\"N 2\u00b021'11.3\"E\nRue Censier, 75005 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/FWEM6zW2r6kttZvAA"
+}, {
+  "id": "PA_0123",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8386796,
+  "longitude": 2.3755749,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/tVD6Aw1PLcNdfpDw7",
+  "location": "48\u00b050'19.3\"N 2\u00b022'32.1\"E\n800 Port de la Rap\u00e9e, 75012 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/tVD6Aw1PLcNdfpDw7"
+}, {
+  "id": "PA_0124",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.8735791,
+  "longitude": 2.3244804,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/PeiRhJ561E8C1d4s9",
+  "location": "40 Rue de l'Arcade, 75008 Paris\nA l'angle\nhttps:\/\/goo.gl\/maps\/PeiRhJ561E8C1d4s9"
+}, {
+  "id": "PA_0125",
+  "city": "Paris",
+  "points": 20,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0126",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0127",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0128",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.8520227,
+  "longitude": 2.3737732,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/EYqc4dnXV3xmLCiY7",
+  "location": "Fontaine Trogneux (1719 - 1721)\n1 Rue de Charonne, 75011 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/EYqc4dnXV3xmLCiY7"
+}, {
+  "id": "PA_0129",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.82368,
+  "longitude": 2.382495,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/F3ve1H1AbG3Q6ngX8",
+  "location": "48\u00b049'25.3\"N 2\u00b022'57.0\"E\nE50, 75013 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/F3ve1H1AbG3Q6ngX8"
+}, {
+  "id": "PA_0130",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.822679,
+  "longitude": 2.380814,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/movevD1gYfMLpM9M9",
+  "location": "48\u00b049'21.6\"N 2\u00b022'50.9\"E\nE50, 75013 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/movevD1gYfMLpM9M9"
+}, {
+  "id": "PA_0131",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0132",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0133",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8518383,
+  "longitude": 2.3776671,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/JZ5zkgjc8PEnRnST9",
+  "location": "9 Passage de la Main d'Or, 75011 Paris_x000D_\nLien \u00e0 partager_x000D_\nhttps:\/\/goo.gl\/maps\/JZ5zkgjc8PEnRnST9_x000D_\n"
+}, {
+  "id": "PA_0134",
+  "city": "Paris",
+  "points": 10,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0135",
+  "city": "Paris",
+  "points": 30,
+  "status": 0,
+  "latitude": 48.8603803,
+  "longitude": 2.3334689,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/SU1PVee3d83BybRM9",
+  "location": "48\u00b051'37.4\"N 2\u00b020'00.5\"E\n48.860380, 2.333469\nPlace du Carrousel, 75001 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/SU1PVee3d83BybRM9"
+}, {
+  "id": "PA_0136",
+  "city": "Paris",
+  "points": 30,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0137",
+  "city": "Paris",
+  "points": 30,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0138",
+  "city": "Paris",
+  "points": 30,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0139",
+  "city": "Paris",
+  "points": 30,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0140",
+  "city": "Paris",
+  "points": 30,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0141",
+  "city": "Paris",
+  "points": 30,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0142",
+  "city": "Paris",
+  "points": 30,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0143",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8574799,
+  "longitude": 2.347244,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/ceiLNRT4eAp3kDjV6",
+  "location": "Fontaine du Ch\u00e2telet\nPlace du Ch\u00e2telet, 75001 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/ceiLNRT4eAp3kDjV6"
+}, {
+  "id": "PA_0144",
+  "city": "Paris",
+  "points": 10,
+  "status": 4,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0145",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0146",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8342554,
+  "longitude": 2.355402,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/TpCk7V5mq9RXhrLt5",
+  "location": "Magic form Paris 13_x000D_\n12 Rue Rubens, 75013 Paris_x000D_\nhttps:\/\/goo.gl\/maps\/TpCk7V5mq9RXhrLt5"
+}, {
+  "id": "PA_0147",
+  "city": "Paris",
+  "points": 10,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0148",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0149",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0150",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.847432,
+  "longitude": 2.34359,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/jaTFLBzK3qbBP9Ls8",
+  "location": "48\u00b050'50.8\"N 2\u00b020'36.9\"E\n12 Rue Cujas, 75005 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/jaTFLBzK3qbBP9Ls8"
+}, {
+  "id": "PA_0151",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.8431789,
+  "longitude": 2.3465635,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/U42m9bmxcWZryCSH8",
+  "location": "22 Rue Lhomond, 75005 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/U42m9bmxcWZryCSH8"
+}, {
+  "id": "PA_0152",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0153",
+  "city": "Paris",
+  "points": 10,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0154",
+  "city": "Paris",
+  "points": 50,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0155",
+  "city": "Paris",
+  "points": 10,
+  "status": 3,
+  "latitude": 48.8513685,
+  "longitude": 2.3483377,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/8uxX1L9vo8T8y96TA",
+  "location": "16 Rue des 3 Portes, 75005 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/8uxX1L9vo8T8y96TA"
+}, {
+  "id": "PA_0156",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0157",
+  "city": "Paris",
+  "points": 10,
+  "status": 4,
+  "latitude": 48.8461312,
+  "longitude": 2.3488948,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/LCN5jLdEMSXWw4gM9",
+  "location": "13 Rue Clovis (en face du), 75005 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/LCN5jLdEMSXWw4gM9\n"
+}, {
+  "id": "PA_0158",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.860651,
+  "longitude": 2.3636584,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/DkAQ3uoiXJeSuowo7",
+  "location": "7 Rue Debelleyme, 75003 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/DkAQ3uoiXJeSuowo7\n"
+}, {
+  "id": "PA_0159",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.875978,
+  "longitude": 2.350925,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/UvoLpwkjsAH7MdVy8",
+  "location": "69 Rue d'Hauteville, 75010 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/UvoLpwkjsAH7MdVy8"
+}, {
+  "id": "PA_0160",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0161",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0162",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8846481,
+  "longitude": 2.3707529,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/ti9Mv6YwNqVUcgyLA",
+  "location": "Les Canaux_x000D_\n6 Quai de la Seine, 75019 Paris_x000D_\nhttps:\/\/goo.gl\/maps\/ti9Mv6YwNqVUcgyLA"
+}, {
+  "id": "PA_0163",
+  "city": "Paris",
+  "points": 20,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0164",
+  "city": "Paris",
+  "points": 30,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0165",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0166",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0167",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0168",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8655394,
+  "longitude": 2.3366154,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/BPPtMtdRd3uen8Co8",
+  "location": "28 Rue Moli\u00e8re, 75001 Paris\nhttps:\/\/goo.gl\/maps\/BPPtMtdRd3uen8Co8"
+}, {
+  "id": "PA_0169",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0170",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.8859835,
+  "longitude": 2.3414384,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/1ZAkhzQiXNN54Dof7",
+  "location": "Statue du Chevalier de la Barre\n1 Rue Saint-\u00c9leuth\u00e8re, 75018 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/1ZAkhzQiXNN54Dof7"
+}, {
+  "id": "PA_0171",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.885882,
+  "longitude": 2.3431673,
+  "gMapsUrl": "https:\/\/maps.app.goo.gl\/JGDjgm1J74L8FWjEA",
+  "location": "Montmatre Panoramic Photo Point\n75018 Paris\nhttps:\/\/maps.app.goo.gl\/JGDjgm1J74L8FWjEA"
+}, {
+  "id": "PA_0172",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8911947,
+  "longitude": 2.3318015,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/VdBj5AJmgHF37SQb7",
+  "location": "21 Rue Carpeaux, 75018 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/VdBj5AJmgHF37SQb7"
+}, {
+  "id": "PA_0173",
+  "city": "Paris",
+  "points": 10,
+  "status": 2,
+  "latitude": 48.8504208,
+  "longitude": 2.3755397,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/HMNvavZBgmcZRqXR8",
+  "location": "77 Rue Traversi\u00e8re, 75012 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/HMNvavZBgmcZRqXR8"
+}, {
+  "id": "PA_0174",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8413048,
+  "longitude": 2.282486,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/WsKKwC21BgPs3fkf7",
+  "location": "68 Rue des C\u00e9vennes, 75015 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/WsKKwC21BgPs3fkf7"
+}, {
+  "id": "PA_0175",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8515262,
+  "longitude": 2.3735627,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/kLo9o2f8n48i7bri8",
+  "location": "18 Passage du Chantier, 75012 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/kLo9o2f8n48i7bri8"
+}, {
+  "id": "PA_0176",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8499409,
+  "longitude": 2.3307607,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/cuugDLUKGFogqCLo8",
+  "location": "12 Rue Cassette, 75006 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/cuugDLUKGFogqCLo8\n"
+}, {
+  "id": "PA_0177",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.865397,
+  "longitude": 2.3308208,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/Rof2HYtxKMrMQpfz8",
+  "location": "10 Rue du 29 Juillet, 75001 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/Rof2HYtxKMrMQpfz8\n"
+}, {
+  "id": "PA_0178",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8746489,
+  "longitude": 2.3060159,
+  "gMapsUrl": "https:\/\/maps.app.goo.gl\/jMV4k2EKnkx5NZVU8",
+  "location": "Le Pain du Faubourg\n165 Rue du Faubourg Saint-Honor\u00e9, 75008 Paris\n01 45 63 34 34\nhttps:\/\/maps.app.goo.gl\/jMV4k2EKnkx5NZVU8"
+}, {
+  "id": "PA_0179",
+  "city": "Paris",
+  "points": 10,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0180",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.851146,
+  "longitude": 2.3319164,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/YdAr831e7SJx8okX6",
+  "location": "14 Rue Madame, 75006 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/YdAr831e7SJx8okX6"
+}, {
+  "id": "PA_0181",
+  "city": "Paris",
+  "points": 10,
+  "status": 3,
+  "latitude": 48.8506267,
+  "longitude": 2.3317396,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/v4MHJ5xX7ch6V4sHA",
+  "location": "20 Rue Madame, 75006 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/v4MHJ5xX7ch6V4sHA\n"
+}, {
+  "id": "PA_0182",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8510321,
+  "longitude": 2.331725,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/wbkDqy3y5QpQiDh56",
+  "location": "16 Rue Madame, 75006 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/wbkDqy3y5QpQiDh56\n"
+}, {
+  "id": "PA_0183",
+  "city": "Paris",
+  "points": 10,
+  "status": 4,
+  "latitude": 48.8505354,
+  "longitude": 2.3319303,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/hnqd3FjXYou3YRQR9",
+  "location": "19 Rue Madame, 75006 Paris\nCroisement rue de M\u00e9zi\u00e8res\nhttps:\/\/goo.gl\/maps\/hnqd3FjXYou3YRQR9"
+}, {
+  "id": "PA_0184",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.8523151,
+  "longitude": 2.3416749,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/5hq2e4EgXC7ACbgz9",
+  "location": "Groupe A.D.I\n7 Rue Danton, 75006 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/5hq2e4EgXC7ACbgz9\n"
+}, {
+  "id": "PA_0185",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0186",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.8546309,
+  "longitude": 2.3363115,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/FXNZnPBuRkRvvgeYA",
+  "location": "Boutique Bellerose (Paris - Jacob)\n3 Rue Jacob, 75006 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/FXNZnPBuRkRvvgeYA"
+}, {
+  "id": "PA_0187",
+  "city": "Paris",
+  "points": 10,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0188",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.857869,
+  "longitude": 2.360054,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/v5x4crmTXdUW95PX9",
+  "location": "UNIQLO_x000D_\n39 Rue des Francs Bourgeois, 75004 Paris_x000D_\nhttps:\/\/goo.gl\/maps\/v5x4crmTXdUW95PX9"
+}, {
+  "id": "PA_0189",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.860524,
+  "longitude": 2.354687,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/UdxURUvTweZxSkyN6",
+  "location": "Point Fort Fichet\n75004 Paris\nhttps:\/\/goo.gl\/maps\/UdxURUvTweZxSkyN6"
+}, {
+  "id": "PA_0190",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0191",
+  "city": "Paris",
+  "points": 10,
+  "status": 3,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0192",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": "https:\/\/www.google.com\/maps\/place\/130+Rue+de+Bagnolet,+75020+Paris\/@48.860814,2.4029224,17z\/data=!4m13!1m7!3m6!1s0x47e66d843c543977:0xdec2772d7e7dcc7a!2s130+Rue+de+Bagnolet,+75020+Paris!3b1!8m2!3d48.860814!4d2.4051111!3m4!1s0x47e66d843c543977:0xdec2772d7e7dcc7a!8m2!3d48.860814!4d2.4051111"
+}, {
+  "id": "PA_0193",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0194",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0195",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.9007844,
+  "longitude": 2.3446963,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/7gWd28oJRcX1hYaD6",
+  "location": "48\u00b054'02.8\"N 2\u00b020'40.9\"E\nPorte de Clignancourt, 75018 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/7gWd28oJRcX1hYaD6"
+}, {
+  "id": "PA_0196",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8836111,
+  "longitude": 2.3688889,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/oApm1zyGmV31ShKu6",
+  "location": "48.883611, 2.368889_x000D_\nPlace de la Bataille de Stalingrad, Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/oApm1zyGmV31ShKu6"
+}, {
+  "id": "PA_0197",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8865629,
+  "longitude": 2.332381,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/hE2tiLBKbhDbBSnX8",
+  "location": "Rue de Caulaincourt - pont au dessus du cimeti\u00e8re de Montmartre (c\u00f4t\u00e9 Nord)\n48.886563, 2.332381\nhttps:\/\/goo.gl\/maps\/hE2tiLBKbhDbBSnX8"
+}, {
+  "id": "PA_0198",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8743527,
+  "longitude": 2.372684,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/P86sgtBeuAFPqAC97",
+  "location": "29 Rue Sainte-Marthe, 75010 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/P86sgtBeuAFPqAC97"
+}, {
+  "id": "PA_0199",
+  "city": "Paris",
+  "points": 10,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0200",
+  "city": "Paris",
+  "points": 10,
+  "status": 2,
+  "latitude": 48.844496,
+  "longitude": 2.372411,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/Mu3X1o5XJ7X2Y97A8",
+  "location": "48\u00b050'40.2\"N 2\u00b022'20.7\"E\n190-192 Rue de Bercy, 75012 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/Mu3X1o5XJ7X2Y97A8"
+}, {
+  "id": "PA_0201",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8779963,
+  "longitude": 2.3770429,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/zx9jRfP4GBEASdGi8",
+  "location": "19 Rue Georges Lardennois, 75019 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/zx9jRfP4GBEASdGi8\n"
+}, {
+  "id": "PA_0202",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.8284343,
+  "longitude": 2.3884603,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/fyWRbgoP1u8GyTeZA",
+  "location": "48\u00b049'42.4\"N 2\u00b023'18.5\"E\nQuai de Bercy, 75012 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/fyWRbgoP1u8GyTeZA"
+}, {
+  "id": "PA_0203",
+  "city": "Paris",
+  "points": 50,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0204",
+  "city": "Paris",
+  "points": 10,
+  "status": 0,
+  "latitude": 48.8897276,
+  "longitude": 2.3961411,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/QVBXtFzP31XpRuqW7",
+  "location": "Porte de Pantin, sous le p\u00e9riph, sur un des poteaux visible direction Paris\n48\u00b053'23.0\"N 2\u00b023'46.1\"E\nhttps:\/\/goo.gl\/maps\/QVBXtFzP31XpRuqW7"
+}, {
+  "id": "PA_0205",
+  "city": "Paris",
+  "points": 20,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0206",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0207",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8877839,
+  "longitude": 2.3325882,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/t17D1rhj17acTRUN9",
+  "location": "7 Rue Damr\u00e9mont, 75018 Paris\nhttps:\/\/goo.gl\/maps\/t17D1rhj17acTRUN9"
+}, {
+  "id": "PA_0208",
+  "city": "Paris",
+  "points": 10,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0209",
+  "city": "Paris",
+  "points": 30,
+  "status": 3,
+  "latitude": 48.83335,
+  "longitude": 2.3793883,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/vhpX8oUXaTZDPGM17",
+  "location": "Batofar\n11 Quai Fran\u00e7ois Mauriac, 75013 Paris\nLink to share\nhttps:\/\/goo.gl\/maps\/vhpX8oUXaTZDPGM17"
+}, {
+  "id": "PA_0210",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8853336,
+  "longitude": 2.3596711,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/fVfrSGYdzwmP4pCo8",
+  "location": "8 Rue Marx Dormoy, 75018 Paris\nhttps:\/\/goo.gl\/maps\/fVfrSGYdzwmP4pCo8"
+}, {
+  "id": "PA_0211",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8524087,
+  "longitude": 2.3716119,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/kSFGdJNUaXzXDuxEA",
+  "location": "Ateliers de Paris_x000D_\n30 Rue du Faubourg Saint-Antoine, 75012 Paris_x000D_\nhttps:\/\/goo.gl\/maps\/kSFGdJNUaXzXDuxEA"
+}, {
+  "id": "PA_0212",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.857067,
+  "longitude": 2.392978,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/5qFvVEbEX6Sc85J17",
+  "location": "123 Boulevard de Charonne, 75011 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/5qFvVEbEX6Sc85J17"
+}, {
+  "id": "PA_0213",
+  "city": "Paris",
+  "points": 50,
+  "status": 0,
+  "latitude": 48.8421749,
+  "longitude": 2.3495628,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/XH4EzmSyAjNGpeD1A",
+  "location": "Franprix\n82 Rue Mouffetard, 75005 Paris\nhttps:\/\/goo.gl\/maps\/XH4EzmSyAjNGpeD1A"
+}, {
+  "id": "PA_0214",
+  "city": "Paris",
+  "points": 10,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0215",
+  "city": "Paris",
+  "points": 10,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0216",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8216545,
+  "longitude": 2.3426313,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/pRdngT5gViDGuxjX7",
+  "location": "65 Rue de l'Amiral Mouchez, 75013 Paris\nLink to share\nhttps:\/\/goo.gl\/maps\/pRdngT5gViDGuxjX7"
+}, {
+  "id": "PA_0217",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.8516251,
+  "longitude": 2.3526546,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/2UGbRnKSCfLsnFjUA",
+  "location": "48\u00b051'05.9\"N 2\u00b021'09.6\"E\nVisible depuis Quai des Tournelles\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/2UGbRnKSCfLsnFjUA"
+}, {
+  "id": "PA_0218",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8442275,
+  "longitude": 2.372029,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/rbGwkb4W8Sy9K7t99",
+  "location": "48\u00b050'39.2\"N 2\u00b022'19.3\"E\nRue Van Gogh, 75012 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/rbGwkb4W8Sy9K7t99"
+}, {
+  "id": "PA_0219",
+  "city": "Paris",
+  "points": 10,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0220",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8373449,
+  "longitude": 2.3733381,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/7XsaugoacYWnS9N29",
+  "location": "48\u00b050'14.4\"N 2\u00b022'24.0\"E (en face de Chez Lili et Marcel)\nBoulevard Vincent Auriol, 75013 Paris\nLink to share\nhttps:\/\/goo.gl\/maps\/7XsaugoacYWnS9N29"
+}, {
+  "id": "PA_0221",
+  "city": "Paris",
+  "points": 10,
+  "status": 4,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0222",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0223",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0224",
+  "city": "Paris",
+  "points": 10,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0225",
+  "city": "Paris",
+  "points": 10,
+  "status": 3,
+  "latitude": 48.81949,
+  "longitude": 2.3733008,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/jaeDAGgqP7nJn2Ay5",
+  "location": "48\u00b049'10.2\"N 2\u00b022'23.9\"E\nBoulevard Hippolyte Marqu\u00e8s, 75013 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/jaeDAGgqP7nJn2Ay5"
+}, {
+  "id": "PA_0226",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8768579,
+  "longitude": 2.3511168,
+  "gMapsUrl": "https:\/\/maps.app.goo.gl\/NHy3DLU3St7gUea2A",
+  "location": "John Paul HAUTEVILLE\n83 Rue d'Hauteville, 75010 Paris\n01 42 63 39 35\nhttps:\/\/maps.app.goo.gl\/NHy3DLU3St7gUea2A"
+}, {
+  "id": "PA_0227",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.8742746,
+  "longitude": 2.352859,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/TVxG38yYEsaWNehH6",
+  "location": "15 Rue Martel, 75010 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/TVxG38yYEsaWNehH6"
+}, {
+  "id": "PA_0228",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8896611,
+  "longitude": 2.3828517,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/mhCPPaWKeTxQiQ7w6",
+  "location": "L'Atalante (pillier du pont)\n26 Quai de la Marne, 75019 Paris\nhttps:\/\/goo.gl\/maps\/mhCPPaWKeTxQiQ7w6"
+}, {
+  "id": "PA_0229",
+  "city": "Paris",
+  "points": 10,
+  "status": 3,
+  "latitude": 48.8512059,
+  "longitude": 2.3398734,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/9kLSrFtkcoL9F7LD9",
+  "location": "Rue Antoine Dubois\n75006 Paris\nCroisement rue Monsieur Le Prince\nhttps:\/\/goo.gl\/maps\/9kLSrFtkcoL9F7LD9\n"
+}, {
+  "id": "PA_0230",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.8558584,
+  "longitude": 2.3543982,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/3M8PT9wxSP4yHWZ78",
+  "location": "48\u00b051'21.1\"N 2\u00b021'15.8\"E\n\u00c9glise Saint-Gervais, 13 Rue des Barres, 75004 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/3M8PT9wxSP4yHWZ78"
+}, {
+  "id": "PA_0231",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.864224,
+  "longitude": 2.349968,
+  "gMapsUrl": "https:\/\/maps.app.goo.gl\/mNkD9fUDxBmqomjo9",
+  "location": "Les Turbines\n21 Rue de Turbigo, 75002 Paris\nhttps:\/\/maps.app.goo.gl\/mNkD9fUDxBmqomjo9"
+}, {
+  "id": "PA_0232",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8644824,
+  "longitude": 2.3474691,
+  "gMapsUrl": "https:\/\/maps.app.goo.gl\/fFZ5XGEvQJYaeAuP6",
+  "location": "9 Rue Fran\u00e7aise, 75002 Paris\nhttps:\/\/maps.app.goo.gl\/fFZ5XGEvQJYaeAuP6"
+}, {
+  "id": "PA_0233",
+  "city": "Paris",
+  "points": 10,
+  "status": 4,
+  "latitude": 48.8444297,
+  "longitude": 2.2763644,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/EEmZgRoENuq1nLp26",
+  "location": "3 Rue des C\u00e9vennes, 75015 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/EEmZgRoENuq1nLp26"
+}, {
+  "id": "PA_0234",
+  "city": "Paris",
+  "points": 10,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0235",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.8634341,
+  "longitude": 2.3642422,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/12mBHVdCQEo7z1Xs6",
+  "location": "6 Rue de Normandie, 75003 Paris\nhttps:\/\/goo.gl\/maps\/12mBHVdCQEo7z1Xs6"
+}, {
+  "id": "PA_0236",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8708357,
+  "longitude": 2.2997706,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/Nk8zC2EzAVbDy5aE6",
+  "location": "50 Rue de Bassano, 75008 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/Nk8zC2EzAVbDy5aE6"
+}, {
+  "id": "PA_0237",
+  "city": "Paris",
+  "points": 20,
+  "status": 0,
+  "latitude": 48.8736378,
+  "longitude": 2.296953,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/QTt4iAcpGqZRMs7p8",
+  "location": "156 Av. des Champs-\u00c9lys\u00e9es, 75008 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/QTt4iAcpGqZRMs7p8"
+}, {
+  "id": "PA_0238",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.8660482,
+  "longitude": 2.3075865,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/9F2Vm9Yh22SRjAV36",
+  "location": "8 Place Fran\u00e7ois 1er, 75008 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/9F2Vm9Yh22SRjAV36"
+}, {
+  "id": "PA_0239",
+  "city": "Paris",
+  "points": 10,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0240",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0241",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.840945,
+  "longitude": 2.400854,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/J1ZDvaRooqKGRd6u5",
+  "location": "48\u00b050'27.4\"N 2\u00b024'03.1\"E\nM\u00e9tro Bel-Air, 75012 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/J1ZDvaRooqKGRd6u5"
+}, {
+  "id": "PA_0242",
+  "city": "Paris",
+  "points": 20,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0243",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8466534,
+  "longitude": 2.3750822,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/4FkyJ29NfB497GCV7",
+  "location": "8b Rue Abel, 75012 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/4FkyJ29NfB497GCV7"
+}, {
+  "id": "PA_0244",
+  "city": "Paris",
+  "points": 20,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0245",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0246",
+  "city": "Paris",
+  "points": 10,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0247",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8334153,
+  "longitude": 2.2895708,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/5uib7HkjVWttjW4K8",
+  "location": "O'Djerba\n399 Rue de Vaugirard, 75015 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/5uib7HkjVWttjW4K8"
+}, {
+  "id": "PA_0248",
+  "city": "Paris",
+  "points": 10,
+  "status": 4,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0249",
+  "city": "Paris",
+  "points": 10,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0250",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.8689078,
+  "longitude": 2.3671945,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/7jKRf6cXieC5b2YY9",
+  "location": "Square Fr\u00e9d\u00e9rick-Lema\u00eetre (entr\u00e9e sud-est, au sol)\n35 Quai de Jemmapes, 75010 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/7jKRf6cXieC5b2YY9"
+}, {
+  "id": "PA_0251",
+  "city": "Paris",
+  "points": 10,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0252",
+  "city": "Paris",
+  "points": 20,
+  "status": 0,
+  "latitude": 48.872083,
+  "longitude": 2.376947,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/vbry1QMQo2vuNnzj7",
+  "location": "Belleville\nParis\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/vbry1QMQo2vuNnzj7"
+}, {
+  "id": "PA_0253",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0254",
+  "city": "Paris",
+  "points": 20,
+  "status": 2,
+  "latitude": 48.8720505,
+  "longitude": 2.3005135,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/UJMU7KuxJJi8idoe7",
+  "location": "George V\nSortie devant Louis Vuitton\nhttps:\/\/goo.gl\/maps\/UJMU7KuxJJi8idoe7"
+}, {
+  "id": "PA_0255",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.861249,
+  "longitude": 2.2914132,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/gy45GgYchygLZyQQ9",
+  "location": "48\u00b051'40.5\"N 2\u00b017'29.1\"E\n75116 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/gy45GgYchygLZyQQ9"
+}, {
+  "id": "PA_0256",
+  "city": "Paris",
+  "points": 10,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0257",
+  "city": "Paris",
+  "points": 10,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0258",
+  "city": "Paris",
+  "points": 20,
+  "status": 3,
+  "latitude": 48.8543307,
+  "longitude": 2.2789502,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/6NCpkTpn1DFia4cb9",
+  "location": "29 Avenue de Lamballe, 75016 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/6NCpkTpn1DFia4cb9"
+}, {
+  "id": "PA_0259",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.8483182,
+  "longitude": 2.2599086,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/DdDS8ps69DDacJkD8",
+  "location": "Auteuil Brasserie\n78 Rue d'Auteuil, 75016 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/DdDS8ps69DDacJkD8"
+}, {
+  "id": "PA_0260",
+  "city": "Paris",
+  "points": 10,
+  "status": 4,
+  "latitude": 48.8475105,
+  "longitude": 2.268646,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/VW87DrLvrS6YGEzr8",
+  "location": "48\u00b050'51.0\"N 2\u00b016'07.1\"E\nPlace de l'\u00c9glise d'Auteuil, 75016 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/VW87DrLvrS6YGEzr8"
+}, {
+  "id": "PA_0261",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.8441295,
+  "longitude": 2.402259,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/D4xynL76wxYyh9BX9",
+  "location": "Chez Gudule\n58 Boulevard de Picpus, 75012 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/D4xynL76wxYyh9BX9"
+}, {
+  "id": "PA_0262",
+  "city": "Paris",
+  "points": 10,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0263",
+  "city": "Paris",
+  "points": 10,
+  "status": 0,
+  "latitude": 48.869946,
+  "longitude": 2.285676,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/XE87B5yCotPpJjVt5",
+  "location": "48\u00b052'11.8\"N 2\u00b017'08.4\"E\n91-87 Avenue Victor Hugo, 75116 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/XE87B5yCotPpJjVt5"
+}, {
+  "id": "PA_0264",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.8629753,
+  "longitude": 2.2753906,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/jrdpVd6HW1kLyg1w9",
+  "location": "115 Rue de la Tour, 75116 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/jrdpVd6HW1kLyg1w9"
+}, {
+  "id": "PA_0265",
+  "city": "Paris",
+  "points": 10,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0266",
+  "city": "Paris",
+  "points": 10,
+  "status": 2,
+  "latitude": 48.864639,
+  "longitude": 2.29565,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/cZP6wfHf9YqdY5CWA",
+  "location": "48\u00b051'52.7\"N 2\u00b017'44.3\"E\n9 Rue de la Manutention, 75116 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/cZP6wfHf9YqdY5CWA"
+}, {
+  "id": "PA_0267",
+  "city": "Paris",
+  "points": 10,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0268",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8789884,
+  "longitude": 2.3038062,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/XEYhXjwAhV88U6m17",
+  "location": "94 Rue de Courcelles, 75008 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/XEYhXjwAhV88U6m17"
+}, {
+  "id": "PA_0269",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8181218,
+  "longitude": 2.4554134,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/vE9Xdx8ZFVRNYZTH8",
+  "location": "Autoroute de l'Est direction Paris, ou avenue Gravelle\n48.818122, 2.455413\nhttps:\/\/goo.gl\/maps\/vE9Xdx8ZFVRNYZTH8"
+}, {
+  "id": "PA_0270",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.8682163,
+  "longitude": 2.3651952,
+  "gMapsUrl": "https:\/\/www.google.com\/maps\/place\/48%C2%B052'05.6%22N+2%C2%B021'54.7%22E\/@48.868216,2.3641007,18z\/data=!4m6!3m5!1s0x0:0x0!7e2!8m2!3d48.8682163!4d2.3651952",
+  "location": "https:\/\/www.google.com\/maps\/place\/48%C2%B052'05.6%22N+2%C2%B021'54.7%22E\/@48.868216,2.3641007,18z\/data=!4m6!3m5!1s0x0:0x0!7e2!8m2!3d48.8682163!4d2.3651952"
+}, {
+  "id": "PA_0271",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.8690187,
+  "longitude": 2.3774409,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/6qiJt4mf7WmSyLd7A",
+  "location": "90 Rue de la Fontaine au Roi, 75011 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/6qiJt4mf7WmSyLd7A"
+}, {
+  "id": "PA_0272",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8268474,
+  "longitude": 2.364013,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/5ZWpLLaXe4DF8sYM7",
+  "location": "96 Rue de Tolbiac, 75013 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/5ZWpLLaXe4DF8sYM7"
+}, {
+  "id": "PA_0273",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0274",
+  "city": "Paris",
+  "points": 20,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0275",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8793616,
+  "longitude": 2.3651457,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/jFmPX6hrA3bJcBwG9",
+  "location": "12 Rue Pierre Dupont, 75010 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/jFmPX6hrA3bJcBwG9"
+}, {
+  "id": "PA_0276",
+  "city": "Paris",
+  "points": 30,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0277",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0278",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0279",
+  "city": "Paris",
+  "points": 10,
+  "status": 0,
+  "latitude": 48.8716357,
+  "longitude": 2.3761585,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/mQWy7q8Zs4TmRqMN7",
+  "location": "116 Rue du Faubourg du Temple, 75011 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/mQWy7q8Zs4TmRqMN7"
+}, {
+  "id": "PA_0280",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.8637715,
+  "longitude": 2.3860752,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/yDyGXYU9XSKhUdXz6",
+  "location": "81 Boulevard de M\u00e9nilmontant, 75011 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/yDyGXYU9XSKhUdXz6"
+}, {
+  "id": "PA_0281",
+  "city": "Paris",
+  "points": 10,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0282",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0283",
+  "city": "Paris",
+  "points": 10,
+  "status": 3,
+  "latitude": 48.8708869,
+  "longitude": 2.3734776,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/muQVzAhRZbBsrcxu8",
+  "location": "99 Rue du Faubourg du Temple, 75010 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/muQVzAhRZbBsrcxu8"
+}, {
+  "id": "PA_0284",
+  "city": "Paris",
+  "points": 20,
+  "status": 1,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": "https:\/\/dtc.com",
+  "location": "Dans un ancien commissariat\u2026\nhttps:\/\/dtc.com"
+}, {
+  "id": "PA_0285",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.866071,
+  "longitude": 2.3460285,
+  "gMapsUrl": "https:\/\/maps.app.goo.gl\/FKVUiLwpMGBJFRS48",
+  "location": "Les Ecuries\n8 Rue Bachaumont, 75002 Paris\nhttps:\/\/maps.app.goo.gl\/FKVUiLwpMGBJFRS48"
+}, {
+  "id": "PA_0286",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.8874361,
+  "longitude": 2.3444709,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/ehZZsvKKhuvrV4e66",
+  "location": "5 Rue Lamarck, 75018 Paris\nhttps:\/\/goo.gl\/maps\/ehZZsvKKhuvrV4e66"
+}, {
+  "id": "PA_0287",
+  "city": "Paris",
+  "points": 10,
+  "status": 0,
+  "latitude": 48.8566761,
+  "longitude": 2.3569925,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/HbMcy7q777GxirZi9",
+  "location": "Le Pick Clops\n16 Rue Vieille du Temple, 75004 Paris\nhttps:\/\/goo.gl\/maps\/HbMcy7q777GxirZi9"
+}, {
+  "id": "PA_0288",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.8717745,
+  "longitude": 2.3767208,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/RA4PQrLdPLNBHw3MA",
+  "location": "Chen Market Belleville\n120 Rue du Faubourg du Temple, 75011 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/RA4PQrLdPLNBHw3MA"
+}, {
+  "id": "PA_0289",
+  "city": "Paris",
+  "points": 10,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0290",
+  "city": "Paris",
+  "points": 10,
+  "status": 0,
+  "latitude": 48.8659,
+  "longitude": 2.3781679,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/8xeH21zrX6E3vQuSA",
+  "location": "La Poste\n113 Rue Oberkampf, 75011 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/8xeH21zrX6E3vQuSA"
+}, {
+  "id": "PA_0291",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8679829,
+  "longitude": 2.3899542,
+  "gMapsUrl": "https:\/\/www.google.com\/maps\/place\/bedup%C2%AE+-+LITS+ESCAMOTABLES+AU+PLAFOND\/@48.8678548,2.3894416,19z\/data=!4m5!3m4!1s0x47e66decd645e9a3:0x3c287d875a60d538!8m2!3d48.8679829!4d2.3899542",
+  "location": "https:\/\/www.google.com\/maps\/place\/bedup%C2%AE+-+LITS+ESCAMOTABLES+AU+PLAFOND\/@48.8678548,2.3894416,19z\/data=!4m5!3m4!1s0x47e66decd645e9a3:0x3c287d875a60d538!8m2!3d48.8679829!4d2.3899542"
+}, {
+  "id": "PA_0292",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8719389,
+  "longitude": 2.3763936,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/MvfA9aKYfBeXxBAG7",
+  "location": "Zorba\n137 Rue du Faubourg du Temple, 75010 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/MvfA9aKYfBeXxBAG7"
+}, {
+  "id": "PA_0293",
+  "city": "Paris",
+  "points": 10,
+  "status": 3,
+  "latitude": 48.8706558,
+  "longitude": 2.3733594,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/Zeo26nR4AtJvuxGA7",
+  "location": "Le Temple d'Or\n84 Rue du Faubourg du Temple, 75011 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/Zeo26nR4AtJvuxGA7"
+}, {
+  "id": "PA_0294",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0295",
+  "city": "Paris",
+  "points": 50,
+  "status": 4,
+  "latitude": 48.8637076,
+  "longitude": 2.3450228,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/XZvZMZtgy3AQR6sP9",
+  "location": "4 Rue du Jour, 75001 Paris\nhttps:\/\/goo.gl\/maps\/XZvZMZtgy3AQR6sP9"
+}, {
+  "id": "PA_0296",
+  "city": "Paris",
+  "points": 10,
+  "status": 2,
+  "latitude": 48.864976,
+  "longitude": 2.3448352,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/uA4dtynbd1MAjdFt8",
+  "location": "REPLAY Store\n36 Rue \u00c9tienne Marcel, 75002 Paris\nhttps:\/\/goo.gl\/maps\/uA4dtynbd1MAjdFt8"
+}, {
+  "id": "PA_0297",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.8655174,
+  "longitude": 2.3425454,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/bvRmVyMzVzBo7jLf8",
+  "location": "Lina's Paris Victoires\n50 Rue \u00c9tienne Marcel, 75002 Paris\nhttps:\/\/goo.gl\/maps\/bvRmVyMzVzBo7jLf8"
+}, {
+  "id": "PA_0298",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.8680884,
+  "longitude": 2.3364926,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/E5L5UDbCSCDyTHbM8",
+  "location": "58 Rue Sainte-Anne, 75002 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/E5L5UDbCSCDyTHbM8"
+}, {
+  "id": "PA_0299",
+  "city": "Paris",
+  "points": 10,
+  "status": 3,
+  "latitude": 48.8345466,
+  "longitude": 2.367553,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/xFYCbFnx3y9VfJaY7",
+  "location": "Le Relais\n79 Boulevard Vincent Auriol, 75013 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/xFYCbFnx3y9VfJaY7"
+}, {
+  "id": "PA_0300",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.8336645,
+  "longitude": 2.3536087,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/B7SF3sbvqNR3Snx86",
+  "location": "56 Avenue des Gobelins, 75013 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/B7SF3sbvqNR3Snx86"
+}, {
+  "id": "PA_0301",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.8502577,
+  "longitude": 2.3734518,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/9zv9XyV7KnpHCdoGA",
+  "location": "Pachi Pacha\n44 Rue de Charenton, 75012 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/9zv9XyV7KnpHCdoGA"
+}, {
+  "id": "PA_0302",
+  "city": "Paris",
+  "points": 10,
+  "status": 4,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0303",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0304",
+  "city": "Paris",
+  "points": 20,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0305",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8426251,
+  "longitude": 2.355331,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/Nshyfm6vrYgt4M51A",
+  "location": "47 Rue Geoffroy-Saint-Hilaire, 75005 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/Nshyfm6vrYgt4M51A"
+}, {
+  "id": "PA_0306",
+  "city": "Paris",
+  "points": 50,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": "A6"
+}, {
+  "id": "PA_0307",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0308",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.841446,
+  "longitude": 2.225298,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/S7n42MavyfBPX9XQ9",
+  "location": "48\u00b050'29.2\"N 2\u00b013'31.1\"E\nD1, 92100 Boulogne-Billancourt\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/S7n42MavyfBPX9XQ9"
+}, {
+  "id": "PA_0309",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8768273,
+  "longitude": 2.2826445,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/sCJXV4nZVn5A6MbJ7",
+  "location": "48\u00b052'36.6\"N 2\u00b016'57.5\"E\nPlace de la Porte Maillot, 75116 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/sCJXV4nZVn5A6MbJ7"
+}, {
+  "id": "PA_0310",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.837475,
+  "longitude": 2.255336,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/y9VKP8zG42nHcogM8",
+  "location": "48\u00b050'14.9\"N 2\u00b015'19.2\"E\n16e Arrondissement de Paris, 75016 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/y9VKP8zG42nHcogM8"
+}, {
+  "id": "PA_0311",
+  "city": "Paris",
+  "points": 20,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0312",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.828355,
+  "longitude": 2.327049,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/DHdrJRG2MsA1tp9v5",
+  "location": "48\u00b049'42.1\"N 2\u00b019'37.4\"E\n82 Avenue du G\u00e9n\u00e9ral Leclerc, 75014 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/DHdrJRG2MsA1tp9v5"
+}, {
+  "id": "PA_0313",
+  "city": "Paris",
+  "points": 10,
+  "status": 2,
+  "latitude": 48.8612734,
+  "longitude": 2.3441925,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/KrtzaY1QmznBnbmc9",
+  "location": "48 Rue Saint-Honor\u00e9, 75001 Paris\nhttps:\/\/goo.gl\/maps\/KrtzaY1QmznBnbmc9"
+}, {
+  "id": "PA_0314",
+  "city": "Paris",
+  "points": 10,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0315",
+  "city": "Paris",
+  "points": 10,
+  "status": 2,
+  "latitude": 48.8301144,
+  "longitude": 2.3509371,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/HbcAf4Sp2ftXPB6z9",
+  "location": "48\u00b049'48.4\"N 2\u00b021'03.4\"E\n36 Boulevard Auguste Blanqui, 75013 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/HbcAf4Sp2ftXPB6z9"
+}, {
+  "id": "PA_0316",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0317",
+  "city": "Paris",
+  "points": 20,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0318",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8525096,
+  "longitude": 2.4075681,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/im28yW3y3Mo4A79t6",
+  "location": "40 Rue du Volga, 75020 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/im28yW3y3Mo4A79t6"
+}, {
+  "id": "PA_0319",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8633441,
+  "longitude": 2.3491081,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/11kmsFVA1oG1GhYq9",
+  "location": "28 Rue Pierre Lescot, 75001 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/11kmsFVA1oG1GhYq9"
+}, {
+  "id": "PA_0320",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.8366556,
+  "longitude": 2.3379649,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/tHMjM6hqCT11YuHp9",
+  "location": "34 Rue du Faubourg Saint-Jacques, 75014 Paris\nhttps:\/\/goo.gl\/maps\/tHMjM6hqCT11YuHp9"
+}, {
+  "id": "PA_0321",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.8464264,
+  "longitude": 2.3418348,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/WAMx8LUdmstb5eiw6",
+  "location": "17 Rue Malebranche, 75005 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/WAMx8LUdmstb5eiw6"
+}, {
+  "id": "PA_0322",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.8489539,
+  "longitude": 2.3328816,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/d5DsHunUMyuj33bk6",
+  "location": "Square pour chiens Rue Bonaparte\n898 All\u00e9e du S\u00e9minaire, 75006 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/d5DsHunUMyuj33bk6\n"
+}, {
+  "id": "PA_0323",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8543682,
+  "longitude": 2.3842485,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/j95GYfkx8nLhpSNJA",
+  "location": "Violette And Co\n102 Rue de Charonne, 75011 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/j95GYfkx8nLhpSNJA"
+}, {
+  "id": "PA_0324",
+  "city": "Paris",
+  "points": 10,
+  "status": 2,
+  "latitude": 48.8653354,
+  "longitude": 2.330804,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/5f4yosQubGghMPCLA",
+  "location": "213 Rue Saint-Honor\u00e9, 75001 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/5f4yosQubGghMPCLA"
+}, {
+  "id": "PA_0325",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": "https:\/\/www.google.com\/maps\/place\/Cr%C3%A8che+collective+P%C3%A8re+Lachaise\/@48.864914,2.3937127,21z\/data=!4m13!1m7!3m6!1s0x47e66d843c543977:0xdec2772d7e7dcc7a!2s130+Rue+de+Bagnolet,+75020+Paris!3b1!8m2!3d48.860814!4d2.4051111!3m4!1s0x47e66d8d8ea4aa11:0xd7775ebb2c6d0e68!8m2!3d48.8649106!4d2.3936221"
+}, {
+  "id": "PA_0326",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.8478829,
+  "longitude": 2.3927903,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/osJ325oByMeD3Pbq8",
+  "location": "La M\u00e8re Pouchet\n168 Boulevard Diderot, 75012 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/osJ325oByMeD3Pbq8"
+}, {
+  "id": "PA_0327",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.8730037,
+  "longitude": 2.3472757,
+  "gMapsUrl": "https:\/\/maps.app.goo.gl\/C5GGwykVZco6SAPNA",
+  "location": "1 Rue Sainte-C\u00e9cile, 75009 Paris\nhttps:\/\/maps.app.goo.gl\/C5GGwykVZco6SAPNA"
+}, {
+  "id": "PA_0328",
+  "city": "Paris",
+  "points": 20,
+  "status": 4,
+  "latitude": 48.8651362,
+  "longitude": 2.3442309,
+  "gMapsUrl": "https:\/\/maps.app.goo.gl\/BcJfZSV9ZoCYpD3v6",
+  "location": "40 Rue \u00c9tienne Marcel, 75002 Paris\nhttps:\/\/maps.app.goo.gl\/BcJfZSV9ZoCYpD3v6"
+}, {
+  "id": "PA_0329",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8864783,
+  "longitude": 2.3609498,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/oWXVLyHSSrfq7NZx7",
+  "location": "21 Rue Pajol, 75018 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/oWXVLyHSSrfq7NZx7"
+}, {
+  "id": "PA_0330",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.8784586,
+  "longitude": 2.3492767,
+  "gMapsUrl": "https:\/\/www.google.com\/maps\/place\/RM+Architect+Paris\/@48.8784586,2.3492767,15z\/data=!4m12!1m6!3m5!1s0x0:0x96ebd478bf1fa8e6!2sRM+Architect+Paris!8m2!3d48.8784586!4d2.3492767!3m4!1s0x0:0x96ebd478bf1fa8e6!8m2!3d48.8784586!4d2.3492767",
+  "location": "https:\/\/www.google.com\/maps\/place\/RM+Architect+Paris\/@48.8784586,2.3492767,15z\/data=!4m12!1m6!3m5!1s0x0:0x96ebd478bf1fa8e6!2sRM+Architect+Paris!8m2!3d48.8784586!4d2.3492767!3m4!1s0x0:0x96ebd478bf1fa8e6!8m2!3d48.8784586!4d2.3492767"
+}, {
+  "id": "PA_0331",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0332",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0333",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8800681,
+  "longitude": 2.3440905,
+  "gMapsUrl": "https:\/\/maps.app.goo.gl\/mf3padfG5qvHqCzo6",
+  "location": "41 Rue Condorcet\n41 Rue Condorcet, 75009 Paris\nhttps:\/\/maps.app.goo.gl\/mf3padfG5qvHqCzo6"
+}, {
+  "id": "PA_0334",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0335",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0336",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0337",
+  "city": "Paris",
+  "points": 20,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": "Porte de Bagnolet"
+}, {
+  "id": "PA_0338",
+  "city": "Paris",
+  "points": 10,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0339",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0340",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.8535401,
+  "longitude": 2.3537092,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/UncVUdanVvVvQdCg7",
+  "location": "Quai de Bourbon\n48.853540, 2.353709\nhttps:\/\/goo.gl\/maps\/UncVUdanVvVvQdCg7"
+}, {
+  "id": "PA_0341",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.8604876,
+  "longitude": 2.3639557,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/Abc5d54kBd8skgji6",
+  "location": "Galerie Karsten Greve\n5 Rue Debelleyme, 75003 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/Abc5d54kBd8skgji6"
+}, {
+  "id": "PA_0342",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8790813,
+  "longitude": 2.3370486,
+  "gMapsUrl": "https:\/\/maps.app.goo.gl\/4TStmmjtynmrA2gn7",
+  "location": "19 Rue Laferri\u00e8re, 75009 Paris\nhttps:\/\/maps.app.goo.gl\/4TStmmjtynmrA2gn7"
+}, {
+  "id": "PA_0343",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0344",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8599186,
+  "longitude": 2.2905726,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/CaxhozHhzmxTvPvu6",
+  "location": "48\u00b051'35.7\"N 2\u00b017'26.1\"E\nNAP, 75016 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/CaxhozHhzmxTvPvu6"
+}, {
+  "id": "PA_0345",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8489946,
+  "longitude": 2.3218602,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/VmH1xYfL5GPrYDmc7",
+  "location": "93 Rue de S\u00e8vres, 75007 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/VmH1xYfL5GPrYDmc7\n"
+}, {
+  "id": "PA_0346",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.842901,
+  "longitude": 2.312182,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/YpjByXyrhca8Ah8TA",
+  "location": "48\u00b050'34.4\"N 2\u00b018'43.9\"E\n197-183 Rue de Vaugirard, 75015 Paris\nLyc\u00e9e Buffon\nhttps:\/\/goo.gl\/maps\/YpjByXyrhca8Ah8TA\n"
+}, {
+  "id": "PA_0347",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0348",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0349",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8612583,
+  "longitude": 2.3025956,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/4N8TmygxD7JjSnJW7",
+  "location": "7 Avenue Bosquet, 75007 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/4N8TmygxD7JjSnJW7"
+}, {
+  "id": "PA_0350",
+  "city": "Paris",
+  "points": 10,
+  "status": 3,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0351",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0352",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": "https:\/\/www.google.com\/maps\/place\/23-21+Rue+d'Alsace,+75010+Paris\/@48.8775483,2.355941,17z\/data=!4m12!1m6!3m5!1s0x47e66e72ebc10f6f:0xae5593252035142c!2sGare+de+l'Est!8m2!3d48.8767903!4d2.3592842!3m4!1s0x47e66e7299ddadd7:0xb0c91782b4688738!8m2!3d48.877548!4d2.3581306"
+}, {
+  "id": "PA_0353",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8694792,
+  "longitude": 2.3246561,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/gWbrCetApLArcu1UA",
+  "location": "Ubeeqo\n31 Boulevard de la Madeleine, 75008 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/gWbrCetApLArcu1UA"
+}, {
+  "id": "PA_0354",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0355",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8627414,
+  "longitude": 2.3497099,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/aoyasochKXqX5a3e7",
+  "location": "4 Rue de la Grande Truanderie, 75001 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/aoyasochKXqX5a3e7"
+}, {
+  "id": "PA_0356",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8621428,
+  "longitude": 2.3636498,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/y9GWnQ78gHnXC9x78",
+  "location": "34 Rue Debelleyme, 75003 Paris\nhttps:\/\/goo.gl\/maps\/y9GWnQ78gHnXC9x78"
+}, {
+  "id": "PA_0357",
+  "city": "Paris",
+  "points": 10,
+  "status": 3,
+  "latitude": 48.8320184,
+  "longitude": 2.2904337,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/Y63ZwWPMwEcqoFvw6",
+  "location": "23 Boulevard Lefebvre, 75015 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/Y63ZwWPMwEcqoFvw6"
+}, {
+  "id": "PA_0358",
+  "city": "Paris",
+  "points": 10,
+  "status": 0,
+  "latitude": 48.8714578,
+  "longitude": 2.3911516,
+  "gMapsUrl": "https:\/\/www.google.com\/maps\/place\/14+Rue+de+Savies,+75020+Paris\/@48.8714578,2.3889629,17z\/data=!3m1!4b1!4m5!3m4!1s0x47e66d94b68b88a9:0x97501e6bbf44c12!8m2!3d48.8714578!4d2.3911516",
+  "location": "https:\/\/www.google.com\/maps\/place\/14+Rue+de+Savies,+75020+Paris\/@48.8714578,2.3889629,17z\/data=!3m1!4b1!4m5!3m4!1s0x47e66d94b68b88a9:0x97501e6bbf44c12!8m2!3d48.8714578!4d2.3911516"
+}, {
+  "id": "PA_0359",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.866408,
+  "longitude": 2.332831,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/Gt57jxxQFRuabYbe9",
+  "location": "Foujita\n41 Rue Saint-Roch, 75001 Paris\nhttps:\/\/goo.gl\/maps\/Gt57jxxQFRuabYbe9"
+}, {
+  "id": "PA_0360",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.8643364,
+  "longitude": 2.3300075,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/v2fhHFoLsJddx5EbA",
+  "location": "48\u00b051'51.6\"N 2\u00b019'48.0\"E\n48.864336, 2.330007\nEntr\u00e9e Tuileries\n3 Rue des Pyramides, 75001 Paris\nhttps:\/\/goo.gl\/maps\/v2fhHFoLsJddx5EbA\n"
+}, {
+  "id": "PA_0361",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8309819,
+  "longitude": 2.3528049,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/Ca65BLP2ybyod6es8",
+  "location": "33 Rue Abel Hovelacque, 75013 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/Ca65BLP2ybyod6es8"
+}, {
+  "id": "PA_0362",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8716544,
+  "longitude": 2.3645859,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/Md9KLUTq2zZDsiwu9",
+  "location": "Chez Prune (en face de)\n36 Rue Beaurepaire, 75010 Paris_x000D_\nhttps:\/\/goo.gl\/maps\/Md9KLUTq2zZDsiwu9"
+}, {
+  "id": "PA_0363",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8263892,
+  "longitude": 2.3602058,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/SSRMSLi6UVQUJKBz6",
+  "location": "Sinorama\n23 Rue du Dr Magnan, 75013 Paris\nLink to share\nhttps:\/\/goo.gl\/maps\/SSRMSLi6UVQUJKBz6"
+}, {
+  "id": "PA_0364",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.8370672,
+  "longitude": 2.2963836,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/m91DdHd7rUd2zZBY8",
+  "location": "Grande Pharmacie Hahnemann\n347 Rue de Vaugirard, 75015 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/m91DdHd7rUd2zZBY8"
+}, {
+  "id": "PA_0365",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.8392698,
+  "longitude": 2.3001084,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/sCce2G9AT52ZVZ1B9",
+  "location": "Happy Trend\n270 Rue de Vaugirard, 75015 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/sCce2G9AT52ZVZ1B9"
+}, {
+  "id": "PA_0366",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.8299316,
+  "longitude": 2.3034565,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/YZpMtVbo1g1z4t1u7",
+  "location": "127 Rue Castagnary, 75015 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/YZpMtVbo1g1z4t1u7"
+}, {
+  "id": "PA_0367",
+  "city": "Paris",
+  "points": 20,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": "San Polo"
+}, {
+  "id": "PA_0368",
+  "city": "Paris",
+  "points": 10,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0369",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8534339,
+  "longitude": 2.3849777,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/4VDwsJJRKGBsvxaR8",
+  "location": "9 Rue Jules Vall\u00e8s, 75011 Paris_x000D_\nLien \u00e0 partager_x000D_\nhttps:\/\/goo.gl\/maps\/4VDwsJJRKGBsvxaR8_x000D_\n"
+}, {
+  "id": "PA_0370",
+  "city": "Paris",
+  "points": 20,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0371",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0372",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0373",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.866163,
+  "longitude": 2.3788717,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/uxq5EtgEUukEAtKQ6",
+  "location": "Boulangerie P\u00e2tisserie Creperie Oberkampf\n121 Rue Oberkampf, 75011 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/uxq5EtgEUukEAtKQ6"
+}, {
+  "id": "PA_0374",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.853144,
+  "longitude": 2.3266676,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/C9Rn8TLfVvnWMsVh7",
+  "location": "29 Boulevard Raspail, 75007 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/C9Rn8TLfVvnWMsVh7"
+}, {
+  "id": "PA_0375",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0376",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0377",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.863017,
+  "longitude": 2.3706118,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/VSQxJ2eVgdW9wKHT9",
+  "location": "52 Boulevard Voltaire, 75011 Paris_x000D_\nLien \u00e0 partager_x000D_\nhttps:\/\/goo.gl\/maps\/VSQxJ2eVgdW9wKHT9_x000D_\n"
+}, {
+  "id": "PA_0378",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0379",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8588297,
+  "longitude": 2.3572929,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/svAsNAQg8iqRbYoSA",
+  "location": "17 Rue des Blancs Manteaux, 75004 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/svAsNAQg8iqRbYoSA\n"
+}, {
+  "id": "PA_0380",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.8629659,
+  "longitude": 2.30951,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/TJqRcDZJJoBuFwU27",
+  "location": "Quai d'Orsay - bords de Seine\n48.862966, 2.309510\nhttps:\/\/goo.gl\/maps\/TJqRcDZJJoBuFwU27"
+}, {
+  "id": "PA_0381",
+  "city": "Paris",
+  "points": 10,
+  "status": 4,
+  "latitude": 48.8522485,
+  "longitude": 2.3013061,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/5EC69oRkgrFv1RLZ8",
+  "location": "48\u00b051'08.1\"N 2\u00b018'04.7\"E\n9 Avenue Emile Acollas, 75007 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/5EC69oRkgrFv1RLZ8"
+}, {
+  "id": "PA_0382",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.8548149,
+  "longitude": 2.2883217,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/JM388KVkna34fiGF7",
+  "location": "48\u00b051'17.3\"N 2\u00b017'18.0\"E\nP\u00e9niche Jolene, Port de Grenelle, 75015 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/JM388KVkna34fiGF7"
+}, {
+  "id": "PA_0383",
+  "city": "Paris",
+  "points": 20,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0384",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8699111,
+  "longitude": 2.3783507,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/QaFX8xVBtY6a2qVr7",
+  "location": "26 Rue du Moulin Joly, 75011 Paris_x000D_\nLien \u00e0 partager_x000D_\nhttps:\/\/goo.gl\/maps\/QaFX8xVBtY6a2qVr7_x000D_\n"
+}, {
+  "id": "PA_0385",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.8314744,
+  "longitude": 2.3684366,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/bmJC8qtC4eaRyDrF9",
+  "location": "41 Rue Dunois, 75013 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/bmJC8qtC4eaRyDrF9"
+}, {
+  "id": "PA_0386",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8820302,
+  "longitude": 2.3209943,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/sbALPjEJ5fyN1D676",
+  "location": "Rome - Batignolles\n75008 Paris\nhttps:\/\/goo.gl\/maps\/sbALPjEJ5fyN1D676"
+}, {
+  "id": "PA_0387",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.8813384,
+  "longitude": 2.3152034,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/oLrpcQ8W1kVK95eU8",
+  "location": "2 Boulevard de Courcelles, 75017 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/oLrpcQ8W1kVK95eU8"
+}, {
+  "id": "PA_0388",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8410516,
+  "longitude": 2.3199817,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/gwVGq7hWnijxXr8A7",
+  "location": "Cama\u00efeu dans la Gare Montparnasse\n17 Boulevard de Vaugirard, 75015 Paris_x000D_\nhttps:\/\/goo.gl\/maps\/gwVGq7hWnijxXr8A7"
+}, {
+  "id": "PA_0389",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0390",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0391",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8317424,
+  "longitude": 2.3850684,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/rbLcCDWPdWgcjqtR9",
+  "location": "Quai de Bercy - en face de l'UGC\n48.831742, 2.385068\nhttps:\/\/goo.gl\/maps\/rbLcCDWPdWgcjqtR9"
+}, {
+  "id": "PA_0392",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8545795,
+  "longitude": 2.3423516,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/abfaG2oAVTBsEXAy7",
+  "location": "35 Quai des Grands Augustins, 75006 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/abfaG2oAVTBsEXAy7\n"
+}, {
+  "id": "PA_0393",
+  "city": "Paris",
+  "points": 30,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0394",
+  "city": "Paris",
+  "points": 50,
+  "status": 3,
+  "latitude": 48.8543556,
+  "longitude": 2.3444911,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/nqvbw5rjUWxNw5z79",
+  "location": "Quai des Orf\u00e8vres, visible depuis Pont Saint-Michel\n48.854356, 2.344491\nhttps:\/\/goo.gl\/maps\/nqvbw5rjUWxNw5z79"
+}, {
+  "id": "PA_0395",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.8519565,
+  "longitude": 2.3244895,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/nUPDPJyh8XgdyoPP8",
+  "location": "14 Rue Chomel, 75007 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/nUPDPJyh8XgdyoPP8"
+}, {
+  "id": "PA_0396",
+  "city": "Paris",
+  "points": 20,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0397",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.866901,
+  "longitude": 2.414039,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/pt7u5UgcRkoPsSZHA",
+  "location": "48\u00b052'00.8\"N 2\u00b024'50.5\"E\n93170 Bagnolet\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/pt7u5UgcRkoPsSZHA"
+}, {
+  "id": "PA_0398",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8472427,
+  "longitude": 2.3656579,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/1TWE8EDqc3ZCnArB6",
+  "location": "Protection Civile Paris Seine - Antenne de Paris 11\n1 Pont Morland, 75004 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/1TWE8EDqc3ZCnArB6"
+}, {
+  "id": "PA_0399",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.862556,
+  "longitude": 2.302178,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/58VzQUqavojxnB4J6",
+  "location": "48\u00b051'45.2\"N 2\u00b018'07.8\"E\nQuai d'Orsay, 75007 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/58VzQUqavojxnB4J6"
+}, {
+  "id": "PA_0400",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.8621831,
+  "longitude": 2.3023774,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/WvELJw67CL2FajbW8",
+  "location": "93 Quai d'Orsay, 75007 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/WvELJw67CL2FajbW8"
+}, {
+  "id": "PA_0401",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.8440803,
+  "longitude": 2.3550157,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/Hnoz3AT2wUFyoZdz6",
+  "location": "2 Rue Linn\u00e9, 75005 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/Hnoz3AT2wUFyoZdz6"
+}, {
+  "id": "PA_0402",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.8623726,
+  "longitude": 2.3201851,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/HK6TbXTYioQJ71Z7A",
+  "location": "48\u00b051'44.5\"N 2\u00b019'12.7\"E\nQuai Anatole France, 75007 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/HK6TbXTYioQJ71Z7A"
+}, {
+  "id": "PA_0403",
+  "city": "Paris",
+  "points": 10,
+  "status": 3,
+  "latitude": 48.832066,
+  "longitude": 2.30294,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/pFGmakjneSs3WyJg8",
+  "location": "48\u00b049'55.4\"N 2\u00b018'10.6\"E\n44 Rue des Morillons, 75015 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/pFGmakjneSs3WyJg8"
+}, {
+  "id": "PA_0404",
+  "city": "Paris",
+  "points": 20,
+  "status": 4,
+  "latitude": 48.8696334,
+  "longitude": 2.3421398,
+  "gMapsUrl": "https:\/\/maps.app.goo.gl\/MeryqShE31deQYDA9",
+  "location": "2 Place de la Bourse, 75002 Paris\nhttps:\/\/maps.app.goo.gl\/MeryqShE31deQYDA9"
+}, {
+  "id": "PA_0405",
+  "city": "Paris",
+  "points": 50,
+  "status": 4,
+  "latitude": 48.8302415,
+  "longitude": 2.305796,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/4u9G9av8BZqXDb4GA",
+  "location": "108 Rue Castagnary, 75015 Paris\nhttps:\/\/goo.gl\/maps\/4u9G9av8BZqXDb4GA"
+}, {
+  "id": "PA_0406",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.8608229,
+  "longitude": 2.3570744,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/q3MS9jQWuCyT4drWA",
+  "location": "4 Rue de Braque, 75003 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/q3MS9jQWuCyT4drWA"
+}, {
+  "id": "PA_0407",
+  "city": "Paris",
+  "points": 30,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0408",
+  "city": "Paris",
+  "points": 10,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0409",
+  "city": "Paris",
+  "points": 10,
+  "status": 1,
+  "latitude": 48.8653411,
+  "longitude": 2.3755286,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/LVA5GpY4teJU1RMS6",
+  "location": "Monop'\n89 Rue Oberkampf, 75011 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/LVA5GpY4teJU1RMS6"
+}, {
+  "id": "PA_0410",
+  "city": "Paris",
+  "points": 10,
+  "status": 3,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0411",
+  "city": "Paris",
+  "points": 10,
+  "status": 3,
+  "latitude": 48.8669859,
+  "longitude": 2.3980658,
+  "gMapsUrl": "https:\/\/www.google.com\/maps\/place\/68+Rue+Orfila,+75020+Paris\/@48.8669859,2.3958771,17z\/data=!3m1!4b1!4m5!3m4!1s0x47e66d91b099c873:0x54e88ae568d920cd!8m2!3d48.8669859!4d2.3980658",
+  "location": "https:\/\/www.google.com\/maps\/place\/68+Rue+Orfila,+75020+Paris\/@48.8669859,2.3958771,17z\/data=!3m1!4b1!4m5!3m4!1s0x47e66d91b099c873:0x54e88ae568d920cd!8m2!3d48.8669859!4d2.3980658"
+}, {
+  "id": "PA_0412",
+  "city": "Paris",
+  "points": 10,
+  "status": 0,
+  "latitude": 48.8647386,
+  "longitude": 2.3935129,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/WqnThcM4pVpPGuyY9",
+  "location": "14 Rue Robineau, 75020 Paris\nhttps:\/\/goo.gl\/maps\/WqnThcM4pVpPGuyY9"
+}, {
+  "id": "PA_0413",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.8700026,
+  "longitude": 2.3229895,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/Q5fRbwCBbRU5PtXb7",
+  "location": "Samsung Experience Store\nEntr\u00e9e du parking, au niveau du sol\n3-5 Boulevard Malesherbes, 75008 Paris\nhttps:\/\/goo.gl\/maps\/Q5fRbwCBbRU5PtXb7"
+}, {
+  "id": "PA_0414",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0415",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0416",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.8715683,
+  "longitude": 2.3632841,
+  "gMapsUrl": "https:\/\/www.google.com\/maps\/place\/9+Rue+de+Marseille,+75010+Paris\/@48.8715683,2.3610954,17z\/data=!3m1!4b1!4m5!3m4!1s0x47e66e0bf0892915:0xb0c8617d39e7fa59!8m2!3d48.8715683!4d2.3632841",
+  "location": "https:\/\/www.google.com\/maps\/place\/9+Rue+de+Marseille,+75010+Paris\/@48.8715683,2.3610954,17z\/data=!3m1!4b1!4m5!3m4!1s0x47e66e0bf0892915:0xb0c8617d39e7fa59!8m2!3d48.8715683!4d2.3632841"
+}, {
+  "id": "PA_0417",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.86476,
+  "longitude": 2.3644162,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/1NsPeSTAAYccGDJH8",
+  "location": "48\u00b051'53.1\"N 2\u00b021'51.9\"E\nEnfants-Rouges, 75003 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/1NsPeSTAAYccGDJH8"
+}, {
+  "id": "PA_0418",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.90145,
+  "longitude": 2.344344,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/AqpmEkcE8eJCiJc48",
+  "location": "48\u00b054'05.2\"N 2\u00b020'39.6\"E\n62 Rue du Professeur Gosset, 93400 Saint-Ouen\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/AqpmEkcE8eJCiJc48"
+}, {
+  "id": "PA_0419",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.8584736,
+  "longitude": 2.4151697,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/JnsLXjMCoVqnSCcX6",
+  "location": "68 Rue Edouard Vaillant, 93170 Bagnolet\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/JnsLXjMCoVqnSCcX6"
+}, {
+  "id": "PA_0420",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.9091401,
+  "longitude": 2.3361268,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/C697k46egCXGQYYX9",
+  "location": "47 Rue Anselme, 93400 Saint-Ouen\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/C697k46egCXGQYYX9"
+}, {
+  "id": "PA_0421",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": "https:\/\/www.google.com\/maps\/place\/88+Rue+des+Rondeaux,+75020+Paris\/@48.8647148,2.39534,19z\/data=!4m13!1m7!3m6!1s0x47e66d8e07bc380d:0xe77329f36239e1ef!2s88+Rue+des+Rondeaux,+75020+Paris!3b1!8m2!3d48.8647148!4d2.3958872!3m4!1s0x47e66d8e07bc380d:0xe77329f36239e1ef!8m2!3d48.8647148!4d2.3958872"
+}, {
+  "id": "PA_0422",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.8311745,
+  "longitude": 2.3692042,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/1XEAc2jjoLGov8BA9",
+  "location": "24 Rue Duchefdelaville, 75013 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/1XEAc2jjoLGov8BA9"
+}, {
+  "id": "PA_0423",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": "https:\/\/maps.app.goo.gl\/h9aCfNvMrPzZbgYr9",
+  "location": "O'Sullivans Franklin D Roosevelt (FDR)\n63 Avenue Franklin Delano Roosevelt, 75008 Paris\n01 45 63 28 34\nhttps:\/\/maps.app.goo.gl\/h9aCfNvMrPzZbgYr9"
+}, {
+  "id": "PA_0424",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8645866,
+  "longitude": 2.2953848,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/MGN41URZKCA7SDEe8",
+  "location": "15 Avenue du Pr\u00e9sident Wilson, 75116 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/MGN41URZKCA7SDEe8"
+}, {
+  "id": "PA_0425",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.8180761,
+  "longitude": 2.4145891,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/sbjnfBa5zPnK5Ja59",
+  "location": "48\u00b049'05.1\"N 2\u00b024'52.5\"E\nD103, 94220 Charenton-le-Pont\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/sbjnfBa5zPnK5Ja59"
+}, {
+  "id": "PA_0426",
+  "city": "Paris",
+  "points": 30,
+  "status": 3,
+  "latitude": 48.816078,
+  "longitude": 2.356879,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/3tqouUuhqA9U6XVr9",
+  "location": "48\u00b048'57.9\"N 2\u00b021'24.8\"E\n13e Arrondissement de Paris, 94270 Le Kremlin-Bic\u00eatre\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/3tqouUuhqA9U6XVr9"
+}, {
+  "id": "PA_0427",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8298837,
+  "longitude": 2.3752755,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/EAqHrChULGAEdNgPA",
+  "location": "La Grignote\n10 Rue de Tolbiac, 75013 Paris\nLink to share\nhttps:\/\/goo.gl\/maps\/EAqHrChULGAEdNgPA"
+}, {
+  "id": "PA_0428",
+  "city": "Paris",
+  "points": 20,
+  "status": 0,
+  "latitude": 48.8742487,
+  "longitude": 2.2921789,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/RRCL4FRM3F9LrztM7",
+  "location": "7 Avenue de la Grande Arm\u00e9e, 75116 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/RRCL4FRM3F9LrztM7"
+}, {
+  "id": "PA_0429",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.8761656,
+  "longitude": 2.292456,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/faKhSybbG1yRKkYw6",
+  "location": "21 Avenue Carnot, 75017 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/faKhSybbG1yRKkYw6"
+}, {
+  "id": "PA_0430",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": "https:\/\/www.google.com\/maps\/place\/80+Quai+de+Jemmapes,+75010+Paris\/@48.8721011,2.3645241,18z\/data=!4m13!1m7!3m6!1s0x47e66e0bca0eeb7d:0x3a8a32ccb69b38a6!2s80+Quai+de+Jemmapes,+75010+Paris!3b1!8m2!3d48.8721011!4d2.3651543!3m4!1s0x47e66e0bca0eeb7d:0x3a8a32ccb69b38a6!8m2!3d48.8721011!4d2.3651543"
+}, {
+  "id": "PA_0431",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.84725,
+  "longitude": 2.414278,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/i9qGEqK1CtPDjYn3A",
+  "location": "48\u00b050'50.1\"N 2\u00b024'51.4\"E\nLes Arcades, 75020 Paris\nhttps:\/\/goo.gl\/maps\/i9qGEqK1CtPDjYn3A"
+}, {
+  "id": "PA_0432",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0433",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.8433448,
+  "longitude": 2.4022803,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/RWw5D6zmA1hFPQ7MA",
+  "location": "33 Rue Sibuet, 75012 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/RWw5D6zmA1hFPQ7MA"
+}, {
+  "id": "PA_0434",
+  "city": "Paris",
+  "points": 30,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0435",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0436",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.8609295,
+  "longitude": 2.3505936,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/H7YMFhX8QaGR41327",
+  "location": "Galerie du Jour - agn\u00e8s b (dans la cour)\n44 Rue Quincampoix, 75004 Paris\nhttps:\/\/goo.gl\/maps\/H7YMFhX8QaGR41327"
+}, {
+  "id": "PA_0437",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0438",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0439",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0440",
+  "city": "Paris",
+  "points": 10,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0441",
+  "city": "Paris",
+  "points": 50,
+  "status": 1,
+  "latitude": 48.815533,
+  "longitude": 2.356281,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/JpDKzKgVBTcYUNHv5",
+  "location": "48\u00b048'55.9\"N 2\u00b021'22.6\"E\nRue Gabriel P\u00e9ri, 94270 Le Kremlin-Bic\u00eatre\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/JpDKzKgVBTcYUNHv5"
+}, {
+  "id": "PA_0442",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0443",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0444",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8831734,
+  "longitude": 2.3659857,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/hDGE9kT14dSS8Qin6",
+  "location": "66 Rue de l'Aqueduc, 75010 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/hDGE9kT14dSS8Qin6"
+}, {
+  "id": "PA_0445",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": "https:\/\/www.google.com\/maps\/place\/183+Rue+la+Fayette,+75010+Paris\/@48.8801184,2.3579134,17z\/data=!4m13!1m7!3m6!1s0x47e66e73ce6555e5:0x603d6c307e36ccf7!2s183+Rue+la+Fayette,+75010+Paris!3b1!8m2!3d48.8801184!4d2.3601021!3m4!1s0x47e66e73ce6555e5:0x603d6c307e36ccf7!8m2!3d48.8801184!4d2.3601021"
+}, {
+  "id": "PA_0446",
+  "city": "Paris",
+  "points": 10,
+  "status": 3,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0447",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.8727077,
+  "longitude": 2.3637431,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/3wyJDUt8t5g2PMdX8",
+  "location": "Artazart (\u00e0 l'int\u00e9rieur)\n83 Quai de Valmy, 75010 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/3wyJDUt8t5g2PMdX8"
+}, {
+  "id": "PA_0448",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8721119,
+  "longitude": 2.3652203,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/ANMCRRa3qZNfYBmF9",
+  "location": "Le Comptoir G\u00e9n\u00e9ral\n80 Quai de Jemmapes, 75010 Paris\nhttps:\/\/goo.gl\/maps\/ANMCRRa3qZNfYBmF9"
+}, {
+  "id": "PA_0449",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.8714806,
+  "longitude": 2.3146038,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/YTAbCR8mqbM64EnZ6",
+  "location": "75 Rue du Faubourg Saint-Honor\u00e9, 75008 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/YTAbCR8mqbM64EnZ6"
+}, {
+  "id": "PA_0450",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8648248,
+  "longitude": 2.3568317,
+  "gMapsUrl": "https:\/\/maps.app.goo.gl\/xm4ogSHxx8spUofr6",
+  "location": "Beauty Pro\n5 Rue Volta, 75003 Paris\n01 42 71 19 67\nhttps:\/\/maps.app.goo.gl\/xm4ogSHxx8spUofr6"
+}, {
+  "id": "PA_0451",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.8534101,
+  "longitude": 2.3767676,
+  "gMapsUrl": "https:\/\/maps.app.goo.gl\/SqP8za4AHCnUvpb5A",
+  "location": "Pause Caf\u00e9\n41 Rue de Charonne, 75011 Paris\n01 48 06 80 33\nhttps:\/\/maps.app.goo.gl\/SqP8za4AHCnUvpb5A"
+}, {
+  "id": "PA_0452",
+  "city": "Paris",
+  "points": 10,
+  "status": 4,
+  "latitude": 48.8528052,
+  "longitude": 2.3763972,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/HVY7R9VXajkzgmNi7",
+  "location": "5 Passage Saint-Antoine, 75011 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/HVY7R9VXajkzgmNi7"
+}, {
+  "id": "PA_0453",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.864306,
+  "longitude": 2.3898209,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/qn2K34dxqxyDMPmq8",
+  "location": "24 Rue des Amandiers, 75020 Paris\nhttps:\/\/goo.gl\/maps\/qn2K34dxqxyDMPmq8"
+}, {
+  "id": "PA_0454",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8731709,
+  "longitude": 2.3636754,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/bhms7GQ4QKbybQNX9",
+  "location": "Assainissement De Paris_x000D_\n75010 Paris_x000D_\nhttps:\/\/goo.gl\/maps\/bhms7GQ4QKbybQNX9"
+}, {
+  "id": "PA_0455",
+  "city": "Paris",
+  "points": 30,
+  "status": 4,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0456",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.8645214,
+  "longitude": 2.2943271,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/18FeFvFtkzrURTqP6",
+  "location": "1 Place d'I\u00e9na, 75116 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/18FeFvFtkzrURTqP6"
+}, {
+  "id": "PA_0457",
+  "city": "Paris",
+  "points": 10,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0458",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8662822,
+  "longitude": 2.391087,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/zEgW1ge9q2aurLxk7",
+  "location": "16 Rue Elisa Borey, 75020 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/zEgW1ge9q2aurLxk7"
+}, {
+  "id": "PA_0459",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0460",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.8345256,
+  "longitude": 2.3700991,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/mZzjpCsZuhdn63Nx6",
+  "location": "3 Rue Eug\u00e8ne Freyssinet, 75013 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/mZzjpCsZuhdn63Nx6"
+}, {
+  "id": "PA_0461",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0462",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8683538,
+  "longitude": 2.3475302,
+  "gMapsUrl": "https:\/\/maps.app.goo.gl\/y6mS1VRVXcPi5VQH9",
+  "location": "Etablissements Roger Lahmy\n44 Rue de Cl\u00e9ry, 75002 Paris\nhttps:\/\/maps.app.goo.gl\/y6mS1VRVXcPi5VQH9"
+}, {
+  "id": "PA_0463",
+  "city": "Paris",
+  "points": 50,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0464",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.8570681,
+  "longitude": 2.3554614,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/dw1fdz2gPgbMPf4H7",
+  "location": "6 Rue de la Verrerie, 75004 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/dw1fdz2gPgbMPf4H7\n"
+}, {
+  "id": "PA_0465",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0466",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.868231,
+  "longitude": 2.3731598,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/ZArgW2UMAXidcKdo7",
+  "location": "49 Rue de la Fontaine au Roi, 75011 Paris\nhttps:\/\/goo.gl\/maps\/ZArgW2UMAXidcKdo7"
+}, {
+  "id": "PA_0467",
+  "city": "Paris",
+  "points": 30,
+  "status": 4,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0468",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0469",
+  "city": "Paris",
+  "points": 20,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0470",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0471",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0472",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8589777,
+  "longitude": 2.3713155,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/6YsY6chLptWPpTgG9",
+  "location": "Quincaillerie d'Alembert Paris 11\n49 Boulevard Richard-Lenoir, 75011 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/6YsY6chLptWPpTgG9"
+}, {
+  "id": "PA_0473",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8513891,
+  "longitude": 2.3380554,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/7akjUDqppnRxejo47",
+  "location": "Marco Polo\n1 Rue Saint-Sulpice, 75006 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/7akjUDqppnRxejo47\n"
+}, {
+  "id": "PA_0474",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0475",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.874739,
+  "longitude": 2.2934081,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/jKiJzQiiw4Bz18YE8",
+  "location": "Capgemini - Si\u00e8ge Social\n11 Rue de Tilsitt, 75017 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/jKiJzQiiw4Bz18YE8"
+}, {
+  "id": "PA_0476",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.8720209,
+  "longitude": 2.306217,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/NuD4bZRjAKceDJJSA",
+  "location": "Baker McKenzie\n1 Rue Paul Baudry, 75008 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/NuD4bZRjAKceDJJSA"
+}, {
+  "id": "PA_0477",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8543756,
+  "longitude": 2.415643,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/2cmt3uEyv9XDHcNr8",
+  "location": "263 Rue de Paris, 93100 Montreuil (CGT Sopra-Steria)\nBord du trottoir direction Montreuil\nhttps:\/\/goo.gl\/maps\/2cmt3uEyv9XDHcNr8"
+}, {
+  "id": "PA_0478",
+  "city": "Paris",
+  "points": 50,
+  "status": 3,
+  "latitude": 48.852482,
+  "longitude": 2.2810651,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/po6SxDTd2hk2SJBN7",
+  "location": "Pont RER C (visible depuis Voies Georges Pompidou)\n48.852472, 2.281056\nhttps:\/\/goo.gl\/maps\/po6SxDTd2hk2SJBN7"
+}, {
+  "id": "PA_0479",
+  "city": "Paris",
+  "points": 10,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0480",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.8560524,
+  "longitude": 2.3597487,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/KXDUB1cqFM3pXBmQ6",
+  "location": "14 Rue du Roi de Sicile, 75004 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/KXDUB1cqFM3pXBmQ6"
+}, {
+  "id": "PA_0481",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8449485,
+  "longitude": 2.3322216,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/dx4zbXGg8xYcvdB29",
+  "location": "76 Rue d'Assas, 75006 Paris\nEntr\u00e9e du jardin du Luxembourg\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/dx4zbXGg8xYcvdB29\n"
+}, {
+  "id": "PA_0482",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8572501,
+  "longitude": 2.3617671,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/3vJjuLBkswQpiXbf6",
+  "location": "18 Rue des Francs Bourgeois, 75004 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/3vJjuLBkswQpiXbf6\n"
+}, {
+  "id": "PA_0483",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0484",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8781733,
+  "longitude": 2.3228897,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/AdXTZDyjgJFMjo9m7",
+  "location": "24 Rue de Vienne, 75008 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/AdXTZDyjgJFMjo9m7"
+}, {
+  "id": "PA_0485",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.8704025,
+  "longitude": 2.2897284,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/tiSZ6kaBtHazWu9BA",
+  "location": "15 Rue Paul Val\u00e9ry, 75116 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/tiSZ6kaBtHazWu9BA"
+}, {
+  "id": "PA_0486",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8528523,
+  "longitude": 2.3186789,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/bePAVtL1PX1of7RW7",
+  "location": "28 Rue Vaneau, 75007 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/bePAVtL1PX1of7RW7"
+}, {
+  "id": "PA_0487",
+  "city": "Paris",
+  "points": 20,
+  "status": 4,
+  "latitude": 48.8480903,
+  "longitude": 2.3410679,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/qaNMJYqi7GqsSzZi9",
+  "location": "Banque Populaire Rives de Paris - Agence professions lib\u00e9rales\n56 Boulevard Saint-Michel, 75006 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/qaNMJYqi7GqsSzZi9"
+}, {
+  "id": "PA_0488",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.8349168,
+  "longitude": 2.400161,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/7WD6wE3cphahWwd5A",
+  "location": "81 Rue de Wattignies, 75012 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/7WD6wE3cphahWwd5A"
+}, {
+  "id": "PA_0489",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0490",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.8995726,
+  "longitude": 2.3911706,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/FxcqS278kyeT5zjN7",
+  "location": "10 Rue du Chemin de Fer, 75019 Paris\nhttps:\/\/goo.gl\/maps\/FxcqS278kyeT5zjN7"
+}, {
+  "id": "PA_0491",
+  "city": "Paris",
+  "points": 50,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0492",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8740558,
+  "longitude": 2.3952006,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/YHzeuai2ub5i5YQV8",
+  "location": "21 Rue du Soleil, 75020 Paris\nhttps:\/\/goo.gl\/maps\/YHzeuai2ub5i5YQV8"
+}, {
+  "id": "PA_0493",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0494",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0495",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0496",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0497",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 49.006767,
+  "longitude": 2.528158,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/oh2HpWhXytq4ovdQ7",
+  "location": "49\u00b000'24.4\"N 2\u00b031'41.4\"E\n95700 Roissy-en-France\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/oh2HpWhXytq4ovdQ7"
+}, {
+  "id": "PA_0498",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.8807875,
+  "longitude": 2.3359827,
+  "gMapsUrl": "https:\/\/maps.app.goo.gl\/BnjieSjuxrwPXgxv6",
+  "location": "66 Rue de la Rochefoucauld, 75009 Paris\nhttps:\/\/maps.app.goo.gl\/BnjieSjuxrwPXgxv6"
+}, {
+  "id": "PA_0499",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.877452,
+  "longitude": 2.3658258,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/j1Po3rr3TCvWMFtc6",
+  "location": "48\u00b052'38.8\"N 2\u00b021'57.0\"E\nRue Eug\u00e8ne Varlin, 75010 Paris\n\nhttps:\/\/goo.gl\/maps\/j1Po3rr3TCvWMFtc6"
+}, {
+  "id": "PA_0500",
+  "city": "Paris",
+  "points": 50,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0501",
+  "city": "Paris",
+  "points": 20,
+  "status": 4,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0502",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0503",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.860432,
+  "longitude": 2.3647239,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/wUpsLph8nWTXGwJW9",
+  "location": "74 Rue de Turenne, 75003 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/wUpsLph8nWTXGwJW9"
+}, {
+  "id": "PA_0504",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8577871,
+  "longitude": 2.3584759,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/HWQn6PBLhe9GuFUD6",
+  "location": "Librairie du Temple\n1 Rue des Hospitali\u00e8res Saint-Gervais, 75004 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/HWQn6PBLhe9GuFUD6"
+}, {
+  "id": "PA_0505",
+  "city": "Paris",
+  "points": 20,
+  "status": 3,
+  "latitude": 48.8597825,
+  "longitude": 2.3630088,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/YHkTqqYQWJhzHxLd8",
+  "location": "12 Rue de Thorigny, 75003 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/YHkTqqYQWJhzHxLd8\n"
+}, {
+  "id": "PA_0506",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8667386,
+  "longitude": 2.3492852,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/CPNTjr23XfP6qsm2A",
+  "location": "Pelforth Tabac\n33 Rue Dussoubs, 75002 Paris\nhttps:\/\/goo.gl\/maps\/CPNTjr23XfP6qsm2A"
+}, {
+  "id": "PA_0507",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.8754464,
+  "longitude": 2.3689816,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/KZDkUmDud7pgSiYJ8",
+  "location": "23 Rue Juliette Dodu, 75010 Paris\nhttps:\/\/goo.gl\/maps\/KZDkUmDud7pgSiYJ8"
+}, {
+  "id": "PA_0508",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.8615862,
+  "longitude": 2.3440969,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/9gdZTrFQkGhkmBL49",
+  "location": "7 Rue des Prouvaires, 75001 Paris\nhttps:\/\/goo.gl\/maps\/9gdZTrFQkGhkmBL49"
+}, {
+  "id": "PA_0509",
+  "city": "Paris",
+  "points": 30,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0510",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0511",
+  "city": "Paris",
+  "points": 10,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0512",
+  "city": "Paris",
+  "points": 20,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0513",
+  "city": "Paris",
+  "points": 10,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0514",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.86416,
+  "longitude": 2.296957,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/XLD38V7VnVALNKSY7",
+  "location": "48\u00b051'51.0\"N 2\u00b017'49.1\"E\nLa France, 75116 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/XLD38V7VnVALNKSY7"
+}, {
+  "id": "PA_0515",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8483787,
+  "longitude": 2.3936748,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/K74wwF2ZVF16omti7",
+  "location": "278 Rue du Faubourg Saint-Antoine, 75012 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/K74wwF2ZVF16omti7"
+}, {
+  "id": "PA_0516",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0517",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0518",
+  "city": "Paris",
+  "points": 50,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0519",
+  "city": "Paris",
+  "points": 10,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0520",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8354975,
+  "longitude": 2.4946835,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/qh4KT2sgCfvUceSw9",
+  "location": "48\u00b050'07.8\"N 2\u00b029'40.9\"E\n1 Avenue de Bry, 94130 Le Perreux-sur-Marne\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/qh4KT2sgCfvUceSw9"
+}, {
+  "id": "PA_0521",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0522",
+  "city": "Paris",
+  "points": 10,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0523",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8527962,
+  "longitude": 2.3533179,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/Kg7cFdDuVhU1penF7",
+  "location": "48\u00b051'10.1\"N 2\u00b021'11.9\"E\n48.852796, 2.353318\n36-42 Quai d'Orl\u00e9ans, 75004 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/Kg7cFdDuVhU1penF7\n"
+}, {
+  "id": "PA_0524",
+  "city": "Paris",
+  "points": 50,
+  "status": 4,
+  "latitude": 48.8269,
+  "longitude": 2.508895,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/wtVqMKqmwb9r2kVs6",
+  "location": "48\u00b049'36.8\"N 2\u00b030'32.0\"E\n2 Rue Flor\u00e9al, 94500 Champigny-sur-Marne\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/wtVqMKqmwb9r2kVs6"
+}, {
+  "id": "PA_0525",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0526",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8603763,
+  "longitude": 2.4872189,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/knbEVPAovfFXbRA98",
+  "location": "48\u00b051'37.4\"N 2\u00b029'14.0\"E\n94120 Fontenay-sous-Bois\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/knbEVPAovfFXbRA98\n"
+}, {
+  "id": "PA_0527",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.8335841,
+  "longitude": 2.36574,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/HN9HiXyVAvhtRhEn9",
+  "location": "78 Rue Dunois, 75013 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/HN9HiXyVAvhtRhEn9"
+}, {
+  "id": "PA_0528",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.850502,
+  "longitude": 2.3475485,
+  "gMapsUrl": "https:\/\/maps.app.goo.gl\/L4NZrfFq2wwy2mte8",
+  "location": "LE TWICKENHAM\n68 Boulevard Saint-Germain, 75005 Paris\n0 893 02 53 54\nhttps:\/\/maps.app.goo.gl\/L4NZrfFq2wwy2mte8"
+}, {
+  "id": "PA_0529",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0530",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0531",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8702489,
+  "longitude": 2.3953291,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/JQdsXBB5CVwS3DhM7",
+  "location": "Financiere Menilmontant\n133 Rue de M\u00e9nilmontant, 75020 Paris\nhttps:\/\/goo.gl\/maps\/JQdsXBB5CVwS3DhM7"
+}, {
+  "id": "PA_0532",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8659269,
+  "longitude": 2.3780277,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/jhoFYtnebCnAxgiXA",
+  "location": "Fu Lai Xi\n111 Rue Oberkampf, 75011 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/jhoFYtnebCnAxgiXA"
+}, {
+  "id": "PA_0533",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.9008145,
+  "longitude": 2.3439035,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/vMxdrK2RBtQJau438",
+  "location": "Porte de Clignancourt\n48.900815, 2.343904\nhttps:\/\/goo.gl\/maps\/vMxdrK2RBtQJau438"
+}, {
+  "id": "PA_0534",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8645866,
+  "longitude": 2.2966748,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/kNbZHzj3Du7ch3sP6",
+  "location": "Palais de Tokyo\n13 Avenue du Pr\u00e9sident Wilson, 75116 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/kNbZHzj3Du7ch3sP6"
+}, {
+  "id": "PA_0535",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8552542,
+  "longitude": 2.4002016,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/bVCiVxyrheWBiwHk6",
+  "location": "52 Rue de Terre Neuve, 75020 Paris\nhttps:\/\/goo.gl\/maps\/bVCiVxyrheWBiwHk6"
+}, {
+  "id": "PA_0536",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8395189,
+  "longitude": 2.3885974,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/rJH6RaBoTQJ511Df9",
+  "location": "234 Rue de Charenton, 75012 Paris\nhttps:\/\/goo.gl\/maps\/rJH6RaBoTQJ511Df9"
+}, {
+  "id": "PA_0537",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8667973,
+  "longitude": 2.3824615,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/AFPmBhN7Sj8UNMmSA",
+  "location": "Espace Form (Dans la piscine)\n160 Rue Oberkampf, 75011 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/AFPmBhN7Sj8UNMmSA"
+}, {
+  "id": "PA_0538",
+  "city": "Paris",
+  "points": 20,
+  "status": 1,
+  "latitude": 48.8841231,
+  "longitude": 2.3322519,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/UTJwHJnvFXnsNaQk7",
+  "location": "Moulin Rouge\n82 Boulevard de Clichy, 75018 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/UTJwHJnvFXnsNaQk7"
+}, {
+  "id": "PA_0539",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.8620275,
+  "longitude": 2.3541396,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/M1i9qr2MgafsfoAF6",
+  "location": "Galerie Templon\n30 Rue Beaubourg, 75003 Paris\nDans la cour int\u00e9rieure\nhttps:\/\/goo.gl\/maps\/M1i9qr2MgafsfoAF6\n"
+}, {
+  "id": "PA_0540",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0541",
+  "city": "Paris",
+  "points": 20,
+  "status": 4,
+  "latitude": 48.8555129,
+  "longitude": 2.3747246,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/T1kvAmek9yhJZ53A8",
+  "location": "Bistrot des Familles\n68 Rue de la Roquette, 75011 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/T1kvAmek9yhJZ53A8"
+}, {
+  "id": "PA_0542",
+  "city": "Paris",
+  "points": 50,
+  "status": 3,
+  "latitude": 48.8434938,
+  "longitude": 2.3793118,
+  "gMapsUrl": "https:\/\/maps.app.goo.gl\/tXJ6ZY4siyKoDgCf8",
+  "location": "5 Rue de Rambouillet\n5 Rue de Rambouillet, 75012 Paris\nhttps:\/\/maps.app.goo.gl\/tXJ6ZY4siyKoDgCf8"
+}, {
+  "id": "PA_0543",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.8323019,
+  "longitude": 2.3708532,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/wqKyRwNKF9dbb7Rt8",
+  "location": "3 Rue Duchefdelaville, 75013 Paris (au croisement)\nhttps:\/\/goo.gl\/maps\/wqKyRwNKF9dbb7Rt8"
+}, {
+  "id": "PA_0544",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8534773,
+  "longitude": 2.3769766,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/3WSqjUUaWFrude1o8",
+  "location": "2 Rue Keller, 75011 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/3WSqjUUaWFrude1o8"
+}, {
+  "id": "PA_0545",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0546",
+  "city": "Paris",
+  "points": 30,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0547",
+  "city": "Paris",
+  "points": 10,
+  "status": 3,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0548",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8710287,
+  "longitude": 2.3737407,
+  "gMapsUrl": "https:\/\/www.google.com\/maps\/place\/Myll'or+2\/@48.8710287,2.3737407,15z\/data=!4m12!1m6!3m5!1s0x0:0xa3c55b4b7ae4d436!2sMyll'or+2!8m2!3d48.8710287!4d2.3737407!3m4!1s0x0:0xa3c55b4b7ae4d436!8m2!3d48.8710287!4d2.3737407",
+  "location": "https:\/\/www.google.com\/maps\/place\/Myll'or+2\/@48.8710287,2.3737407,15z\/data=!4m12!1m6!3m5!1s0x0:0xa3c55b4b7ae4d436!2sMyll'or+2!8m2!3d48.8710287!4d2.3737407!3m4!1s0x0:0xa3c55b4b7ae4d436!8m2!3d48.8710287!4d2.3737407"
+}, {
+  "id": "PA_0549",
+  "city": "Paris",
+  "points": 10,
+  "status": 4,
+  "latitude": 48.8733346,
+  "longitude": 2.359121,
+  "gMapsUrl": "https:\/\/maps.app.goo.gl\/M6GnrJqRjcAr96b36",
+  "location": "Maison de Retraite Korian Magenta\n54 Rue des Vinaigriers, 75010 Paris\nhttps:\/\/maps.app.goo.gl\/M6GnrJqRjcAr96b36"
+}, {
+  "id": "PA_0550",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.8548869,
+  "longitude": 2.336624,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/AtPwWPn4hMEQ2gPn6",
+  "location": "Le Coin des Arts\n6 Rue de l'Echaud\u00e9, 75006 Paris\nhttps:\/\/goo.gl\/maps\/AtPwWPn4hMEQ2gPn6"
+}, {
+  "id": "PA_0551",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.8652651,
+  "longitude": 2.4115761,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/XpjU4sj6QQZFSzbo6",
+  "location": "48\u00b051'55.0\"N 2\u00b024'41.7\"E\nAvenue Ibsen, 75020 Paris\nhttps:\/\/goo.gl\/maps\/XpjU4sj6QQZFSzbo6"
+}, {
+  "id": "PA_0552",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8716569,
+  "longitude": 2.3302619,
+  "gMapsUrl": "https:\/\/maps.app.goo.gl\/MPPkUGJj95PrXqKBA",
+  "location": "3 Rue Auber, 75009 Paris\nhttps:\/\/maps.app.goo.gl\/MPPkUGJj95PrXqKBA"
+}, {
+  "id": "PA_0553",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.8814131,
+  "longitude": 2.3400285,
+  "gMapsUrl": "https:\/\/maps.app.goo.gl\/Ba9esNk91SZz4Wbx7",
+  "location": "Elite Restaurant\n72 Rue des Martyrs, 75009 Paris\nhttps:\/\/maps.app.goo.gl\/Ba9esNk91SZz4Wbx7"
+}, {
+  "id": "PA_0554",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8434559,
+  "longitude": 2.3913944,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/9i5dunTQz2UE4aKx9",
+  "location": "101 Rue de Reuilly, 75012 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/9i5dunTQz2UE4aKx9"
+}, {
+  "id": "PA_0555",
+  "city": "Paris",
+  "points": 50,
+  "status": 0,
+  "latitude": 48.8546078,
+  "longitude": 2.3684415,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/E8sFadC69t5K1N1M9",
+  "location": "Pedra Alta\n11 Boulevard Beaumarchais, 75004 Paris\nhttps:\/\/goo.gl\/maps\/E8sFadC69t5K1N1M9"
+}, {
+  "id": "PA_0556",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8517255,
+  "longitude": 2.348958,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/d1NMYX5V4mdE6jUg7",
+  "location": "En face du 1 Rue de l'H\u00f4tel Colbert, 75005 Paris_x000D_\nhttps:\/\/goo.gl\/maps\/d1NMYX5V4mdE6jUg7"
+}, {
+  "id": "PA_0557",
+  "city": "Paris",
+  "points": 20,
+  "status": 2,
+  "latitude": 48.841564,
+  "longitude": 2.341103,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/q7MFp9JL6W25gRpm9",
+  "location": "284 Rue Saint-Jacques, 75005 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/q7MFp9JL6W25gRpm9"
+}, {
+  "id": "PA_0558",
+  "city": "Paris",
+  "points": 10,
+  "status": 3,
+  "latitude": 48.838598,
+  "longitude": 2.395891,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/VZ1z7mskDeAsj5iL8",
+  "location": "48\u00b050'19.0\"N 2\u00b023'45.2\"E\n43 Rue de la Br\u00e8che aux Loups, 75012 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/VZ1z7mskDeAsj5iL8"
+}, {
+  "id": "PA_0559",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8387687,
+  "longitude": 2.396421,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/jDWRNe3j5oRvPZ2u7",
+  "location": "Robata\n96 Rue Claude Decaen, 75012 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/jDWRNe3j5oRvPZ2u7"
+}, {
+  "id": "PA_0560",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.8685259,
+  "longitude": 2.2741248,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/2aBtjY7WewxBXT7E8",
+  "location": "48\u00b052'06.7\"N 2\u00b016'26.9\"E\n65 Boulevard Flandrin, 75016 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/2aBtjY7WewxBXT7E8"
+}, {
+  "id": "PA_0561",
+  "city": "Paris",
+  "points": 10,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0562",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8923899,
+  "longitude": 2.3399272,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/zwVv2YyhgwJc9Za66",
+  "location": "27 Rue du Ruisseau, 75018 Paris\nhttps:\/\/goo.gl\/maps\/zwVv2YyhgwJc9Za66"
+}, {
+  "id": "PA_0563",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8622242,
+  "longitude": 2.3371629,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/rL4kwReUoA3h6Vhf6",
+  "location": "Place du Palais Royal - Arcades au coin Sud-Est\n48.862224, 2.337163\nhttps:\/\/goo.gl\/maps\/rL4kwReUoA3h6Vhf6"
+}, {
+  "id": "PA_0564",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0565",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8810758,
+  "longitude": 2.3621135,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/wP9fQL7eERhZf8pf8",
+  "location": "6 Rue Philippe de Girard, 75010 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/wP9fQL7eERhZf8pf8"
+}, {
+  "id": "PA_0566",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0567",
+  "city": "Paris",
+  "points": 30,
+  "status": 3,
+  "latitude": 48.8762217,
+  "longitude": 2.4021308,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/KnB2vY6XGwQRSjDt5",
+  "location": "293B Rue de Belleville, 75019 Paris\nhttps:\/\/goo.gl\/maps\/KnB2vY6XGwQRSjDt5"
+}, {
+  "id": "PA_0568",
+  "city": "Paris",
+  "points": 30,
+  "status": 4,
+  "latitude": 48.8796852,
+  "longitude": 2.3579775,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/HvFwvXhyYFFbnyh36",
+  "location": "1 Rue de l'Aqueduc, 75010 Paris_x000D_\nhttps:\/\/goo.gl\/maps\/HvFwvXhyYFFbnyh36"
+}, {
+  "id": "PA_0569",
+  "city": "Paris",
+  "points": 20,
+  "status": 4,
+  "latitude": 48.81686,
+  "longitude": 2.44274,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/WBAhNDAR6i3bGXcn7",
+  "location": "48\u00b049'00.7\"N 2\u00b026'33.9\"E\nPasserelle de Charentonneau, 94410 Saint-Maurice\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/WBAhNDAR6i3bGXcn7\n"
+}, {
+  "id": "PA_0570",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0571",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.8471494,
+  "longitude": 2.367759,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/AaAMAzkWRNjyXgNx8",
+  "location": "10bis Boulevard de la Bastille, 75012 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/AaAMAzkWRNjyXgNx8"
+}, {
+  "id": "PA_0572",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.856456,
+  "longitude": 2.3573767,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/Byv76i4oHPTXUYmN8",
+  "location": "L'Alivi_x000D_\n27 Rue du Roi de Sicile, 75004 Paris_x000D_\nhttps:\/\/goo.gl\/maps\/Byv76i4oHPTXUYmN8"
+}, {
+  "id": "PA_0573",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0574",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8299764,
+  "longitude": 2.4937651,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/Fh1CT5G3KN2ncpG68",
+  "location": "48\u00b049'47.9\"N 2\u00b029'37.6\"E\n6 Avenue Pierre Brossolette, 94500 Champigny-sur-Marne\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/Fh1CT5G3KN2ncpG68\n"
+}, {
+  "id": "PA_0575",
+  "city": "Paris",
+  "points": 50,
+  "status": 3,
+  "latitude": 48.8617013,
+  "longitude": 2.3630265,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/vwTbjcgzrwf3Df1K9",
+  "location": "KANEKO PARIS\n22 Rue de Poitou, 75003 Paris\nhttps:\/\/goo.gl\/maps\/vwTbjcgzrwf3Df1K9"
+}, {
+  "id": "PA_0576",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8626454,
+  "longitude": 2.3352436,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/25d8RhipnfKxjySb8",
+  "location": "Place du Carrousel - Entr\u00e9e voiture c\u00f4t\u00e9 rue de Rivoli\n48.862645, 2.335244\nhttps:\/\/goo.gl\/maps\/25d8RhipnfKxjySb8"
+}, {
+  "id": "PA_0577",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0578",
+  "city": "Paris",
+  "points": 20,
+  "status": 2,
+  "latitude": 48.8452943,
+  "longitude": 2.3119078,
+  "gMapsUrl": "https:\/\/maps.google.com\/?q=165+Rue+de+S%C3%A8vres%2C+75015+Paris&ftid=0x47e6703051053d1f:0x13374272029440a8",
+  "location": "165 Rue de S\u00e8vres\n165 Rue de S\u00e8vres, 75015 Paris\nhttps:\/\/maps.google.com\/?q=165+Rue+de+S%C3%A8vres%2C+75015+Paris&ftid=0x47e6703051053d1f:0x13374272029440a8"
+}, {
+  "id": "PA_0579",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8626747,
+  "longitude": 2.3350168,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/V3tdQJGJ5iSeN7kF6",
+  "location": "Place du Carrousel - Entr\u00e9e voiture c\u00f4t\u00e9 rue de Rivoli\n48.862675, 2.335017_x000D_\nhttps:\/\/goo.gl\/maps\/V3tdQJGJ5iSeN7kF6"
+}, {
+  "id": "PA_0580",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0581",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8657817,
+  "longitude": 2.3305229,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/jKzRUwNbpcnUdENy8",
+  "location": "Place du Carrousel - Entr\u00e9e voiture c\u00f4t\u00e9 rue de Rivoli\n48.862622, 2.335098\nhttps:\/\/goo.gl\/maps\/jKzRUwNbpcnUdENy8"
+}, {
+  "id": "PA_0582",
+  "city": "Paris",
+  "points": 20,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0583",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8776913,
+  "longitude": 2.3263788,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/p5RBnjCSPpoYa38a7",
+  "location": "1 Impasse d'Amsterdam, 75008 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/p5RBnjCSPpoYa38a7"
+}, {
+  "id": "PA_0584",
+  "city": "Paris",
+  "points": 20,
+  "status": 0,
+  "latitude": 48.8773493,
+  "longitude": 2.3267278,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/9viC7BJs7ojfNoQU7",
+  "location": "17B Rue d'Amsterdam, 75008 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/9viC7BJs7ojfNoQU7"
+}, {
+  "id": "PA_0585",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0586",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.859154,
+  "longitude": 2.3671935,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/MQmrzDfRzK89MbGr6",
+  "location": "1 Rue des Arquebusiers, 75011 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/MQmrzDfRzK89MbGr6\n"
+}, {
+  "id": "PA_0587",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0588",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.852653,
+  "longitude": 2.3633198,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/mMsvKqBPbUUA4ett5",
+  "location": "Focus Agence de communication Paris\n5 Rue Charles V, 75004 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/mMsvKqBPbUUA4ett5\n"
+}, {
+  "id": "PA_0589",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0590",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0591",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0592",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8445025,
+  "longitude": 2.3329641,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/mYdALnXMWYtLPdn97",
+  "location": "55bis Rue d'Assas, 75006 Paris\nJardin du Luxembourg - Porte Vavin\nhttps:\/\/goo.gl\/maps\/mYdALnXMWYtLPdn97"
+}, {
+  "id": "PA_0593",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.836459,
+  "longitude": 2.278318,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/tZgBWKJ3Ae6hmMX5A",
+  "location": "48\u00b050'11.3\"N 2\u00b016'41.9\"E\n2-4 Place Balard, 75015 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/tZgBWKJ3Ae6hmMX5A"
+}, {
+  "id": "PA_0594",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.836668,
+  "longitude": 2.27879,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/RqiUXoEhMRUQf2FCA",
+  "location": "48\u00b050'12.0\"N 2\u00b016'43.6\"E\nRue Leblanc, 75015 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/RqiUXoEhMRUQf2FCA\n"
+}, {
+  "id": "PA_0595",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.8379184,
+  "longitude": 2.2819563,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/JXxYYRg85E8SYi717",
+  "location": "183 Rue de Lourmel, 75015 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/JXxYYRg85E8SYi717"
+}, {
+  "id": "PA_0596",
+  "city": "Paris",
+  "points": 10,
+  "status": 3,
+  "latitude": 48.8433252,
+  "longitude": 2.2956355,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/8sPtsmW3bu4VfHk6A",
+  "location": "87 Rue de la Croix Nivert, 75015 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/8sPtsmW3bu4VfHk6A"
+}, {
+  "id": "PA_0597",
+  "city": "Paris",
+  "points": 10,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0598",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.8571996,
+  "longitude": 2.3101609,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/KQ636oamJ3WLbC5FA",
+  "location": "48\u00b051'25.9\"N 2\u00b018'36.6\"E\nFaubourg Saint-Germain, 75007 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/KQ636oamJ3WLbC5FA"
+}, {
+  "id": "PA_0599",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0600",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8864681,
+  "longitude": 2.3968367,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/eS4epASVrbySesyQ8",
+  "location": "Porte Chaumont (entre les 2 tunnels)\n48.886468, 2.396837\nhttps:\/\/goo.gl\/maps\/eS4epASVrbySesyQ8"
+}, {
+  "id": "PA_0601",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.859937,
+  "longitude": 2.485382,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/c6ZRpWsLhY8LecGw6",
+  "location": "48\u00b051'35.8\"N 2\u00b029'07.4\"E\n94120 Fontenay-sous-Bois\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/c6ZRpWsLhY8LecGw6\n"
+}, {
+  "id": "PA_0602",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0603",
+  "city": "Paris",
+  "points": 20,
+  "status": 1,
+  "latitude": 48.849229,
+  "longitude": 2.3516155,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/d5ASCj5BdckPc6E58",
+  "location": "Piscine Pontoise\n19 Rue de Pontoise, 75005 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/d5ASCj5BdckPc6E58"
+}, {
+  "id": "PA_0604",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8467603,
+  "longitude": 2.3869796,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/wy2rUgdgKieskDMv5",
+  "location": "Cours Des Halles\nRue Erard, 75012 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/wy2rUgdgKieskDMv5\n"
+}, {
+  "id": "PA_0605",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8843614,
+  "longitude": 2.3424279,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/n5Ax4G4K89zzfw39A",
+  "location": "Funiculaire - Gare Basse, 75018 Paris\n48.884361, 2.342428\nhttps:\/\/goo.gl\/maps\/n5Ax4G4K89zzfw39A"
+}, {
+  "id": "PA_0606",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.8672369,
+  "longitude": 2.3447601,
+  "gMapsUrl": "https:\/\/maps.app.goo.gl\/fkijKYCh4iHQ3qCF8",
+  "location": "39 Rue d'Aboukir, 75002 Paris\nhttps:\/\/maps.app.goo.gl\/fkijKYCh4iHQ3qCF8"
+}, {
+  "id": "PA_0607",
+  "city": "Paris",
+  "points": 50,
+  "status": 1,
+  "latitude": 48.8835339,
+  "longitude": 2.3420088,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/QgdGfEcFYjZLw3Fs9",
+  "location": "Caf\u00e9 du Th\u00e9\u00e2tre\n48 Rue d'Orsel, 75018 Paris\nhttps:\/\/goo.gl\/maps\/QgdGfEcFYjZLw3Fs9"
+}, {
+  "id": "PA_0608",
+  "city": "Paris",
+  "points": 10,
+  "status": 4,
+  "latitude": 48.82014,
+  "longitude": 2.484213,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/6dR4WUmkGPjdZJDk7",
+  "location": "48\u00b049'12.5\"N 2\u00b029'03.2\"E\n10 Rue de Greffuhle, 94500 Champigny-sur-Marne\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/6dR4WUmkGPjdZJDk7"
+}, {
+  "id": "PA_0609",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8842217,
+  "longitude": 2.3597217,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/15q4ciLP4JV57qXc8",
+  "location": "Kobal Super March\u00e9\n72 Rue Louis Blanc, 75010 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/15q4ciLP4JV57qXc8"
+}, {
+  "id": "PA_0610",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0611",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.961168,
+  "longitude": 2.473711,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/55LYcKqePqcpnVEm7",
+  "location": "48\u00b057'40.2\"N 2\u00b028'25.4\"E\nA3, 93600 Aulnay-sous-Bois\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/55LYcKqePqcpnVEm7\n"
+}, {
+  "id": "PA_0612",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8587875,
+  "longitude": 2.3523536,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/kjpbBv9GcDi6Pvo88",
+  "location": "12 Rue du Renard, 75004 Paris_x000D_\nhttps:\/\/goo.gl\/maps\/kjpbBv9GcDi6Pvo88"
+}, {
+  "id": "PA_0613",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.816229,
+  "longitude": 2.361209,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/NNQPYH2f2TrWgXx38",
+  "location": "48\u00b048'58.4\"N 2\u00b021'40.4\"E\n94270 Le Kremlin-Bic\u00eatre\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/NNQPYH2f2TrWgXx38"
+}, {
+  "id": "PA_0614",
+  "city": "Paris",
+  "points": 20,
+  "status": 4,
+  "latitude": 48.82625,
+  "longitude": 2.298472,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/VyX5cPvMhrz3FB7g6",
+  "location": "48\u00b049'34.5\"N 2\u00b017'54.5\"E\nBd P\u00e9riph\u00e9rique, 75015 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/VyX5cPvMhrz3FB7g6"
+}, {
+  "id": "PA_0615",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8525189,
+  "longitude": 2.3766014,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/bSuNVGbtdtX3dWhp7",
+  "location": "103 Avenue Ledru-Rollin - passage de la Bonne Graine\nLien \u00e0 partager_x000D_\nhttps:\/\/goo.gl\/maps\/bSuNVGbtdtX3dWhp7_x000D_\n"
+}, {
+  "id": "PA_0616",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0617",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.880277,
+  "longitude": 2.2927519,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/taRVY12oZxJXhQgj6",
+  "location": "14 Rue Pierre Demours, 75017 Paris\nhttps:\/\/goo.gl\/maps\/taRVY12oZxJXhQgj6"
+}, {
+  "id": "PA_0618",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8805896,
+  "longitude": 2.2927396,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/oUeKFQCUFrm7oGGG9",
+  "location": "La Cl\u00e9 du Bonheur\n13 Rue Pierre Demours, 75017 Paris\nhttps:\/\/goo.gl\/maps\/oUeKFQCUFrm7oGGG9"
+}, {
+  "id": "PA_0619",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.8826815,
+  "longitude": 2.3055969,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/tj57yWt1Gs3PsHvu9",
+  "location": "45 Rue Cardinet, 75017 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/tj57yWt1Gs3PsHvu9"
+}, {
+  "id": "PA_0620",
+  "city": "Paris",
+  "points": 10,
+  "status": 3,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0621",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8890179,
+  "longitude": 2.396275,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/TtTJWFKcwBo8PbnCA",
+  "location": "Visible depuis l'arr\u00eat de tram Porte de Patin - Parc de la Villette\nMur antibruit p\u00e9riph int\u00e9rieur\n48.889018, 2.396275\nhttps:\/\/goo.gl\/maps\/TtTJWFKcwBo8PbnCA"
+}, {
+  "id": "PA_0622",
+  "city": "Paris",
+  "points": 30,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": "P\u00e9riph"
+}, {
+  "id": "PA_0623",
+  "city": "Paris",
+  "points": 20,
+  "status": 0,
+  "latitude": 48.827274,
+  "longitude": 2.3860028,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/XYBj7q9w1zvPE8aL9",
+  "location": "48\u00b049'38.2\"N 2\u00b023'09.6\"E\n25 Quai d'Ivry, 75013 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/XYBj7q9w1zvPE8aL9"
+}, {
+  "id": "PA_0624",
+  "city": "Paris",
+  "points": 10,
+  "status": 0,
+  "latitude": 48.8519506,
+  "longitude": 2.3283644,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/vownp4MB7v8eeBPQ8",
+  "location": "10 Rue de S\u00e8vres, 75007 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/vownp4MB7v8eeBPQ8\n"
+}, {
+  "id": "PA_0625",
+  "city": "Paris",
+  "points": 30,
+  "status": 0,
+  "latitude": 48.8528894,
+  "longitude": 2.3295434,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/eNMQKXZLM1EBS1Js7",
+  "location": "75 Rue des Saints-P\u00e8res, 75006 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/eNMQKXZLM1EBS1Js7"
+}, {
+  "id": "PA_0626",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8370412,
+  "longitude": 2.2966636,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/LmmYQkdLSfdxpgbS7",
+  "location": "200 Rue de la Convention, 75015 Paris_x000D_\nhttps:\/\/goo.gl\/maps\/LmmYQkdLSfdxpgbS7"
+}, {
+  "id": "PA_0627",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8514438,
+  "longitude": 2.3291773,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/RsuDuQmoNy1uGyTd8",
+  "location": "Fausto Santini\n4 Rue du Cherche-Midi, 75006 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/RsuDuQmoNy1uGyTd8\n"
+}, {
+  "id": "PA_0628",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.8273437,
+  "longitude": 2.3146489,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/wMmpyqLEZgq1CX2c9",
+  "location": "R\u00e9gina Cosm\u00e9tiques\n123 Rue Didot, 75014 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/wMmpyqLEZgq1CX2c9"
+}, {
+  "id": "PA_0629",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0630",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8575966,
+  "longitude": 2.3181096,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/yQmwdSWXJpvzjFzg8",
+  "location": "30 Rue de Martignac, 75007 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/yQmwdSWXJpvzjFzg8"
+}, {
+  "id": "PA_0631",
+  "city": "Paris",
+  "points": 30,
+  "status": 0,
+  "latitude": 48.8726895,
+  "longitude": 2.3318619,
+  "gMapsUrl": "https:\/\/maps.app.goo.gl\/ryGjjH3MASMTfi8GA",
+  "location": "Parking Autocars\n1 Rue Gluck, 75009 Paris\nhttps:\/\/maps.app.goo.gl\/ryGjjH3MASMTfi8GA"
+}, {
+  "id": "PA_0632",
+  "city": "Paris",
+  "points": 30,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0633",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.881815,
+  "longitude": 2.368982,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/Tr5fck3ym6j7CUQL9",
+  "location": "48\u00b052'54.5\"N 2\u00b022'08.3\"E\nH\u00f4pital Saint-Louis, 75010 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/Tr5fck3ym6j7CUQL9"
+}, {
+  "id": "PA_0634",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.852144,
+  "longitude": 2.342621,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/eWtbjQJgnWbTobHj9",
+  "location": "Warhammer\n10 Rue Hautefeuille, 75006 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/eWtbjQJgnWbTobHj9\n"
+}, {
+  "id": "PA_0635",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8486825,
+  "longitude": 2.3324618,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/uWuNMzNRoFzPfhxbA",
+  "location": "58 Rue de Vaugirard, 75006 Paris\nCroisement avec la rue Bonaparte\nhttps:\/\/goo.gl\/maps\/uWuNMzNRoFzPfhxbA"
+}, {
+  "id": "PA_0636",
+  "city": "Paris",
+  "points": 30,
+  "status": 4,
+  "latitude": 48.8481359,
+  "longitude": 2.3516317,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/24AC8WqBrCUCBm3NA",
+  "location": "32 Rue de Poissy, 75005 Paris_x000D_\nhttps:\/\/goo.gl\/maps\/24AC8WqBrCUCBm3NA"
+}, {
+  "id": "PA_0637",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8559509,
+  "longitude": 2.3667961,
+  "gMapsUrl": "https:\/\/maps.app.goo.gl\/F4faVdAzEyJwFRW49",
+  "location": "Caf\u00e9 Hugo\n22 Place des Vosges, 75004 Paris\n01 42 72 64 04\nhttps:\/\/maps.app.goo.gl\/F4faVdAzEyJwFRW49"
+}, {
+  "id": "PA_0638",
+  "city": "Paris",
+  "points": 50,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0639",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0640",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8872262,
+  "longitude": 2.3372252,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/gSEucnz6TxfdQGzk9",
+  "location": "Le Coq Rico\n98 Rue Lepic, 75018 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/gSEucnz6TxfdQGzk9"
+}, {
+  "id": "PA_0641",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0642",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0643",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.8845377,
+  "longitude": 2.3378697,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/4Fhhb6xTePtaC2xi9",
+  "location": "Bacquet Alexis\n21 Rue des Abbesses, 75018 Paris\nhttps:\/\/goo.gl\/maps\/4Fhhb6xTePtaC2xi9"
+}, {
+  "id": "PA_0644",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8862214,
+  "longitude": 2.3440454,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/H2v9mHyGgaj4kYmi6",
+  "location": "1 Rue Lamarck, 75018 Paris\n48.886221, 2.344045\nhttps:\/\/goo.gl\/maps\/H2v9mHyGgaj4kYmi6"
+}, {
+  "id": "PA_0645",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.8797958,
+  "longitude": 2.4005535,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/rE2QxcafSUFJrKBU9",
+  "location": "7 Boulevard d'Alg\u00e9rie, 75019 Paris\nhttps:\/\/goo.gl\/maps\/rE2QxcafSUFJrKBU9"
+}, {
+  "id": "PA_0646",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.827935,
+  "longitude": 2.304904,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/LVprtFCwtHEt1Jnz8",
+  "location": "48\u00b049'40.6\"N 2\u00b018'17.7\"E\nBoulevards des Mar\u00e9chaux, 75015 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/LVprtFCwtHEt1Jnz8"
+}, {
+  "id": "PA_0647",
+  "city": "Paris",
+  "points": 30,
+  "status": 0,
+  "latitude": 48.8894274,
+  "longitude": 2.3369561,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/DQCVB7k2uDmZoLZ57",
+  "location": "71 Avenue Junot, 75018 Paris\n48.889427, 2.336956\nhttps:\/\/goo.gl\/maps\/DQCVB7k2uDmZoLZ57"
+}, {
+  "id": "PA_0648",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0649",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.882824,
+  "longitude": 2.3899618,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/1Fq6zb88QDsBeAvB8",
+  "location": "1 Rue Gaston Pinot, 75019 Paris\nhttps:\/\/goo.gl\/maps\/1Fq6zb88QDsBeAvB8"
+}, {
+  "id": "PA_0650",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8474914,
+  "longitude": 2.2681028,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/sZYQTtfVEMSDMy4o6",
+  "location": "Boucherie de l'\u00c9glise\n9 Rue d'Auteuil, 75016 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/sZYQTtfVEMSDMy4o6"
+}, {
+  "id": "PA_0651",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8672716,
+  "longitude": 2.2832113,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/rhNEQRzEwfPG2wXu7",
+  "location": "56 Rue Saint-Didier, 75116 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/rhNEQRzEwfPG2wXu7"
+}, {
+  "id": "PA_0652",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.865196,
+  "longitude": 2.2828439,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/cLdFbrkidT1kcNyt5",
+  "location": "20 Rue des Sablons, 75116 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/cLdFbrkidT1kcNyt5"
+}, {
+  "id": "PA_0653",
+  "city": "Paris",
+  "points": 20,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0654",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0655",
+  "city": "Paris",
+  "points": 30,
+  "status": 2,
+  "latitude": 48.862186,
+  "longitude": 2.3637072,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/oCoLD5UE3hgHmLJs9",
+  "location": "Copicom Votre Partenaire Pour La Reprographie.\n75003 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/oCoLD5UE3hgHmLJs9\n"
+}, {
+  "id": "PA_0656",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.895903,
+  "longitude": 2.3397076,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/rck7PEa31cNJ6iXq5",
+  "location": "MARCO FLEURS_x000D_\n112bis Rue Championnet, 75018 Paris_x000D_\nhttps:\/\/goo.gl\/maps\/rck7PEa31cNJ6iXq5"
+}, {
+  "id": "PA_0657",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8831502,
+  "longitude": 2.3710133,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/d6DEwEWeQuvLt3t66",
+  "location": "1 Avenue Jean Jaur\u00e8s, 75019 Paris\nhttps:\/\/goo.gl\/maps\/d6DEwEWeQuvLt3t66"
+}, {
+  "id": "PA_0658",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0659",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8941501,
+  "longitude": 2.3320077,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/rrFUCANNaqfEbrUj8",
+  "location": "Institut de beaut\u00e9 Body'Minute_x000D_\n196 Rue Championnet, 75018 Paris_x000D_\nhttps:\/\/goo.gl\/maps\/rrFUCANNaqfEbrUj8"
+}, {
+  "id": "PA_0660",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0661",
+  "city": "Paris",
+  "points": 10,
+  "status": 4,
+  "latitude": 48.8851678,
+  "longitude": 2.3029396,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/XmPoRtFaT62WPUZQ6",
+  "location": "41 Rue Amp\u00e8re, 75017 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/XmPoRtFaT62WPUZQ6"
+}, {
+  "id": "PA_0662",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8838104,
+  "longitude": 2.3122352,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/NAqzbyNPrD4y8F6K9",
+  "location": "40 Rue de Tocqueville, 75017 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/NAqzbyNPrD4y8F6K9"
+}, {
+  "id": "PA_0663",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8811329,
+  "longitude": 2.2895377,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/obQ4MxX7WtXdn9Xx8",
+  "location": "25 Rue Guersant, 75017 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/obQ4MxX7WtXdn9Xx8"
+}, {
+  "id": "PA_0664",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.877199,
+  "longitude": 2.2922359,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/b8aw64C61L9jwqCn7",
+  "location": "Maison Hardel\n31 Rue des Acacias, 75017 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/b8aw64C61L9jwqCn7"
+}, {
+  "id": "PA_0665",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8655993,
+  "longitude": 2.285669,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/TJPWH4MkX1fkmNcp7",
+  "location": "127 Rue Lauriston, 75116 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/TJPWH4MkX1fkmNcp7"
+}, {
+  "id": "PA_0666",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8529446,
+  "longitude": 2.2864977,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/kjNzox85b1BAssSJ9",
+  "location": "Quai de Grenelle - Rue du Dr Finlay\nc\u00f4t\u00e9 Seine\n48.852945, 2.286498\nhttps:\/\/goo.gl\/maps\/kjNzox85b1BAssSJ9"
+}, {
+  "id": "PA_0667",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0668",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0669",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8983683,
+  "longitude": 2.3536723,
+  "gMapsUrl": "https:\/\/maps.app.goo.gl\/QFDopSRSPdzk3yiZ7",
+  "location": "Rep\u00e8re plac\u00e9\n\u00c0 proximit\u00e9 de Goutte d'Or, 75018 Paris\nhttps:\/\/maps.app.goo.gl\/QFDopSRSPdzk3yiZ7"
+}, {
+  "id": "PA_0670",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.874789,
+  "longitude": 2.3824907,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/tTUsbx2FWV9pUEY1A",
+  "location": "17 Rue de l'\u00c9querre, 75019 Paris\nhttps:\/\/goo.gl\/maps\/tTUsbx2FWV9pUEY1A"
+}, {
+  "id": "PA_0671",
+  "city": "Paris",
+  "points": 30,
+  "status": 4,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0672",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8643317,
+  "longitude": 2.3816018,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/vGZ85QAaBUV2LKfq9",
+  "location": "5 Rue des Bluets, 75011 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/vGZ85QAaBUV2LKfq9"
+}, {
+  "id": "PA_0673",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8535574,
+  "longitude": 2.3383221,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/qJQNbQGFubzWAZTZ8",
+  "location": "H\u00f4tel Le Petit Trianon\n2 Rue de l'Ancienne Com\u00e9die, 75006 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/qJQNbQGFubzWAZTZ8\n"
+}, {
+  "id": "PA_0674",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8402816,
+  "longitude": 2.315563,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/DyEgt9inJRcDgB3AA",
+  "location": "DOURSOUX_x000D_\n3 Passage Alexandre, 75015 Paris_x000D_\nhttps:\/\/goo.gl\/maps\/DyEgt9inJRcDgB3AA"
+}, {
+  "id": "PA_0675",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0676",
+  "city": "Paris",
+  "points": 50,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0677",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0678",
+  "city": "Paris",
+  "points": 30,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0679",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8404034,
+  "longitude": 2.3499148,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/R799cWhX9TX2Nafc7",
+  "location": "Halles Mouffetard (c\u00f4t\u00e9 rue de l'Arbal\u00e8te)_x000D_\n117 Rue Mouffetard, 75005 Paris_x000D_\nhttps:\/\/goo.gl\/maps\/R799cWhX9TX2Nafc7"
+}, {
+  "id": "PA_0680",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0681",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8555319,
+  "longitude": 2.3621212,
+  "gMapsUrl": "https:\/\/maps.app.goo.gl\/Hw5xa2X9Gp3NFA2q6",
+  "location": "10 Rue d'Ormesson\n10 Rue d'Ormesson, 75004 Paris\nhttps:\/\/maps.app.goo.gl\/Hw5xa2X9Gp3NFA2q6"
+}, {
+  "id": "PA_0682",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0683",
+  "city": "Paris",
+  "points": 30,
+  "status": 3,
+  "latitude": 48.8658838,
+  "longitude": 2.3701213,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/nhxZ1WotaMgaN1bf7",
+  "location": "31 Rue Jean-Pierre Timbaud, 75011 Paris_x000D_\nLien \u00e0 partager_x000D_\nhttps:\/\/goo.gl\/maps\/nhxZ1WotaMgaN1bf7_x000D_\n"
+}, {
+  "id": "PA_0684",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8401529,
+  "longitude": 2.3592607,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/R8BWpFudKNpQejaUA",
+  "location": "23B Rue Poliveau, 75005 Paris_x000D_\nhttps:\/\/goo.gl\/maps\/R8BWpFudKNpQejaUA"
+}, {
+  "id": "PA_0685",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8581438,
+  "longitude": 2.4881367,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/Gy9nUbhFtAb1763b8",
+  "location": "48\u00b051'29.3\"N 2\u00b029'17.3\"E\n282 Rue la Fontaine, 94120 Fontenay-sous-Bois\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/Gy9nUbhFtAb1763b8\n"
+}, {
+  "id": "PA_0686",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8286232,
+  "longitude": 2.3991475,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/eaTyjYj56HbRPLaE8",
+  "location": "P\u00e9riph c\u00f4t\u00e9 ext\u00e9rieur\n48.828623, 2.399148\nhttps:\/\/goo.gl\/maps\/eaTyjYj56HbRPLaE8"
+}, {
+  "id": "PA_0687",
+  "city": "Paris",
+  "points": 30,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0688",
+  "city": "Paris",
+  "points": 10,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0689",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0690",
+  "city": "Paris",
+  "points": 20,
+  "status": 3,
+  "latitude": 48.9012954,
+  "longitude": 2.3419147,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/4nDdTnShyTqA3tsk7",
+  "location": "Terrasses Kreyol\n20 Rue Jean-Henri Fabre, 75018 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/4nDdTnShyTqA3tsk7"
+}, {
+  "id": "PA_0691",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8504299,
+  "longitude": 2.2656646,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/UkL8GybDzjDG4VxCA",
+  "location": "1 Rue Raffet, 75016 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/UkL8GybDzjDG4VxCA"
+}, {
+  "id": "PA_0692",
+  "city": "Paris",
+  "points": 20,
+  "status": 3,
+  "latitude": 48.8543165,
+  "longitude": 2.2654188,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/A3y1dvbt7TLz3jdp7",
+  "location": "Cr\u00e9dit du Nord\n28 Rue du Dr Blanche, 75016 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/A3y1dvbt7TLz3jdp7"
+}, {
+  "id": "PA_0693",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8487432,
+  "longitude": 2.2662753,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/AkKX57ug83K9iqGw5",
+  "location": "MOISAN - LA FONTAINE\n75 Rue Jean de la Fontaine, 75016 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/AkKX57ug83K9iqGw5"
+}, {
+  "id": "PA_0694",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8487662,
+  "longitude": 2.2633033,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/VTiBNtUQnrX12xXt8",
+  "location": "Orchidee massage 75016\n26 Rue Poussin, 75016 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/VTiBNtUQnrX12xXt8"
+}, {
+  "id": "PA_0695",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8524422,
+  "longitude": 2.2678628,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/GvnTN7rZ71wcuegE6",
+  "location": "1 Rue Jasmin, 75016 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/GvnTN7rZ71wcuegE6"
+}, {
+  "id": "PA_0696",
+  "city": "Paris",
+  "points": 20,
+  "status": 3,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0697",
+  "city": "Paris",
+  "points": 20,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0698",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8549354,
+  "longitude": 2.3720432,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/CuEGH63tajETQHba9",
+  "location": "8 Rue St Sabin, 75011 Paris_x000D_\nhttps:\/\/goo.gl\/maps\/CuEGH63tajETQHba9"
+}, {
+  "id": "PA_0699",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": "https:\/\/www.google.com\/maps\/place\/Central+Pharmacy+of+the+Pyrenees\/@48.8573914,2.4038703,19z\/data=!4m12!1m6!3m5!1s0x47e66d86fe4158fd:0x25bba15e5e5b80e4!2sVit'Pressing!8m2!3d48.8575823!4d2.4036582!3m4!1s0x47e66d86fe40403b:0x5260ef555ee54d3a!8m2!3d48.8573189!4d2.403954"
+}, {
+  "id": "PA_0700",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0701",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8540667,
+  "longitude": 2.3818137,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/9ruEFa9Vc9sewBi29",
+  "location": "Am\u00e9lie Blaise (au sol)\n3 Rue Godefroy Cavaignac, 75011 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/9ruEFa9Vc9sewBi29"
+}, {
+  "id": "PA_0702",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.8537529,
+  "longitude": 2.3818978,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/KAzk1SPFG7fYVnLKA",
+  "location": "92 Rue de Charonne, 75011 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/KAzk1SPFG7fYVnLKA"
+}, {
+  "id": "PA_0703",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8530559,
+  "longitude": 2.3773776,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/QWCidFMF1nqMQQkTA",
+  "location": "le bistrot du peintre\n116 Avenue Ledru-Rollin, 75011 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/QWCidFMF1nqMQQkTA"
+}, {
+  "id": "PA_0704",
+  "city": "Paris",
+  "points": 30,
+  "status": 0,
+  "latitude": 48.8519867,
+  "longitude": 2.3658196,
+  "gMapsUrl": "https:\/\/maps.app.goo.gl\/Se4Kg5aHhfHZSxE66",
+  "location": "34 Rue de la Cerisaie\n34 Rue de la Cerisaie, 75004 Paris\nhttps:\/\/maps.app.goo.gl\/Se4Kg5aHhfHZSxE66"
+}, {
+  "id": "PA_0705",
+  "city": "Paris",
+  "points": 20,
+  "status": 4,
+  "latitude": 48.825539,
+  "longitude": 2.374874,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/KKuoBezTwFxgkmmj6",
+  "location": "32 Rue de Patay, 75013 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/KKuoBezTwFxgkmmj6"
+}, {
+  "id": "PA_0706",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8307158,
+  "longitude": 2.367406,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/hji8HzkJouh3skBg8",
+  "location": "46 Rue Jeanne d'Arc, 75013 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/hji8HzkJouh3skBg8"
+}, {
+  "id": "PA_0707",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8535342,
+  "longitude": 2.3637972,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/QD5XL3MN6YeuF6Ny6",
+  "location": "1 Rue Neuve Saint-Pierre, 75004 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/QD5XL3MN6YeuF6Ny6\n"
+}, {
+  "id": "PA_0708",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0709",
+  "city": "Paris",
+  "points": 20,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0710",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8529109,
+  "longitude": 2.3668483,
+  "gMapsUrl": "https:\/\/maps.app.goo.gl\/uESwev5gHYTQL8gZA",
+  "location": "La Tour Immo - Gestion & Administration de biens\n7 Rue de Lesdigui\u00e8res, 75004 Paris\n01 43 72 88 02\nhttps:\/\/maps.app.goo.gl\/uESwev5gHYTQL8gZA"
+}, {
+  "id": "PA_0711",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0712",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8803967,
+  "longitude": 2.3534993,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/uh23c3FQRnvsqi8f6",
+  "location": "20 Rue de Dunkerque, 75010 Paris\n\nhttps:\/\/goo.gl\/maps\/uh23c3FQRnvsqi8f6"
+}, {
+  "id": "PA_0713",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": "https:\/\/www.google.com\/maps\/place\/1+Rue+Taylor,+75010+Paris\/@48.8690394,2.3588428,17z\/data=!4m13!1m7!3m6!1s0x47e66e0e454a5cb7:0x1a08ec035c028904!2s1+Rue+Taylor,+75010+Paris!3b1!8m2!3d48.8692481!4d2.3588826!3m4!1s0x47e66e0e454a5cb7:0x1a08ec035c028904!8m2!3d48.8692481!4d2.3588826"
+}, {
+  "id": "PA_0714",
+  "city": "Paris",
+  "points": 20,
+  "status": 3,
+  "latitude": 48.826424,
+  "longitude": 2.378593,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/WaZHPrV9Kp8fvsX36",
+  "location": "25 Rue Watt, 75013 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/WaZHPrV9Kp8fvsX36"
+}, {
+  "id": "PA_0715",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0716",
+  "city": "Paris",
+  "points": 50,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0717",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0718",
+  "city": "Paris",
+  "points": 20,
+  "status": 1,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0719",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0720",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.86016,
+  "longitude": 2.3474046,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/GzTU5EtCBw7RaZNn9",
+  "location": "Baan Tha\u00ef\n15 Rue de la Ferronnerie, 75001 Paris\nhttps:\/\/goo.gl\/maps\/GzTU5EtCBw7RaZNn9"
+}, {
+  "id": "PA_0721",
+  "city": "Paris",
+  "points": 30,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0722",
+  "city": "Paris",
+  "points": 50,
+  "status": 0,
+  "latitude": 48.8621222,
+  "longitude": 2.3562207,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/midrXmjdfcgefXjx9",
+  "location": "Immo 3\u00c9me\n11 Rue Michel-le-Comte, 75003 Paris\nhttps:\/\/goo.gl\/maps\/midrXmjdfcgefXjx9"
+}, {
+  "id": "PA_0723",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.8814173,
+  "longitude": 2.3275772,
+  "gMapsUrl": "https:\/\/maps.app.goo.gl\/SLPZ77pURPgCfXUK8",
+  "location": "Le Vaisseau Vert\n10 Rue de Parme, 75009 Paris\nhttps:\/\/maps.app.goo.gl\/SLPZ77pURPgCfXUK8"
+}, {
+  "id": "PA_0724",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.8760222,
+  "longitude": 2.3478965,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/9tFCoQMWvZfuEx7t8",
+  "location": "4 Rue Papillon, 75009 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/9tFCoQMWvZfuEx7t8"
+}, {
+  "id": "PA_0725",
+  "city": "Paris",
+  "points": 30,
+  "status": 0,
+  "latitude": 48.8793962,
+  "longitude": 2.3577098,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/Ua3oWHmNoqnnRvs36",
+  "location": "H\u00f4tel Hor\n160 Rue la Fayette, 75010 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/Ua3oWHmNoqnnRvs36"
+}, {
+  "id": "PA_0726",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0727",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8807105,
+  "longitude": 2.3286115,
+  "gMapsUrl": "https:\/\/maps.app.goo.gl\/2pBosjVZHW2ZMo1M9",
+  "location": "51 Rue de Clichy, 75009 Paris\nhttps:\/\/maps.app.goo.gl\/2pBosjVZHW2ZMo1M9"
+}, {
+  "id": "PA_0728",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0729",
+  "city": "Paris",
+  "points": 20,
+  "status": 1,
+  "latitude": 48.8755675,
+  "longitude": 2.3248615,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/UEd9SVzmVvz99URV8",
+  "location": "6 Cour de Rome, 75008 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/UEd9SVzmVvz99URV8"
+}, {
+  "id": "PA_0730",
+  "city": "Paris",
+  "points": 20,
+  "status": 4,
+  "latitude": 48.8759714,
+  "longitude": 2.3472163,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/Ec1UzBoJY4iXhs7q7",
+  "location": "6 Rue Bleue, 75009 Paris\nhttps:\/\/goo.gl\/maps\/Ec1UzBoJY4iXhs7q7"
+}, {
+  "id": "PA_0731",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0732",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0733",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0734",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8732543,
+  "longitude": 2.343239,
+  "gMapsUrl": "https:\/\/maps.app.goo.gl\/UstbVQkN98sXeWjL8",
+  "location": "Caf\u00e9 Panache\n1 Rue Geoffroy-Marie, 75009 Paris\n01 53 34 03 91\nhttps:\/\/maps.app.goo.gl\/UstbVQkN98sXeWjL8"
+}, {
+  "id": "PA_0735",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8791022,
+  "longitude": 2.3191041,
+  "gMapsUrl": "https:\/\/maps.app.goo.gl\/31KYjSKKUwv1NdSH8",
+  "location": "Mutuelle Bleue\n68 Rue du Rocher, 75008 Paris\n01 53 42 58 48\nhttps:\/\/maps.app.goo.gl\/31KYjSKKUwv1NdSH8"
+}, {
+  "id": "PA_0736",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8657817,
+  "longitude": 2.3305229,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/jKzRUwNbpcnUdENy8",
+  "location": "334 Rue Saint-Honor\u00e9, 75001 Paris\nhttps:\/\/goo.gl\/maps\/jKzRUwNbpcnUdENy8"
+}, {
+  "id": "PA_0737",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0738",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0739",
+  "city": "Paris",
+  "points": 20,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0740",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8388184,
+  "longitude": 2.3960267,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/ypcP5FGBNRQnygvM9",
+  "location": "97 Rue Claude Decaen, 75012 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/ypcP5FGBNRQnygvM9"
+}, {
+  "id": "PA_0741",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8821679,
+  "longitude": 2.3705123,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/FzuJiKhFTWpDtmrU7",
+  "location": "194 Boulevard de la Villette, 75019 Paris\nhttps:\/\/goo.gl\/maps\/FzuJiKhFTWpDtmrU7"
+}, {
+  "id": "PA_0742",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.8729507,
+  "longitude": 2.3908907,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/NctrMLh53d93Pw3u8",
+  "location": "Franprix\n322 Rue des Pyr\u00e9n\u00e9es, 75020 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/NctrMLh53d93Pw3u8"
+}, {
+  "id": "PA_0743",
+  "city": "Paris",
+  "points": 50,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0744",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0745",
+  "city": "Paris",
+  "points": 20,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0746",
+  "city": "Paris",
+  "points": 50,
+  "status": 0,
+  "latitude": 48.8643715,
+  "longitude": 2.3642555,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/MzzrjLaJajTSVft3A",
+  "location": "jonasbowman\n77 Rue Charlot, 75003 Paris\nhttps:\/\/goo.gl\/maps\/MzzrjLaJajTSVft3A"
+}, {
+  "id": "PA_0747",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8539949,
+  "longitude": 2.3380784,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/TYe7PXS9d5panEV27",
+  "location": "Librairie Mazarine\n78 Rue Mazarine, 75006 Paris\nA l'int\u00e9rieur\nhttps:\/\/goo.gl\/maps\/TYe7PXS9d5panEV27"
+}, {
+  "id": "PA_0748",
+  "city": "Paris",
+  "points": 30,
+  "status": 4,
+  "latitude": 48.8997738,
+  "longitude": 2.3880133,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/bKk5Kx5WeqqocT6h8",
+  "location": "Rue du Chemin de fer - Avenue de la Porte de la Villette\n48.899774, 2.388013\nhttps:\/\/goo.gl\/maps\/bKk5Kx5WeqqocT6h8"
+}, {
+  "id": "PA_0749",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.859008,
+  "longitude": 2.436114,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/TbKDhjJApnn8jVDn7",
+  "location": "48\u00b051'32.4\"N 2\u00b026'10.0\"E\n93100 Montreuil\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/TbKDhjJApnn8jVDn7"
+}, {
+  "id": "PA_0750",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.857386,
+  "longitude": 2.434672,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/sNj6sEDBakVrdEUz9",
+  "location": "48\u00b051'26.6\"N 2\u00b026'04.8\"E\n30 Bis Rue Girard, 93100 Montreuil\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/sNj6sEDBakVrdEUz9\n"
+}, {
+  "id": "PA_0751",
+  "city": "Paris",
+  "points": 30,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0752",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8761125,
+  "longitude": 2.4408765,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/9K8tvzpxwvDx2UBb7",
+  "location": "14 Boulevard Edouard Branly, 93230 Romainville\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/9K8tvzpxwvDx2UBb7\n"
+}, {
+  "id": "PA_0753",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8528956,
+  "longitude": 2.4078307,
+  "gMapsUrl": "https:\/\/www.google.com\/maps\/place\/Destock'tout\/@48.8528956,2.405642,17z\/data=!4m12!1m6!3m5!1s0x47e6727f1a2c2c4d:0x85f50c211fb32d79!2sDestock'tout!8m2!3d48.8528956!4d2.4078307!3m4!1s0x47e6727f1a2c2c4d:0x85f50c211fb32d79!8m2!3d48.8528956!4d2.4078307",
+  "location": "https:\/\/www.google.com\/maps\/place\/Destock'tout\/@48.8528956,2.405642,17z\/data=!4m12!1m6!3m5!1s0x47e6727f1a2c2c4d:0x85f50c211fb32d79!2sDestock'tout!8m2!3d48.8528956!4d2.4078307!3m4!1s0x47e6727f1a2c2c4d:0x85f50c211fb32d79!8m2!3d48.8528956!4d2.4078307"
+}, {
+  "id": "PA_0754",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0755",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8751555,
+  "longitude": 2.3403952,
+  "gMapsUrl": "https:\/\/maps.app.goo.gl\/SLFqF2oGdTDrb5gd9",
+  "location": "Ohm Lafayette institut\n6 Rue de la Victoire, 75009 Paris\n01 42 85 03 82\nhttps:\/\/maps.app.goo.gl\/SLFqF2oGdTDrb5gd9"
+}, {
+  "id": "PA_0756",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8765237,
+  "longitude": 2.3395618,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/HN76PRMahLyWVju27",
+  "location": "67 Rue du Faubourg Montmartre, 75009 Paris\nhttps:\/\/goo.gl\/maps\/HN76PRMahLyWVju27"
+}, {
+  "id": "PA_0757",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.833751,
+  "longitude": 2.244011,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/KEthAqLQzKidTTwQ9",
+  "location": "48\u00b050'01.5\"N 2\u00b014'38.4\"E\nMarcel Sembat, 92100 Boulogne-Billancourt\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/KEthAqLQzKidTTwQ9\n"
+}, {
+  "id": "PA_0758",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.830853,
+  "longitude": 2.257378,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/8aQNvpy1qWWA2fYq6",
+  "location": "48\u00b049'51.1\"N 2\u00b015'26.6\"E\n92100 Boulogne-Billancourt\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/8aQNvpy1qWWA2fYq6"
+}, {
+  "id": "PA_0759",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.8304061,
+  "longitude": 2.2565068,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/TmpedZACFZk2TQo67",
+  "location": "48\u00b049'49.5\"N 2\u00b015'23.4\"E\n53 Quai du Point du Jour, 92100 Boulogne-Billancourt\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/TmpedZACFZk2TQo67"
+}, {
+  "id": "PA_0760",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.834856,
+  "longitude": 2.262064,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/ftc7oXsP39jA7Zas7",
+  "location": "48\u00b050'05.5\"N 2\u00b015'43.4\"E\nBd P\u00e9riph\u00e9rique, 75016 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/ftc7oXsP39jA7Zas7"
+}, {
+  "id": "PA_0761",
+  "city": "Paris",
+  "points": 30,
+  "status": 3,
+  "latitude": 48.851151,
+  "longitude": 2.2785336,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/v9qHR2wifnrsnVsV9",
+  "location": "L'Ogre\n1 Avenue de Versailles, 75016 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/v9qHR2wifnrsnVsV9"
+}, {
+  "id": "PA_0762",
+  "city": "Paris",
+  "points": 10,
+  "status": 3,
+  "latitude": 48.84852,
+  "longitude": 2.260395,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/k4hQwTJFmZ33xJRS9",
+  "location": "48\u00b050'54.7\"N 2\u00b015'37.4\"E\n99 Boulevard de Montmorency, 75016 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/k4hQwTJFmZ33xJRS9"
+}, {
+  "id": "PA_0763",
+  "city": "Paris",
+  "points": 50,
+  "status": 0,
+  "latitude": 48.875965,
+  "longitude": 2.441254,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/o5bZkDJkXBT3vNkX9",
+  "location": "48\u00b052'33.5\"N 2\u00b026'28.5\"E\nRomainville\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/o5bZkDJkXBT3vNkX9\n"
+}, {
+  "id": "PA_0764",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8525464,
+  "longitude": 2.3416521,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/vvUeTEkEwjLqghi89",
+  "location": "28 Rue Serpente, 75006 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/vvUeTEkEwjLqghi89\n"
+}, {
+  "id": "PA_0765",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8447003,
+  "longitude": 2.3463876,
+  "gMapsUrl": "https:\/\/maps.app.goo.gl\/A8pPGR9m7n7b5HbL8",
+  "location": "17 Rue de l'Estrapade\n17 Rue de l'Estrapade, 75005 Paris\nhttps:\/\/maps.app.goo.gl\/A8pPGR9m7n7b5HbL8"
+}, {
+  "id": "PA_0766",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0767",
+  "city": "Paris",
+  "points": 50,
+  "status": 0,
+  "latitude": 48.8396439,
+  "longitude": 2.3562334,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/6dJ7cb6X4Tm9zb7b9",
+  "location": "Cours des Halles - fruits et l\u00e9gumes\n15 Rue Geoffroy-Saint-Hilaire, 75005 Paris\nhttps:\/\/goo.gl\/maps\/6dJ7cb6X4Tm9zb7b9"
+}, {
+  "id": "PA_0768",
+  "city": "Paris",
+  "points": 10,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0769",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.8607814,
+  "longitude": 2.3550975,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/GtFm8LoEemwiZSEs5",
+  "location": "Caisse d'Epargne Paris Rambuteau\n16 Rue Rambuteau, 75003 Paris\nhttps:\/\/goo.gl\/maps\/GtFm8LoEemwiZSEs5"
+}, {
+  "id": "PA_0770",
+  "city": "Paris",
+  "points": 30,
+  "status": 3,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": "https:\/\/www.google.com\/maps\/place\/Self+Bazar\/@48.8787691,2.3453125,17z\/data=!4m15!1m9!2m8!1squincaillerie!3m6!1squincaillerie!2sRue+de+la+Tour+d'Auvergne,+75009+Paris!3s0x47e66e41047c70e9:0x75ddefabe38bcec2!4m2!1d2.3432272!2d48.8792433!3m4!1s0x0:0x2d50f7930a8692c6!8m2!3d48.8788752!4d2.3451982"
+}, {
+  "id": "PA_0771",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0772",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.855544,
+  "longitude": 2.290229,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/p3Qov4beKomra2G38",
+  "location": "48\u00b051'20.0\"N 2\u00b017'24.8\"E\n101 Quai Jacques Chirac, 75015 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/p3Qov4beKomra2G38"
+}, {
+  "id": "PA_0773",
+  "city": "Paris",
+  "points": 20,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0774",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0775",
+  "city": "Paris",
+  "points": 20,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0776",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8726388,
+  "longitude": 2.3241408,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/HruYSmSx6EsG5Qwy9",
+  "location": "Les Caprices de Charlotte\n14 Rue de Castellane, 75008 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/HruYSmSx6EsG5Qwy9"
+}, {
+  "id": "PA_0777",
+  "city": "Paris",
+  "points": 30,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0778",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8205043,
+  "longitude": 2.3756891,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/j8yXVE9Dig3MHNP58",
+  "location": "48.8205043,2.3756891\nPorte d'Ivry, s\u00e9rie du p\u00e9riph\nhttps:\/\/goo.gl\/maps\/j8yXVE9Dig3MHNP58"
+}, {
+  "id": "PA_0779",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8204741,
+  "longitude": 2.3755973,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/mVUUfscsNXC5Lxa68",
+  "location": "48.8204741,2.3755973\nPorte d'Ivry, s\u00e9rie du p\u00e9riph\nhttps:\/\/goo.gl\/maps\/mVUUfscsNXC5Lxa68"
+}, {
+  "id": "PA_0780",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8512449,
+  "longitude": 2.3319783,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/p7wAdMGGiDCL6vpx7",
+  "location": "12 Rue Madame, 75006 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/p7wAdMGGiDCL6vpx7\n"
+}, {
+  "id": "PA_0781",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8461031,
+  "longitude": 2.3543463,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/3PcWgMyTSnk5XiMS7",
+  "location": "2 Rue des Boulangers, 75005 Paris_x000D_\nhttps:\/\/goo.gl\/maps\/3PcWgMyTSnk5XiMS7"
+}, {
+  "id": "PA_0782",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8204438,
+  "longitude": 2.3755054,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/73rKCdP9rEkoiCQD8",
+  "location": "48.8204438,2.3755054\nPorte d'Ivry, s\u00e9rie du p\u00e9riph\nhttps:\/\/goo.gl\/maps\/73rKCdP9rEkoiCQD8"
+}, {
+  "id": "PA_0783",
+  "city": "Paris",
+  "points": 20,
+  "status": 0,
+  "latitude": 48.8204136,
+  "longitude": 2.3754136,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/7LA28kHLPezcnsco9",
+  "location": "48.8204136,2.3754136\nPorte d'Ivry, s\u00e9rie du p\u00e9riph\nhttps:\/\/goo.gl\/maps\/7LA28kHLPezcnsco9"
+}, {
+  "id": "PA_0784",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8203834,
+  "longitude": 2.3753218,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/RbcEMKjxcM8wMwXWA",
+  "location": "48.8203834,2.3753218\nPorte d'Ivry, s\u00e9rie du p\u00e9riph\nhttps:\/\/goo.gl\/maps\/RbcEMKjxcM8wMwXWA"
+}, {
+  "id": "PA_0785",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": "https:\/\/www.google.com\/maps\/place\/132+Rue+de+Bagnolet,+75020+Paris\/@48.8609572,2.4030437,17z\/data=!4m13!1m7!3m6!1s0x47e66d843e0aa42f:0x40d69df0929341fc!2s132+Rue+de+Bagnolet,+75020+Paris!3b1!8m2!3d48.8609572!4d2.4052324!3m4!1s0x47e66d843e0aa42f:0x40d69df0929341fc!8m2!3d48.8609572!4d2.4052324"
+}, {
+  "id": "PA_0786",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8203532,
+  "longitude": 2.37523,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/emwKGREPHaJ9dypb7",
+  "location": "48.8203532,2.3752300\nPorte d'Ivry, s\u00e9rie du p\u00e9riph\nhttps:\/\/goo.gl\/maps\/emwKGREPHaJ9dypb7"
+}, {
+  "id": "PA_0787",
+  "city": "Paris",
+  "points": 20,
+  "status": 0,
+  "latitude": 48.8203229,
+  "longitude": 2.3751381,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/Z9BkPZbP2REL3kC6A",
+  "location": "48.8203229,2.3751381\nPorte d'Ivry, s\u00e9rie du p\u00e9riph\nhttps:\/\/goo.gl\/maps\/Z9BkPZbP2REL3kC6A"
+}, {
+  "id": "PA_0788",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8202927,
+  "longitude": 2.3750463,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/CsMaDK8wm6jUXgHE7",
+  "location": "48.8202927,2.3750463\nPorte d'Ivry, s\u00e9rie du p\u00e9riph\nhttps:\/\/goo.gl\/maps\/CsMaDK8wm6jUXgHE7"
+}, {
+  "id": "PA_0789",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8202625,
+  "longitude": 2.3749545,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/m5muc6ZnTvwTVAgTA",
+  "location": "48.8202625,2.3749545\nPorte d'Ivry, s\u00e9rie du p\u00e9riph\nhttps:\/\/goo.gl\/maps\/m5muc6ZnTvwTVAgTA"
+}, {
+  "id": "PA_0790",
+  "city": "Paris",
+  "points": 20,
+  "status": 0,
+  "latitude": 48.8202323,
+  "longitude": 2.3748627,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/YERPexWqL2RdoVCK6",
+  "location": "48.8202323,2.3748627\nPorte d'Ivry, s\u00e9rie du p\u00e9riph\nhttps:\/\/goo.gl\/maps\/YERPexWqL2RdoVCK6"
+}, {
+  "id": "PA_0791",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.820202,
+  "longitude": 2.3747708,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/e7UGFnS7Uhrsftu98",
+  "location": "48.8202020,2.3747708\nPorte d'Ivry, s\u00e9rie du p\u00e9riph\nhttps:\/\/goo.gl\/maps\/e7UGFnS7Uhrsftu98"
+}, {
+  "id": "PA_0792",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8201718,
+  "longitude": 2.374679,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/GAXPU3zLfu6mbgdR8",
+  "location": "48.8201718,2.3746790\nPorte d'Ivry, s\u00e9rie du p\u00e9riph\nhttps:\/\/goo.gl\/maps\/GAXPU3zLfu6mbgdR8"
+}, {
+  "id": "PA_0793",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8201416,
+  "longitude": 2.3745872,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/5kkguBMzij3hFUvg8",
+  "location": "48.8201416,2.3745872\nPorte d'Ivry, s\u00e9rie du p\u00e9riph\nhttps:\/\/goo.gl\/maps\/5kkguBMzij3hFUvg8"
+}, {
+  "id": "PA_0794",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8201114,
+  "longitude": 2.3744954,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/BJswGmZ3ah73gR9e9",
+  "location": "48.8201114,2.3744954\nPorte d'Ivry, s\u00e9rie du p\u00e9riph\nhttps:\/\/goo.gl\/maps\/BJswGmZ3ah73gR9e9"
+}, {
+  "id": "PA_0795",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8528982,
+  "longitude": 2.3391708,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/Kr5dXUyUafan1qW47",
+  "location": "Un Dimanche \u00e0 Paris\n4 8, 6 Cour du Commerce Saint-Andr\u00e9, 75006 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/Kr5dXUyUafan1qW47\n"
+}, {
+  "id": "PA_0796",
+  "city": "Paris",
+  "points": 20,
+  "status": 3,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0797",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0798",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8545456,
+  "longitude": 2.3312856,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/ErLDdoSzfJtS6SG99",
+  "location": "L'IPAG Business School\n184 Boulevard Saint-Germain, 75006 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/ErLDdoSzfJtS6SG99"
+}, {
+  "id": "PA_0799",
+  "city": "Paris",
+  "points": 10,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0800",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.8657922,
+  "longitude": 2.3435323,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/MbwAqbBwNV256zak6",
+  "location": "Vieu Machin\n56 B Rue du Louvre, 75002 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/MbwAqbBwNV256zak6\n"
+}, {
+  "id": "PA_0801",
+  "city": "Paris",
+  "points": 20,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0802",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.8526373,
+  "longitude": 2.3339002,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/Vo9xrzRqpeTZSWpf9",
+  "location": "Cr\u00eapes d'Or\n27 Rue du Four, 75006 Paris\nhttps:\/\/goo.gl\/maps\/Vo9xrzRqpeTZSWpf9"
+}, {
+  "id": "PA_0803",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.8525261,
+  "longitude": 2.339349,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/LqTL9qPmKpeWDrqV8",
+  "location": "130 Boulevard Saint-Germain, 75006 Paris\nA l'entr\u00e9e de la Cour du Commerce St Andr\u00e9\nhttps:\/\/goo.gl\/maps\/LqTL9qPmKpeWDrqV8"
+}, {
+  "id": "PA_0804",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8200811,
+  "longitude": 2.3744035,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/1ZbV4156nQbnGEKaA",
+  "location": "48.8200811,2.3744035\nPorte d'Ivry, s\u00e9rie du p\u00e9riph\nhttps:\/\/goo.gl\/maps\/1ZbV4156nQbnGEKaA"
+}, {
+  "id": "PA_0805",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8200509,
+  "longitude": 2.3743117,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/dwqVnrAfj9kZF2qT6",
+  "location": "48.8200509,2.3743117\nPorte d'Ivry, s\u00e9rie du p\u00e9riph\nhttps:\/\/goo.gl\/maps\/dwqVnrAfj9kZF2qT6"
+}, {
+  "id": "PA_0806",
+  "city": "Paris",
+  "points": 20,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0807",
+  "city": "Paris",
+  "points": 20,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0808",
+  "city": "Paris",
+  "points": 20,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0809",
+  "city": "Paris",
+  "points": 30,
+  "status": 0,
+  "latitude": 48.8431881,
+  "longitude": 2.4060823,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/TJywSKcEZe1h1F67A",
+  "location": "Maternit\u00e9 des Bluets - H\u00f4pital Pierre Rouqu\u00e8s\n4 Rue Lasson, 75012 Paris\nhttps:\/\/goo.gl\/maps\/TJywSKcEZe1h1F67A"
+}, {
+  "id": "PA_0810",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8505167,
+  "longitude": 2.392861,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/RMUduZ98sujaWJPcA",
+  "location": "Ligne D'art\nPassage Turquetil\n75011 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/RMUduZ98sujaWJPcA\n"
+}, {
+  "id": "PA_0811",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0812",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0813",
+  "city": "Paris",
+  "points": 30,
+  "status": 3,
+  "latitude": 48.871787,
+  "longitude": 2.3652366,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/8zG3cjixtyCkFKE8A",
+  "location": "Passerelle Richerand (rive Est - Av. Richerand)\n48.871787, 2.365237\nhttps:\/\/goo.gl\/maps\/8zG3cjixtyCkFKE8A"
+}, {
+  "id": "PA_0814",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0815",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8585591,
+  "longitude": 2.3518371,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/scnwM3XAtcZKHo4r5",
+  "location": "Le Second Empire\n62 Rue de la Verrerie, 75004 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/scnwM3XAtcZKHo4r5\n"
+}, {
+  "id": "PA_0816",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0817",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0818",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8596881,
+  "longitude": 2.3685301,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/ffLY38YopN5H8J1y7",
+  "location": "68 Rue St Sabin, 75011 Paris_x000D_\nhttps:\/\/goo.gl\/maps\/ffLY38YopN5H8J1y7"
+}, {
+  "id": "PA_0819",
+  "city": "Paris",
+  "points": 30,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0820",
+  "city": "Paris",
+  "points": 20,
+  "status": 3,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0821",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.85439,
+  "longitude": 2.3960039,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/F74qFwgM2498N5yX9",
+  "location": "48\u00b051'15.8\"N 2\u00b023'45.6\"E\nBoulevard de Charonne, 75011 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/F74qFwgM2498N5yX9"
+}, {
+  "id": "PA_0822",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0823",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.88686,
+  "longitude": 2.3851658,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/SiX5XnTFW5ZiJfzZ8",
+  "location": "Kikenta\u00ef\n145 Avenue Jean Jaur\u00e8s, 75019 Paris\nhttps:\/\/goo.gl\/maps\/SiX5XnTFW5ZiJfzZ8"
+}, {
+  "id": "PA_0824",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0825",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8558107,
+  "longitude": 2.4229718,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/CPCQrTjqoQb52rUA6",
+  "location": "Pharmacie Danjon et Eccel\n186 Rue de Paris, 93100 Montreuil\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/CPCQrTjqoQb52rUA6\n"
+}, {
+  "id": "PA_0826",
+  "city": "Paris",
+  "points": 30,
+  "status": 0,
+  "latitude": 48.872255,
+  "longitude": 2.378011,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/d9JExAHbLZyyhFoe7",
+  "location": "21 Rue Denoyez, 75020 Paris\nhttps:\/\/goo.gl\/maps\/d9JExAHbLZyyhFoe7"
+}, {
+  "id": "PA_0827",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0828",
+  "city": "Paris",
+  "points": 50,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0829",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0830",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0831",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8519636,
+  "longitude": 2.4011604,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/Yy84ByAg4KpcDSvK6",
+  "location": "Auchan SUPERMARCHE PARIS-AVRON\n39 Rue d'Avron, 75020 Paris\nhttps:\/\/goo.gl\/maps\/Yy84ByAg4KpcDSvK6"
+}, {
+  "id": "PA_0832",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0833",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.85742,
+  "longitude": 2.399335,
+  "gMapsUrl": "https:\/\/www.google.com\/maps\/place\/L'Abribus.\/@48.85742,2.3971463,17z\/data=!4m12!1m6!3m5!1s0x47e66d885e39c735:0xf2230bd6c40b19a2!2sL'Abribus.!8m2!3d48.85742!4d2.399335!3m4!1s0x47e66d885e39c735:0xf2230bd6c40b19a2!8m2!3d48.85742!4d2.399335",
+  "location": "https:\/\/www.google.com\/maps\/place\/L'Abribus.\/@48.85742,2.3971463,17z\/data=!4m12!1m6!3m5!1s0x47e66d885e39c735:0xf2230bd6c40b19a2!2sL'Abribus.!8m2!3d48.85742!4d2.399335!3m4!1s0x47e66d885e39c735:0xf2230bd6c40b19a2!8m2!3d48.85742!4d2.399335"
+}, {
+  "id": "PA_0834",
+  "city": "Paris",
+  "points": 20,
+  "status": 3,
+  "latitude": 48.8592091,
+  "longitude": 2.3996285,
+  "gMapsUrl": "https:\/\/www.google.com\/maps\/place\/48%C2%B051'33.2%22N+2%C2%B023'58.7%22E\/@48.859209,2.3990818,19z\/data=!4m6!3m5!1s0x0:0x0!7e2!8m2!3d48.8592091!4d2.3996285",
+  "location": "https:\/\/www.google.com\/maps\/place\/48%C2%B051'33.2%22N+2%C2%B023'58.7%22E\/@48.859209,2.3990818,19z\/data=!4m6!3m5!1s0x0:0x0!7e2!8m2!3d48.8592091!4d2.3996285"
+}, {
+  "id": "PA_0835",
+  "city": "Paris",
+  "points": 20,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0836",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0837",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8559811,
+  "longitude": 2.3754314,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/185pBqxnyfhPwVreA",
+  "location": "Mademoiselle Jeanne Bastille\n55 Rue de la Roquette, 75011 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/185pBqxnyfhPwVreA"
+}, {
+  "id": "PA_0838",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0839",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8629661,
+  "longitude": 2.3487848,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/ng1ukkPgrhsXYvdG8",
+  "location": "Hoki Sushi\n22 Rue Pierre Lescot, 75001 Paris\nhttps:\/\/goo.gl\/maps\/ng1ukkPgrhsXYvdG8"
+}, {
+  "id": "PA_0840",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8636356,
+  "longitude": 2.3491197,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/z2vHSMw9YvqHnrXg9",
+  "location": "LA STATION Paris\n30 Rue Pierre Lescot, 75001 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/z2vHSMw9YvqHnrXg9"
+}, {
+  "id": "PA_0841",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0842",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8666367,
+  "longitude": 2.3331155,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/TG9BybHd1QEms61L7",
+  "location": "G\u00e9n\u00e9ral Bank \u00c9conomique Inter\n28 Rue d'Argenteuil, 75015 Paris\nhttps:\/\/goo.gl\/maps\/TG9BybHd1QEms61L7"
+}, {
+  "id": "PA_0843",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8661166,
+  "longitude": 2.3252995,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/yRsDsgV3cxnTVWw47",
+  "location": "Zadig & Voltaire CAMBON\n244 Rue de Rivoli, 75001 Paris\nhttps:\/\/goo.gl\/maps\/yRsDsgV3cxnTVWw47"
+}, {
+  "id": "PA_0844",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8742252,
+  "longitude": 2.3105077,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/uAebEGuYidZn1gSD8",
+  "location": "20 Rue de Courcelles, 75008 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/uAebEGuYidZn1gSD8"
+}, {
+  "id": "PA_0845",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8722427,
+  "longitude": 2.3099298,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/oe3P7JJ65sEGHBkS7",
+  "location": "69 Avenue Franklin Delano Roosevelt, 75008 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/oe3P7JJ65sEGHBkS7\n"
+}, {
+  "id": "PA_0846",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8648237,
+  "longitude": 2.3595701,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/kN7WmZp6gN6JoUSJ7",
+  "location": "Social Square_x000D_\n165 Rue du Temple, 75003 Paris_x000D_\nhttps:\/\/goo.gl\/maps\/kN7WmZp6gN6JoUSJ7"
+}, {
+  "id": "PA_0847",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8416706,
+  "longitude": 2.3079546,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/pGQSo8qXNnfzm5pn6",
+  "location": "Volontaires_x000D_\n75015 Paris_x000D_\nhttps:\/\/goo.gl\/maps\/pGQSo8qXNnfzm5pn6"
+}, {
+  "id": "PA_0848",
+  "city": "Paris",
+  "points": 20,
+  "status": 4,
+  "latitude": 48.8399397,
+  "longitude": 2.3151114,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/3z2vehqDu8rLmwkJ6",
+  "location": "3 Rue de l'Armorique, 75015 Paris_x000D_\nPointe du b\u00e2timent\nhttps:\/\/goo.gl\/maps\/3z2vehqDu8rLmwkJ6"
+}, {
+  "id": "PA_0849",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0850",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0851",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.8421803,
+  "longitude": 2.3301929,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/rD7a7rgZx1Rv9tqK7",
+  "location": "Hak Chesda\n16 Rue de la Grande Chaumi\u00e8re, 75006 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/rD7a7rgZx1Rv9tqK7\n"
+}, {
+  "id": "PA_0852",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0853",
+  "city": "Paris",
+  "points": 20,
+  "status": 3,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0854",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8844664,
+  "longitude": 2.3560889,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/BesrFoYnt1uBcWiQA",
+  "location": "Hammam Al Baraka\n1 Rue de Tombouctou, 75018 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/BesrFoYnt1uBcWiQA"
+}, {
+  "id": "PA_0855",
+  "city": "Paris",
+  "points": 30,
+  "status": 4,
+  "latitude": 48.8873333,
+  "longitude": 2.3358549,
+  "gMapsUrl": "https:\/\/maps.app.goo.gl\/fxZC7cg63xB7zNzeA",
+  "location": "86 Rue Lepic\n86 Rue Lepic, 75018 Paris\nhttps:\/\/maps.app.goo.gl\/fxZC7cg63xB7zNzeA"
+}, {
+  "id": "PA_0856",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": "Vers le Sacr\u00e9-C\u0153ur"
+}, {
+  "id": "PA_0857",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8863159,
+  "longitude": 2.3406492,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/94ARvP4zMCHVtZMz7",
+  "location": "11 Place du Tertre, 75018 Paris\nLink to share\nhttps:\/\/goo.gl\/maps\/94ARvP4zMCHVtZMz7"
+}, {
+  "id": "PA_0858",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8788136,
+  "longitude": 2.3368915,
+  "gMapsUrl": "https:\/\/maps.app.goo.gl\/2FWvxNhj8XNG12SJ7",
+  "location": "Fondation Taylor\n1 Rue la Bruy\u00e8re, 75009 Paris\n01 48 74 85 24\nhttps:\/\/maps.app.goo.gl\/2FWvxNhj8XNG12SJ7"
+}, {
+  "id": "PA_0859",
+  "city": "Paris",
+  "points": 30,
+  "status": 4,
+  "latitude": 48.8697484,
+  "longitude": 2.3516326,
+  "gMapsUrl": "https:\/\/maps.app.goo.gl\/KjecdWShMRJnRzDf6",
+  "location": "1 Rue de la Lune, 75002 Paris\nhttps:\/\/maps.app.goo.gl\/KjecdWShMRJnRzDf6"
+}, {
+  "id": "PA_0860",
+  "city": "Paris",
+  "points": 20,
+  "status": 4,
+  "latitude": 48.8614887,
+  "longitude": 2.3399657,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/cRbtHY1vCqqHQEKd9",
+  "location": "1 Rue de l'Oratoire, 75001 Paris\nhttps:\/\/goo.gl\/maps\/cRbtHY1vCqqHQEKd9"
+}, {
+  "id": "PA_0861",
+  "city": "Paris",
+  "points": 30,
+  "status": 4,
+  "latitude": 48.8619605,
+  "longitude": 2.3699281,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/Lsztqz3mrj2aDQzV9",
+  "location": "11 Passage Saint-S\u00e9bastien, 75011 Paris_x000D_\nhttps:\/\/goo.gl\/maps\/Lsztqz3mrj2aDQzV9"
+}, {
+  "id": "PA_0862",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.8731116,
+  "longitude": 2.3091598,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/dJ5JPdjMEt7EaFUbA",
+  "location": "127 Rue du Faubourg Saint-Honor\u00e9, 75008 Paris\nhttps:\/\/goo.gl\/maps\/dJ5JPdjMEt7EaFUbA"
+}, {
+  "id": "PA_0863",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8166046,
+  "longitude": 2.3470292,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/mGq7RJ5QVbiA3RqQ7",
+  "location": "48\u00b048'59.8\"N 2\u00b020'49.3\"E\nBd P\u00e9riph\u00e9rique, 75013 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/mGq7RJ5QVbiA3RqQ7"
+}, {
+  "id": "PA_0864",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.878675,
+  "longitude": 2.3376676,
+  "gMapsUrl": "https:\/\/maps.google.com\/?cid=7046040453024261276",
+  "location": "CONNEXION IMMOBILIER SAINT GEORGES\n32 Place St Georges, 75009 Paris\nhttps:\/\/maps.google.com\/?cid=7046040453024261276"
+}, {
+  "id": "PA_0865",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.881183,
+  "longitude": 2.331418,
+  "gMapsUrl": "https:\/\/maps.app.goo.gl\/9qT3YKBLHXYbXZPNA",
+  "location": "53 Rue Blanche, 75009 Paris\nhttps:\/\/maps.app.goo.gl\/9qT3YKBLHXYbXZPNA"
+}, {
+  "id": "PA_0866",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8806944,
+  "longitude": 2.3318482,
+  "gMapsUrl": "https:\/\/maps.app.goo.gl\/A8HWFuAk21afAsXi8",
+  "location": "1 Rue Paul Escudier, 75009 Paris\nhttps:\/\/maps.app.goo.gl\/A8HWFuAk21afAsXi8"
+}, {
+  "id": "PA_0867",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8809365,
+  "longitude": 2.3118905,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/BaiDYz8C4cMvWHzu8",
+  "location": "30 Boulevard de Courcelles, 75017 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/BaiDYz8C4cMvWHzu8"
+}, {
+  "id": "PA_0868",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.87,
+  "longitude": 2.3230556,
+  "gMapsUrl": "https:\/\/maps.app.goo.gl\/iY56gNjkQNh4eKbJA",
+  "location": "Tesla\n3 Boulevard Malesherbes, 75008 Paris\n01 73 01 07 78\nhttps:\/\/maps.app.goo.gl\/iY56gNjkQNh4eKbJA"
+}, {
+  "id": "PA_0869",
+  "city": "Paris",
+  "points": 50,
+  "status": 3,
+  "latitude": 48.8719727,
+  "longitude": 2.3646569,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/M11Kudg8SD26wLAQ9",
+  "location": "Quai de Valmy, visible depuis Comptoir G\u00e9n\u00e9ral\n48.871973, 2.364657\nhttps:\/\/goo.gl\/maps\/M11Kudg8SD26wLAQ9"
+}, {
+  "id": "PA_0870",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0871",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0872",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.8814426,
+  "longitude": 2.3684362,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/ppx3cCNViHpnMLRn8",
+  "location": "Point \u00c9ph\u00e9m\u00e8re\n200 Quai de Valmy, 75010 Paris\nhttps:\/\/goo.gl\/maps\/ppx3cCNViHpnMLRn8"
+}, {
+  "id": "PA_0873",
+  "city": "Paris",
+  "points": 20,
+  "status": 4,
+  "latitude": 48.8531638,
+  "longitude": 2.3461238,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/dxxRxcYhhLJguZ439",
+  "location": "Nina Kendosa\n11 Quai Saint-Michel, 75005 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/dxxRxcYhhLJguZ439"
+}, {
+  "id": "PA_0874",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8530564,
+  "longitude": 2.3456426,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/F3B1f35spKguyh688",
+  "location": "Le Comptoir de Mathilde_x000D_\n18 Rue de la Huchette, 75005 Paris_x000D_\nhttps:\/\/goo.gl\/maps\/F3B1f35spKguyh688"
+}, {
+  "id": "PA_0875",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8254058,
+  "longitude": 2.3537604,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/oDivDTYpV9isPozr6",
+  "location": "2 Rue des Peupliers, 75013 Paris\nLink to share\nhttps:\/\/goo.gl\/maps\/oDivDTYpV9isPozr6"
+}, {
+  "id": "PA_0876",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8264341,
+  "longitude": 2.3641533,
+  "gMapsUrl": "https:\/\/maps.app.goo.gl\/xmAma8uvKZpEJEJC7",
+  "location": "Ecole Sup\u00e9rieure de Journalisme de Paris (ESJParis)\n107 Rue de Tolbiac, 75013 Paris\n01 45 70 73 37\nhttps:\/\/maps.app.goo.gl\/xmAma8uvKZpEJEJC7"
+}, {
+  "id": "PA_0877",
+  "city": "Paris",
+  "points": 50,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0878",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0879",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.855947,
+  "longitude": 2.3716225,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/RZNPqZkQf4gQhnyF7",
+  "location": "22 Rue St Sabin, 75011 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/RZNPqZkQf4gQhnyF7"
+}, {
+  "id": "PA_0880",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8589482,
+  "longitude": 2.3298328,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/PDPanSKjCvEjPpN5A",
+  "location": "4 Rue de Beaune, 75007 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/PDPanSKjCvEjPpN5A"
+}, {
+  "id": "PA_0881",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8581818,
+  "longitude": 2.3282265,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/SBfmVuoNz7CG1PCJ6",
+  "location": "20 Rue du Bac, 75007 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/SBfmVuoNz7CG1PCJ6"
+}, {
+  "id": "PA_0882",
+  "city": "Paris",
+  "points": 50,
+  "status": 1,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0883",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8896394,
+  "longitude": 2.371341,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/kx9Uc1KcNfy6kXd19",
+  "location": "3 Rue Curial, 75019 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/kx9Uc1KcNfy6kXd19\n"
+}, {
+  "id": "PA_0884",
+  "city": "Paris",
+  "points": 20,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0885",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8773686,
+  "longitude": 2.2947203,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/QvrGdea189fwBk3b8",
+  "location": "36 Rue Brey, 75017 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/QvrGdea189fwBk3b8"
+}, {
+  "id": "PA_0886",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8534986,
+  "longitude": 2.380368,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/TdKgGqSZ6hHb4WxUA",
+  "location": "Louie Louie\n78 Rue de Charonne, 75011 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/TdKgGqSZ6hHb4WxUA"
+}, {
+  "id": "PA_0887",
+  "city": "Paris",
+  "points": 20,
+  "status": 3,
+  "latitude": 48.8280012,
+  "longitude": 2.3895683,
+  "gMapsUrl": "https:\/\/maps.app.goo.gl\/5iMATYixXw6SZ7wx6",
+  "location": "48,8280012, 2,3895683\n\u00c0 proximit\u00e9 de 12e Arrondissement de Paris, 75012 Paris\nhttps:\/\/maps.app.goo.gl\/5iMATYixXw6SZ7wx6"
+}, {
+  "id": "PA_0888",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8547529,
+  "longitude": 2.3723135,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/ojvhQLghQHT1pCrG8",
+  "location": "BAROOM\n21 Rue de la Roquette, 75011 Paris\nhttps:\/\/goo.gl\/maps\/ojvhQLghQHT1pCrG8"
+}, {
+  "id": "PA_0889",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8911835,
+  "longitude": 2.3736108,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/58bmR37H1ZchTeos6",
+  "location": "Alimentation G\u00e9n\u00e9rale\n34 Rue Mathis, 75019 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/58bmR37H1ZchTeos6"
+}, {
+  "id": "PA_0890",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8944955,
+  "longitude": 2.3342469,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/dTqVLHfXqmJvX1ME9",
+  "location": "175ter Rue Championnet, 75018 Paris\nLink to share\nhttps:\/\/goo.gl\/maps\/dTqVLHfXqmJvX1ME9"
+}, {
+  "id": "PA_0891",
+  "city": "Paris",
+  "points": 30,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0892",
+  "city": "Paris",
+  "points": 50,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0893",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8644148,
+  "longitude": 2.3327132,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/VjhkyRDB534fnGYQ9",
+  "location": "TIANA\n8 Rue des Pyramides, 75001 Paris\nhttps:\/\/goo.gl\/maps\/VjhkyRDB534fnGYQ9"
+}, {
+  "id": "PA_0894",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8687759,
+  "longitude": 2.3371092,
+  "gMapsUrl": "https:\/\/maps.app.goo.gl\/ego34FBGaEYGvHTQ7",
+  "location": "SCOOT OPERA\n11 Rue Saint-Augustin, 75002 Paris\nhttps:\/\/maps.app.goo.gl\/ego34FBGaEYGvHTQ7"
+}, {
+  "id": "PA_0895",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.9003846,
+  "longitude": 2.3870248,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/27D1LTvWvBUVmRGP6",
+  "location": "Place Auguste Barron\n48.900385, 2.387025\nhttps:\/\/goo.gl\/maps\/27D1LTvWvBUVmRGP6"
+}, {
+  "id": "PA_0896",
+  "city": "Paris",
+  "points": 30,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0897",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.8193259,
+  "longitude": 2.2954198,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/p7n8xXCjMCKv3XJC9",
+  "location": "48\u00b049'09.6\"N 2\u00b017'43.5\"E\n7 Boulevard Gabriel P\u00e9ri, 92240 Malakoff\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/p7n8xXCjMCKv3XJC9"
+}, {
+  "id": "PA_0898",
+  "city": "Paris",
+  "points": 10,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0899",
+  "city": "Paris",
+  "points": 30,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0900",
+  "city": "Paris",
+  "points": 30,
+  "status": 0,
+  "latitude": 48.8819927,
+  "longitude": 2.3378399,
+  "gMapsUrl": "https:\/\/maps.app.goo.gl\/n8mFwAf6MCi4njnT7",
+  "location": "Monop'\n1-3 Place Pigalle, 75009 Paris\nhttps:\/\/maps.app.goo.gl\/n8mFwAf6MCi4njnT7"
+}, {
+  "id": "PA_0901",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8385102,
+  "longitude": 2.3001756,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/CBfGA1Kii6PZGd916",
+  "location": "1 Rue L\u00e9on Delhomme, 75015 Paris_x000D_\nhttps:\/\/goo.gl\/maps\/CBfGA1Kii6PZGd916"
+}, {
+  "id": "PA_0902",
+  "city": "Paris",
+  "points": 20,
+  "status": 0,
+  "latitude": 48.8463129,
+  "longitude": 2.3020841,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/3nNrcAQB1Gqm9XDV7",
+  "location": "19 Rue Cambronne, 75015 Paris_x000D_\nhttps:\/\/goo.gl\/maps\/3nNrcAQB1Gqm9XDV7"
+}, {
+  "id": "PA_0903",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8816741,
+  "longitude": 2.301969,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/iM4nbGHvpXcoBwdFA",
+  "location": "Mira\n15 Rue Cardinet, 75017 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/iM4nbGHvpXcoBwdFA"
+}, {
+  "id": "PA_0904",
+  "city": "Paris",
+  "points": 30,
+  "status": 0,
+  "latitude": 48.8500043,
+  "longitude": 2.3788383,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/821ZnGk7zcb2V5RH8",
+  "location": "Pink Flamingo Aligre (\u00e0 l'int\u00e9rieur)\n23 Rue d'Aligre, 75012 Paris_x000D_\nhttps:\/\/goo.gl\/maps\/821ZnGk7zcb2V5RH8"
+}, {
+  "id": "PA_0905",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.900278,
+  "longitude": 2.371667,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/781hXAYHkHaDD13N9",
+  "location": "Rond-point Porte d'Aubervilliers\n48.900278, 2.371667\nhttps:\/\/goo.gl\/maps\/781hXAYHkHaDD13N9"
+}, {
+  "id": "PA_0906",
+  "city": "Paris",
+  "points": 30,
+  "status": 0,
+  "latitude": 48.8850638,
+  "longitude": 2.3545726,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/AtHYqqLKxGgihKFn9",
+  "location": "2 Rue de la Goutte d'Or, 75018 Paris\nLink to share\nhttps:\/\/goo.gl\/maps\/AtHYqqLKxGgihKFn9"
+}, {
+  "id": "PA_0907",
+  "city": "Paris",
+  "points": 30,
+  "status": 0,
+  "latitude": 48.899733,
+  "longitude": 2.358536,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/g2BmheX4YRNuZyTu8",
+  "location": "48\u00b053'59.0\"N 2\u00b021'30.7\"E\n12-15 Avenue de la Porte de la Chapelle, 75018 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/g2BmheX4YRNuZyTu8"
+}, {
+  "id": "PA_0908",
+  "city": "Paris",
+  "points": 30,
+  "status": 4,
+  "latitude": 48.853769,
+  "longitude": 2.3896098,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/xKmGrQPFpYFW2ago7",
+  "location": "15 Cit\u00e9 Beauharnais, 75011 Paris_x000D_\nhttps:\/\/goo.gl\/maps\/xKmGrQPFpYFW2ago7"
+}, {
+  "id": "PA_0909",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8894816,
+  "longitude": 2.396477,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/sVDpMB7UwK8Zss5r9",
+  "location": "Sortie du p\u00e9riph ext\u00e9rieur\n48\u00b053'22.1\"N 2\u00b023'47.3\"E\n19e Arrondissement de Paris, 75019 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/sVDpMB7UwK8Zss5r9\n"
+}, {
+  "id": "PA_0910",
+  "city": "Paris",
+  "points": 20,
+  "status": 3,
+  "latitude": 48.903466,
+  "longitude": 2.391922,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/riQsgHyGXzbF713cA",
+  "location": "48\u00b054'12.5\"N 2\u00b023'30.9\"E\n72 Avenue Jean Jaur\u00e8s, 93500 Pantin\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/riQsgHyGXzbF713cA"
+}, {
+  "id": "PA_0911",
+  "city": "Paris",
+  "points": 30,
+  "status": 0,
+  "latitude": 48.9000766,
+  "longitude": 2.3863986,
+  "gMapsUrl": "https:\/\/maps.app.goo.gl\/WM98epLv3wdRKqfu7",
+  "location": "Entr\u00e9e p\u00e9riph\u00e9rique ext\u00e9rieur\nPorte de la Villette 75019 Paris\n48,9000766, 2,3863986\nhttps:\/\/maps.app.goo.gl\/WM98epLv3wdRKqfu7"
+}, {
+  "id": "PA_0912",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.915561,
+  "longitude": 2.357721,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/hFW5AKrMXDGvJP2EA",
+  "location": "48\u00b054'56.0\"N 2\u00b021'27.8\"E\nPont de Soissons, 93210 Saint-Denis\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/hFW5AKrMXDGvJP2EA\n"
+}, {
+  "id": "PA_0913",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.910271,
+  "longitude": 2.344095,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/gi9TwZqf9ZyN3Q2p6",
+  "location": "48\u00b054'37.0\"N 2\u00b020'38.7\"E\nD14, 93400 Saint-Ouen\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/gi9TwZqf9ZyN3Q2p6\n"
+}, {
+  "id": "PA_0914",
+  "city": "Paris",
+  "points": 30,
+  "status": 4,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": "https:\/\/maps.app.goo.gl\/QfVsARcJuBndkBct9",
+  "location": "Cr\u00e8che La Marelle\n114 Rue Baudin, 92300 Levallois-Perret\n01 47 15 74 43\nhttps:\/\/maps.app.goo.gl\/QfVsARcJuBndkBct9"
+}, {
+  "id": "PA_0915",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": "https:\/\/maps.app.goo.gl\/nUt9RHQ2yoSpA4N48",
+  "location": "71 Rue Anatole France\n71 Rue Anatole France, 92300 Levallois-Perret\nhttps:\/\/maps.app.goo.gl\/nUt9RHQ2yoSpA4N48"
+}, {
+  "id": "PA_0916",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8798472,
+  "longitude": 2.2950751,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/54th9SRu5vvxFNBk8",
+  "location": "2 Rue Fourcroy, 75017 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/54th9SRu5vvxFNBk8"
+}, {
+  "id": "PA_0917",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8795128,
+  "longitude": 2.2949349,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/Uui1Ra7FFBGXdCMJ8",
+  "location": "14 Rue Bayen, 75017 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/Uui1Ra7FFBGXdCMJ8"
+}, {
+  "id": "PA_0918",
+  "city": "Paris",
+  "points": 20,
+  "status": 4,
+  "latitude": 48.8742137,
+  "longitude": 2.3103135,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/5UTiFYmb7i4yeuqy6",
+  "location": "22 Rue de Courcelles, 75008 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/5UTiFYmb7i4yeuqy6"
+}, {
+  "id": "PA_0919",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0920",
+  "city": "Paris",
+  "points": 30,
+  "status": 3,
+  "latitude": 48.8753304,
+  "longitude": 2.4406363,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/m1rBCcschBoyauRCA",
+  "location": "48\u00b052'31.2\"N 2\u00b026'26.3\"E\n93230 Romainville\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/m1rBCcschBoyauRCA\n"
+}, {
+  "id": "PA_0921",
+  "city": "Paris",
+  "points": 10,
+  "status": 3,
+  "latitude": 48.8386263,
+  "longitude": 2.3756672,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/QPsuoKgxZwaS8K1GA",
+  "location": "48\u00b050'19.1\"N 2\u00b022'32.4\"E\nQuai de Bercy, 75012 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/QPsuoKgxZwaS8K1GA"
+}, {
+  "id": "PA_0922",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.8374714,
+  "longitude": 2.3739557,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/iVW8Yh2Yh5Hqc8Vd7",
+  "location": "48\u00b050'14.9\"N 2\u00b022'26.2\"E\nPort de la Gare, 75013 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/iVW8Yh2Yh5Hqc8Vd7"
+}, {
+  "id": "PA_0923",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0924",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.842507,
+  "longitude": 2.371784,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/yH6RhNj4wH5WATUy5",
+  "location": "48\u00b050'33.0\"N 2\u00b022'18.4\"E\nQuai de la Rap\u00e9e, 75012 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/yH6RhNj4wH5WATUy5"
+}, {
+  "id": "PA_0925",
+  "city": "Paris",
+  "points": 10,
+  "status": 0,
+  "latitude": 48.8497379,
+  "longitude": 2.3628433,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/SbCcL3iv3pMXR3q46",
+  "location": "17 Boulevard Morland, 75004 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/SbCcL3iv3pMXR3q46\n"
+}, {
+  "id": "PA_0926",
+  "city": "Paris",
+  "points": 30,
+  "status": 4,
+  "latitude": 48.861782,
+  "longitude": 2.351504,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/yHqWLDecrhqoeURm6",
+  "location": "La French Guinguette_x000D_\n58 Rue Rambuteau, 75004 Paris_x000D_\nhttps:\/\/goo.gl\/maps\/yHqWLDecrhqoeURm6"
+}, {
+  "id": "PA_0927",
+  "city": "Paris",
+  "points": 20,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0928",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.848225,
+  "longitude": 2.434722,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/t67Gf9zCQGJCVqcb9",
+  "location": "Cabinet LOUIS-PORCHERET Vincennes - Transactions - Vente\n64 Rue de Montreuil, 94300 Vincennes\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/t67Gf9zCQGJCVqcb9\n"
+}, {
+  "id": "PA_0929",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8152693,
+  "longitude": 2.3602632,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/FFaL1yAkwaf3UB1w9",
+  "location": "2 Rue du G\u00e9n\u00e9ral Leclerc, 94270 Le Kremlin-Bic\u00eatre\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/FFaL1yAkwaf3UB1w9\n"
+}, {
+  "id": "PA_0930",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8731811,
+  "longitude": 2.3452419,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/d95YqS6mfjp7rPBw5",
+  "location": "8 Rue de Tr\u00e9vise, 75009 Paris\n\nhttps:\/\/goo.gl\/maps\/d95YqS6mfjp7rPBw5"
+}, {
+  "id": "PA_0931",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8741421,
+  "longitude": 2.3474773,
+  "gMapsUrl": "https:\/\/maps.app.goo.gl\/jRfwonJS9dq1kHyE9",
+  "location": "2 Rue Ambroise Thomas, 75009 Paris\nhttps:\/\/maps.app.goo.gl\/jRfwonJS9dq1kHyE9"
+}, {
+  "id": "PA_0932",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8690644,
+  "longitude": 2.3563112,
+  "gMapsUrl": "https:\/\/www.google.com\/maps\/place\/Renaissance+Theatre\/@48.8689318,2.3561797,19z\/data=!4m5!3m4!1s0x47e66e11d0e04979:0x559630cb09497681!8m2!3d48.8690644!4d2.3563112",
+  "location": "https:\/\/www.google.com\/maps\/place\/Renaissance+Theatre\/@48.8689318,2.3561797,19z\/data=!4m5!3m4!1s0x47e66e11d0e04979:0x559630cb09497681!8m2!3d48.8690644!4d2.3563112"
+}, {
+  "id": "PA_0933",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8270485,
+  "longitude": 2.3367832,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/WHdCQ6KgZ2dePpb49",
+  "location": "11B Rue d'Al\u00e9sia, 75014 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/WHdCQ6KgZ2dePpb49"
+}, {
+  "id": "PA_0934",
+  "city": "Paris",
+  "points": 50,
+  "status": 4,
+  "latitude": 48.832564,
+  "longitude": 2.3087828,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/oyFEp5dso5nHsPEa9",
+  "location": "74 Rue de Vouill\u00e9, 75015 Paris (sous les voies)\nhttps:\/\/goo.gl\/maps\/oyFEp5dso5nHsPEa9"
+}, {
+  "id": "PA_0935",
+  "city": "Paris",
+  "points": 20,
+  "status": 4,
+  "latitude": 48.8475123,
+  "longitude": 2.3014222,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/rc7zAwWdEQQ8FBdu6",
+  "location": "HAPPY\n3 Place Cambronne, 75015 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/rc7zAwWdEQQ8FBdu6"
+}, {
+  "id": "PA_0936",
+  "city": "Paris",
+  "points": 50,
+  "status": 0,
+  "latitude": 48.8417472,
+  "longitude": 2.3631086,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/nejgxkpF5HD4TCJT8",
+  "location": "L'hopital Pour Les Enfants\n19 Boulevard de l'H\u00f4pital, 75013 Paris\nhttps:\/\/goo.gl\/maps\/nejgxkpF5HD4TCJT8"
+}, {
+  "id": "PA_0937",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8303552,
+  "longitude": 2.3466016,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/v4pjWKjSGTvDwRMm6",
+  "location": "48\u00b049'49.3\"N 2\u00b020'47.8\"E (en face Le Monde)\n76-80 Boulevard Auguste Blanqui, 75013 Paris\nLink to share\nhttps:\/\/goo.gl\/maps\/v4pjWKjSGTvDwRMm6"
+}, {
+  "id": "PA_0938",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8302596,
+  "longitude": 2.3464947,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/4N2D4ePeme72LHLL9",
+  "location": "48\u00b049'48.9\"N 2\u00b020'47.4\"E\nBoulevard Auguste Blanqui, 75013 Paris (en face Buchard)\nLink to share\nhttps:\/\/goo.gl\/maps\/4N2D4ePeme72LHLL9"
+}, {
+  "id": "PA_0939",
+  "city": "Paris",
+  "points": 30,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0940",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.8273744,
+  "longitude": 2.3347125,
+  "gMapsUrl": "https:\/\/maps.app.goo.gl\/gW6XnbM6jjSZewmC6",
+  "location": "France B\u00e2timent R\u00e9novation Entretien - FBRE\n13 Rue d'Al\u00e9sia, 75014 Paris\n01 44 10 60 60\nhttps:\/\/maps.app.goo.gl\/gW6XnbM6jjSZewmC6"
+}, {
+  "id": "PA_0941",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8418275,
+  "longitude": 2.3034502,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/1GwNvW6BQgYxJcWa7",
+  "location": "103 Rue Cambronne, 75015 Paris_x000D_\nhttps:\/\/goo.gl\/maps\/1GwNvW6BQgYxJcWa7"
+}, {
+  "id": "PA_0942",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8258004,
+  "longitude": 2.3526325,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/Tsn5vZVs7Pxn6jnD6",
+  "location": "H\u00f4tel ibis Paris Italie Tolbiac 13\u00e8me\n177 Rue de Tolbiac, 75013 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/Tsn5vZVs7Pxn6jnD6"
+}, {
+  "id": "PA_0943",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8312211,
+  "longitude": 2.3788244,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/FyVBoHT63vR8oVVt8",
+  "location": "Les Frigos\n19 Rue des Frigos, 75013 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/FyVBoHT63vR8oVVt8"
+}, {
+  "id": "PA_0944",
+  "city": "Paris",
+  "points": 30,
+  "status": 1,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0945",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0946",
+  "city": "Paris",
+  "points": 20,
+  "status": 3,
+  "latitude": 48.8706743,
+  "longitude": 2.3548794,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/1PBTPttTE1VmtnnH6",
+  "location": "2 Rue de Metz, 75010 Paris\n\nhttps:\/\/goo.gl\/maps\/1PBTPttTE1VmtnnH6"
+}, {
+  "id": "PA_0947",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": "https:\/\/www.google.com\/maps\/place\/L'Escalier\/@48.875125,2.3535368,17z\/data=!4m13!1m7!3m6!1s0x47e66e12c3db614b:0xe21e0f2020538f99!2s105+Rue+du+Faubourg+Saint-Denis,+75010+Paris!3b1!8m2!3d48.875125!4d2.3557255!3m4!1s0x47e66e12c0e892cb:0x25516e7ec7af6ecc!8m2!3d48.875125!4d2.3557255"
+}, {
+  "id": "PA_0948",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8710999,
+  "longitude": 2.3532059,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/4o3tMXKrbvbzw2f86",
+  "location": "Les Fleurs des 4 Saisons_x000D_\n35 Rue du Faubourg Saint-Denis, 75010 Paris_x000D_\nhttps:\/\/goo.gl\/maps\/4o3tMXKrbvbzw2f86"
+}, {
+  "id": "PA_0949",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.844907,
+  "longitude": 2.2977035,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/NNt7pHMzxZcYQvg98",
+  "location": "1 Rue Joseph Liouville, 75015 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/NNt7pHMzxZcYQvg98"
+}, {
+  "id": "PA_0950",
+  "city": "Paris",
+  "points": 20,
+  "status": 4,
+  "latitude": 48.8503354,
+  "longitude": 2.2931225,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/tkt18JzCajigBuaL8",
+  "location": "En face du Bio c' Bon_x000D_\n70 Boulevard de Grenelle, 75015 Paris_x000D_\nhttps:\/\/goo.gl\/maps\/tkt18JzCajigBuaL8"
+}, {
+  "id": "PA_0951",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.8503999,
+  "longitude": 2.2944223,
+  "gMapsUrl": "https:\/\/maps.app.goo.gl\/BMRHusZrmJJPm8UZ7",
+  "location": "London Styl'\n75 Boulevard de Grenelle, 75015 Paris\n01 47 34 00 15\nhttps:\/\/maps.app.goo.gl\/BMRHusZrmJJPm8UZ7"
+}, {
+  "id": "PA_0952",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8680975,
+  "longitude": 2.3248248,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/ZKQJW3XQC3me9h688",
+  "location": "4 Rue du Chevalier de Saint-George, 75001 Paris\nhttps:\/\/goo.gl\/maps\/ZKQJW3XQC3me9h688"
+}, {
+  "id": "PA_0953",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.8591728,
+  "longitude": 2.3548369,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/oKGJW2us9tjj6AtA9",
+  "location": "9 Rue du Pl\u00e2tre, 75004 Paris\nhttps:\/\/goo.gl\/maps\/oKGJW2us9tjj6AtA9"
+}, {
+  "id": "PA_0954",
+  "city": "Paris",
+  "points": 30,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0955",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8659419,
+  "longitude": 2.3640252,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/qsFVLaAvnRZDJwEk8",
+  "location": "12 Rue B\u00e9ranger, 75003 Paris_x000D_\nhttps:\/\/goo.gl\/maps\/qsFVLaAvnRZDJwEk8"
+}, {
+  "id": "PA_0956",
+  "city": "Paris",
+  "points": 20,
+  "status": 3,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0957",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8448231,
+  "longitude": 2.3691519,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/3iRFqYRnjQt4z1A26",
+  "location": "En face du 86 Quai de la Rap\u00e9e, 75012 Paris\nColonne du m\u00e9tro 5_x000D_\nhttps:\/\/goo.gl\/maps\/3iRFqYRnjQt4z1A26"
+}, {
+  "id": "PA_0958",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.836218,
+  "longitude": 2.3922536,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/zngx3wT25BW4vesj9",
+  "location": "255 Rue de Charenton, 75012 Paris_x000D_\nhttps:\/\/goo.gl\/maps\/zngx3wT25BW4vesj9"
+}, {
+  "id": "PA_0959",
+  "city": "Paris",
+  "points": 20,
+  "status": 3,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0960",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0961",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0962",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8769454,
+  "longitude": 2.4067596,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/iaws2FBymDNP77wa8",
+  "location": "Porte des Lilas\n75020 Paris\nhttps:\/\/goo.gl\/maps\/iaws2FBymDNP77wa8"
+}, {
+  "id": "PA_0963",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0964",
+  "city": "Paris",
+  "points": 30,
+  "status": 0,
+  "latitude": 48.8612325,
+  "longitude": 2.3579279,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/DQ77eaWXhJ5YkuCM7",
+  "location": "Fontaine des Haudriettes\n3 Rue des Haudriettes, 75003 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/DQ77eaWXhJ5YkuCM7"
+}, {
+  "id": "PA_0965",
+  "city": "Paris",
+  "points": 30,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0966",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8556177,
+  "longitude": 2.2877835,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/jvpf6qj91jEDVTSp6",
+  "location": "Pont de Bir-Hakeim - Direction rive Droite\n48.855618, 2.287784\nhttps:\/\/goo.gl\/maps\/jvpf6qj91jEDVTSp6"
+}, {
+  "id": "PA_0967",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8546,
+  "longitude": 2.2892194,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/dWLnaRpKii7stUdj9",
+  "location": "Iolanda_x000D_\n105 Quai Branly, 75015 Paris_x000D_\nhttps:\/\/goo.gl\/maps\/dWLnaRpKii7stUdj9"
+}, {
+  "id": "PA_0968",
+  "city": "Paris",
+  "points": 30,
+  "status": 4,
+  "latitude": 48.856552,
+  "longitude": 2.2866196,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/2NgmJnryYLCxLDD4A",
+  "location": "48\u00b051'23.6\"N 2\u00b017'11.8\"E\nVoie Georges Pompidou, 75016 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/2NgmJnryYLCxLDD4A"
+}, {
+  "id": "PA_0969",
+  "city": "Paris",
+  "points": 30,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0970",
+  "city": "Paris",
+  "points": 30,
+  "status": 3,
+  "latitude": 48.850598,
+  "longitude": 2.2805669,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/Pg9EJHRg735sSar6A",
+  "location": "All\u00e9e des Cygnes\nhttps:\/\/goo.gl\/maps\/Pg9EJHRg735sSar6A"
+}, {
+  "id": "PA_0971",
+  "city": "Paris",
+  "points": 20,
+  "status": 2,
+  "latitude": 48.830173,
+  "longitude": 2.334992,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/Lak994XNd5cQhdgKA",
+  "location": "48\u00b049'48.6\"N 2\u00b020'06.0\"E\n2-4 Rue du Saint-Gothard, 75014 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/Lak994XNd5cQhdgKA"
+}, {
+  "id": "PA_0972",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.846248,
+  "longitude": 2.415479,
+  "gMapsUrl": "https:\/\/maps.app.goo.gl\/SUJKW2GLGTon557g7",
+  "location": "Len\u00f4tre Vincennes\n22 Avenue de la Porte de Vincennes, 75012 Paris\nhttps:\/\/maps.app.goo.gl\/SUJKW2GLGTon557g7"
+}, {
+  "id": "PA_0973",
+  "city": "Paris",
+  "points": 30,
+  "status": 4,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0974",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0975",
+  "city": "Paris",
+  "points": 30,
+  "status": 4,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0976",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8683077,
+  "longitude": 2.343726,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/4p38AyiFPnQXQbRp7",
+  "location": "Franck Provost - Coiffeur Paris\n132 Rue Montmartre, 75002 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/4p38AyiFPnQXQbRp7\n"
+}, {
+  "id": "PA_0977",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8660467,
+  "longitude": 2.3515886,
+  "gMapsUrl": "https:\/\/maps.app.goo.gl\/tSUdsuDJp3aDAmGH7",
+  "location": "25 Rue de Palestro, 75002 Paris\nhttps:\/\/maps.app.goo.gl\/tSUdsuDJp3aDAmGH7"
+}, {
+  "id": "PA_0978",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8637686,
+  "longitude": 2.3465503,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/cJWRUeGdeAdJNVLA8",
+  "location": "Les Artizans\n30 Rue Montorgueil, 75001 Paris\nhttps:\/\/goo.gl\/maps\/cJWRUeGdeAdJNVLA8"
+}, {
+  "id": "PA_0979",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8508345,
+  "longitude": 2.3611407,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/p1i3YGikiMNvicpo8",
+  "location": "48\u00b051'03.0\"N 2\u00b021'40.1\"E\n48.850834, 2.361141\nVoie Georges Pompidou (sur le pont de Sully), 75004 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/p1i3YGikiMNvicpo8"
+}, {
+  "id": "PA_0980",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8397978,
+  "longitude": 2.3830819,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/bBdNyEPTytcoN4jv6",
+  "location": "Boulevard de Bercy - Rue Corbineau\n48.839798, 2.383082\nhttps:\/\/goo.gl\/maps\/bBdNyEPTytcoN4jv6"
+}, {
+  "id": "PA_0981",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8451347,
+  "longitude": 2.383258,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/JoqwRrUNwUuys1CX7",
+  "location": "Maison Landemaine Crozatier_x000D_\n2 Rue Crozatier, 75012 Paris_x000D_\nhttps:\/\/goo.gl\/maps\/JoqwRrUNwUuys1CX7"
+}, {
+  "id": "PA_0982",
+  "city": "Paris",
+  "points": 30,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0983",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": "https:\/\/www.google.com\/maps\/place\/Rue+Mondonville,+75020+Paris\/@48.8659368,2.4062344,19z\/data=!4m13!1m7!3m6!1s0x47e66d9b5bfaff87:0x2dbdd70c9d1436e9!2sRue+Mondonville,+75020+Paris!3b1!8m2!3d48.8659368!4d2.4067816!3m4!1s0x47e66d9b5bfaff87:0x2dbdd70c9d1436e9!8m2!3d48.8659368!4d2.4067816"
+}, {
+  "id": "PA_0984",
+  "city": "Paris",
+  "points": 20,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0985",
+  "city": "Paris",
+  "points": 30,
+  "status": 3,
+  "latitude": 48.8798584,
+  "longitude": 2.3993772,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/z5qePHCYBfQn5Aoi8",
+  "location": "52 Bd S\u00e9rurier, 75019 Paris\nhttps:\/\/goo.gl\/maps\/z5qePHCYBfQn5Aoi8"
+}, {
+  "id": "PA_0986",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0987",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.8874235,
+  "longitude": 2.3786889,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/rabEonzgAzUe2SnZA",
+  "location": "Le Pavillon des Canaux\n75019, 39 Quai de la Loire, 75019 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/rabEonzgAzUe2SnZA"
+}, {
+  "id": "PA_0988",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8835813,
+  "longitude": 2.350747,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/PUPfuEDxiw9tVVwk6",
+  "location": "En face du 47 Boulevard de la Chapelle, 75010 Paris_x000D_\nM\u00e9tro Barbes - Pillier m\u00e9tro - quai 2 direction Nation\nhttps:\/\/goo.gl\/maps\/PUPfuEDxiw9tVVwk6"
+}, {
+  "id": "PA_0989",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8915155,
+  "longitude": 2.3614799,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/hBu8JGYgw4yizAGN7",
+  "location": "2 Rue de l'\u00c9vangile, 75018 Paris\nLink to share\nhttps:\/\/goo.gl\/maps\/hBu8JGYgw4yizAGN7"
+}, {
+  "id": "PA_0990",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8844174,
+  "longitude": 2.3605691,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/51f2S6F3S6yGNHT97",
+  "location": "La Chapelle\n75018 Paris\nhttps:\/\/goo.gl\/maps\/51f2S6F3S6yGNHT97"
+}, {
+  "id": "PA_0991",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0992",
+  "city": "Paris",
+  "points": 30,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_0993",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8772341,
+  "longitude": 2.4086344,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/H5kUGVRqXSCUJ3X48",
+  "location": "Porte des Lilas, entr\u00e9e p\u00e9riph int\u00e9rieur\n48.877234, 2.408634\nhttps:\/\/goo.gl\/maps\/H5kUGVRqXSCUJ3X48"
+}, {
+  "id": "PA_0994",
+  "city": "Paris",
+  "points": 30,
+  "status": 4,
+  "latitude": 48.89705,
+  "longitude": 2.310861,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/Ami53XZByCSULbAr7",
+  "location": "48\u00b053'49.4\"N 2\u00b018'39.1\"E\n17e de Paris, 75017 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/Ami53XZByCSULbAr7"
+}, {
+  "id": "PA_0995",
+  "city": "Paris",
+  "points": 30,
+  "status": 3,
+  "latitude": 48.8863602,
+  "longitude": 2.3187639,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/ui2btdfAuNFM5S3z8",
+  "location": "64 Rue des Batignolles, 75017 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/ui2btdfAuNFM5S3z8"
+}, {
+  "id": "PA_0996",
+  "city": "Paris",
+  "points": 10,
+  "status": 4,
+  "latitude": 48.8797277,
+  "longitude": 2.2881908,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/eXuksG2Bznyb6xjs8",
+  "location": "Agence Du Grand Paris & States\n227 Boulevard Pereire, 75017 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/eXuksG2Bznyb6xjs8"
+}, {
+  "id": "PA_0997",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.8617779,
+  "longitude": 2.3507339,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/yumk3CW62WT1LuqZA",
+  "location": "67 Rue Rambuteau, 75004 Paris\nhttps:\/\/goo.gl\/maps\/yumk3CW62WT1LuqZA"
+}, {
+  "id": "PA_0998",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8639143,
+  "longitude": 2.3503427,
+  "gMapsUrl": "https:\/\/maps.app.goo.gl\/jroaUzosxizxiBseA",
+  "location": "Street Bangkok Roast & Beer\n112 Rue Saint-Denis, 75002 Paris\nhttps:\/\/maps.app.goo.gl\/jroaUzosxizxiBseA"
+}, {
+  "id": "PA_0999",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.857746,
+  "longitude": 2.3810144,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/X2UzBTxxjcy4b4sm9",
+  "location": "Maison Landemaine Roquette\n136 Rue de la Roquette, 75011 Paris\nhttps:\/\/goo.gl\/maps\/X2UzBTxxjcy4b4sm9"
+}, {
+  "id": "PA_1000",
+  "city": "Paris",
+  "points": 100,
+  "status": 0,
+  "latitude": 48.8595247,
+  "longitude": 2.3794159,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/Ti6fkRekEaQ9wMCM6",
+  "location": "La G\u00e9n\u00e9rale Nord-Est\n14 Avenue Parmentier, 75011 Paris\nhttps:\/\/goo.gl\/maps\/Ti6fkRekEaQ9wMCM6"
+}, {
+  "id": "PA_1001",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.8595247,
+  "longitude": 2.3794159,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/Ti6fkRekEaQ9wMCM6",
+  "location": "La G\u00e9n\u00e9rale Nord-Est\n14 Avenue Parmentier, 75011 Paris\nhttps:\/\/goo.gl\/maps\/Ti6fkRekEaQ9wMCM6"
+}, {
+  "id": "PA_1002",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.7790178,
+  "longitude": 2.4409176,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/1xG7HKJ4oQdrANZRA",
+  "location": "48\u00b046'44.5\"N 2\u00b026'27.3\"E\n94000 Cr\u00e9teil\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/1xG7HKJ4oQdrANZRA\n"
+}, {
+  "id": "PA_1003",
+  "city": "Paris",
+  "points": 50,
+  "status": 0,
+  "latitude": 48.878875,
+  "longitude": 2.3010259,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/FctM9BSwdLtKqb4F8",
+  "location": "110 Boulevard de Courcelles, 75017 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/FctM9BSwdLtKqb4F8"
+}, {
+  "id": "PA_1004",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8776731,
+  "longitude": 2.3064543,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/q8E7dVoTLMmKZWfC6",
+  "location": "Fairway\n25 Rue Murillo, 75008 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/q8E7dVoTLMmKZWfC6"
+}, {
+  "id": "PA_1005",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8653412,
+  "longitude": 2.3755284,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/V7rYVr9De7CBK4Ux5",
+  "location": "Monop'_x000D_\n89 Rue Oberkampf, 75011 Paris_x000D_\nhttps:\/\/goo.gl\/maps\/V7rYVr9De7CBK4Ux5"
+}, {
+  "id": "PA_1006",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8721196,
+  "longitude": 2.3466789,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/iUTZAr17w462uxht9",
+  "location": "Centre Bergere\n9 Rue Berg\u00e8re, 75009 Paris\n\nhttps:\/\/goo.gl\/maps\/iUTZAr17w462uxht9"
+}, {
+  "id": "PA_1007",
+  "city": "Paris",
+  "points": 30,
+  "status": 3,
+  "latitude": 48.8734566,
+  "longitude": 2.3404298,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/QdRT6ZudKPDNj8Em8",
+  "location": "11 Rue Drouot, 75009 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/QdRT6ZudKPDNj8Em8"
+}, {
+  "id": "PA_1008",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_1009",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_1010",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_1011",
+  "city": "Paris",
+  "points": 30,
+  "status": 1,
+  "latitude": 48.8735464,
+  "longitude": 2.3525908,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/M8so5djZ6CNzHfBp9",
+  "location": "Chez Mme Gen_x000D_\n16 Rue des Petites \u00c9curies, 75010 Paris_x000D_\nhttps:\/\/goo.gl\/maps\/M8so5djZ6CNzHfBp9"
+}, {
+  "id": "PA_1012",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.8786017,
+  "longitude": 2.3453715,
+  "gMapsUrl": "https:\/\/maps.app.goo.gl\/HQrfez2dFdTyKgCQ7",
+  "location": "Centre dentaire Paris 9 - Smile-only - Maubeuge\n35 Rue de Maubeuge, 75009 Paris\nhttps:\/\/maps.app.goo.gl\/HQrfez2dFdTyKgCQ7"
+}, {
+  "id": "PA_1013",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8601118,
+  "longitude": 2.3612387,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/fQWnZbsSqg4aR25o6",
+  "location": "88 Rue Vieille du Temple, 75003 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/fQWnZbsSqg4aR25o6"
+}, {
+  "id": "PA_1014",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8516736,
+  "longitude": 2.3847877,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/18CEoFJm84weGMP46",
+  "location": "LAVERIE PAUL BERT_x000D_\n10 Rue Paul Bert, 75011 Paris_x000D_\nhttps:\/\/goo.gl\/maps\/18CEoFJm84weGMP46"
+}, {
+  "id": "PA_1015",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_1016",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_1017",
+  "city": "Paris",
+  "points": 50,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_1018",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.889875,
+  "longitude": 2.3601917,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/XhhvjA1ACb61hYTZ6",
+  "location": "LCL Banque et assurance\n76 Rue Marx Dormoy, 75018 Paris\nLink to share\nhttps:\/\/goo.gl\/maps\/XhhvjA1ACb61hYTZ6"
+}, {
+  "id": "PA_1019",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_1020",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.8956625,
+  "longitude": 2.3429809,
+  "gMapsUrl": "https:\/\/maps.app.goo.gl\/oLZ2B2rq8GjoHku59",
+  "location": "85 Rue Championnet, 75018 Paris\nhttps:\/\/maps.app.goo.gl\/oLZ2B2rq8GjoHku59"
+}, {
+  "id": "PA_1021",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8954837,
+  "longitude": 2.3387637,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/qmZ3MjpeEzaS4tuf6",
+  "location": "La Calebasse\n117 Rue Championnet, 75018 Paris\nLink to share\nhttps:\/\/goo.gl\/maps\/qmZ3MjpeEzaS4tuf6"
+}, {
+  "id": "PA_1022",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.890781,
+  "longitude": 2.3404055,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/MuB1bfaGSf4KY1fy8",
+  "location": "Le Funambule\n53 Rue des Saules, 75018 Paris\nLink to share\nhttps:\/\/goo.gl\/maps\/MuB1bfaGSf4KY1fy8"
+}, {
+  "id": "PA_1023",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.8570263,
+  "longitude": 2.3573034,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/QN2Usacdrd4XTGjB9",
+  "location": "Rituals\n24 Rue Vieille du Temple, 75004 Paris\nhttps:\/\/goo.gl\/maps\/QN2Usacdrd4XTGjB9"
+}, {
+  "id": "PA_1024",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_1025",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.8750318,
+  "longitude": 2.3193839,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/auUurh3qFjgcS19H9",
+  "location": "Grange\n75008 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/auUurh3qFjgcS19H9"
+}, {
+  "id": "PA_1026",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.837806,
+  "longitude": 2.5211378,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/11AxfABgxLNGA8eL6",
+  "location": "Immobili\u00e8re des Bords de Marne\n54 Grande Rue Charles de Gaulle, 94360 Bry-sur-Marne\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/11AxfABgxLNGA8eL6\n"
+}, {
+  "id": "PA_1027",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.8567407,
+  "longitude": 2.3956003,
+  "gMapsUrl": "https:\/\/maps.app.goo.gl\/yRAcaPMrHq2PxtqX6",
+  "location": "1 Cit\u00e9 Aubry, 75020 Paris\nhttps:\/\/maps.app.goo.gl\/yRAcaPMrHq2PxtqX6"
+}, {
+  "id": "PA_1028",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.8683801,
+  "longitude": 2.3836066,
+  "gMapsUrl": "https:\/\/maps.app.goo.gl\/JVjqcX2m84QE5vzt6",
+  "location": "11 Rue des Maronites, 75020 Paris\nhttps:\/\/maps.app.goo.gl\/JVjqcX2m84QE5vzt6"
+}, {
+  "id": "PA_1029",
+  "city": "Paris",
+  "points": undefined,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_1030",
+  "city": "Paris",
+  "points": 50,
+  "status": 0,
+  "latitude": 48.8606006,
+  "longitude": 2.3454986,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/6aPxCG7AVgGU9Mwv6",
+  "location": "V\u00e9g\u00e9t'Halles\n41 Rue des Bourdonnais, 75001 Paris\nhttps:\/\/goo.gl\/maps\/6aPxCG7AVgGU9Mwv6"
+}, {
+  "id": "PA_1031",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.9007995,
+  "longitude": 2.3890741,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/GEQMFQzBBD281YCh6",
+  "location": "Sortie p\u00e9riph ext\u00e9rieur Pte de la Villette\n48.900799, 2.389074\nhttps:\/\/goo.gl\/maps\/GEQMFQzBBD281YCh6"
+}, {
+  "id": "PA_1032",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8583736,
+  "longitude": 2.3643922,
+  "gMapsUrl": "https:\/\/maps.app.goo.gl\/GUNrLR8T3CeRETq49",
+  "location": "51 Rue de Turenne\n51 Rue de Turenne, 75003 Paris\nhttps:\/\/maps.app.goo.gl\/GUNrLR8T3CeRETq49"
+}, {
+  "id": "PA_1033",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.8611381,
+  "longitude": 2.3668939,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/jBWdtJyEacPuNKUR7",
+  "location": "1 Boulevard des Filles du Calvaire, 75003 Paris\nhttps:\/\/goo.gl\/maps\/jBWdtJyEacPuNKUR7"
+}, {
+  "id": "PA_1034",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.8612734,
+  "longitude": 2.3441925,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/1kkHCg5R44bvN2tG6",
+  "location": "Les primeurs D'excellence\n48 Rue Saint-Honor\u00e9, 75001 Paris\nhttps:\/\/goo.gl\/maps\/1kkHCg5R44bvN2tG6"
+}, {
+  "id": "PA_1035",
+  "city": "Paris",
+  "points": 20,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_1036",
+  "city": "Paris",
+  "points": 20,
+  "status": 0,
+  "latitude": 48.8194973,
+  "longitude": 2.3616615,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/f6kHcvYBRwgfnNn97",
+  "location": "148 Boulevard Mass\u00e9na, 75013 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/f6kHcvYBRwgfnNn97"
+}, {
+  "id": "PA_1037",
+  "city": "Paris",
+  "points": 10,
+  "status": 2,
+  "latitude": 48.825891,
+  "longitude": 2.3570748,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/LRr2VpZLRpr7w5m17",
+  "location": "86 Avenue d'Italie, 75013 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/LRr2VpZLRpr7w5m17"
+}, {
+  "id": "PA_1038",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.856758,
+  "longitude": 2.2730829,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/6MQs4sFF6hiasNDL9",
+  "location": "5 Rue Pajou, 75016 Paris\nhttps:\/\/goo.gl\/maps\/6MQs4sFF6hiasNDL9"
+}, {
+  "id": "PA_1039",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_1040",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.8667227,
+  "longitude": 2.3330592,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/zYBgpaqN8GSjM1n98",
+  "location": "49 Rue Saint-Roch, 75001 Paris\nhttps:\/\/goo.gl\/maps\/zYBgpaqN8GSjM1n98"
+}, {
+  "id": "PA_1041",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.75445,
+  "longitude": 2.375186,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/SHgeErwhqJ52bFTo7",
+  "location": "48\u00b045'16.0\"N 2\u00b022'30.7\"E\n94320 Thiais\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/SHgeErwhqJ52bFTo7"
+}, {
+  "id": "PA_1042",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.773995,
+  "longitude": 2.403185,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/cgywxQVkCnpiJ3uK8",
+  "location": "48\u00b046'26.4\"N 2\u00b024'11.5\"E\n94600 Vitry-sur-Seine\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/cgywxQVkCnpiJ3uK8"
+}, {
+  "id": "PA_1043",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.773709,
+  "longitude": 2.4032398,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/QTqewXrbq2FoHMF96",
+  "location": "48\u00b046'25.4\"N 2\u00b024'11.7\"E\n94400 Vitry-sur-Seine\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/QTqewXrbq2FoHMF96\n"
+}, {
+  "id": "PA_1044",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8161,
+  "longitude": 2.358902,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/wKx9Y5bDTToqnFsJA",
+  "location": "48\u00b048'58.0\"N 2\u00b021'32.1\"E\n94270 Le Kremlin-Bic\u00eatre\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/wKx9Y5bDTToqnFsJA"
+}, {
+  "id": "PA_1045",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.86463,
+  "longitude": 2.401189,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/NjVh76VX5onJ34Va9",
+  "location": "Pompes Fun\u00e8bres ALVES E.F.G\n18 Rue Belgrand, 75020 Paris\nhttps:\/\/goo.gl\/maps\/NjVh76VX5onJ34Va9"
+}, {
+  "id": "PA_1046",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8651252,
+  "longitude": 2.358477,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/3ntVsxN3W5KnbnyN9",
+  "location": "22 Rue R\u00e9aumur, 75003 Paris_x000D_\nhttps:\/\/goo.gl\/maps\/3ntVsxN3W5KnbnyN9"
+}, {
+  "id": "PA_1047",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_1048",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.764849,
+  "longitude": 2.34371,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/Fzn9CEu7s2CSHKEW6",
+  "location": "48\u00b045'53.5\"N 2\u00b020'37.4\"E\n94550 Chevilly-Larue\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/Fzn9CEu7s2CSHKEW6"
+}, {
+  "id": "PA_1049",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.862667,
+  "longitude": 2.353575,
+  "gMapsUrl": "https:\/\/maps.app.goo.gl\/GVMQfU6Cy4Y3xEyi6",
+  "location": "Centre Laser du Marais\n7 Rue du Grenier-Saint-Lazare, 75003 Paris\n01 42 72 82 05\nhttps:\/\/maps.app.goo.gl\/GVMQfU6Cy4Y3xEyi6"
+}, {
+  "id": "PA_1050",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8830982,
+  "longitude": 2.3494787,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/gv5g7ScV53i3Ja496",
+  "location": "Le Barb\u00e8s\n191Rue du Faubourg Poissonni\u00e8re, 75009 Paris\n\nhttps:\/\/goo.gl\/maps\/gv5g7ScV53i3Ja496"
+}, {
+  "id": "PA_1051",
+  "city": "Paris",
+  "points": 100,
+  "status": 5,
+  "latitude": 48.8551813,
+  "longitude": 2.3394198,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/paBB4XSecWqBvn9G7",
+  "location": "Le Nesle\n22 Rue Dauphine, 75006 Paris\nhttps:\/\/goo.gl\/maps\/paBB4XSecWqBvn9G7"
+}, {
+  "id": "PA_1052",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8874052,
+  "longitude": 2.34725,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/4rNm9iVh3eP59VQ98",
+  "location": "Galerie Wenge\n9 Rue Ramey, 75018 Paris\nhttps:\/\/goo.gl\/maps\/4rNm9iVh3eP59VQ98"
+}, {
+  "id": "PA_1053",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8840972,
+  "longitude": 2.3388809,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/aCFx4zDyGrZqGNVL6",
+  "location": "LA POSTE_x000D_\n8 Place des Abbesses, 75018 Paris_x000D_\nhttps:\/\/goo.gl\/maps\/aCFx4zDyGrZqGNVL6"
+}, {
+  "id": "PA_1054",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_1055",
+  "city": "Paris",
+  "points": 100,
+  "status": 5,
+  "latitude": 48.8265605,
+  "longitude": 2.4662013,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/D3YNwuGm5HsxBF1J9",
+  "location": "48\u00b049'35.6\"N 2\u00b027'58.3\"E\nE50, 94340 Nogent-sur-Marne\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/D3YNwuGm5HsxBF1J9"
+}, {
+  "id": "PA_1056",
+  "city": "Paris",
+  "points": 30,
+  "status": 4,
+  "latitude": 48.8425854,
+  "longitude": 2.3861004,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/brHPMSKvEbE1sEWY7",
+  "location": "Rue Jacques Hillairet - Entr\u00e9e coul\u00e9e verte\n48.842585, 2.386100\nhttps:\/\/goo.gl\/maps\/brHPMSKvEbE1sEWY7"
+}, {
+  "id": "PA_1057",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_1058",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8669115,
+  "longitude": 2.3364545,
+  "gMapsUrl": "https:\/\/maps.app.goo.gl\/vrLFwtxZfqT67orA7",
+  "location": "Toyotomi\n24 Rue des Petits Champs, 75002 Paris\nhttps:\/\/maps.app.goo.gl\/vrLFwtxZfqT67orA7"
+}, {
+  "id": "PA_1059",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_1060",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_1061",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.8885836,
+  "longitude": 2.3464966,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/YNw1PfoBaGGYGVht6",
+  "location": "29 Rue Ramey, 75018 Paris\nhttps:\/\/goo.gl\/maps\/YNw1PfoBaGGYGVht6"
+}, {
+  "id": "PA_1062",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8648522,
+  "longitude": 2.3456871,
+  "gMapsUrl": "https:\/\/maps.app.goo.gl\/w2sGeUKJY6xRi8eM9",
+  "location": "64 Rue Tiquetonne, 75001 Paris\nhttps:\/\/maps.app.goo.gl\/w2sGeUKJY6xRi8eM9"
+}, {
+  "id": "PA_1063",
+  "city": "Paris",
+  "points": 30,
+  "status": 1,
+  "latitude": 48.8582192,
+  "longitude": 2.3551966,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/CvtR7oZLE91jZWod8",
+  "location": "28 Rue des Archives, 75004 Paris_x000D_\nhttps:\/\/goo.gl\/maps\/CvtR7oZLE91jZWod8"
+}, {
+  "id": "PA_1064",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8618308,
+  "longitude": 2.3652286,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/NQGJEBjFb7nPhmoB6",
+  "location": "Miki Mialy_x000D_\n12 Rue Froissart, 75003 Paris_x000D_\nhttps:\/\/goo.gl\/maps\/NQGJEBjFb7nPhmoB6"
+}, {
+  "id": "PA_1065",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8648181,
+  "longitude": 2.3544588,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/73GivXBBtTYcJpFV6",
+  "location": "59 Rue au Maire, 75003 Paris_x000D_\nhttps:\/\/goo.gl\/maps\/73GivXBBtTYcJpFV6"
+}, {
+  "id": "PA_1066",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.864687,
+  "longitude": 2.408338,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/jM5AojbQhA7rBDxN8",
+  "location": "McDonald's\n49 Rue Belgrand, 75020 Paris\nhttps:\/\/goo.gl\/maps\/jM5AojbQhA7rBDxN8"
+}, {
+  "id": "PA_1067",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.8745327,
+  "longitude": 2.3568135,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/Fsoc1MVHvm4V8mM18",
+  "location": "1 Rue de la Fid\u00e9lit\u00e9, 75010 Paris\nhttps:\/\/goo.gl\/maps\/Fsoc1MVHvm4V8mM18"
+}, {
+  "id": "PA_1068",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_1069",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_1070",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8485384,
+  "longitude": 2.398714,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/5W76NtbGzKvu1KzR8",
+  "location": "48.848538, 2.398714\nPlace des Antilles, 75011 Paris_x000D_\nhttps:\/\/goo.gl\/maps\/5W76NtbGzKvu1KzR8"
+}, {
+  "id": "PA_1071",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.8736171,
+  "longitude": 2.3223999,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/tZtZUrb2agz18hiW9",
+  "location": "57 Rue d'Anjou, 75008 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/tZtZUrb2agz18hiW9"
+}, {
+  "id": "PA_1072",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.8732425,
+  "longitude": 2.3237068,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/MCx5xf3ZQj7NC83s7",
+  "location": "32 Rue Pasquier, 75008 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/MCx5xf3ZQj7NC83s7"
+}, {
+  "id": "PA_1073",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8722652,
+  "longitude": 2.3135888,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/DvYRx45o7EASq7J47",
+  "location": "41 Rue de Penthi\u00e8vre, 75008 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/DvYRx45o7EASq7J47"
+}, {
+  "id": "PA_1074",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": "https:\/\/g.page\/SANTA-MARIA-NOVELLA-faubourg?share",
+  "location": "Santa Maria Novela 61 Faubourg\n61 Rue du Faubourg Saint-Honor\u00e9, 75008 Paris\nLien \u00e0 partager\nhttps:\/\/g.page\/SANTA-MARIA-NOVELLA-faubourg?share"
+}, {
+  "id": "PA_1075",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.8532863,
+  "longitude": 2.3361244,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/M2X9pvpCBF9zBZaq5",
+  "location": "160 Boulevard Saint-Germain, 75006 Paris\nhttps:\/\/goo.gl\/maps\/M2X9pvpCBF9zBZaq5"
+}, {
+  "id": "PA_1076",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8517941,
+  "longitude": 2.3366104,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/xVyPDofkANEkc1fV7",
+  "location": "Piscine Saint Germain\n12 Rue Lobineau, 75006 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/xVyPDofkANEkc1fV7\n"
+}, {
+  "id": "PA_1077",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.88571,
+  "longitude": 2.3348763,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/xCs3Tyhptnh6Z7G76",
+  "location": "Cr\u00eaperie sandwicherie Pepone\n65 Rue des Abbesses, 75018 Paris\nhttps:\/\/goo.gl\/maps\/xCs3Tyhptnh6Z7G76"
+}, {
+  "id": "PA_1078",
+  "city": "Paris",
+  "points": 30,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_1079",
+  "city": "Paris",
+  "points": 20,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_1080",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8675105,
+  "longitude": 2.3187718,
+  "gMapsUrl": "https:\/\/maps.app.goo.gl\/YFjMrP7rn1kP1kcq7",
+  "location": "Th\u00e9\u00e2tre de la Ville - Espace Cardin\n1 Avenue Gabriel, 75008 Paris\n01 42 74 22 77\nhttps:\/\/maps.app.goo.gl\/YFjMrP7rn1kP1kcq7"
+}, {
+  "id": "PA_1081",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_1082",
+  "city": "Paris",
+  "points": 50,
+  "status": 0,
+  "latitude": 48.8491798,
+  "longitude": 2.3782777,
+  "gMapsUrl": "https:\/\/maps.app.goo.gl\/oK8A4LkajzSzwimd6",
+  "location": "Place d'Aligre\n75012 Paris\nhttps:\/\/maps.app.goo.gl\/oK8A4LkajzSzwimd6"
+}, {
+  "id": "PA_1083",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_1084",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.8702432,
+  "longitude": 2.356415,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/kWsRYEMSWyQqPche7",
+  "location": "36 Rue du Faubourg Saint-Martin, 75010 Paris\n\nhttps:\/\/goo.gl\/maps\/kWsRYEMSWyQqPche7"
+}, {
+  "id": "PA_1085",
+  "city": "Paris",
+  "points": 50,
+  "status": 4,
+  "latitude": 48.8755853,
+  "longitude": 2.3602636,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/oC27yUiEfr47Mkji8",
+  "location": "154 Rue du Faubourg Saint-Martin, 75010 Paris\nhttps:\/\/goo.gl\/maps\/oC27yUiEfr47Mkji8"
+}, {
+  "id": "PA_1086",
+  "city": "Paris",
+  "points": 30,
+  "status": 3,
+  "latitude": 48.8510313,
+  "longitude": 2.3479374,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/vmHRVhCraTWXXUYk8",
+  "location": "Le Priv\u00e9\n2 Rue des Anglais, 75005 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/vmHRVhCraTWXXUYk8\n"
+}, {
+  "id": "PA_1087",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8527662,
+  "longitude": 2.3464508,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/5dzpWdrsrKbgdAd99",
+  "location": "Restaurant Jardin Notre-Dame_x000D_\n2 Rue du Petit Pont, 75005 Paris_x000D_\nhttps:\/\/goo.gl\/maps\/5dzpWdrsrKbgdAd99"
+}, {
+  "id": "PA_1088",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8411517,
+  "longitude": 2.3561598,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/yNMshSdX4nmo23f66",
+  "location": "Les Cr\u00eapes Du Jardin\n75 Rue Buffon, 75005 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/yNMshSdX4nmo23f66"
+}, {
+  "id": "PA_1089",
+  "city": "Paris",
+  "points": 100,
+  "status": 0,
+  "latitude": 48.8720934,
+  "longitude": 2.3091846,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/zJn5PtfHF6hNtAcb7",
+  "location": "79 Rue la Bo\u00e9tie, 75008 Paris\nhttps:\/\/goo.gl\/maps\/zJn5PtfHF6hNtAcb7"
+}, {
+  "id": "PA_1090",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": 48.8840955,
+  "longitude": 2.36519,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/HVAkrTGrGbofqdBS6",
+  "location": "169 Boulevard de la Villette, 75010 Paris\n\nhttps:\/\/goo.gl\/maps\/HVAkrTGrGbofqdBS6"
+}, {
+  "id": "PA_1091",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8828557,
+  "longitude": 2.3720597,
+  "gMapsUrl": "https:\/\/maps.app.goo.gl\/GNpt8seDMEQMA4A16",
+  "location": "Conservatoire municipal Jacques Ibert\n81 Rue Armand Carrel, 75019 Paris\n01 42 06 42 70\nhttps:\/\/maps.app.goo.gl\/GNpt8seDMEQMA4A16"
+}, {
+  "id": "PA_1092",
+  "city": "Paris",
+  "points": 30,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_1093",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8407015,
+  "longitude": 2.3701617,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/RRLtCznJWwPrToCg9",
+  "location": "City of Fashion and Design\n34 Quai d'Austerlitz, 75013 Paris\nLink to share\nhttps:\/\/goo.gl\/maps\/RRLtCznJWwPrToCg9"
+}, {
+  "id": "PA_1094",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_1095",
+  "city": "Paris",
+  "points": 30,
+  "status": 0,
+  "latitude": 48.8473537,
+  "longitude": 2.3951269,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/x8dR9LjkZLRtQBa38",
+  "location": "Caves Michel Renaud_x000D_\n12 Place de la Nation, 75012 Paris_x000D_\nhttps:\/\/goo.gl\/maps\/x8dR9LjkZLRtQBa38"
+}, {
+  "id": "PA_1096",
+  "city": "Paris",
+  "points": 50,
+  "status": 4,
+  "latitude": 48.869633,
+  "longitude": 2.430466,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/rAV7Hkqe35yVKchx5",
+  "location": "48\u00b052'10.7\"N 2\u00b025'49.7\"E\n17 Rue des Lilas, 93100 Montreuil\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/rAV7Hkqe35yVKchx5"
+}, {
+  "id": "PA_1097",
+  "city": "Paris",
+  "points": 100,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_1098",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.8525302,
+  "longitude": 2.3892959,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/cDGE4bLbw7MT6xNy9",
+  "location": "207 Boulevard Voltaire, 75011 Paris\nhttps:\/\/goo.gl\/maps\/cDGE4bLbw7MT6xNy9"
+}, {
+  "id": "PA_1099",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_1100",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_1101",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8699794,
+  "longitude": 2.3114953,
+  "gMapsUrl": "https:\/\/maps.app.goo.gl\/31yvteQoZyqTXTuj7",
+  "location": "Le Berkeley\n7 Avenue Matignon, 75008 Paris\n01 42 25 72 25\nhttps:\/\/maps.app.goo.gl\/31yvteQoZyqTXTuj7"
+}, {
+  "id": "PA_1102",
+  "city": "Paris",
+  "points": 100,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_1103",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.8291988,
+  "longitude": 2.3532351,
+  "gMapsUrl": "https:\/\/maps.app.goo.gl\/v7oEn9mRSHwzc1ja8",
+  "location": "3 Passage du Moulin des Pr\u00e9s\n3 Passage du Moulin des Pr\u00e9s, 75013 Paris\nhttps:\/\/maps.app.goo.gl\/v7oEn9mRSHwzc1ja8"
+}, {
+  "id": "PA_1104",
+  "city": "Paris",
+  "points": 100,
+  "status": 5,
+  "latitude": 48.8343772,
+  "longitude": 2.3643079,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/qb5mNdoAcTpzdPRV8",
+  "location": "6 Rue Jenner, 75013 Paris\nhttps:\/\/goo.gl\/maps\/qb5mNdoAcTpzdPRV8"
+}, {
+  "id": "PA_1105",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8845904,
+  "longitude": 2.3637086,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/kfh74oKG2Y8s7uij6",
+  "location": "14 Boulevard de la Chapelle, 75018 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/kfh74oKG2Y8s7uij6"
+}, {
+  "id": "PA_1106",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_1107",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8532299,
+  "longitude": 2.3426112,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/h9Xmo2oeqEX9UEyt6",
+  "location": "La gentilhommi\u00e8re_x000D_\nPlace Saint-Andr\u00e9 des Arts, 75006 Paris_x000D_\nhttps:\/\/goo.gl\/maps\/h9Xmo2oeqEX9UEyt6"
+}, {
+  "id": "PA_1108",
+  "city": "Paris",
+  "points": 30,
+  "status": 4,
+  "latitude": 48.8267969,
+  "longitude": 2.3638077,
+  "gMapsUrl": "https:\/\/maps.app.goo.gl\/EKzUtz1caymGGhECA",
+  "location": "Les Marmites du Soleil\n44 Rue Baudricourt, 75013 Paris\nhttps:\/\/maps.app.goo.gl\/EKzUtz1caymGGhECA"
+}, {
+  "id": "PA_1109",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8233006,
+  "longitude": 2.3654068,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/HWGxpB8Z8GNapjJ87",
+  "location": "Hoa Nam\n51 Avenue d'Ivry, 75013 Paris\nLink to share\nhttps:\/\/goo.gl\/maps\/HWGxpB8Z8GNapjJ87"
+}, {
+  "id": "PA_1110",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.8460419,
+  "longitude": 2.4139317,
+  "gMapsUrl": "https:\/\/maps.app.goo.gl\/BasmexAMBcWbQSU86",
+  "location": "Porte de Vincennes, entr\u00e9e p\u00e9riph\u00e9rique int\u00e9rieur, 75012 Paris\nhttps:\/\/maps.app.goo.gl\/BasmexAMBcWbQSU86"
+}, {
+  "id": "PA_1111",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8817187,
+  "longitude": 2.2712153,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/fJna1da2WNTugSsE8",
+  "location": "MONOPRIX SABLONS\n72-80 Ave. du G\u00e9n\u00e9ral de Gaulle, 92200 Neuilly-sur-Seine\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/fJna1da2WNTugSsE8"
+}, {
+  "id": "PA_1112",
+  "city": "Paris",
+  "points": 50,
+  "status": 4,
+  "latitude": 48.88984,
+  "longitude": 2.250209,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/TWAbXnWnPuxHqRE49",
+  "location": "48\u00b053'23.4\"N 2\u00b015'00.8\"E\nB\u00e9con-les-Bruy\u00e8res, 92400 Courbevoie\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/TWAbXnWnPuxHqRE49"
+}, {
+  "id": "PA_1113",
+  "city": "Paris",
+  "points": 30,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_1114",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.8850849,
+  "longitude": 2.3268861,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/RvDzjBnLn2BMsZdH8",
+  "location": "Calzedonia\n20 Avenue de Clichy, 75018 Paris\nhttps:\/\/goo.gl\/maps\/RvDzjBnLn2BMsZdH8"
+}, {
+  "id": "PA_1115",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8596646,
+  "longitude": 2.3884008,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/YtXfWCqvoP1n3RXs6",
+  "location": "206 Rue de la Roquette, 75011 Paris_x000D_\nhttps:\/\/goo.gl\/maps\/YtXfWCqvoP1n3RXs6"
+}, {
+  "id": "PA_1116",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8522729,
+  "longitude": 2.4042933,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/CqYxyCChPepnKLVn7",
+  "location": "La Fontana\n72 Rue d'Avron, 75020 Paris\nhttps:\/\/goo.gl\/maps\/CqYxyCChPepnKLVn7"
+}, {
+  "id": "PA_1117",
+  "city": "Paris",
+  "points": 30,
+  "status": 3,
+  "latitude": 49.004372,
+  "longitude": 2.56728,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/7W5jP8MTKE1zNo5d8",
+  "location": "49\u00b000'15.7\"N 2\u00b034'02.2\"E\nA\u00e9roport Roissy CDG\nTerminal 2E, porte 6\n95716 Roissy-en-France\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/7W5jP8MTKE1zNo5d8\n"
+}, {
+  "id": "PA_1118",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.877475,
+  "longitude": 2.477065,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/UZfXKjgK8Uc2ujnU8",
+  "location": "48\u00b052'38.9\"N 2\u00b028'37.4\"E\n93110 Rosny-sous-Bois\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/UZfXKjgK8Uc2ujnU8\n"
+}, {
+  "id": "PA_1119",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_1120",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8409857,
+  "longitude": 2.3988548,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/cYQKDKP65ukwzH9b6",
+  "location": "Parquets de Luxe_x000D_\n30 Rue Lamblardie, 75012 Paris_x000D_\nhttps:\/\/goo.gl\/maps\/cYQKDKP65ukwzH9b6"
+}, {
+  "id": "PA_1121",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8473825,
+  "longitude": 2.4031916,
+  "gMapsUrl": "https:\/\/maps.app.goo.gl\/UN8HXGE9jhhnJds88",
+  "location": "50 Cours de Vincennes\n50 Cours de Vincennes, 75012 Paris\nhttps:\/\/maps.app.goo.gl\/UN8HXGE9jhhnJds88"
+}, {
+  "id": "PA_1122",
+  "city": "Paris",
+  "points": 100,
+  "status": 5,
+  "latitude": 48.8964989,
+  "longitude": 2.3847881,
+  "gMapsUrl": "https:\/\/maps.app.goo.gl\/djKmDQDALvgPxhEV9",
+  "location": "Aparthotel Adagio Access Paris La Villette\n28bis Avenue Corentin Cariou, 75019 Paris\nhttps:\/\/maps.app.goo.gl\/djKmDQDALvgPxhEV9"
+}, {
+  "id": "PA_1123",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.8341355,
+  "longitude": 2.3056516,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/yh2z679fy8k55PsN8",
+  "location": "3 Rue Santos-Dumont, 75015 Paris\nhttps:\/\/goo.gl\/maps\/yh2z679fy8k55PsN8"
+}, {
+  "id": "PA_1124",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8732225,
+  "longitude": 2.3394602,
+  "gMapsUrl": "https:\/\/maps.app.goo.gl\/fQoUBaArpQQVwH4J7",
+  "location": "11 Rue Chauchat, 75009 Paris\nhttps:\/\/maps.app.goo.gl\/fQoUBaArpQQVwH4J7"
+}, {
+  "id": "PA_1125",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8744332,
+  "longitude": 2.3304873,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/TC5vqjHump5yKcib8",
+  "location": "88 Rue de Provence, 75009 Paris\nhttps:\/\/goo.gl\/maps\/TC5vqjHump5yKcib8"
+}, {
+  "id": "PA_1126",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8712056,
+  "longitude": 2.3245012,
+  "gMapsUrl": "https:\/\/maps.app.goo.gl\/GD5CioH1RehEbhXr5",
+  "location": "Leroy Merlin\n25-27 Place de la Madeleine, 75008 Paris\n01 40 08 42 42\nhttps:\/\/maps.app.goo.gl\/GD5CioH1RehEbhXr5"
+}, {
+  "id": "PA_1127",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.8602475,
+  "longitude": 2.3639085,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/EBsx33L9A7jzJHuN6",
+  "location": "8 Rue du Roi Dor\u00e9, 75003 Paris\nhttps:\/\/goo.gl\/maps\/EBsx33L9A7jzJHuN6"
+}, {
+  "id": "PA_1128",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8567677,
+  "longitude": 2.4047406,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/p4RvvS6mKoDHCrgy6",
+  "location": "HD Immobilier\n112 Rue des Pyr\u00e9n\u00e9es, 75020 Paris\nhttps:\/\/goo.gl\/maps\/p4RvvS6mKoDHCrgy6"
+}, {
+  "id": "PA_1129",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8471893,
+  "longitude": 2.3749331,
+  "gMapsUrl": "https:\/\/maps.app.goo.gl\/GDH8hxfUAd48FxZd9",
+  "location": "Asian Spa\n19 Rue Parrot, 75012 Paris\n01 46 28 10 00\nhttps:\/\/maps.app.goo.gl\/GDH8hxfUAd48FxZd9"
+}, {
+  "id": "PA_1130",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8443776,
+  "longitude": 2.3723992,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/jTsKptABmMqtnqGJ6",
+  "location": "Tunnel Van Gogh 2, 75012 Paris_x000D_\nhttps:\/\/goo.gl\/maps\/jTsKptABmMqtnqGJ6"
+}, {
+  "id": "PA_1131",
+  "city": "Paris",
+  "points": 20,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_1132",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8363391,
+  "longitude": 2.3909087,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/xXG88cTxjX7By2BK8",
+  "location": "26 Rue Coriolis, 75012 Paris_x000D_\nhttps:\/\/goo.gl\/maps\/xXG88cTxjX7By2BK8"
+}, {
+  "id": "PA_1133",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8453776,
+  "longitude": 2.40923,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/wvYvy4tx7f3EaNUZA",
+  "location": "Rue du Gabon - rue Montera\n48.845378, 2.409230\nhttps:\/\/goo.gl\/maps\/wvYvy4tx7f3EaNUZA"
+}, {
+  "id": "PA_1134",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8272439,
+  "longitude": 2.3668453,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/UPqPzpXFtjzmiPCV7",
+  "location": "74 Rue de Tolbiac, 75013 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/UPqPzpXFtjzmiPCV7"
+}, {
+  "id": "PA_1135",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8492138,
+  "longitude": 2.3895619,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/5WxGgb1ffMnmQjhn6",
+  "location": "Le Petit Louis_x000D_\n240 Rue du Faubourg Saint-Antoine, 75012 Paris_x000D_\nhttps:\/\/goo.gl\/maps\/5WxGgb1ffMnmQjhn6"
+}, {
+  "id": "PA_1136",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8359537,
+  "longitude": 2.3913649,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/1zBtkVkUCJXKs7dJ8",
+  "location": "18 Rue Coriolis, 75012 Paris_x000D_\nhttps:\/\/goo.gl\/maps\/1zBtkVkUCJXKs7dJ8"
+}, {
+  "id": "PA_1137",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_1138",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8983085,
+  "longitude": 2.4067169,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/Rmrq4L8hog14YWndA",
+  "location": "48\u00b053'53.9\"N 2\u00b024'24.2\"E\nRue Delizy, 93500 Pantin\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/Rmrq4L8hog14YWndA\n"
+}, {
+  "id": "PA_1139",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_1140",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_1141",
+  "city": "Paris",
+  "points": 50,
+  "status": 0,
+  "latitude": 48.8481349,
+  "longitude": 2.3042777,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/g2cPjUMaTiQDosjG8",
+  "location": "Agence spatiale europ\u00e9enne\nalija izetbrgovic, 8-10 Rue Mario Nikis, 75015 Paris\nhttps:\/\/goo.gl\/maps\/g2cPjUMaTiQDosjG8"
+}, {
+  "id": "PA_1142",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.8498305,
+  "longitude": 2.4000458,
+  "gMapsUrl": "https:\/\/maps.app.goo.gl\/cCtSyMxdURHJ39yB7",
+  "location": "6 Rue de la Plaine, 75020 Paris\nhttps:\/\/maps.app.goo.gl\/cCtSyMxdURHJ39yB7"
+}, {
+  "id": "PA_1143",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8758287,
+  "longitude": 2.2874746,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/yoX71WKdmuC9BfZu6",
+  "location": "LCL Banque et assurance\n61 T Avenue de la Grande Arm\u00e9e, 75116 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/yoX71WKdmuC9BfZu6"
+}, {
+  "id": "PA_1144",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8745811,
+  "longitude": 2.2843396,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/BYk3b224kVuMEtzy5",
+  "location": "134 Avenue de Malakoff, 75116 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/BYk3b224kVuMEtzy5"
+}, {
+  "id": "PA_1145",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.8267784,
+  "longitude": 2.382229,
+  "gMapsUrl": "https:\/\/maps.app.goo.gl\/SB2iHk2renAuwefY7",
+  "location": "3 Rue de la Croix Jarry\n3 Rue de la Croix Jarry, 75013 Paris\nhttps:\/\/maps.app.goo.gl\/SB2iHk2renAuwefY7"
+}, {
+  "id": "PA_1146",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_1147",
+  "city": "Paris",
+  "points": 100,
+  "status": 5,
+  "latitude": 48.8731162,
+  "longitude": 2.364007,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/7oag1ZGB9Q9EVGZDA",
+  "location": "Pont de la Grange aux Belles\n75010 Paris\nhttps:\/\/goo.gl\/maps\/7oag1ZGB9Q9EVGZDA"
+}, {
+  "id": "PA_1148",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.8814426,
+  "longitude": 2.3684362,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/ppx3cCNViHpnMLRn8",
+  "location": "Point \u00c9ph\u00e9m\u00e8re\n200 Quai de Valmy, 75010 Paris\nhttps:\/\/goo.gl\/maps\/ppx3cCNViHpnMLRn8"
+}, {
+  "id": "PA_1149",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.851118,
+  "longitude": 2.3988346,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/yBa5oiwHbUeNKi6P9",
+  "location": "42 Boulevard de Charonne, 75020 Paris\nhttps:\/\/goo.gl\/maps\/yBa5oiwHbUeNKi6P9"
+}, {
+  "id": "PA_1150",
+  "city": "Paris",
+  "points": 30,
+  "status": 2,
+  "latitude": 48.8448808,
+  "longitude": 2.3644167,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/b28rByyUMiBQmj4FA",
+  "location": "Voie Express Rive Gauche - Quai St Bernard\nSur la rembarde au niveau du feu\n48.844881, 2.364417\nhttps:\/\/goo.gl\/maps\/b28rByyUMiBQmj4FA"
+}, {
+  "id": "PA_1151",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8642314,
+  "longitude": 2.3303153,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/ePeVAEFKZupRgvrw6",
+  "location": "48\u00b051'51.2\"N 2\u00b019'49.1\"E\n48.864231, 2.330315\nEntr\u00e9e Tuileries\n75001 Paris\nhttps:\/\/goo.gl\/maps\/ePeVAEFKZupRgvrw6"
+}, {
+  "id": "PA_1152",
+  "city": "Paris",
+  "points": 50,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_1153",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_1154",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8686182,
+  "longitude": 2.3631956,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/269j6Uys6iBGPFrM7",
+  "location": "Place de la R\u00e9publique - Coin Nord (rue L\u00e9on Jouhaux)\n48.868618, 2.363196\nhttps:\/\/goo.gl\/maps\/269j6Uys6iBGPFrM7"
+}, {
+  "id": "PA_1155",
+  "city": "Paris",
+  "points": 50,
+  "status": 3,
+  "latitude": 48.8577111,
+  "longitude": 2.4144436,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/A87Ki7yTNWqkjDwM8",
+  "location": "Pont pi\u00e9ton Pte de Montreuil, c\u00f4t\u00e9 p\u00e9riph ext.\n48.857711, 2.414444\nhttps:\/\/goo.gl\/maps\/A87Ki7yTNWqkjDwM8"
+}, {
+  "id": "PA_1156",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_1157",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_1158",
+  "city": "Paris",
+  "points": 10,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_1159",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8784695,
+  "longitude": 2.2988099,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/5f2GGPaD8MwS6Nxd7",
+  "location": "CIC\n6 Place des Ternes, 75017 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/5f2GGPaD8MwS6Nxd7"
+}, {
+  "id": "PA_1160",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8746489,
+  "longitude": 2.3060159,
+  "gMapsUrl": "https:\/\/maps.app.goo.gl\/jMV4k2EKnkx5NZVU8",
+  "location": "Le Pain du Faubourg\n165 Rue du Faubourg Saint-Honor\u00e9, 75008 Paris\n01 45 63 34 34\nhttps:\/\/maps.app.goo.gl\/jMV4k2EKnkx5NZVU8"
+}, {
+  "id": "PA_1161",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8586947,
+  "longitude": 2.3590149,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/cA6nwyJPw93Ad8m28",
+  "location": "44 Rue des Francs Bourgeois, 75004 Paris_x000D_\nhttps:\/\/goo.gl\/maps\/cA6nwyJPw93Ad8m28"
+}, {
+  "id": "PA_1162",
+  "city": "Paris",
+  "points": 100,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_1163",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8711671,
+  "longitude": 2.3612259,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/dptiwiGA9hqx6aTx7",
+  "location": "Boulangerie Papatissier_x000D_\n8 Place Jacques Bonsergent, 75010 Paris_x000D_\nhttps:\/\/goo.gl\/maps\/dptiwiGA9hqx6aTx7"
+}, {
+  "id": "PA_1164",
+  "city": "Paris",
+  "points": 30,
+  "status": 4,
+  "latitude": 48.8851279,
+  "longitude": 2.3036725,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/4HiG1qgmyvfKmaCw9",
+  "location": "130 Avenue de Wagram, 75017 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/4HiG1qgmyvfKmaCw9"
+}, {
+  "id": "PA_1165",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_1166",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_1167",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.8498154,
+  "longitude": 2.3326032,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/X4KQEjuLxYXG61Ai9",
+  "location": "82 Rue Bonaparte, 75006 Paris\nhttps:\/\/goo.gl\/maps\/X4KQEjuLxYXG61Ai9"
+}, {
+  "id": "PA_1168",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8868954,
+  "longitude": 2.300363,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/Nc2zXBjrhb4VS28U7",
+  "location": "1 Rue Verniquet, 75017 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/Nc2zXBjrhb4VS28U7"
+}, {
+  "id": "PA_1169",
+  "city": "Paris",
+  "points": 30,
+  "status": 0,
+  "latitude": 48.8989502,
+  "longitude": 2.3593759,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/YYzywcMg2YS7UEZs9",
+  "location": "Porte de la Chapelle - Croisement Chemin de fer\n48.898950, 2.359376\nhttps:\/\/goo.gl\/maps\/YYzywcMg2YS7UEZs9"
+}, {
+  "id": "PA_1170",
+  "city": "Paris",
+  "points": 100,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_1171",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8468715,
+  "longitude": 2.3478073,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/D57gwN21V5UKjk9c9",
+  "location": "68 Rue de la Montagne Sainte Genevi\u00e8ve, 75005 Paris_x000D_\nhttps:\/\/goo.gl\/maps\/D57gwN21V5UKjk9c9"
+}, {
+  "id": "PA_1172",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.8587564,
+  "longitude": 2.3506228,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/UDmr8Abg1oHhJtyx5",
+  "location": "93 Rue de la Verrerie, 75004 Paris\nhttps:\/\/goo.gl\/maps\/UDmr8Abg1oHhJtyx5"
+}, {
+  "id": "PA_1173",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8403263,
+  "longitude": 2.370452,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/RMGBaFsYFn3m1PzC9",
+  "location": "Wanderlust\n32 Quai d'Austerlitz, 75013 Paris\nLink to share\nhttps:\/\/goo.gl\/maps\/RMGBaFsYFn3m1PzC9"
+}, {
+  "id": "PA_1174",
+  "city": "Paris",
+  "points": 100,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_1175",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8773696,
+  "longitude": 2.342443,
+  "gMapsUrl": "https:\/\/maps.app.goo.gl\/4snV4zYg9cHqY7rG6",
+  "location": "Choron\n4 Rue Choron, 75009 Paris\nhttps:\/\/maps.app.goo.gl\/4snV4zYg9cHqY7rG6"
+}, {
+  "id": "PA_1176",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8775834,
+  "longitude": 2.3422773,
+  "gMapsUrl": "https:\/\/maps.app.goo.gl\/GEPAtJi9FBDNmEQ56",
+  "location": "5 Rue Rodier, 75009 Paris\nhttps:\/\/maps.app.goo.gl\/GEPAtJi9FBDNmEQ56"
+}, {
+  "id": "PA_1177",
+  "city": "Paris",
+  "points": 30,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_1178",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8216098,
+  "longitude": 2.3684408,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/37gfUfkpfopDAQeZ9",
+  "location": "L'Arche 13\n75013 Paris\nLink to share\nhttps:\/\/goo.gl\/maps\/37gfUfkpfopDAQeZ9"
+}, {
+  "id": "PA_1179",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8307811,
+  "longitude": 2.3567805,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/GRp5793iFBQsTpUs5",
+  "location": "McDonald's\n211-213 Boulevard Vincent Auriol, 75013 Paris\nLink to share\nhttps:\/\/goo.gl\/maps\/GRp5793iFBQsTpUs5"
+}, {
+  "id": "PA_1180",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8351881,
+  "longitude": 2.3533803,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/JBxXoDGJnDapGFCY6",
+  "location": "Banque Populaire Rives de Paris\n47 Avenue des Gobelins, 75013 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/JBxXoDGJnDapGFCY6"
+}, {
+  "id": "PA_1181",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8749978,
+  "longitude": 2.3285576,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/Cx9yGxx6DK26h2Sc6",
+  "location": "Le Printanier\n60 Rue de Caumartin, 75009 Paris\nhttps:\/\/goo.gl\/maps\/Cx9yGxx6DK26h2Sc6"
+}, {
+  "id": "PA_1182",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8808201,
+  "longitude": 2.290164,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/jh4LnT1dMb23guHEA",
+  "location": "22 Rue Guersant, 75017 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/jh4LnT1dMb23guHEA"
+}, {
+  "id": "PA_1183",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8456138,
+  "longitude": 2.4029119,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/RmnSZ7QrcySemGvK9",
+  "location": "Saveurs d'Italie_x000D_\n7 Rue Marsoulan, 75012 Paris_x000D_\nhttps:\/\/goo.gl\/maps\/RmnSZ7QrcySemGvK9"
+}, {
+  "id": "PA_1184",
+  "city": "Paris",
+  "points": 50,
+  "status": 4,
+  "latitude": 48.762388,
+  "longitude": 2.34042,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/LhVuaMzHV5G7LZdu6",
+  "location": "48\u00b045'44.6\"N 2\u00b020'25.5\"E\nE50, 94550 Chevilly-Larue\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/LhVuaMzHV5G7LZdu6"
+}, {
+  "id": "PA_1185",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8534967,
+  "longitude": 2.379371,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/3mNDQFM9gbYoosKc7",
+  "location": "Le Caf\u00e9 de la Plage\n59 Rue de Charonne, 75011 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/3mNDQFM9gbYoosKc7"
+}, {
+  "id": "PA_1186",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": "https:\/\/www.google.com\/maps\/place\/32+Rue+des+Vignoles,+75020+Paris\/@48.8537483,2.3994638,17z\/data=!4m13!1m7!3m6!1s0x47e67277855ec49d:0x648bd9ae76de9fc4!2s32+Rue+des+Vignoles,+75020+Paris!3b1!8m2!3d48.8537173!4d2.3995404!3m4!1s0x47e67277855ec49d:0x648bd9ae76de9fc4!8m2!3d48.8537173!4d2.3995404"
+}, {
+  "id": "PA_1187",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.8820576,
+  "longitude": 2.402883,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/sCNW7PwUDc6DQN7e6",
+  "location": "89 Rue Andr\u00e9 Joineau, 93310 Le Pr\u00e9-Saint-Gervais\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/sCNW7PwUDc6DQN7e6\n"
+}, {
+  "id": "PA_1188",
+  "city": "Paris",
+  "points": 30,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_1189",
+  "city": "Paris",
+  "points": 100,
+  "status": 5,
+  "latitude": 48.8440865,
+  "longitude": 2.3505805,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/zNyLJUsc1qwtJj3K8",
+  "location": "43 Rue Lac\u00e9p\u00e8de, 75005 Paris\nhttps:\/\/goo.gl\/maps\/zNyLJUsc1qwtJj3K8"
+}, {
+  "id": "PA_1190",
+  "city": "Paris",
+  "points": 100,
+  "status": 5,
+  "latitude": 48.8525251,
+  "longitude": 2.3343035,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/rGb1h7JyjZbu2sAw8",
+  "location": "Coffee parisien\n4 Rue Princesse, 75006 Paris\nhttps:\/\/goo.gl\/maps\/rGb1h7JyjZbu2sAw8"
+}, {
+  "id": "PA_1191",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.8147629,
+  "longitude": 2.3554727,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/L7A8FzsLHbo7yA799",
+  "location": "48\u00b048'53.2\"N 2\u00b021'19.7\"E\n6 Rue Charles Calmus, 94250 Gentilly\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/L7A8FzsLHbo7yA799"
+}, {
+  "id": "PA_1192",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.8147427,
+  "longitude": 2.3554559,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/MDtjMmSSdV8zhvM8A",
+  "location": "48\u00b048'53.1\"N 2\u00b021'19.6\"E\n6 Rue Charles Calmus, 94250 Gentilly\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/MDtjMmSSdV8zhvM8A"
+}, {
+  "id": "PA_1193",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.8147226,
+  "longitude": 2.355439,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/YCiCTMprvJY6SN619",
+  "location": "48\u00b048'53.0\"N 2\u00b021'19.6\"E\n6 Rue Charles Calmus, 94250 Gentilly\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/YCiCTMprvJY6SN619"
+}, {
+  "id": "PA_1194",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.8147024,
+  "longitude": 2.3554222,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/FA9tFvPhy4Lzz9979",
+  "location": "48\u00b048'52.9\"N 2\u00b021'19.5\"E\n6 Rue Charles Calmus, 94250 Gentilly\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/FA9tFvPhy4Lzz9979"
+}, {
+  "id": "PA_1195",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.8146822,
+  "longitude": 2.3554053,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/uwv5gouE7ry1zPie6",
+  "location": "48\u00b048'52.9\"N 2\u00b021'19.5\"E\n6 Rue Charles Calmus, 94250 Gentilly\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/uwv5gouE7ry1zPie6"
+}, {
+  "id": "PA_1196",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.8411819,
+  "longitude": 2.3133176,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/zPvA3ERQB7uMKmra7",
+  "location": "56 Rue Falgui\u00e8re, 75015 Paris\nhttps:\/\/goo.gl\/maps\/zPvA3ERQB7uMKmra7"
+}, {
+  "id": "PA_1197",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8438553,
+  "longitude": 2.3222585,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/GzMPPXURWwpEmMzz7",
+  "location": "Grande pharmacie de l'Arriv\u00e9e_x000D_\n6 Rue de l'Arriv\u00e9e, 75015 Paris_x000D_\nhttps:\/\/goo.gl\/maps\/GzMPPXURWwpEmMzz7"
+}, {
+  "id": "PA_1198",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8421986,
+  "longitude": 2.3297189,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/HzzGBTPVmCd87Rya8",
+  "location": "145 Boulevard Raspail, 75006 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/HzzGBTPVmCd87Rya8"
+}, {
+  "id": "PA_1199",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.8215866,
+  "longitude": 2.3521876,
+  "gMapsUrl": "https:\/\/maps.app.goo.gl\/Yaza6TRvvJmhbzws5",
+  "location": "1 Rue Brillat-Savarin\n1 Rue Brillat-Savarin, 75013 Paris\nhttps:\/\/maps.app.goo.gl\/Yaza6TRvvJmhbzws5"
+}, {
+  "id": "PA_1200",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8525716,
+  "longitude": 2.3471776,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/oV7irMvW6NDqd4kJ8",
+  "location": "Caf\u00e9 Shakespeare and Company_x000D_\n37 Rue de la B\u00fbcherie, 75005 Paris_x000D_\nhttps:\/\/goo.gl\/maps\/oV7irMvW6NDqd4kJ8"
+}, {
+  "id": "PA_1201",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_1202",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8832319,
+  "longitude": 2.3015116,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/FT3Zea6L9mFjwtmQ8",
+  "location": "129 Avenue de Wagram, 75017 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/FT3Zea6L9mFjwtmQ8"
+}, {
+  "id": "PA_1203",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.8478619,
+  "longitude": 2.3408068,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/Zbgorzw2VY3kSGKy6",
+  "location": "Itadaki\n64 Rue Monsieur le Prince, 75006 Paris\nhttps:\/\/goo.gl\/maps\/Zbgorzw2VY3kSGKy6"
+}, {
+  "id": "PA_1204",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.8522974,
+  "longitude": 2.4033017,
+  "gMapsUrl": "https:\/\/maps.app.goo.gl\/1pkXgZyewoZhV6nt6",
+  "location": "New Sport Baby\n65 Rue d'Avron, 75020 Paris\nhttps:\/\/maps.app.goo.gl\/1pkXgZyewoZhV6nt6"
+}, {
+  "id": "PA_1205",
+  "city": "Paris",
+  "points": 100,
+  "status": 4,
+  "latitude": 48.8354003,
+  "longitude": 2.3690093,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/cFtfAdJBVcDko2ms7",
+  "location": "44 Boulevard Vincent Auriol, 75013 Paris\nhttps:\/\/goo.gl\/maps\/cFtfAdJBVcDko2ms7"
+}, {
+  "id": "PA_1206",
+  "city": "Paris",
+  "points": 40,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_1207",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.87305,
+  "longitude": 2.3611677,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/jwe6em6uRiAVG6Jy8",
+  "location": "41 Rue des Vinaigriers, 75010 Paris\nhttps:\/\/goo.gl\/maps\/jwe6em6uRiAVG6Jy8"
+}, {
+  "id": "PA_1208",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8340875,
+  "longitude": 2.30961,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/LHfaiZRkDysY2N1G9",
+  "location": "Le petit Monclar\n38 Rue Georges Pitard, 75015 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/LHfaiZRkDysY2N1G9\n"
+}, {
+  "id": "PA_1209",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_1210",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_1211",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.8654385,
+  "longitude": 2.3849919,
+  "gMapsUrl": "https:\/\/maps.app.goo.gl\/SZQE1UTS7S6C2HrKA",
+  "location": "Popine\n108 Boulevard de M\u00e9nilmontant, 75020 Paris\nhttps:\/\/maps.app.goo.gl\/SZQE1UTS7S6C2HrKA"
+}, {
+  "id": "PA_1212",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8714102,
+  "longitude": 2.3608866,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/ZH5o5fK1q7LvJB777",
+  "location": "Intermarch\u00e9 EXPRESS Paris\n14 Place Jacques Bonsergent, 75010 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/ZH5o5fK1q7LvJB777"
+}, {
+  "id": "PA_1213",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_1214",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.8429284,
+  "longitude": 2.4021088,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/7ap4eZQDUhQeuR6UA",
+  "location": "42 Rue Leroy Dupr\u00e9, 75012 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/7ap4eZQDUhQeuR6UA"
+}, {
+  "id": "PA_1215",
+  "city": "Paris",
+  "points": 30,
+  "status": 0,
+  "latitude": 48.8675202,
+  "longitude": 2.3333363,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/ChHaQFUfPWyGohnv5",
+  "location": "31 Avenue de l'Op\u00e9ra, 75002 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/ChHaQFUfPWyGohnv5\n"
+}, {
+  "id": "PA_1216",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.873561,
+  "longitude": 2.2853561,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/wiFLPnQG7rSxZZ1u8",
+  "location": "2 Rue Duret, 75116 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/wiFLPnQG7rSxZZ1u8"
+}, {
+  "id": "PA_1217",
+  "city": "Paris",
+  "points": 20,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_1218",
+  "city": "Paris",
+  "points": 40,
+  "status": 5,
+  "latitude": 48.8907095,
+  "longitude": 2.3763609,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/8he4gDnyHYcHGsQX8",
+  "location": "2 Rue Mathis, 75019 Paris\nhttps:\/\/goo.gl\/maps\/8he4gDnyHYcHGsQX8"
+}, {
+  "id": "PA_1219",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_1220",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.8716069,
+  "longitude": 2.3524596,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/tBdzVXMJVX6xjuSd9",
+  "location": "9 Rue d'Enghien, 75010 Paris\nhttps:\/\/goo.gl\/maps\/tBdzVXMJVX6xjuSd9"
+}, {
+  "id": "PA_1221",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.8445293,
+  "longitude": 2.352127,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/Azbvs78B4nvNn5H3A",
+  "location": "Place Benjamin Fondane\n75005 Paris\nhttps:\/\/goo.gl\/maps\/Azbvs78B4nvNn5H3A"
+}, {
+  "id": "PA_1222",
+  "city": "Paris",
+  "points": 40,
+  "status": 5,
+  "latitude": 48.8639241,
+  "longitude": 2.3808882,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/AprjGrCoZSuQaTfi7",
+  "location": "La Manufacture\n90 bis Avenue de la R\u00e9publique, 75011 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/AprjGrCoZSuQaTfi7"
+}, {
+  "id": "PA_1223",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8578102,
+  "longitude": 2.2779428,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/aXuX41ABwcAfByNAA",
+  "location": "Boutique Nespresso Paris Passy\n1 Place de Passy, 75016 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/aXuX41ABwcAfByNAA"
+}, {
+  "id": "PA_1224",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_1225",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.8468196,
+  "longitude": 2.4086699,
+  "gMapsUrl": "https:\/\/maps.app.goo.gl\/fuw7QPEEmMoGb5xA7",
+  "location": "102 Cours de Vincennes\n102 Cours de Vincennes, 75012 Paris\nhttps:\/\/maps.app.goo.gl\/fuw7QPEEmMoGb5xA7"
+}, {
+  "id": "PA_1226",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.8467047,
+  "longitude": 2.4083684,
+  "gMapsUrl": "https:\/\/maps.app.goo.gl\/5CvYocmYyKxN6phV7",
+  "location": "100 Cours de Vincennes\n100 Cours de Vincennes, 75012 Paris\nhttps:\/\/maps.app.goo.gl\/5CvYocmYyKxN6phV7"
+}, {
+  "id": "PA_1227",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_1228",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.83454,
+  "longitude": 2.3572875,
+  "gMapsUrl": "https:\/\/maps.app.goo.gl\/8Z2RF4H8BX8MbQhdA",
+  "location": "22 Rue Watteau\n22 Rue Watteau, 75013 Paris\nhttps:\/\/maps.app.goo.gl\/8Z2RF4H8BX8MbQhdA"
+}, {
+  "id": "PA_1229",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8767692,
+  "longitude": 2.3397117,
+  "gMapsUrl": "https:\/\/maps.app.goo.gl\/hT9RA3TcXFFiSKAu7",
+  "location": "Picard\n62 Rue Lamartine, 75009 Paris\nhttps:\/\/maps.app.goo.gl\/hT9RA3TcXFFiSKAu7"
+}, {
+  "id": "PA_1230",
+  "city": "Paris",
+  "points": 30,
+  "status": 4,
+  "latitude": 48.8735771,
+  "longitude": 2.3349397,
+  "gMapsUrl": "https:\/\/maps.app.goo.gl\/T4MZKhxVihDuAmXQ8",
+  "location": "The Family\n7 Rue la Fayette, 75009 Paris\nhttps:\/\/maps.app.goo.gl\/T4MZKhxVihDuAmXQ8"
+}, {
+  "id": "PA_1231",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_1232",
+  "city": "Paris",
+  "points": 40,
+  "status": 0,
+  "latitude": 48.8954483,
+  "longitude": 2.3460811,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/WHYUMMiT9v8qaEFo8",
+  "location": "104 Rue du Mont-Cenis, 75018 Paris_x000D_\nhttps:\/\/goo.gl\/maps\/WHYUMMiT9v8qaEFo8"
+}, {
+  "id": "PA_1233",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8855706,
+  "longitude": 2.3498394,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/Jn1Wvb8qgXwUKsng9",
+  "location": "Sport Vintage\n2 rue des Poissonniers\n75018 Paris\nhttps:\/\/goo.gl\/maps\/Jn1Wvb8qgXwUKsng9"
+}, {
+  "id": "PA_1234",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.7916251,
+  "longitude": 2.8691663,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/DrtgqsYzHf2BLjct5",
+  "location": "Ob\u00e9lisque de Villeneuve-le-Comte\n77174 Dammartin-sur-Tigeaux\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/DrtgqsYzHf2BLjct5"
+}, {
+  "id": "PA_1235",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8404779,
+  "longitude": 2.3461998,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/BG38SaaNpBNBjCNK6",
+  "location": "32 Rue Vauquelin, 75005 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/BG38SaaNpBNBjCNK6"
+}, {
+  "id": "PA_1236",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8404831,
+  "longitude": 2.3460326,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/JxxBwrfDMJsvFdav7",
+  "location": "72 Rue Claude Bernard, 75005 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/JxxBwrfDMJsvFdav7"
+}, {
+  "id": "PA_1237",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_1238",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.936141,
+  "longitude": 2.404877,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/UXXMYKBqBtF3aoYH6",
+  "location": "48\u00b056'10.1\"N 2\u00b024'17.6\"E\nLa Courneuve\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/UXXMYKBqBtF3aoYH6"
+}, {
+  "id": "PA_1239",
+  "city": "Paris",
+  "points": 20,
+  "status": 4,
+  "latitude": 48.9209511,
+  "longitude": 2.4111192,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/jCWs4iZ32s4Y6RFs8",
+  "location": "Happy Cartes\n93120 La Courneuve\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/jCWs4iZ32s4Y6RFs8"
+}, {
+  "id": "PA_1240",
+  "city": "Paris",
+  "points": 100,
+  "status": 5,
+  "latitude": 48.8335535,
+  "longitude": 2.3630194,
+  "gMapsUrl": "https:\/\/maps.app.goo.gl\/QRBT7zANVBGHbLJP9",
+  "location": "Les Cigognes\n114 Boulevard Vincent Auriol, 75013 Paris\nhttps:\/\/maps.app.goo.gl\/QRBT7zANVBGHbLJP9"
+}, {
+  "id": "PA_1241",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8495416,
+  "longitude": 2.3557493,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/GGPxyGD8xAp2gaom7",
+  "location": "Picard_x000D_\n2 Boulevard Saint-Germain, 75005 Paris_x000D_\nhttps:\/\/goo.gl\/maps\/GGPxyGD8xAp2gaom7"
+}, {
+  "id": "PA_1242",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8498695,
+  "longitude": 2.4025993,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/uPhpw7WUTg3BLsHd9",
+  "location": "26 Rue de la Plaine, 75020 Paris\nhttps:\/\/goo.gl\/maps\/uPhpw7WUTg3BLsHd9"
+}, {
+  "id": "PA_1243",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_1244",
+  "city": "Paris",
+  "points": 40,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_1245",
+  "city": "Paris",
+  "points": 30,
+  "status": 0,
+  "latitude": 48.8502146,
+  "longitude": 2.3552364,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/RjWUU7Q6b2RXAn2e6",
+  "location": "Sur le Pont de la Tournelle - c\u00f4t\u00e9 rive gauche\nDepuis les quais\n48.850215, 2.355236\nhttps:\/\/goo.gl\/maps\/RjWUU7Q6b2RXAn2e6"
+}, {
+  "id": "PA_1246",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8529175,
+  "longitude": 2.3519566,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/DJcLSe1dUBBrWaeV6",
+  "location": "1 Quai aux Fleurs, 75004 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/DJcLSe1dUBBrWaeV6\n"
+}, {
+  "id": "PA_1247",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8812261,
+  "longitude": 2.4024265,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/SYZ5yix7sFfGzoxeA",
+  "location": "Saemes Parking H\u00f4pital Robert-Debr\u00e9\n48 Bd S\u00e9rurier, 75019 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/SYZ5yix7sFfGzoxeA\n"
+}, {
+  "id": "PA_1248",
+  "city": "Paris",
+  "points": 40,
+  "status": 0,
+  "latitude": 48.8640265,
+  "longitude": 2.370527,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/Vu122BuPJhwAC9jM9",
+  "location": "AAC Test Psychotechnique Permis conduire Paris\n101 Boulevard Richard Lenoir, 75011 Paris\nhttps:\/\/goo.gl\/maps\/Vu122BuPJhwAC9jM9"
+}, {
+  "id": "PA_1249",
+  "city": "Paris",
+  "points": 40,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_1250",
+  "city": "Paris",
+  "points": 40,
+  "status": 5,
+  "latitude": 48.8641545,
+  "longitude": 2.4083716,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/aUe1nRYgAVjjoWPh9",
+  "location": "L'ETOILE EUROPEENNE\n178 Rue de Bagnolet, 75020 Paris\nhttps:\/\/goo.gl\/maps\/aUe1nRYgAVjjoWPh9"
+}, {
+  "id": "PA_1251",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8794739,
+  "longitude": 2.2916292,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/wikfri3y3fS1VzX2A",
+  "location": "Allianz\n2 Place Tristan Bernard, 75017 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/wikfri3y3fS1VzX2A"
+}, {
+  "id": "PA_1252",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8664126,
+  "longitude": 2.2864438,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/JV4V8vfQNETvMHgK7",
+  "location": "108 Rue Lauriston, 75116 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/JV4V8vfQNETvMHgK7"
+}, {
+  "id": "PA_1253",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8659348,
+  "longitude": 2.3035623,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/ZMK6eK8RbWg6LJeB6",
+  "location": "Valentino\n17\/19 Avenue Montaigne, 75008 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/ZMK6eK8RbWg6LJeB6"
+}, {
+  "id": "PA_1254",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8688807,
+  "longitude": 2.3036294,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/E7mnaBjzWhszYxA3A",
+  "location": "ZILLI\n48 Rue Fran\u00e7ois 1er, 75008 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/E7mnaBjzWhszYxA3A"
+}, {
+  "id": "PA_1255",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_1256",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": "https:\/\/www.google.com\/maps\/place\/Achat+Or\/@48.8775999,2.351966,21z\/data=!4m13!1m7!3m6!1s0x47e66e6ceafe4421:0xbfb04b082cf593fc!2sRue+des+Petits+H%C3%B4tels,+75010+Paris!3b1!8m2!3d48.8774642!4d2.353378!3m4!1s0x47e66e6c9f0fd3ab:0xd90f08351bc45bfb!8m2!3d48.8775571!4d2.3520807"
+}, {
+  "id": "PA_1257",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8646044,
+  "longitude": 2.3007731,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/2eNUKaniir1HPVKc7",
+  "location": "Franprix\n1 bis Place de l'Alma, 75016 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/2eNUKaniir1HPVKc7"
+}, {
+  "id": "PA_1258",
+  "city": "Paris",
+  "points": 50,
+  "status": 4,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_1259",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.832773,
+  "longitude": 2.493146,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/31mx3chjGwmUZbjJ9",
+  "location": "48\u00b049'58.0\"N 2\u00b029'35.3\"E\n94130 Nogent-sur-Marne\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/31mx3chjGwmUZbjJ9"
+}, {
+  "id": "PA_1260",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_1261",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.8381938,
+  "longitude": 2.3888123,
+  "gMapsUrl": "https:\/\/maps.app.goo.gl\/kdDFvePDc4X53sWS7",
+  "location": "56 Rue Coriolis, 75012 Paris\nhttps:\/\/maps.app.goo.gl\/kdDFvePDc4X53sWS7"
+}, {
+  "id": "PA_1262",
+  "city": "Paris",
+  "points": 40,
+  "status": 5,
+  "latitude": 48.8635481,
+  "longitude": 2.3402295,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/9NEwdS6n84upaFAg7",
+  "location": "CMETE - m\u00e9decine de voyages\n10 Rue du Colonel Driant, 75001 Paris\nhttps:\/\/goo.gl\/maps\/9NEwdS6n84upaFAg7"
+}, {
+  "id": "PA_1263",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_1264",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.860116,
+  "longitude": 2.342144,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/d1FP7SCUfxLYPgrKA",
+  "location": "Mus\u00e9e en Herbe\n23 Rue de l'Arbre Sec, 75001 Paris\nhttps:\/\/goo.gl\/maps\/d1FP7SCUfxLYPgrKA"
+}, {
+  "id": "PA_1265",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.860642,
+  "longitude": 2.352245,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/xZ4yk2ruCxzwRMFw6",
+  "location": "Le Centre Pompidou (\u00e0 l'int\u00e9rieur)\nPlace Georges-Pompidou, 75004 Paris\nhttps:\/\/goo.gl\/maps\/xZ4yk2ruCxzwRMFw6"
+}, {
+  "id": "PA_1266",
+  "city": "Paris",
+  "points": 100,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_1267",
+  "city": "Paris",
+  "points": 40,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_1268",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_1269",
+  "city": "Paris",
+  "points": 40,
+  "status": 5,
+  "latitude": 48.8662348,
+  "longitude": 2.3355958,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/cTZET7n91s11Z4ki7",
+  "location": "Kadoya\n28 Rue Sainte-Anne, 75001 Paris\nhttps:\/\/goo.gl\/maps\/cTZET7n91s11Z4ki7"
+}, {
+  "id": "PA_1270",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.886473,
+  "longitude": 2.3747602,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/hNaV6r714hRurxsn8",
+  "location": "Sous le pont pi\u00e9ton, c\u00f4t\u00e9 Quai de la Seine\n48.886473, 2.374760\nhttps:\/\/goo.gl\/maps\/hNaV6r714hRurxsn8"
+}, {
+  "id": "PA_1271",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8360787,
+  "longitude": 2.4838796,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/9jguGJdcvv2TseVK6",
+  "location": "2 Square de la Fontaine, 94130 Nogent-sur-Marne\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/9jguGJdcvv2TseVK6"
+}, {
+  "id": "PA_1272",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8355278,
+  "longitude": 2.3028481,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/ZnZGEZppQ6SRi53p6",
+  "location": "Le G\u00e2teau Battu_x000D_\n1 Rue de Vouill\u00e9, 75015 Paris_x000D_\nhttps:\/\/goo.gl\/maps\/ZnZGEZppQ6SRi53p6"
+}, {
+  "id": "PA_1273",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.8459701,
+  "longitude": 2.3543235,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/xkUndXxPYo3heUnL9",
+  "location": "1 Rue des Boulangers, 75005 Paris\nhttps:\/\/goo.gl\/maps\/xkUndXxPYo3heUnL9"
+}, {
+  "id": "PA_1274",
+  "city": "Paris",
+  "points": 20,
+  "status": 3,
+  "latitude": 48.8349045,
+  "longitude": 2.2840853,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/3Chb7KrHXG2Swws26",
+  "location": "10 Square Desnouettes, 75015 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/3Chb7KrHXG2Swws26"
+}, {
+  "id": "PA_1275",
+  "city": "Paris",
+  "points": 40,
+  "status": 5,
+  "latitude": 48.882589,
+  "longitude": 2.3440736,
+  "gMapsUrl": "https:\/\/maps.app.goo.gl\/HuRfRESDZFWvLH9H7",
+  "location": "Parking Saemes Anvers\n41 Boulevard de Rochechouart, 75009 Paris\nhttps:\/\/maps.app.goo.gl\/HuRfRESDZFWvLH9H7"
+}, {
+  "id": "PA_1276",
+  "city": "Paris",
+  "points": 30,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_1277",
+  "city": "Paris",
+  "points": 40,
+  "status": 5,
+  "latitude": 48.8663798,
+  "longitude": 2.37311,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/T4JmFC2jDy9trXc67",
+  "location": "The Troc\n52 Rue Jean-Pierre Timbaud, 75011 Paris\nhttps:\/\/goo.gl\/maps\/T4JmFC2jDy9trXc67"
+}, {
+  "id": "PA_1278",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.874305,
+  "longitude": 2.331244,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/4QeGeHJjFwSYSiBv6",
+  "location": "80 Rue de Provence, 75009 Paris\nhttps:\/\/goo.gl\/maps\/4QeGeHJjFwSYSiBv6"
+}, {
+  "id": "PA_1279",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.8288321,
+  "longitude": 2.2993497,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/c74WYQRM1Jm8NC4U9",
+  "location": "86 Boulevard Lefebvre, 75015 Paris\nhttps:\/\/goo.gl\/maps\/c74WYQRM1Jm8NC4U9"
+}, {
+  "id": "PA_1280",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.8822535,
+  "longitude": 2.3157435,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/2a5PfWAPfUazfuGK6",
+  "location": "Marionnaud-Parfumerie\n14 Rue de L\u00e9vis, 75017 Paris\nhttps:\/\/goo.gl\/maps\/2a5PfWAPfUazfuGK6"
+}, {
+  "id": "PA_1281",
+  "city": "Paris",
+  "points": 50,
+  "status": 4,
+  "latitude": 48.8655223,
+  "longitude": 2.3602289,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/6P2YnXHRXqXGj3ey9",
+  "location": "2 Rue des Fontaines du Temple, 75003 Paris\nhttps:\/\/goo.gl\/maps\/6P2YnXHRXqXGj3ey9"
+}, {
+  "id": "PA_1282",
+  "city": "Paris",
+  "points": 40,
+  "status": 5,
+  "latitude": 48.846095,
+  "longitude": 2.4236979,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/25G5fbtq25nmVw2V9",
+  "location": "Le Cadre\n87 Avenue de Paris, 94160 Saint-Mand\u00e9\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/25G5fbtq25nmVw2V9\n"
+}, {
+  "id": "PA_1283",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.859686,
+  "longitude": 2.345935,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/PiMpzWmyr33fsop36",
+  "location": "Les D\u00e9chargeurs\n3 Rue des D\u00e9chargeurs, 75001 Paris\nhttps:\/\/goo.gl\/maps\/PiMpzWmyr33fsop36"
+}, {
+  "id": "PA_1284",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.894145,
+  "longitude": 2.304928,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/yHrJGMRcqqtXKikj6",
+  "location": "48\u00b053'38.9\"N 2\u00b018'17.7\"E\nBd P\u00e9riph\u00e9rique, 75017 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/yHrJGMRcqqtXKikj6"
+}, {
+  "id": "PA_1285",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.8631962,
+  "longitude": 2.4131842,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/WQneiCNNnUhrD5MM9",
+  "location": "Entr\u00e9e p\u00e9riph\u00e9rique int\u00e9rieur Pte de Bagnolet\n48.863196, 2.413184\nhttps:\/\/goo.gl\/maps\/WQneiCNNnUhrD5MM9"
+}, {
+  "id": "PA_1286",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.8631485,
+  "longitude": 2.4486899,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/VuQqRq57kS8vZUHZ8",
+  "location": "Ecole Primaire Romain Rolland\n78 Place du Village de l'Amiti\u00e9, 93100 Montreuil\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/VuQqRq57kS8vZUHZ8"
+}, {
+  "id": "PA_1287",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_1288",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8834565,
+  "longitude": 2.3711976,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/WivYQiL4kEatsES66",
+  "location": "6 Quai de la Loire, 75019 Paris\nhttps:\/\/goo.gl\/maps\/WivYQiL4kEatsES66"
+}, {
+  "id": "PA_1289",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_1290",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_1291",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.85908,
+  "longitude": 2.4396435,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/uprdW4xarSMxHpqW9",
+  "location": "Marche Istanbul Orient\n93100 Montreuil\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/uprdW4xarSMxHpqW9"
+}, {
+  "id": "PA_1292",
+  "city": "Paris",
+  "points": 40,
+  "status": 5,
+  "latitude": 48.8901328,
+  "longitude": 2.3390006,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/unnGJ6DAR7CDdPb49",
+  "location": "13 Rue Darwin, 75018 Paris_x000D_\nhttps:\/\/goo.gl\/maps\/unnGJ6DAR7CDdPb49"
+}, {
+  "id": "PA_1293",
+  "city": "Paris",
+  "points": 30,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_1294",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8725997,
+  "longitude": 2.3137292,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/ESj8xq48Q7bdoq46A",
+  "location": "32 Rue de Penthi\u00e8vre, 75008 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/ESj8xq48Q7bdoq46A"
+}, {
+  "id": "PA_1295",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_1296",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.8236483,
+  "longitude": 2.3224678,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/gDHFe4ptccrHATL36",
+  "location": "1 Rue Albert Sorel, 75014 Paris\nhttps:\/\/goo.gl\/maps\/gDHFe4ptccrHATL36"
+}, {
+  "id": "PA_1297",
+  "city": "Paris",
+  "points": 40,
+  "status": 5,
+  "latitude": 48.8444792,
+  "longitude": 2.3901453,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/fsft7DUUo8SnZ7Dv9",
+  "location": "Inforama_x000D_\n89 bis Rue de Reuilly, 75012 Paris_x000D_\nhttps:\/\/goo.gl\/maps\/fsft7DUUo8SnZ7Dv9"
+}, {
+  "id": "PA_1298",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8336784,
+  "longitude": 2.2430006,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/1wi9UMWT11V2eiSEA",
+  "location": "Opticien G\u00e9n\u00e9rale d'Optique BOULOGNE BILLANCOURT\n1 Avenue Andr\u00e9 Morizet, 92100 Boulogne-Billancourt\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/1wi9UMWT11V2eiSEA"
+}, {
+  "id": "PA_1299",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8542899,
+  "longitude": 2.3387397,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/JLYFtjHANPmcZmg29",
+  "location": "42 Rue Dauphine, 75006 Paris_x000D_\nhttps:\/\/goo.gl\/maps\/JLYFtjHANPmcZmg29"
+}, {
+  "id": "PA_1300",
+  "city": "Paris",
+  "points": 20,
+  "status": 3,
+  "latitude": 48.8206491,
+  "longitude": 2.3758237,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/hmjUhSoUyxMv4m1X7",
+  "location": "48\u00b049'14.3\"N 2\u00b022'33.0\"E\n13e Arrondissement de Paris, 75013 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/hmjUhSoUyxMv4m1X7"
+}, {
+  "id": "PA_1301",
+  "city": "Paris",
+  "points": 40,
+  "status": 5,
+  "latitude": 48.8561529,
+  "longitude": 2.3825248,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/UPA17o1TTt4nADgA9",
+  "location": "11 Rue Fran\u00e7ois de Neufch\u00e2teau, 75011 Paris\nhttps:\/\/goo.gl\/maps\/UPA17o1TTt4nADgA9"
+}, {
+  "id": "PA_1302",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8825745,
+  "longitude": 2.3615523,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/54TiJrJSxLNHfeiY7",
+  "location": "Le March\u00e9 Exotique\n1 Rue Cail, 75010 Paris\n\nhttps:\/\/goo.gl\/maps\/54TiJrJSxLNHfeiY7"
+}, {
+  "id": "PA_1303",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.8600434,
+  "longitude": 2.3666206,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/XvrTLtVMZS5FsGM86",
+  "location": "Plan 8\n12 Rue des Arquebusiers, 75003 Paris\nhttps:\/\/goo.gl\/maps\/XvrTLtVMZS5FsGM86"
+}, {
+  "id": "PA_1304",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8478101,
+  "longitude": 2.3509631,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/4jTTsLQq1TDKKxKc9",
+  "location": "19 Rue des \u00c9coles, 75005 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/4jTTsLQq1TDKKxKc9"
+}, {
+  "id": "PA_1305",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8477772,
+  "longitude": 2.3508943,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/uAPHpsfKES1HZYiN8",
+  "location": "17 Rue Monge, 75005 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/uAPHpsfKES1HZYiN8"
+}, {
+  "id": "PA_1306",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.8199881,
+  "longitude": 2.3107394,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/F1gnoS9sghdcGNEHA",
+  "location": "Coccinan\n56 Avenue Pierre Brossolette, 92240 Malakoff\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/F1gnoS9sghdcGNEHA"
+}, {
+  "id": "PA_1307",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.836537,
+  "longitude": 2.379741,
+  "gMapsUrl": "https:\/\/maps.app.goo.gl\/Tk9Bettt2wFkwhwt9",
+  "location": "Parc de Bercy, 75012 Paris (passerelle Simone de Beauvoir) \n48,8365370, 2,3797410\nhttps:\/\/maps.app.goo.gl\/Tk9Bettt2wFkwhwt9"
+}, {
+  "id": "PA_1308",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8336242,
+  "longitude": 2.244152,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/fZTk2sfHwRn6bj2v5",
+  "location": "Saines Saveurs\n103 Avenue Edouard Vaillant, 92100 Boulogne-Billancourt\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/fZTk2sfHwRn6bj2v5"
+}, {
+  "id": "PA_1309",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.846994,
+  "longitude": 2.274535,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/Ls4N4HM2jdYhwRZ98",
+  "location": "48\u00b050'49.2\"N 2\u00b016'28.3\"E\nPont Mirabeau, 75016 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/Ls4N4HM2jdYhwRZ98"
+}, {
+  "id": "PA_1310",
+  "city": "Paris",
+  "points": 40,
+  "status": 5,
+  "latitude": 48.8730225,
+  "longitude": 2.3161056,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/tmv5rwMm4YqzbUei9",
+  "location": "Holiday Inn_x000D_\n24 Rue de Miromesnil, 75008 Paris_x000D_\nhttps:\/\/goo.gl\/maps\/tmv5rwMm4YqzbUei9"
+}, {
+  "id": "PA_1311",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8599513,
+  "longitude": 2.3078445,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/vtcGiN79YsjQqvndA",
+  "location": "15 Rue Jean Nicot, 75007 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/vtcGiN79YsjQqvndA"
+}, {
+  "id": "PA_1312",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8581752,
+  "longitude": 2.3091744,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/pwCtgGrWyvE61Y3z7",
+  "location": "20 Rue de la Com\u00e8te, 75007 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/pwCtgGrWyvE61Y3z7"
+}, {
+  "id": "PA_1313",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8925748,
+  "longitude": 2.3418151,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/ZjdXKo31jYXxXJoZA",
+  "location": "Guillaume D. Salon_x000D_\n22 Rue Duc, 75018 Paris_x000D_\nhttps:\/\/goo.gl\/maps\/ZjdXKo31jYXxXJoZA"
+}, {
+  "id": "PA_1314",
+  "city": "Paris",
+  "points": 40,
+  "status": 5,
+  "latitude": 48.8398319,
+  "longitude": 2.3498726,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/4fAdqcX56eBYLcBZ8",
+  "location": "Florel en Provence_x000D_\n139 Rue Mouffetard, 75005 Paris_x000D_\nhttps:\/\/goo.gl\/maps\/4fAdqcX56eBYLcBZ8"
+}, {
+  "id": "PA_1315",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.8234585,
+  "longitude": 2.325374,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/F3abr87LmCu8K5Nh9",
+  "location": "142 Avenue du G\u00e9n\u00e9ral Leclerc, 75014 Paris\nhttps:\/\/goo.gl\/maps\/F3abr87LmCu8K5Nh9"
+}, {
+  "id": "PA_1316",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.8248968,
+  "longitude": 2.3623094,
+  "gMapsUrl": "https:\/\/maps.app.goo.gl\/jDJLYCaxdoYjaRqj8",
+  "location": "Palais d'Asie\n93 Avenue d'Ivry, 75013 Paris\n01 45 83 25 60\nhttps:\/\/maps.app.goo.gl\/jDJLYCaxdoYjaRqj8"
+}, {
+  "id": "PA_1317",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.8535089,
+  "longitude": 2.3425787,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/hPz1esSxoiXNCo3P7",
+  "location": "Hotel Villa d'Estrees\n17 Rue G\u00eet-le-C\u0153ur, 75006 Paris\nhttps:\/\/goo.gl\/maps\/hPz1esSxoiXNCo3P7"
+}, {
+  "id": "PA_1318",
+  "city": "Paris",
+  "points": 40,
+  "status": 5,
+  "latitude": 48.87319,
+  "longitude": 2.35304,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/4vDRixsHFjvaXiZK7",
+  "location": "Jah Jah By Le Tricycle\n11 Rue des Petites \u00c9curies, 75010 Paris\nhttps:\/\/goo.gl\/maps\/4vDRixsHFjvaXiZK7"
+}, {
+  "id": "PA_1319",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8783679,
+  "longitude": 2.3426203,
+  "gMapsUrl": "https:\/\/maps.app.goo.gl\/bNmkwU9gHBX1MJPg6",
+  "location": "2 Rue de l'Agent Bailly, 75009 Paris\nhttps:\/\/maps.app.goo.gl\/bNmkwU9gHBX1MJPg6"
+}, {
+  "id": "PA_1320",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8790049,
+  "longitude": 2.3446852,
+  "gMapsUrl": "https:\/\/maps.app.goo.gl\/oxU3JEXutUz9Me469",
+  "location": "Le Potager de Charlotte\n12 Rue de la Tour d'Auvergne, 75009 Paris\nhttps:\/\/maps.app.goo.gl\/oxU3JEXutUz9Me469"
+}, {
+  "id": "PA_1321",
+  "city": "Paris",
+  "points": 40,
+  "status": 5,
+  "latitude": 48.8767981,
+  "longitude": 2.3485032,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/7YWYDxAC543xNHjAA",
+  "location": "Libreria - Italian and French Bookshop\n89 Rue du Faubourg Poissonni\u00e8re, 75009 Paris\n\nhttps:\/\/goo.gl\/maps\/7YWYDxAC543xNHjAA"
+}, {
+  "id": "PA_1322",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8751633,
+  "longitude": 2.3406347,
+  "gMapsUrl": "https:\/\/maps.app.goo.gl\/VTyAsrPM91agt9Ky8",
+  "location": "Pret A Manger\n45 Rue la Fayette, 75009 Paris\nhttps:\/\/maps.app.goo.gl\/VTyAsrPM91agt9Ky8"
+}, {
+  "id": "PA_1323",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8493448,
+  "longitude": 2.4040197,
+  "gMapsUrl": "https:\/\/www.google.com\/maps\/place\/Square+Sarah+Bernhardt\/@48.8493447,2.4040196,1209m\/data=!3m1!1e3!4m5!3m4!1s0x47e6727bdca72409:0x838f9c86c3661b1e!8m2!3d48.8493448!4d2.4040197",
+  "location": "https:\/\/www.google.com\/maps\/place\/Square+Sarah+Bernhardt\/@48.8493447,2.4040196,1209m\/data=!3m1!1e3!4m5!3m4!1s0x47e6727bdca72409:0x838f9c86c3661b1e!8m2!3d48.8493448!4d2.4040197"
+}, {
+  "id": "PA_1324",
+  "city": "Paris",
+  "points": 50,
+  "status": 0,
+  "latitude": 48.874541,
+  "longitude": 2.35498,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/uisnogMD4FoX4LWHA",
+  "location": "FFA | F\u00e9d\u00e9ration Fran\u00e7aise de l'Ap\u00e9ritif\n2 Rue de Paradis, 75010 Paris\nhttps:\/\/goo.gl\/maps\/uisnogMD4FoX4LWHA"
+}, {
+  "id": "PA_1325",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.8757409,
+  "longitude": 2.349255,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/cq7iAkrMRsXVgnxn7",
+  "location": "54 Rue de Paradis, 75010 Paris\nhttps:\/\/goo.gl\/maps\/cq7iAkrMRsXVgnxn7"
+}, {
+  "id": "PA_1326",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8770223,
+  "longitude": 2.3477982,
+  "gMapsUrl": "https:\/\/maps.app.goo.gl\/CrjPJ43z3hBgTm2s9",
+  "location": "La Verri\u00e8re\n83 bis Rue la Fayette, 75009 Paris\nhttps:\/\/maps.app.goo.gl\/CrjPJ43z3hBgTm2s9"
+}, {
+  "id": "PA_1327",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8765793,
+  "longitude": 2.3514581,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/QMrBsN9uYYoWr4XF9",
+  "location": "84 Rue d'Hauteville, 75010 Paris_x000D_\nhttps:\/\/goo.gl\/maps\/QMrBsN9uYYoWr4XF9"
+}, {
+  "id": "PA_1328",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.8750298,
+  "longitude": 2.3520383,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/PCy1s9MFTSsqFDUUA",
+  "location": "27 Rue de Paradis, 75010 Paris\nhttps:\/\/goo.gl\/maps\/PCy1s9MFTSsqFDUUA"
+}, {
+  "id": "PA_1329",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8758818,
+  "longitude": 2.3476888,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/3tDsCpiSrS9nAgH7A",
+  "location": "La Belle Meuniere\n2 Rue Bleue, 75009 Paris\nhttps:\/\/goo.gl\/maps\/3tDsCpiSrS9nAgH7A"
+}, {
+  "id": "PA_1330",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8362978,
+  "longitude": 2.3550178,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/MS5E1ts8peK739tN8",
+  "location": "20 Rue Pirandello, 75013 Paris (en face du)\nLink to share\nhttps:\/\/goo.gl\/maps\/MS5E1ts8peK739tN8"
+}, {
+  "id": "PA_1331",
+  "city": "Paris",
+  "points": 40,
+  "status": 5,
+  "latitude": 48.8269237,
+  "longitude": 2.3545302,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/MbTguxwRCDkMpbuk7",
+  "location": "34 Rue du Moulinet, 75013 Paris\nhttps:\/\/goo.gl\/maps\/MbTguxwRCDkMpbuk7"
+}, {
+  "id": "PA_1332",
+  "city": "Paris",
+  "points": 40,
+  "status": 5,
+  "latitude": 48.8475873,
+  "longitude": 2.3530624,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/2jVKq6JMN5ihGwtR9",
+  "location": "Franprix_x000D_\n46 Rue des Foss\u00e9s Saint-Bernard, 75005 Paris_x000D_\nhttps:\/\/goo.gl\/maps\/2jVKq6JMN5ihGwtR9"
+}, {
+  "id": "PA_1333",
+  "city": "Paris",
+  "points": 40,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_1334",
+  "city": "Paris",
+  "points": 30,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_1335",
+  "city": "Paris",
+  "points": 40,
+  "status": 5,
+  "latitude": 48.8374631,
+  "longitude": 2.2555656,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/4aPPPzuuJprqZmnd9",
+  "location": "Pont pi\u00e9ton P\u00e9riph Porte de Saint Cloud\n48.837463, 2.255566\nhttps:\/\/goo.gl\/maps\/4aPPPzuuJprqZmnd9"
+}, {
+  "id": "PA_1336",
+  "city": "Paris",
+  "points": 100,
+  "status": 5,
+  "latitude": 48.8504587,
+  "longitude": 2.3856464,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/keAmfTFB6oHAJyVz8",
+  "location": "26 Rue de Montreuil, 75011 Paris\nhttps:\/\/goo.gl\/maps\/keAmfTFB6oHAJyVz8"
+}, {
+  "id": "PA_1337",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8521036,
+  "longitude": 2.3372241,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/hXyVYh1FvHURtsUC7",
+  "location": "Librairie Camille Sourget_x000D_\n93 Rue de Seine, 75006 Paris_x000D_\nhttps:\/\/goo.gl\/maps\/hXyVYh1FvHURtsUC7"
+}, {
+  "id": "PA_1338",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_1339",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.8449189,
+  "longitude": 2.4315987,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/ioWYpPZdReEq56Lh9",
+  "location": "1 Rue des Vignerons, 94300 Vincennes\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/ioWYpPZdReEq56Lh9"
+}, {
+  "id": "PA_1340",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.8766154,
+  "longitude": 2.3443153,
+  "gMapsUrl": "https:\/\/maps.app.goo.gl\/iqap58QGDBjtkcam7",
+  "location": "1 Rue de Rochechouart, 75009 Paris\nhttps:\/\/maps.app.goo.gl\/iqap58QGDBjtkcam7"
+}, {
+  "id": "PA_1341",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.8475617,
+  "longitude": 2.4311831,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/Wh29chYqhZTb6Yw76",
+  "location": "Dentalix\n38 Avenue Aubert, 94300 Vincennes\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/Wh29chYqhZTb6Yw76\n"
+}, {
+  "id": "PA_1342",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_1343",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8563593,
+  "longitude": 2.3095093,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/cBQ1pBr9WmzkNYjX9",
+  "location": "2 Rue Chevert, 75007 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/cBQ1pBr9WmzkNYjX9"
+}, {
+  "id": "PA_1344",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8542736,
+  "longitude": 2.3501933,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/pncNuuFJChdds1Ta7",
+  "location": "Au Bougnat_x000D_\n26 Rue Chanoinesse, 75004 Paris_x000D_\nhttps:\/\/goo.gl\/maps\/pncNuuFJChdds1Ta7"
+}, {
+  "id": "PA_1345",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8210117,
+  "longitude": 2.4168101,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/MEgxzes9TLjvWRu88",
+  "location": "16 Rue Jean-Baptiste Marty, 94220 Charenton-le-Pont\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/MEgxzes9TLjvWRu88"
+}, {
+  "id": "PA_1346",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8490554,
+  "longitude": 2.3674555,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/1bSYgjCFPqWsT9aJA",
+  "location": "Bassin de l'Arsenal - Quai Est - Pont pi\u00e9ton\n48.849055, 2.367456\nhttps:\/\/goo.gl\/maps\/1bSYgjCFPqWsT9aJA"
+}, {
+  "id": "PA_1347",
+  "city": "Paris",
+  "points": 30,
+  "status": 4,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_1348",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.818241,
+  "longitude": 2.4242378,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/37PWrjEviBvp4Fj29",
+  "location": "48\u00b049'05.7\"N 2\u00b025'27.3\"E\n3 Rue du Val d'Osne, 94410 Saint-Maurice\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/37PWrjEviBvp4Fj29"
+}, {
+  "id": "PA_1349",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_1350",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.8472357,
+  "longitude": 2.3180014,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/Q9mLvZBQjqByehBNA",
+  "location": "Gerlane\n133 Rue de S\u00e8vres, 75006 Paris\nhttps:\/\/goo.gl\/maps\/Q9mLvZBQjqByehBNA"
+}, {
+  "id": "PA_1351",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8417925,
+  "longitude": 2.32547,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/ohrTUTrbggxqkpwU6",
+  "location": "Cash Telecom\n63 Rue du Montparnasse, 75014 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/ohrTUTrbggxqkpwU6"
+}, {
+  "id": "PA_1352",
+  "city": "Paris",
+  "points": 40,
+  "status": 5,
+  "latitude": 48.8255718,
+  "longitude": 2.3600672,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/Kh2auAFbHxRmScyJ8",
+  "location": "117 Avenue de Choisy, 75013 Paris\nhttps:\/\/goo.gl\/maps\/Kh2auAFbHxRmScyJ8"
+}, {
+  "id": "PA_1353",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8329147,
+  "longitude": 2.3549467,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/TYVrs6wauQY3mYNL8",
+  "location": "12 Rue Philippe de Champagne, 75013 Paris (en face du)\nLink to share\nhttps:\/\/goo.gl\/maps\/TYVrs6wauQY3mYNL8"
+}, {
+  "id": "PA_1354",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8805276,
+  "longitude": 2.3602453,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/ReDWiZTjwNz3zREv8",
+  "location": "16 Rue de l'Aqueduc, 75010 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/ReDWiZTjwNz3zREv8"
+}, {
+  "id": "PA_1355",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8772452,
+  "longitude": 2.3549589,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/ZvnSFmqd7Pm1qCqY8",
+  "location": "1 Rue des Petits H\u00f4tels, 75010 Paris_x000D_\nhttps:\/\/goo.gl\/maps\/ZvnSFmqd7Pm1qCqY8"
+}, {
+  "id": "PA_1356",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.848204,
+  "longitude": 2.3928272,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/U4vvxe9K4SALdb7M7",
+  "location": "R.A.M\n131 Boulevard Diderot, 75012 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/U4vvxe9K4SALdb7M7\n"
+}, {
+  "id": "PA_1357",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8794898,
+  "longitude": 2.3242828,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/FLvxfRq2oUrJafeS7",
+  "location": "2 Rue de Saint-P\u00e9tersbourg, 75008 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/FLvxfRq2oUrJafeS7"
+}, {
+  "id": "PA_1358",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8456779,
+  "longitude": 2.3420973,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/iFEnJBqbxenTQAt56",
+  "location": "5 Rue Royer-Collard, 75005 Paris_x000D_\nhttps:\/\/goo.gl\/maps\/iFEnJBqbxenTQAt56"
+}, {
+  "id": "PA_1359",
+  "city": "Paris",
+  "points": 40,
+  "status": 5,
+  "latitude": 48.848904,
+  "longitude": 2.3421145,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/9bHH6vvjdsUv8ac1A",
+  "location": "Gap_x000D_\n47 Boulevard Saint-Michel, 75005 Paris_x000D_\nhttps:\/\/goo.gl\/maps\/9bHH6vvjdsUv8ac1A"
+}, {
+  "id": "PA_1360",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8459652,
+  "longitude": 2.3431512,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/oeFqB3uPxeNohpBy7",
+  "location": "Au Port du Salut\n163 Rue Saint-Jacques, 75005 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/oeFqB3uPxeNohpBy7"
+}, {
+  "id": "PA_1361",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8595133,
+  "longitude": 2.370397,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/hao8ZvELA3gY1fDJ6",
+  "location": "3 All\u00e9e Verte, 75011 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/hao8ZvELA3gY1fDJ6"
+}, {
+  "id": "PA_1362",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8493003,
+  "longitude": 2.391838,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/Ehj3igNz8GjvNrwW6",
+  "location": "2 Rue des Boulets, 75011 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/Ehj3igNz8GjvNrwW6"
+}, {
+  "id": "PA_1363",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.8866811,
+  "longitude": 2.3776802,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/DEESTJRPbn2Uuzcz7",
+  "location": "72 Quai de la Loire, 75019 Paris\nhttps:\/\/goo.gl\/maps\/DEESTJRPbn2Uuzcz7"
+}, {
+  "id": "PA_1364",
+  "city": "Paris",
+  "points": 30,
+  "status": 1,
+  "latitude": 48.8551649,
+  "longitude": 2.4193798,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/Kv7FxhSSYwyzf97WA",
+  "location": "gonul dagi\n93100 Montreuil\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/Kv7FxhSSYwyzf97WA\n"
+}, {
+  "id": "PA_1365",
+  "city": "Paris",
+  "points": 50,
+  "status": 0,
+  "latitude": 48.8502818,
+  "longitude": 2.3586695,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/94PiP3GM3FrKbLYi8",
+  "location": "Graine de Photographe\n14 Quai de B\u00e9thune, 75004 Paris\nhttps:\/\/goo.gl\/maps\/94PiP3GM3FrKbLYi8"
+}, {
+  "id": "PA_1366",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8514025,
+  "longitude": 2.3764005,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/FGXd5oSrYCJy6uUW9",
+  "location": "G\u00e9n\u00e9rale d'Optique\n90 Avenue Ledru-Rollin, 75011 Paris\nhttps:\/\/goo.gl\/maps\/FGXd5oSrYCJy6uUW9"
+}, {
+  "id": "PA_1367",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.886771,
+  "longitude": 2.2958797,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/pk3fk6UBL3QQRsDr7",
+  "location": "Fromagerie de Courcelles\n160 Boulevard Berthier, 75017 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/pk3fk6UBL3QQRsDr7"
+}, {
+  "id": "PA_1368",
+  "city": "Paris",
+  "points": 40,
+  "status": 5,
+  "latitude": 48.8650752,
+  "longitude": 2.4434151,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/gCBNkETMR5KejEMo9",
+  "location": "28 Boulevard Paul Vaillant Couturier, 93100 Montreuil\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/gCBNkETMR5KejEMo9\n"
+}, {
+  "id": "PA_1369",
+  "city": "Paris",
+  "points": 100,
+  "status": 3,
+  "latitude": 48.9040697,
+  "longitude": 2.3591705,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/nbfqUWbVKjqUvGmy5",
+  "location": "Studio Marcadet\n52 Avenue du Pr\u00e9sident Wilson, 93210 Saint-Denis\nhttps:\/\/goo.gl\/maps\/nbfqUWbVKjqUvGmy5"
+}, {
+  "id": "PA_1370",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8414366,
+  "longitude": 2.3537419,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/qGAywau6V2LcSKge8",
+  "location": "Al Mosaic\n1 Rue Larrey, 75005 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/qGAywau6V2LcSKge8\n"
+}, {
+  "id": "PA_1371",
+  "city": "Paris",
+  "points": 100,
+  "status": 5,
+  "latitude": 48.8279036,
+  "longitude": 2.3425734,
+  "gMapsUrl": "https:\/\/maps.app.goo.gl\/CUyZfmdQWFBMZiw58",
+  "location": "Shiva\n107 Rue de la Glaci\u00e8re, 75013 Paris\nhttps:\/\/maps.app.goo.gl\/CUyZfmdQWFBMZiw58"
+}, {
+  "id": "PA_1372",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.8958719,
+  "longitude": 2.3467346,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/EVJjBmnxswuBNp2fA",
+  "location": "64 Rue Championnet, 75018 Paris\nhttps:\/\/goo.gl\/maps\/EVJjBmnxswuBNp2fA"
+}, {
+  "id": "PA_1373",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.865116,
+  "longitude": 2.347515,
+  "gMapsUrl": "https:\/\/maps.app.goo.gl\/Y59vfPPTqVpycjXM8",
+  "location": "Le Petit Orgueil\n16 Rue Marie Stuart, 75002 Paris\nhttps:\/\/maps.app.goo.gl\/Y59vfPPTqVpycjXM8"
+}, {
+  "id": "PA_1374",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8577547,
+  "longitude": 2.3686828,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/sTQzW7yRAGRicnBX9",
+  "location": "3 Rue Clotilde de Vaux, 75011 Paris_x000D_\nhttps:\/\/goo.gl\/maps\/sTQzW7yRAGRicnBX9"
+}, {
+  "id": "PA_1375",
+  "city": "Paris",
+  "points": 40,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_1376",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8027202,
+  "longitude": 2.4284764,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/6GFgx7tNRx1rriLz5",
+  "location": "1 Rue du Capitaine Roland Deplanque, 94700 Maisons-Alfort\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/6GFgx7tNRx1rriLz5"
+}, {
+  "id": "PA_1377",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.8954634,
+  "longitude": 2.328034,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/nNciCk7TF6zSiMRA8",
+  "location": "Nicolas Saint Ouen\n121 Avenue de Saint-Ouen, 75017 Paris\nhttps:\/\/goo.gl\/maps\/nNciCk7TF6zSiMRA8"
+}, {
+  "id": "PA_1378",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8256577,
+  "longitude": 2.2070378,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/imiH7mKemnKg9Xzc8",
+  "location": "market\n16 Rue de ville d'Avray, 92310 S\u00e8vres\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/imiH7mKemnKg9Xzc8\n"
+}, {
+  "id": "PA_1379",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.824261,
+  "longitude": 2.211883,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/A5SorajXZbQ8QuqS6",
+  "location": "48\u00b049'27.3\"N 2\u00b012'42.8\"E\nS\u00e8vres\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/A5SorajXZbQ8QuqS6"
+}, {
+  "id": "PA_1380",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8524196,
+  "longitude": 2.3447959,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/zDqcELGGTieX9Mbr7",
+  "location": "19 Rue de la Harpe, 75005 Paris_x000D_\nhttps:\/\/goo.gl\/maps\/zDqcELGGTieX9Mbr7"
+}, {
+  "id": "PA_1381",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.863573,
+  "longitude": 2.4249747,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/uXRtHoi9rBhiih3j9",
+  "location": "48\u00b051'48.9\"N 2\u00b025'29.9\"E\nRue du Sergent Bobillot, Rue Girard, 93100 Montreuil\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/uXRtHoi9rBhiih3j9\n"
+}, {
+  "id": "PA_1382",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.9013404,
+  "longitude": 2.3438604,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/wMikpkdZ34tXLgm18",
+  "location": "Lois\n93400 Saint-Ouen\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/wMikpkdZ34tXLgm18\n"
+}, {
+  "id": "PA_1383",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8430592,
+  "longitude": 2.3637792,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/AXhMWZjAMzoEBiro6",
+  "location": "McDonald's_x000D_\n2 Boulevard de l'H\u00f4pital, 75005 Paris_x000D_\nhttps:\/\/goo.gl\/maps\/AXhMWZjAMzoEBiro6"
+}, {
+  "id": "PA_1384",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.8410693,
+  "longitude": 2.3528909,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/sQ5bcPBzDHa1BoZZ6",
+  "location": "La Taverne\n27 Rue Daubenton, 75005 Paris\nhttps:\/\/goo.gl\/maps\/sQ5bcPBzDHa1BoZZ6"
+}, {
+  "id": "PA_1385",
+  "city": "Paris",
+  "points": 40,
+  "status": 5,
+  "latitude": 48.8653327,
+  "longitude": 2.2930237,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/etVYpKYLF28rcHhb8",
+  "location": "5 Rue Boissi\u00e8re, 75016 Paris\nhttps:\/\/goo.gl\/maps\/etVYpKYLF28rcHhb8"
+}, {
+  "id": "PA_1386",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.8279884,
+  "longitude": 2.2754954,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/bQnRjH4qD2AmLcAX9",
+  "location": "LE PATIO\n3 Rue Henri Mayer, 92130 Issy-les-Moulineaux\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/bQnRjH4qD2AmLcAX9"
+}, {
+  "id": "PA_1387",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.8201254,
+  "longitude": 2.3108996,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/BSK5voesxMRckF1RA",
+  "location": "52 Avenue Pierre Brossolette, 92240 Malakoff\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/BSK5voesxMRckF1RA"
+}, {
+  "id": "PA_1388",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8082023,
+  "longitude": 2.2410274,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/Zesp2pRUZr3YayvB6",
+  "location": "Caf\u00e9 de la Gare\n19 Rue Banes, 92190 Meudon\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/Zesp2pRUZr3YayvB6"
+}, {
+  "id": "PA_1389",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.813096,
+  "longitude": 2.246153,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/oPLRpt4rtJRzXJLP6",
+  "location": "Garage du Viaduc\n31 Rue de Paris, 92190 Meudon\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/oPLRpt4rtJRzXJLP6"
+}, {
+  "id": "PA_1390",
+  "city": "Paris",
+  "points": 50,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_1391",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.8133763,
+  "longitude": 2.3888518,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/LAPqfsb6n3A6BWHQ6",
+  "location": "BP\n79 Avenue Georges Gosnat, 94200 Ivry-sur-Seine\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/LAPqfsb6n3A6BWHQ6"
+}, {
+  "id": "PA_1392",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8710647,
+  "longitude": 2.34991,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/6QkpXu8eMqqFc9Ru9",
+  "location": "Hotel Des Comedies Paris_x000D_\n8 Rue d'Hauteville, 75010 Paris_x000D_\nhttps:\/\/goo.gl\/maps\/6QkpXu8eMqqFc9Ru9"
+}, {
+  "id": "PA_1393",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.811041,
+  "longitude": 2.384227,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/wLPL8peHqSUm8fyy5",
+  "location": "48\u00b048'39.8\"N 2\u00b023'03.2\"E\nRue Marat, 94200 Ivry-sur-Seine\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/wLPL8peHqSUm8fyy5"
+}, {
+  "id": "PA_1394",
+  "city": "Paris",
+  "points": 40,
+  "status": 5,
+  "latitude": 48.8892183,
+  "longitude": 2.3196809,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/mU1Da3nkCfTTdn9G8",
+  "location": "27 Rue des Moines, 75017 Paris_x000D_\nhttps:\/\/goo.gl\/maps\/mU1Da3nkCfTTdn9G8"
+}, {
+  "id": "PA_1395",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.8645228,
+  "longitude": 2.3468672,
+  "gMapsUrl": "https:\/\/maps.app.goo.gl\/Zg4yYZaCDyzPHmuo9",
+  "location": "44 Rue Montorgueil, 75002 Paris\nhttps:\/\/maps.app.goo.gl\/Zg4yYZaCDyzPHmuo9"
+}, {
+  "id": "PA_1396",
+  "city": "Paris",
+  "points": 40,
+  "status": 5,
+  "latitude": 48.8901247,
+  "longitude": 2.3033874,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/oMJgm1R1yrKM3hnc9",
+  "location": "Pharmacie de la Porte d'Asni\u00e8res #ObjectifSant\u00e9_x000D_\n96 Boulevard Berthier, 75017 Paris_x000D_\nhttps:\/\/goo.gl\/maps\/oMJgm1R1yrKM3hnc9_x000D_\n"
+}, {
+  "id": "PA_1397",
+  "city": "Paris",
+  "points": 40,
+  "status": 5,
+  "latitude": 48.8698764,
+  "longitude": 2.3192844,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/drqwMN4Mk9ezJdi9A",
+  "location": "4 Rue d'Aguesseau, 75008 Paris\nhttps:\/\/goo.gl\/maps\/drqwMN4Mk9ezJdi9A"
+}, {
+  "id": "PA_1398",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.891232,
+  "longitude": 2.3179737,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/d7D1AEGgKZjjjtcH7",
+  "location": "Every Shoes\n75017 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/d7D1AEGgKZjjjtcH7"
+}, {
+  "id": "PA_1399",
+  "city": "Paris",
+  "points": 40,
+  "status": 5,
+  "latitude": 48.8934096,
+  "longitude": 2.3335162,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/bRQJexVyU9VS58so6",
+  "location": "20 Rue Vauvenargues, 75018 Paris_x000D_\nhttps:\/\/goo.gl\/maps\/bRQJexVyU9VS58so6"
+}, {
+  "id": "PA_1400",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.816717,
+  "longitude": 2.364191,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/N9e8q79N8TMZBXp97",
+  "location": "48\u00b049'00.2\"N 2\u00b021'51.1\"E\nSortie Porte d'Italie, p\u00e9riph int\u00e9rieur, 75013 Paris\nhttps:\/\/goo.gl\/maps\/N9e8q79N8TMZBXp97"
+}, {
+  "id": "PA_1401",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.852229,
+  "longitude": 2.48952,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/M9wcVxvoEwTKssj68",
+  "location": "48\u00b051'08.0\"N 2\u00b029'22.3\"E\n94120 Fontenay-sous-Bois\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/M9wcVxvoEwTKssj68"
+}, {
+  "id": "PA_1402",
+  "city": "Paris",
+  "points": 40,
+  "status": 5,
+  "latitude": 48.8763371,
+  "longitude": 2.4146143,
+  "gMapsUrl": "https:\/\/maps.app.goo.gl\/423GmvpV5KDbZ7f16",
+  "location": "52 Rue des Bruy\u00e8res\n52 Rue des Bruy\u00e8res, 93260 Les Lilas\nhttps:\/\/maps.app.goo.gl\/423GmvpV5KDbZ7f16"
+}, {
+  "id": "PA_1403",
+  "city": "Paris",
+  "points": 40,
+  "status": 0,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_1404",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.845083,
+  "longitude": 2.3712069,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/bi481c4hGrQ8Ytxq9",
+  "location": "211 Rue de Bercy, 75012 Paris\nhttps:\/\/goo.gl\/maps\/bi481c4hGrQ8Ytxq9"
+}, {
+  "id": "PA_1405",
+  "city": "Paris",
+  "points": 100,
+  "status": 3,
+  "latitude": 48.8304725,
+  "longitude": 2.4925866,
+  "gMapsUrl": "https:\/\/maps.app.goo.gl\/ZaCDuQGA9FjyeD7Z7",
+  "location": "Autoroute de l'Est Entr\u00e9e 5 (croisement N486)\n48.830472, 2.492587\nhttps:\/\/maps.app.goo.gl\/ZaCDuQGA9FjyeD7Z7"
+}, {
+  "id": "PA_1406",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8869664,
+  "longitude": 2.3137854,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/QDeF4oCpPTp5vhWm9",
+  "location": "11 Rue Tarb\u00e9, 75017 Paris\nhttps:\/\/goo.gl\/maps\/QDeF4oCpPTp5vhWm9"
+}, {
+  "id": "PA_1407",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.849638,
+  "longitude": 2.3452089,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/DzndzGrcdhjwXYas5",
+  "location": "50 Rue des \u00c9coles, 75005 Paris_x000D_\nhttps:\/\/goo.gl\/maps\/DzndzGrcdhjwXYas5"
+}, {
+  "id": "PA_1408",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.9006076,
+  "longitude": 2.3670643,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/G99cK3eUrvdqhSco6",
+  "location": "P\u00e9riph int\u00e9rieur - Sortie Pte d'Aubervilliers\n48.900608, 2.367064\nhttps:\/\/goo.gl\/maps\/G99cK3eUrvdqhSco6"
+}, {
+  "id": "PA_1409",
+  "city": "Paris",
+  "points": 100,
+  "status": 5,
+  "latitude": 48.8103769,
+  "longitude": 2.3505492,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/PNdWLs1u62622xqp8",
+  "location": "CHU du Kremlin-Bic\u00eatre\n63 Rue Gabriel P\u00e9ri, 94270 Le Kremlin-Bic\u00eatre\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/PNdWLs1u62622xqp8"
+}, {
+  "id": "PA_1410",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.8875015,
+  "longitude": 2.3201724,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/oPgjiKkL4LSQdP3HA",
+  "location": "71 Rue Nollet, 75017 Paris_x000D_\nhttps:\/\/goo.gl\/maps\/oPgjiKkL4LSQdP3HA"
+}, {
+  "id": "PA_1411",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8586847,
+  "longitude": 2.2755995,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/owwmRDE3Dvxztm5c7",
+  "location": "Thomas Cook - SN AGENCES - PARIS DOUMER\n96 Avenue Paul Doumer, 75016 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/owwmRDE3Dvxztm5c7"
+}, {
+  "id": "PA_1412",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8880029,
+  "longitude": 2.3073167,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/XpD2hXTAfT9NAor57",
+  "location": "Bibimbaps\n32 Boulevard Pereire, 75017 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/XpD2hXTAfT9NAor57"
+}, {
+  "id": "PA_1413",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8661869,
+  "longitude": 2.2937872,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/MV67QfNKxje2jyMo9",
+  "location": "11 Rue de L\u00fcbeck, 75116 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/MV67QfNKxje2jyMo9"
+}, {
+  "id": "PA_1414",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.8449383,
+  "longitude": 2.4367574,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/ci8gaZLwRbYYq2cq8",
+  "location": "16 Avenue de Paris, 94300 Vincennes\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/ci8gaZLwRbYYq2cq8"
+}, {
+  "id": "PA_1415",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8183754,
+  "longitude": 2.383831,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/HZnMGGSDnQBGjexy9",
+  "location": "83 Rue Victor Hugo, 94200 Ivry-sur-Seine\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/HZnMGGSDnQBGjexy9"
+}, {
+  "id": "PA_1416",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.821269,
+  "longitude": 2.250121,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/iC44eNVqTRbeCTWT8",
+  "location": "48\u00b049'16.6\"N 2\u00b015'00.4\"E\n36 Quai de Stalingrad, 92130 Issy-les-Moulineaux\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/iC44eNVqTRbeCTWT8"
+}, {
+  "id": "PA_1417",
+  "city": "Paris",
+  "points": 30,
+  "status": 4,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_1418",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.849361,
+  "longitude": 2.3033026,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/HfCaMQMXYLpqcjuq9",
+  "location": "16 Avenue de Lowendal, 75015 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/HfCaMQMXYLpqcjuq9"
+}, {
+  "id": "PA_1419",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8688628,
+  "longitude": 2.3624173,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/kAw4FJXWHTHJrR4G7",
+  "location": "Nicolas R\u00e9publique\n1 Rue du Ch\u00e2teau d'Eau, 75010 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/kAw4FJXWHTHJrR4G7"
+}, {
+  "id": "PA_1420",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_1421",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_1422",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.7578761,
+  "longitude": 2.3480442,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/ybMcB6tJinhaTLp56",
+  "location": "48\u00b045'28.4\"N 2\u00b020'53.0\"E\n94150 Rungis\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/ybMcB6tJinhaTLp56"
+}, {
+  "id": "PA_1423",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_1424",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.8596586,
+  "longitude": 2.3693926,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/PoQ691wZBWNMS7nEA",
+  "location": "1 Rue Pel\u00e9e, 75011 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/PoQ691wZBWNMS7nEA"
+}, {
+  "id": "PA_1425",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.855868,
+  "longitude": 2.371814,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/bwxDhxAxU2K2LX9x5",
+  "location": "Le Caf\u00e9 des Chats\n9 Rue Sedaine, 75011 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/bwxDhxAxU2K2LX9x5"
+}, {
+  "id": "PA_1426",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.880112,
+  "longitude": 2.258422,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/uxhg9W46d457RpNR8",
+  "location": "48\u00b052'48.4\"N 2\u00b015'30.3\"E\nBoulevard du Commandant Charcot, 92200 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/uxhg9W46d457RpNR8"
+}, {
+  "id": "PA_1427",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.880127,
+  "longitude": 2.258473,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/vuM1KmjkKnYgQba7A",
+  "location": "48\u00b052'48.5\"N 2\u00b015'30.5\"E\nBoulevard du Commandant Charcot, 92200 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/vuM1KmjkKnYgQba7A"
+}, {
+  "id": "PA_1428",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8709063,
+  "longitude": 2.2756693,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/xNaCPY8zPQzcLUHFA",
+  "location": "Zipcar - Porte Dauphine (16e) - Bvd Flandrin\n81 Boulevard Flandrin, 75116 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/xNaCPY8zPQzcLUHFA"
+}, {
+  "id": "PA_1429",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.8321725,
+  "longitude": 2.2807924,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/K9jtxkktXZUsC6is8",
+  "location": "48\u00b049'55.8\"N 2\u00b016'50.9\"E\n2 Rue de la Porte d'Issy, 75015 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/K9jtxkktXZUsC6is8"
+}, {
+  "id": "PA_1430",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.8882817,
+  "longitude": 2.2996429,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/nP63Lup1npbRSR4g7",
+  "location": "La Boucherie Du Berger.\n130 Boulevard Berthier, 75017 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/nP63Lup1npbRSR4g7"
+}, {
+  "id": "PA_1431",
+  "city": "Paris",
+  "points": 100,
+  "status": 5,
+  "latitude": 48.8583701,
+  "longitude": 2.2944813,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/zNP2VXQbcuVX4WTm8",
+  "location": "Tour Eiffel\nChamp de Mars, 5 Avenue Anatole France, 75007 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/zNP2VXQbcuVX4WTm8"
+}, {
+  "id": "PA_1432",
+  "city": "Paris",
+  "points": 100,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_1433",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8411415,
+  "longitude": 2.3524564,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/rMwLtsGZEiJ5quEDA",
+  "location": "Cin\u00e9ma La Clef\n34 Rue Daubenton, 75005 Paris\nhttps:\/\/goo.gl\/maps\/rMwLtsGZEiJ5quEDA"
+}, {
+  "id": "PA_1434",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8552079,
+  "longitude": 2.4326397,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/aNxkuZFMzCZWvr9G6",
+  "location": "L'Armony\n39 Rue Edouard Vaillant, 93100 Montreuil\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/aNxkuZFMzCZWvr9G6\n"
+}, {
+  "id": "PA_1435",
+  "city": "Paris",
+  "points": 50,
+  "status": 3,
+  "latitude": 48.933124,
+  "longitude": 2.3086847,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/fcCrypfgqtFzPjQt9",
+  "location": "La SPA- refuge de Gennevilliers\n30 Avenue du G\u00e9n\u00e9ral de Gaulle, 92230 Gennevilliers\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/fcCrypfgqtFzPjQt9\n"
+}, {
+  "id": "PA_1436",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8627548,
+  "longitude": 2.2766262,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/GF48tAqdKWKJDCRN8",
+  "location": "La Pompadour\n110 Rue de la Tour, 75016 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/GF48tAqdKWKJDCRN8\n"
+}, {
+  "id": "PA_1437",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.8450195,
+  "longitude": 2.2614844,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/BBDnfswBekMJQ8D2A",
+  "location": "Kiosque \u00e0 Journaux\n37 Rue Molitor, 75016 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/BBDnfswBekMJQ8D2A"
+}, {
+  "id": "PA_1438",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.8874575,
+  "longitude": 2.3187511,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/Q33ZjnGEaVGki1Eg9",
+  "location": "71 Rue Truffaut, 75017 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/Q33ZjnGEaVGki1Eg9"
+}, {
+  "id": "PA_1439",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8587225,
+  "longitude": 2.3044144,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/wJpQFqJZZuCBdPcM8",
+  "location": "117B Rue Saint-Dominique, 75007 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/wJpQFqJZZuCBdPcM8"
+}, {
+  "id": "PA_1440",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.8362079,
+  "longitude": 2.4002042,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/tzqECG7V21Y5hm549",
+  "location": "Le Mai Vietnam\n1 Rue Edouard Robert, 75012 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/tzqECG7V21Y5hm549"
+}, {
+  "id": "PA_1441",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.8522033,
+  "longitude": 2.3467361,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/DZRM5ryUcDWaMjKV9",
+  "location": "16 Rue Saint-Julien le Pauvre, 75005 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/DZRM5ryUcDWaMjKV9"
+}, {
+  "id": "PA_1442",
+  "city": "Paris",
+  "points": 40,
+  "status": 5,
+  "latitude": undefined,
+  "longitude": undefined,
+  "gMapsUrl": undefined,
+  "location": undefined
+}, {
+  "id": "PA_1443",
+  "city": "Paris",
+  "points": 40,
+  "status": 5,
+  "latitude": 48.6912522,
+  "longitude": 2.6104244,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/RY8g2mcMkhXiMqNK8",
+  "location": "Librairie du Ch\u00e2teau\n2 Place du March\u00e9, 77170 Brie-Comte-Robert\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/RY8g2mcMkhXiMqNK8"
+}, {
+  "id": "PA_1444",
+  "city": "Paris",
+  "points": 40,
+  "status": 5,
+  "latitude": 48.8505563,
+  "longitude": 2.3448265,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/aURwVM3GYjKR18eZ7",
+  "location": "La Mezzanine\n3 Rue de Cluny, 75005 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/aURwVM3GYjKR18eZ7"
+}, {
+  "id": "PA_1445",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.8413841,
+  "longitude": 2.3072194,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/6L57PCkKM6PH6y3z8",
+  "location": "QUADRO\n202 Rue de Vaugirard, 75015 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/6L57PCkKM6PH6y3z8"
+}, {
+  "id": "PA_1446",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.8444543,
+  "longitude": 2.31821,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/Y2o98QZD38RHW5gS6",
+  "location": "Le Falgui\u00e8re\n129 Rue de Vaugirard, 75015 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/Y2o98QZD38RHW5gS6"
+}, {
+  "id": "PA_1447",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.8326071,
+  "longitude": 2.3044367,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/n7B9yM7rCDeswkgR9",
+  "location": "35 Rue Santos-Dumont, 75015 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/n7B9yM7rCDeswkgR9"
+}, {
+  "id": "PA_1448",
+  "city": "Paris",
+  "points": 50,
+  "status": 0,
+  "latitude": 48.8446243,
+  "longitude": 2.2930272,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/d2EotbtiPYrPYypW8",
+  "location": "14 Passage des Entrepreneurs, 75015 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/d2EotbtiPYrPYypW8"
+}, {
+  "id": "PA_1449",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8582576,
+  "longitude": 2.310803,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/FMPUki1X2aDWfGek9",
+  "location": "Le Caf\u00e9 de l'Esplanade\n52 Rue Fabert, 75007 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/FMPUki1X2aDWfGek9"
+}, {
+  "id": "PA_1450",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8612875,
+  "longitude": 2.3203557,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/tvkUMm3gNiqroJo69",
+  "location": "Assembl\u00e9e Nationale\n75007 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/tvkUMm3gNiqroJo69"
+}, {
+  "id": "PA_1451",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.8466913,
+  "longitude": 2.4104679,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/SWFb2MMViATaMURM8",
+  "location": "le Pacha\n120 Cours de Vincennes, 75012 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/SWFb2MMViATaMURM8"
+}, {
+  "id": "PA_1452",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8654499,
+  "longitude": 2.372417,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/tobHvntJTGhNEDWu6",
+  "location": "9 Rue de Nemours, 75011 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/tobHvntJTGhNEDWu6\n"
+}, {
+  "id": "PA_1453",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8462848,
+  "longitude": 2.309195,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/Ykku12MjCiZRFV9B6",
+  "location": "ARTIPRO Paris 15\n157 Avenue de Suffren, 75015 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/Ykku12MjCiZRFV9B6"
+}, {
+  "id": "PA_1454",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8420627,
+  "longitude": 2.2812912,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/NsVpS6629W6xcTiUA",
+  "location": "CAMARA PARIS\n158 Rue St Charles, 75015 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/NsVpS6629W6xcTiUA"
+}, {
+  "id": "PA_1455",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8799964,
+  "longitude": 2.3313181,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/ERG1oscawC3dUQro6",
+  "location": "Pharmacie Pharmodel\n33 Rue Blanche, 75009 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/ERG1oscawC3dUQro6"
+}, {
+  "id": "PA_1456",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8683544,
+  "longitude": 2.3585959,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/EYtf6s7pXaF1FdJz8",
+  "location": "Lucky Coiffure\n31 Boulevard Saint-Martin, 75003 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/EYtf6s7pXaF1FdJz8"
+}, {
+  "id": "PA_1457",
+  "city": "Paris",
+  "points": 20,
+  "status": 5,
+  "latitude": 48.8572957,
+  "longitude": 2.3756489,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/24YN8chjMhfe9X947",
+  "location": "Librairie l'impromptu\n48 Rue Sedaine, 75011 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/24YN8chjMhfe9X947"
+}, {
+  "id": "PA_1458",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8756927,
+  "longitude": 2.3439199,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/aUskDjRnAoc46e3K9",
+  "location": "66 Rue la Fayette, 75009 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/aUskDjRnAoc46e3K9"
+}, {
+  "id": "PA_1459",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8720624,
+  "longitude": 2.3433196,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/Gqe5HQDW7aBwivLW9",
+  "location": "Le Th\u00e9\u00e2tre le Palace\n8 Rue du Faubourg Montmartre, 75009 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/Gqe5HQDW7aBwivLW9"
+}, {
+  "id": "PA_1460",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.8566665,
+  "longitude": 2.4444646,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/iZygRy6UpAQDYg9n9",
+  "location": "9 Rue D\u00e9sir\u00e9 Chevalier, 93100 Montreuil\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/iZygRy6UpAQDYg9n9"
+}, {
+  "id": "PA_1461",
+  "city": "Paris",
+  "points": 40,
+  "status": 5,
+  "latitude": 48.8463605,
+  "longitude": 2.3794863,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/SVLJNdXZZzmNq17L6",
+  "location": "Pharmacie Herboristerie\n75012 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/SVLJNdXZZzmNq17L6"
+}, {
+  "id": "PA_1462",
+  "city": "Paris",
+  "points": 40,
+  "status": 5,
+  "latitude": 48.8913616,
+  "longitude": 2.3191506,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/CxW7eRrr8Hgtzw6J7",
+  "location": "154 Avenue de Clichy, 75017 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/CxW7eRrr8Hgtzw6J7"
+}, {
+  "id": "PA_1463",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8485332,
+  "longitude": 2.3478077,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/eUy2DB8bjNEJe6WFA",
+  "location": "13 Passage du Clos Bruneau, 75005 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/eUy2DB8bjNEJe6WFA"
+}, {
+  "id": "PA_1464",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8482499,
+  "longitude": 2.3469822,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/SiJEsxcUCGhoYdQv9",
+  "location": "32 Rue des Carmes, 75005 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/SiJEsxcUCGhoYdQv9"
+}, {
+  "id": "PA_1465",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.89807,
+  "longitude": 2.386357,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/KuUmgj8J1nZceB2r9",
+  "location": "48\u00b053'53.1\"N 2\u00b023'10.9\"E\n75019 Paris\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/KuUmgj8J1nZceB2r9"
+}, {
+  "id": "PA_1466",
+  "city": "Paris",
+  "points": 30,
+  "status": 5,
+  "latitude": 48.8534797,
+  "longitude": 2.3459003,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/eAhpMvzp9woAQvuPA",
+  "location": "48\u00b051'12.5\"N 2\u00b020'45.2\"E\nEurope\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/eAhpMvzp9woAQvuPA"
+}, {
+  "id": "PA_1467",
+  "city": "Paris",
+  "points": 50,
+  "status": 5,
+  "latitude": 48.82301,
+  "longitude": 2.5437839,
+  "gMapsUrl": "https:\/\/goo.gl\/maps\/SSoBCbNxQKoJAj559",
+  "location": "18 Rue Robert Schuman, 94350 Villiers-sur-Marne\nLien \u00e0 partager\nhttps:\/\/goo.gl\/maps\/SSoBCbNxQKoJAj559\n"
+}
+]
+  ;
