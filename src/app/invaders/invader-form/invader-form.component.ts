@@ -4,7 +4,6 @@ import { InvaderService } from '../invader.service';
 import { Invader } from '../invader';
 import { User } from 'src/app/users/user';
 import { UserService } from 'src/app/users/user.service';
-import { Observable } from 'rxjs/internal/Observable';
 
 @Component({
   selector: 'app-invader-form',
@@ -34,11 +33,12 @@ export class InvaderFormComponent implements OnInit {
   }
 
   isFlashedBy(user: User) {
-    let invader = user.invaders.filter(i => i.invader == this.invader);
+    let invader = user.invaders.filter(i => i.invader.id == this.invader?.id);
     return invader.length > 0;
   }
 
   selectUser($event: any, user: User): void {
+    $event.target.disabled = true;
     let checked = $event.target.checked;
     if (checked && this.invader) {
       user.invaders.push({
@@ -46,11 +46,12 @@ export class InvaderFormComponent implements OnInit {
         flashDate: new Date()
       })
     } else {
-      user.invaders.splice(
-        user.invaders.findIndex(i => i.invader == this.invader)
-        , 1
-      )
+      user.invaders = user.invaders.filter(i => i.invader.id != this.invader?.id);
     }
+    this.userService.updateUser(user).subscribe(
+      _ => $event.target.disabled = false
+    )
+    console.log(user);
   }
 
   getUsers(): void {
@@ -60,23 +61,10 @@ export class InvaderFormComponent implements OnInit {
 
   onSubmit(): void {
     console.log("Submit form!");
-    let lastUserObservable = this.updateUsers().pop();
-    if (lastUserObservable) {
-      lastUserObservable.subscribe(() => {
-        if (this.invader) {
-          this.invaderService.updateInvader(this.invader)
-            .subscribe(() => this.goBack());
-        }
-      });
+    if(this.invader) {
+      this.invaderService.updateInvader(this.invader)
+        .subscribe(_ => this.goBack());
     }
-  }
-
-  updateUsers(): Observable<User>[] {
-    if(this.users) {
-      return this.users.map(u => this.userService.updateUser(u));
-       
-    }
-    else return [];
   }
 
   goBack(): void {
