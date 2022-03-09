@@ -104,4 +104,8 @@
             </div>
         </div>
     </div>
-</form>>
+</form>
+<div *ngIf="!invader">
+    <span>Chargement en cours...</span>
+    <app-loader></app-loader>
+</div>
