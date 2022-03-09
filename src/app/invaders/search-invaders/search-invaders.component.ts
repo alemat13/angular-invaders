@@ -15,7 +15,6 @@ export class SearchInvadersComponent implements OnInit {
   invaders$?: Observable<Invader[]>;
 
   constructor(
-    invaders$: Observable<Invader[]>,
     private invaderService: InvaderService,
     private router: Router
   ) { }
