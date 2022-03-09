@@ -28,3 +28,7 @@
     <a (click)="deleteInvader()">Delete</a>
   </div>
 </div>
+<div *ngIf="!invader">
+  <span>Chargement en cours...</span>
+  <app-loader></app-loader>
+</div>
