@@ -1,26 +1,27 @@
 <div *ngIf="invader">
   <h2>{{ invader.id | uppercase }} details</h2>
   <div>
-    <div>ID: 
+    <div>ID:
       <span>{{ invader.id }}</span>
     </div>
-    <div>City: 
+    <div>City:
       <span>{{ invader.city }}</span>
     </div>
-    <div>Points: 
+    <div>Points:
       <span>{{ invader.points }}</span>
     </div>
-    <div>Status: 
+    <div>Status:
       <span>{{ invader.status || "??" }}</span>
     </div>
     <div> Coordinates:
-      <span>{{ invader.latitude  || "??" }},{{ invader.longitude  || "??" }}</span>
+      <span>{{ invader.latitude || "??" }},{{ invader.longitude || "??" }}</span>
     </div>
     <div>
       Google Maps:
       <a *ngIf="invader.gMapsUrl" href="{{ invader.gMapsUrl }}" target="_blank">
         {{ invader.location || "??" }}</a>
     </div>
+    <app-users-list [invader]="invader"></app-users-list>
   </div>
   <div class="card-action">
     <a (click)="goBack()">Go back</a>

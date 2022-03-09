@@ -1,1 +1,11 @@
-<p>user-detail works!</p>
+<div *ngIf="user">
+    <h1>{{user.name}}</h1>
+    <div *ngFor="let invader of invaders">
+        <input type="checkbox"
+            value="invader.id"
+            [checked]="isFlashed(invader)"
+            [name]="invader.id"
+            (click)="selectInvader($event, invader)"/>
+        <label [for]="invader.id">{{ invader.id }}</label>
+    </div>
+</div> 

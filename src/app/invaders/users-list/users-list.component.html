@@ -1,0 +1,11 @@
+  <!-- Flashed By -->
+  <div class="form-group">
+    <label for="users">Flashed by</label>
+    <div *ngFor="let user of users" class="row">
+      <input type="checkbox" class="filled-in" id="{{ user.id }}" [value]="user" [checked]="isFlashedBy(user)"
+        (change)="selectUser($event, user)" />
+      <label [attr.for]="user">
+        <span>{{user.name}}</span>
+      </label>
+    </div>
+  </div>

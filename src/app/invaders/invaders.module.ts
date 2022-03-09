@@ -10,6 +10,7 @@ import { InvaderFormComponent } from './invader-form/invader-form.component';
 import { EditInvaderComponent } from './edit-invader/edit-invader.component';
 import { SearchInvadersComponent } from './search-invaders/search-invaders.component';
 import { LoaderComponent } from '../loader/loader.component';
+import { UsersListComponent } from './users-list/users-list.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { LoaderComponent } from '../loader/loader.component';
     InvaderFormComponent,
     EditInvaderComponent,
     SearchInvadersComponent,
-    LoaderComponent
+    LoaderComponent,
+    UsersListComponent
   ],
   imports: [
     CommonModule,
