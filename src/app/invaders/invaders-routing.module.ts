@@ -4,11 +4,18 @@ import { RouterModule, Routes } from '@angular/router';
 import { InvadersListComponent } from './invaders-list/invaders-list.component';
 import { EditInvaderComponent } from './edit-invader/edit-invader.component';
 import { InvaderDetailComponent } from './invader-detail/invader-detail.component';
+import { AuthGuardService } from '../auth-guard.service';
 
 const routes: Routes = [
-  { path: 'invaders', component: InvadersListComponent },
-  { path: 'invader/edit/:id', component: EditInvaderComponent },
-  { path: 'invader/:id', component: InvaderDetailComponent }
+  {
+    path: 'invader',
+    canActivate: [AuthGuardService],
+    children: [
+      { path: 'all', component: InvadersListComponent },
+      { path: 'edit/:id', component: EditInvaderComponent, canActivate: [AuthGuardService] },
+      { path: ':id', component: InvaderDetailComponent }
+    ]
+  }
 ];
 
 @NgModule({

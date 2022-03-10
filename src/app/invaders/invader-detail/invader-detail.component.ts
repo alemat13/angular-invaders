@@ -37,7 +37,7 @@ export class InvaderDetailComponent implements OnInit {
   }
 
   goBack(): void {
-    this.location.back();
+    this.router.navigate(['/invader/all']);
   }
 
   goEdit(): void {
