@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
-import { Invader } from 'src/app/invaders/invader';
-import { InvaderService } from 'src/app/invaders/invader.service';
+import { Invader } from '../../invaders/invader';
+import { InvaderService } from '../../invaders/invader.service';
 import { User } from '../user';
 import { UserService } from '../user.service';
 
