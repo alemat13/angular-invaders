@@ -13,6 +13,8 @@ import { LoginComponent } from './login/login/login.component';
 import { FormsModule } from '@angular/forms';
 import { LoginModule } from './login/login.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatIconModule } from '@angular/material/icon';
 
 @NgModule({
   imports: [
@@ -24,7 +26,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     LoginModule,
     AppRoutingModule,
     FormsModule,
-    BrowserAnimationsModule, 
+    BrowserAnimationsModule,
+    MatToolbarModule,
+    MatIconModule,
   ],
   declarations: [AppComponent],
   bootstrap: [AppComponent],

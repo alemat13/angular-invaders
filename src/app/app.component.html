@@ -1,10 +1,17 @@
-<h1>{{ title }}</h1>
-<nav>
-    <div>
-        <a routerLink="/invader/all">Invaders</a>
-    </div>
-    <div>
-        <a routerLink="/users">Users</a>
-    </div>
-</nav>
+<p>
+    <mat-toolbar>
+        <mat-toolbar-row class="menu-spacer">
+            <button mat-icon-button>
+                <mat-icon>menu</mat-icon>
+            </button>
+            <span>{{ title }}</span>
+        </mat-toolbar-row>
+        <mat-toolbar-row>
+            <span (click)="goToInvaders()" class="menu-link">Invaders</span>
+        </mat-toolbar-row>
+        <mat-toolbar-row>
+            <span (click)="goToUsers()" class="menu-link">Users</span>
+        </mat-toolbar-row>
+    </mat-toolbar>
+</p>
 <router-outlet></router-outlet>
