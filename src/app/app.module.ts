@@ -12,6 +12,7 @@ import { UsersModule } from './users/users.module';
 import { LoginComponent } from './login/login/login.component';
 import { FormsModule } from '@angular/forms';
 import { LoginModule } from './login/login.module';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   imports: [
@@ -22,7 +23,8 @@ import { LoginModule } from './login/login.module';
     UsersModule,
     LoginModule,
     AppRoutingModule,
-    FormsModule, 
+    FormsModule,
+    BrowserAnimationsModule, 
   ],
   declarations: [AppComponent],
   bootstrap: [AppComponent],
